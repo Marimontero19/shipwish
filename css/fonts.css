@@ -1,71 +1,139 @@
+/*@font-face {
+    font-family: 'AndesRounded-Black';
+    src: url('../fonts/AndesRoundedBlack-webfont.eot');
+    src: url('../fonts/AndesRoundedBlack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedBlack-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedBlack-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedBlack-webfont.svg#andesroundedblack') format('svg');
+    font-weight: 1000;
+    font-style: normal;
+
+}*/
+
 @font-face {
-    font-family: 'Aleo';
-    src: url('../fonts/Aleo-Bold-webfont.eot');
-    src: url('../fonts/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Aleo-Bold-webfont.woff') format('woff'),
-         url('../fonts/Aleo-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/Aleo-Bold-webfont.svg#aleobold') format('svg');
+    font-family: 'AndesRounded-ExtraBold';
+    src: url('../fonts/AndesRoundedExtraBold-webfont.eot');
+    src: url('../fonts/AndesRoundedExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedExtraBold-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedExtraBold-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedExtraBold-webfont.svg#andesroundedextrabold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AndesRounded-Bold';
+    src: url('../fonts/AndesRoundedBold-webfont.eot');
+    src: url('../fonts/AndesRoundedBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedBold-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedBold-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedBold-webfont.svg#andesroundedbold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'AndesRounded-SemiBold';
+    src: url('../fonts/AndesRoundedSemiBold-webfont.eot');
+    src: url('../fonts/AndesRoundedSemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedSemiBold-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedSemiBold-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedSemiBold-webfont.svg#andesroundedsemibold') format('svg');
     font-weight: 700;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'Aleo';
-    src: url('../fonts/Aleo-BoldItalic-webfont.eot');
-    src: url('../fonts/Aleo-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Aleo-BoldItalic-webfont.woff') format('woff'),
-         url('../fonts/Aleo-BoldItalic-webfont.ttf') format('truetype'),
-         url('../fonts/Aleo-BoldItalic-webfont.svg#aleobolditalic') format('svg');
-    font-weight: 700;
-    font-style: italic;
-
-}
-
-@font-face {
-    font-family: 'Aleo';
-    src: url('../fonts/Aleo-Light-webfont.eot');
-    src: url('../fonts/Aleo-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Aleo-Light-webfont.woff') format('woff'),
-         url('../fonts/Aleo-Light-webfont.ttf') format('truetype'),
-         url('../fonts/Aleo-Light-webfont.svg#aleolight') format('svg');
-    font-weight: 300;
+    font-family: 'AndesRounded-Medium';
+    src: url('../fonts/AndesRoundedMedium-webfont.eot');
+    src: url('../fonts/AndesRoundedMedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedMedium-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedMedium-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedMedium-webfont.svg#andesroundedmedium') format('svg');
+    font-weight: 600;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'Aleo';
-    src: url('../fonts/Aleo-LightItalic-webfont.eot');
-    src: url('../fonts/Aleo-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Aleo-LightItalic-webfont.woff') format('woff'),
-         url('../fonts/Aleo-LightItalic-webfont.ttf') format('truetype'),
-         url('../fonts/Aleo-LightItalic-webfont.svg#aleolightitalic') format('svg');
-    font-weight: 300;
-    font-style: italic;
-
-}
-
-@font-face {
-    font-family: 'Aleo';
-    src: url('../fonts/Aleo-Regular-webfont.eot');
-    src: url('../fonts/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Aleo-Regular-webfont.woff') format('woff'),
-         url('../fonts/Aleo-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-family: 'AndesRounded-Regular';
+    src: url('../fonts/AndesRoundedRegular-webfont.eot');
+    src: url('../fonts/AndesRoundedRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedRegular-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedRegular-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedRegular-webfont.svg#andesroundedregular') format('svg');
     font-weight: 400;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'Aleo';
-    src: url('../fonts/Aleo-Italic-webfont.eot');
-    src: url('../fonts/Aleo-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Aleo-Italic-webfont.woff') format('woff'),
-         url('../fonts/Aleo-Italic-webfont.ttf') format('truetype'),
-         url('../fonts/Aleo-Italic-webfont.svg#aleoitalic') format('svg');
+    font-family: 'AndesRounded-Book';
+    src: url('../fonts/AndesRoundedBook-webfont.eot');
+    src: url('../fonts/AndesRoundedBook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedBook-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedBook-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedBook-webfont.svg#andesroundedbook') format('svg');
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
 
 }
+<<<<<<< HEAD
+=======
+
+@font-face {
+    font-family: 'AndesRounded-Light';
+    src: url('../fonts/AndesRoundedLight-webfont.eot');
+    src: url('../fonts/AndesRoundedLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedLight-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedLight-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedLight-webfont.svg#andesroundedlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AndesRounded-ExtraLight';
+    src: url('../fonts/AndesRoundedExtraLight-webfont.eot');
+    src: url('../fonts/AndesRoundedExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedExtraLight-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedExtraLight-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedExtraLight-webfont.svg#andesroundedextralight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AndesRounded-UltraLight';
+    src: url('../fonts/AndesRoundedUltraLight-webfont.eot');
+    src: url('../fonts/AndesRoundedUltraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AndesRoundedUltraLight-webfont.woff') format('woff'),
+         url('../fonts/AndesRoundedUltraLight-webfont.ttf') format('truetype'),
+         url('../fonts/AndesRoundedUltraLight-webfont.svg#andesroundedultralight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> origin/master
