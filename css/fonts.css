@@ -12,11 +12,11 @@
 
 @font-face {
     font-family: 'AndesRounded-ExtraBold';
-    src: url('../fonts/AndesRoundedExtraBold-webfont.eot');
-    src: url('../fonts/AndesRoundedExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AndesRoundedExtraBold-webfont.woff') format('woff'),
-         url('../fonts/AndesRoundedExtraBold-webfont.ttf') format('truetype'),
-         url('../fonts/AndesRoundedExtraBold-webfont.svg#andesroundedextrabold') format('svg');
+    src: url('../fonts/extrabold/AndesRoundedExtraBold-webfont.eot');
+    src: url('../fonts/extrabold/AndesRoundedExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/extrabold/AndesRoundedExtraBold-webfont.woff') format('woff'),
+         url('../fonts/extrabold/AndesRoundedExtraBold-webfont.ttf') format('truetype'),
+         url('../fonts/extrabold/AndesRoundedExtraBold-webfont.svg#andesroundedextrabold') format('svg');
     font-weight: 900;
     font-style: normal;
 
@@ -24,11 +24,11 @@
 
 @font-face {
     font-family: 'AndesRounded-Bold';
-    src: url('../fonts/AndesRoundedBold-webfont.eot');
-    src: url('../fonts/AndesRoundedBold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AndesRoundedBold-webfont.woff') format('woff'),
-         url('../fonts/AndesRoundedBold-webfont.ttf') format('truetype'),
-         url('../fonts/AndesRoundedBold-webfont.svg#andesroundedbold') format('svg');
+    src: url('../fonts/bold/AndesRoundedBold-webfont.eot');
+    src: url('../fonts/bold/AndesRoundedBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bold/AndesRoundedBold-webfont.woff') format('woff'),
+         url('../fonts/bold/AndesRoundedBold-webfont.ttf') format('truetype'),
+         url('../fonts/bold/AndesRoundedBold-webfont.svg#andesroundedbold') format('svg');
     font-weight: 800;
     font-style: normal;
 
@@ -37,11 +37,11 @@
 
 @font-face {
     font-family: 'AndesRounded-SemiBold';
-    src: url('../fonts/AndesRoundedSemiBold-webfont.eot');
-    src: url('../fonts/AndesRoundedSemiBold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AndesRoundedSemiBold-webfont.woff') format('woff'),
-         url('../fonts/AndesRoundedSemiBold-webfont.ttf') format('truetype'),
-         url('../fonts/AndesRoundedSemiBold-webfont.svg#andesroundedsemibold') format('svg');
+    src: url('../fonts/semibold/AndesRoundedSemiBold-webfont.eot');
+    src: url('../fonts/semibold/AndesRoundedSemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/semibold/AndesRoundedSemiBold-webfont.woff') format('woff'),
+         url('../fonts/semibold/AndesRoundedSemiBold-webfont.ttf') format('truetype'),
+         url('../fonts/semibold/AndesRoundedSemiBold-webfont.svg#andesroundedsemibold') format('svg');
     font-weight: 700;
     font-style: normal;
 
@@ -49,11 +49,11 @@
 
 @font-face {
     font-family: 'AndesRounded-Medium';
-    src: url('../fonts/AndesRoundedMedium-webfont.eot');
-    src: url('../fonts/AndesRoundedMedium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AndesRoundedMedium-webfont.woff') format('woff'),
-         url('../fonts/AndesRoundedMedium-webfont.ttf') format('truetype'),
-         url('../fonts/AndesRoundedMedium-webfont.svg#andesroundedmedium') format('svg');
+    src: url('../fonts/medium/AndesRoundedMedium-webfont.eot');
+    src: url('../fonts/medium/AndesRoundedMedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/medium/AndesRoundedMedium-webfont.woff') format('woff'),
+         url('../fonts/medium/AndesRoundedMedium-webfont.ttf') format('truetype'),
+         url('../fonts/medium/AndesRoundedMedium-webfont.svg#andesroundedmedium') format('svg');
     font-weight: 600;
     font-style: normal;
 
@@ -61,11 +61,11 @@
 
 @font-face {
     font-family: 'AndesRounded-Regular';
-    src: url('../fonts/AndesRoundedRegular-webfont.eot');
-    src: url('../fonts/AndesRoundedRegular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AndesRoundedRegular-webfont.woff') format('woff'),
-         url('../fonts/AndesRoundedRegular-webfont.ttf') format('truetype'),
-         url('../fonts/AndesRoundedRegular-webfont.svg#andesroundedregular') format('svg');
+    src: url('../fonts/regular/AndesRoundedRegular-webfont.eot');
+    src: url('../fonts/regular/AndesRoundedRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/regular/AndesRoundedRegular-webfont.woff') format('woff'),
+         url('../fonts/regular/AndesRoundedRegular-webfont.ttf') format('truetype'),
+         url('../fonts/regular/AndesRoundedRegular-webfont.svg#andesroundedregular') format('svg');
     font-weight: 400;
     font-style: normal;
 
@@ -73,11 +73,11 @@
 
 @font-face {
     font-family: 'AndesRounded-Book';
-    src: url('../fonts/AndesRoundedBook-webfont.eot');
-    src: url('../fonts/AndesRoundedBook-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AndesRoundedBook-webfont.woff') format('woff'),
-         url('../fonts/AndesRoundedBook-webfont.ttf') format('truetype'),
-         url('../fonts/AndesRoundedBook-webfont.svg#andesroundedbook') format('svg');
+    src: url('../fonts/book/AndesRoundedBook-webfont.eot');
+    src: url('../fonts/book/AndesRoundedBook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/book/AndesRoundedBook-webfont.woff') format('woff'),
+         url('../fonts/book/AndesRoundedBook-webfont.ttf') format('truetype'),
+         url('../fonts/book/AndesRoundedBook-webfont.svg#andesroundedbook') format('svg');
     font-weight: 400;
     font-style: normal;
 
@@ -87,11 +87,11 @@
 
 @font-face {
     font-family: 'AndesRounded-Light';
-    src: url('../fonts/AndesRoundedLight-webfont.eot');
-    src: url('../fonts/AndesRoundedLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AndesRoundedLight-webfont.woff') format('woff'),
-         url('../fonts/AndesRoundedLight-webfont.ttf') format('truetype'),
-         url('../fonts/AndesRoundedLight-webfont.svg#andesroundedlight') format('svg');
+    src: url('../fonts/light/AndesRoundedLight-webfont.eot');
+    src: url('../fonts/light/AndesRoundedLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/light/AndesRoundedLight-webfont.woff') format('woff'),
+         url('../fonts/light/AndesRoundedLight-webfont.ttf') format('truetype'),
+         url('../fonts/light/AndesRoundedLight-webfont.svg#andesroundedlight') format('svg');
     font-weight: 300;
     font-style: normal;
 
@@ -99,11 +99,11 @@
 
 @font-face {
     font-family: 'AndesRounded-ExtraLight';
-    src: url('../fonts/AndesRoundedExtraLight-webfont.eot');
-    src: url('../fonts/AndesRoundedExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AndesRoundedExtraLight-webfont.woff') format('woff'),
-         url('../fonts/AndesRoundedExtraLight-webfont.ttf') format('truetype'),
-         url('../fonts/AndesRoundedExtraLight-webfont.svg#andesroundedextralight') format('svg');
+    src: url('../fonts/extralight/AndesRoundedExtraLight-webfont.eot');
+    src: url('../fonts/extralight/AndesRoundedExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/extralight/AndesRoundedExtraLight-webfont.woff') format('woff'),
+         url('../fonts/extralight/AndesRoundedExtraLight-webfont.ttf') format('truetype'),
+         url('../fonts/extralight/AndesRoundedExtraLight-webfont.svg#andesroundedextralight') format('svg');
     font-weight: 200;
     font-style: normal;
 
@@ -111,11 +111,11 @@
 
 @font-face {
     font-family: 'AndesRounded-UltraLight';
-    src: url('../fonts/AndesRoundedUltraLight-webfont.eot');
-    src: url('../fonts/AndesRoundedUltraLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AndesRoundedUltraLight-webfont.woff') format('woff'),
-         url('../fonts/AndesRoundedUltraLight-webfont.ttf') format('truetype'),
-         url('../fonts/AndesRoundedUltraLight-webfont.svg#andesroundedultralight') format('svg');
+    src: url('../fonts/ultralight/AndesRoundedUltraLight-webfont.eot');
+    src: url('../fonts/ultralight/AndesRoundedUltraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ultralight/AndesRoundedUltraLight-webfont.woff') format('woff'),
+         url('../fonts/ultralight/AndesRoundedUltraLight-webfont.ttf') format('truetype'),
+         url('../fonts/ultralight/AndesRoundedUltraLight-webfont.svg#andesroundedultralight') format('svg');
     font-weight: 100;
     font-style: normal;
 
