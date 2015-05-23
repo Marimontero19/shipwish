@@ -6,23 +6,11 @@ include('includes/header.php');
 
 ?>
 
+<div class="main-container">
 
+<!-- AQUI -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
 
