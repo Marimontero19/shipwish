@@ -4,6 +4,8 @@ $page = 'home'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
+// this is a comment
+
 ?>
 
 
