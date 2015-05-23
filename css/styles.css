@@ -4,22 +4,10 @@ body {
   background-color: #f9f9f9;
 }
 
+
 .main-container {
-  width: 100%;
   height: auto;
   margin: 0 auto;
   box-sizing: content-box;
-}
-
-
-
-
-
-@media all and (min-width:1200px) {
-
-    .main-container {
-      width: 1200px;
-
-    }
-
+  background-color: white;
 }

@@ -63,10 +63,10 @@
 		<link rel="stylesheet" href="css/normalize.css" />
 
 		<!-- Grids -->
-		<link rel="stylesheet" href="css/grid-1200.css" />
-		<link rel="stylesheet" href="css/grid-1024.css" />
-		<link rel="stylesheet" href="css/grid-768.css" />
-		<link rel="stylesheet" href="css/grid-320.css" />
+		<link rel="stylesheet" media="all and (max-width:480px)" href="css/grid-320.css" />
+		<link rel="stylesheet" media="all and (min-width:481px)" href="css/grid-768.css" />
+		<link rel="stylesheet" media="all and (min-width:769px)" href="css/grid-1024.css" />
+		<link rel="stylesheet" media="all and (min-width:1025px)" href="css/grid-1200.css" />
 
 		<!-- Fonts -->
 		<link rel="stylesheet" href="css/fonts.css">
