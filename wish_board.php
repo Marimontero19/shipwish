@@ -10,21 +10,21 @@ include('includes/header.php');
 
 	<div id="header_wishboard" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200 ">
 
-		<div id="wish_trips" class="grid_4_1200 grid_4_1024 grid_4_768 grid_4_320 ">
-			<h3><a href="wish_board.php" alt="Wish Board">Wish Board</a></h3>|
-			<h3><a href="trips_board.php" alt="Trips Board">Trips Board</a></h3>
+		<div id="wish_trips" class="grid_12_1200 grid_10_1024 grid_8_768 grid_6_320 ">
+			<a href="#" alt="Wish Board">Wish Board</a> |
+			<a href="trips_board.php" alt="Trips Board">Trips Board</a>
 		</div>
 
 		<div id="user-search" class="grid_12_1200 grid_10_1024 grid_8_768 grid_4_320 ">
 			 <form class="" method="" action="">
-	          <input type="text" name="from" value="">
-	          <input type="text" name="to" value="">
+		          <input type="text" name="from" value="">
+		          <input type="text" name="to" value="">
 
-	          <input type="submit" name="search" class="button search" value="Search">
+		          <input type="submit" name="search" class="button search" value="Search">
 
-	           <a href="create_trip.php" alt="Create Trip" class="button">
-	         	Create Wish
-	           </a>
+		           <a href="create_trip.php" alt="Create Trip" class="button">
+		         	Create Wish
+		           </a>
 	        </form>
 		</div>
 
@@ -70,39 +70,17 @@ include('includes/header.php');
 	<div id="trip-boards" class="grid_10_1200 grid_10_1024 grid_8_768 grid_4_320 push_1_1200 push_1_1024 push_1_768 ">
 
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_3_320">
+		<div id="wisher_card" class="grid_6_1200 grid_5_1024 grid_4_768 grid_2_320">
 
 		</div>
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_3_320">
+		<div id="wisher_card" class="grid_6_1200 grid_5_1024">
 
 		</div>
+		
+	</div>
 
 		
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_3_320">
-
-		</div>
-
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_3_320">
-
-		</div>
-
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_3_320">
-
-		</div>
-
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_3_320">
-
-		</div>
-
-		
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_3_320">
-
-		</div>
-
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_3_320">
-
-		</div>
 <!--
 			<div id="wisher_info_home">
 				<ul>
