@@ -10,38 +10,87 @@
 }
 
 #user-search{
-	
+	margin-bottom: 20px
+}
+
+
+#filters{
+	margin-top: 20px
 }
 
 #trip-boards{
-	margin-top: 40px
+	margin-top: 20px
 }
 
 #wisher_card{
 	border-radius: 6px;
-	border-color: black;
-	border-width: 20px;
+	border: 2px solid #E4DFDF;
 	height:240px;
 	float: left;
 	margin-bottom: 20px;
-	background-color: red;
-
 }
 
-#wisher_info_home li{
+#basic_info_home li{
 	display:inline-block;
-
 }
 
-.details-trip li a {
+#basic_info_home li:nth-child(2) {
+    vertical-align:top;
+    margin-top:20px; 
+	margin-left:10px;
+}
+
+#basic_info_home li:nth-child(3) {
+    float:right;
+    margin-top:20px;
+}
+
+.display_inline_block{
+	display:inline-block;
+}
+
+#destination_home{
+	margin-top: 20px;
+  	margin-left: 75px;
+    margin-right: 150px;
+	float:left;
+}
+
+#details_home{
+	margin-top: 20px;
+	float:left;
+}
+
+
+
+#details_home li {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: white;
-  display: block;
+  background-color: grey;
+  display: inline-block;
+  margin-top: 10px;
 }
 
-.look{
-	text-align:center;
-	background-color: #CECECE;
+.button_look{
+	border-radius: 0 0 5px 5px;
+	color:#ffffff;
+	background-color: #E4DFDF;
+	position: absolute; 
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	text-align: center;
 }
+
+.button_look a{
+	text-decoration: none;
+}
+
+
+.button_look h4{
+	color:#939393;
+	margin-top:15px;
+}
+
+
