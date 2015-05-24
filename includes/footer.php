@@ -5,7 +5,7 @@
 			<div id="footer-content" class="row">
 				<div class="medium-4 columns">
 					<div class="footer-logo">
-						<img src="img/logo-tizo-blanco.svg" alt="Tizo" />
+						<img src="" alt="Shipwish" />
 					</div>
 				</div>
 
@@ -83,7 +83,7 @@ Todos los derechos reservados.</p>
 			<div id="site-footer-closinglinks">
 				<div class="row">
 					<div class="small-12 columns">
-						<span id="footer-copyright">&copy; 2014 Tizo Equipo de Educación.
+						<span id="footer-copyright">&copy; 2015 Shipwish.
 Todos los derechos reservados.</span>
 						<nav class="bottom-menu">
 							<ul>

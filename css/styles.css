@@ -5,6 +5,7 @@
 
 body {	
   background-color: #f9f9f9;
+  font-family: 'AndesRounded',Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -93,6 +94,15 @@ header h1 {
 	display: block;
 }
 
+/* Photos in Circles */
+.user-pic {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	display: block;
+	overflow: hidden;
+}
 
 
 
