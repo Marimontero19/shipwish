@@ -79,7 +79,7 @@ include('includes/header.php');
 					<ul>
 						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
 						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						<li><p>*3</p></li>
+						<!--<li><p>*3</p></li>-->
 					</ul>					
 				</div>
 
@@ -117,7 +117,6 @@ include('includes/header.php');
 					<ul>
 						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
 						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						<li><p>*3</p></li>
 					</ul>					
 				</div>
 
@@ -147,14 +146,13 @@ include('includes/header.php');
 		</div>
 
 		<!--Tercer wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
 					<ul>
 						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
 						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						<li><p>*3</p></li>
 					</ul>					
 				</div>
 
@@ -185,14 +183,13 @@ include('includes/header.php');
 
 	<!--Cuarto wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
 					<ul>
 						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
 						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						<li><p>*3</p></li>
 					</ul>					
 				</div>
 
@@ -223,14 +220,13 @@ include('includes/header.php');
 
 
 		<!--Quinto wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
 					<ul>
 						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
 						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						<li><p>*3</p></li>
 					</ul>					
 				</div>
 
@@ -261,14 +257,13 @@ include('includes/header.php');
 
 	<!--Sexto wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
 					<ul>
 						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
 						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						<li><p>*3</p></li>
 					</ul>					
 				</div>
 
@@ -298,14 +293,13 @@ include('includes/header.php');
 		</div>
 
 		<!--Setimo wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
 					<ul>
 						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
 						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						<li><p>*3</p></li>
 					</ul>					
 				</div>
 
@@ -336,14 +330,13 @@ include('includes/header.php');
 
 	<!--Octavo wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
 					<ul>
 						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
 						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						<li><p>*3</p></li>
 					</ul>					
 				</div>
 
@@ -372,19 +365,86 @@ include('includes/header.php');
 
 		</div>
 
+			<!--Noveno wish-->
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+			
+			<div style="padding: 3% 3% 3% 3%">
+				<div id="basic_info_home">
+					<ul>
+						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+						<li><h3 class="">Pecorino Romano Cheese</h3></li>
+					</ul>					
+				</div>
 
+				<div class="display_inline_block">
+
+					<div id="destination_home">
+						<p>From:</p><h4>Italy</h4>
+						<br>
+						<p>To:</p><h4>Dublin</h4>
+					</div>
+
+					<div id="details_home">
+						<p>Delivery:</p><h4>June 7th, 2015</h4>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>	
+			</div>	
+
+			<div class="button_look">
+				<a href="product_profile.php"><h4>Let's take a look</h4></a>
+			</div>
+
+		</div>
+
+	<!--Decimo wish-->
+
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+			
+			<div style="padding: 3% 3% 3% 3%">
+				<div id="basic_info_home">
+					<ul>
+						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+						<li><h3 class="">Pecorino Romano Cheese</h3></li>
+					</ul>					
+				</div>
+
+				<div class="display_inline_block">
+
+					<div id="destination_home">
+						<p>From:</p><h4>Italy</h4>
+						<br>
+						<p>To:</p><h4>Dublin</h4>
+					</div>
+
+					<div id="details_home">
+						<p>Delivery:</p><h4>June 7th, 2015</h4>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>	
+			</div>	
+
+			<div class="button_look">
+				<a href="product_profile.php"><h4>Let's take a look</h4></a>
+			</div>
+
+		</div>
+
+		<!--FINAL DE WISHES-->
 
 	</div>
 
 </div>
 
-<?php
 
-$page = 'home'; //Por ejemplo 'home', 'userprofile', etc
-
-include('includes/footer.php');
-
-?>
 
 
 	
