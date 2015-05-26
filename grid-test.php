@@ -105,7 +105,7 @@ include('includes/header.php');
       </div>
       <div class="clear">&nbsp;</div>
       <div class="grid_1_1200 prefix_10_1200 suffix_1_1200">
-        <p>10+1+1 - NA - NA - NA/p>
+        <p>10+1+1 - NA - NA - NA</p>
       </div>
       <div class="clear">&nbsp;</div>
       <div class="grid_1_1200 prefix_11_1200">

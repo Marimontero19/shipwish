@@ -19,7 +19,8 @@
 }
 
 #trip-boards{
-	margin-top: 20px
+	margin-top: 20px;
+	display: inline-block;
 }
 
 #wisher_card{

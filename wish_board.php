@@ -10,12 +10,12 @@ include('includes/header.php');
 
 	<div id="header_wishboard" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200 ">
 
-		<div id="wish_trips" class="grid_12_1200 grid_10_1024 grid_8_768 grid_6_320 ">
+		<div id="wish_trips">
 			<a href="#" alt="Wish Board">Wish Board</a> |
 			<a href="trips_board.php" alt="Trips Board">Trips Board</a>
 		</div>
 
-		<div id="user-search" class="grid_12_1200 grid_10_1024 grid_8_768 grid_4_320 ">
+		<div id="user-search">
 			 <form method="" action="">
 		          <input type="text" name="from" value="">
 		          <input type="text" name="to" value="">
@@ -29,7 +29,7 @@ include('includes/header.php');
 		</div>
 
 <hr>
-		<div id="filters" class="grid_12_1200 grid_10_1024 grid_8_768 grid_6_320">
+		<div id="filters">
 
 
 
@@ -69,10 +69,10 @@ include('includes/header.php');
 		</div>
 	</div>
 
-	<div id="trip-boards" class="grid_10_1200 grid_10_1024 grid_8_768 grid_4_320 push_1_1200 push_1_1024 push_1_768 ">
+	<div id="trip-boards">
 
 	<!--Primer wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -110,7 +110,7 @@ include('includes/header.php');
 
 	<!--Segundo wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
