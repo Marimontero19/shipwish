@@ -17,14 +17,12 @@ include('includes/header.php');
 
 		<div id="user-search">
 			 <form method="" action="">
-		          <input type="text" name="from" value="">
-		          <input type="text" name="to" value="">
+		          <input type="text" name="from" placeholder="From" value="" class="input-trips">
+		          <input type="text" name="to" placeholder="To" value="" class="input-trips">
 
 		          <input type="submit" name="search" class="button search" value="Search" class="button">
 
-		           <a href="create_trip.php" alt="Create Trip" class="button">
-		         	Create Wish
-		           </a>
+		           <button><a href="create_trip.php" alt="Create Trip">Create Wish</a></button>
 	        </form>
 		</div>
 
@@ -439,6 +437,10 @@ include('includes/header.php');
 		</div>
 
 		<!--FINAL DE WISHES-->
+
+		<div class="center grid_12_1200">
+		 	<button><a href="create_trip.php" alt="Create Trip">See more wishes</a></button>
+		 </div>
 
 	</div>
 
