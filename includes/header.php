@@ -85,7 +85,7 @@
 
 	</head>
 
-	<body class="container_12 container_10 container_8 container_6">
+	<body>
 
 	<header class="container grid_12_1200 grid_10_1024 grid_8_768 grid_6_320">
 		<h1>

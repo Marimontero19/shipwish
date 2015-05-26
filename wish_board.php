@@ -6,7 +6,7 @@ include('includes/header.php');
 
 ?>
 
-<div class="main-container grid_12_1200 grid_10_1024 grid_8_768 grid_6_320">
+<div class="main-container container_12 container_10 container_8 container_6">
 
 	<div id="header_wishboard" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200 ">
 
