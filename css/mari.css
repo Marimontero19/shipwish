@@ -13,11 +13,26 @@
 	margin-bottom: 20px
 }
 
+
 .input-trips {
 	width: 285px;
-	height: ;
+	height: 16px;
+	padding: 10px;
 	border-radius: 5px;
+	border-color:gray;
 	margin-right:8px;
+}
+
+/*Botones SUBMIT*/
+#user-search input[type="submit"] {
+
+    cursor: pointer;
+  	background-color:gray;
+	color:#ffffff;
+	border:0;
+	border-radius: 5px;
+	width: 150px;
+	height: 40px;
 }
 
 
@@ -87,23 +102,6 @@ button{
 	border-radius: 5px;
 	width: 150px;
 	height: 40px;
-}
-
-
-.button_look{
-	font-size: 15px;
-	border-radius: 0 0 5px 5px;
-	color:#ffffff;
-	background-color: #E4DFDF;
-	position: absolute; 
-	bottom: 0;
-	height: 40px;
-	width: 100%;
-	text-align: center;
-}
-
-.button_look a{
-	text-decoration: none;
 }
 
 
