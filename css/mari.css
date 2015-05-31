@@ -1,12 +1,28 @@
 /*Mari*/
 
 
-/*Wish_board.php*/
+/*************** Wish_board.php ***************/
+
+.full-width-line {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    color:black;
+    margin-top: 250px;
+}
+
+.full-width-line2 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    color:black;
+    margin-top: 305px;
+}
 
 #wish_trips{
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 45px;
+	margin-bottom: 45px;
 }
 
 #user-search{
@@ -15,7 +31,7 @@
 
 
 .input-trips {
-	width: 285px;
+	width: 25%; /*285px*/
 	height: 16px;
 	padding: 10px;
 	border-radius: 5px;
@@ -40,11 +56,11 @@
 }
 
 #filters{
-	margin-top: 20px
+	margin-top: 40px
 }
 
-#trip-boards{
-	margin-top: 20px;
+#wish-boards{
+	margin-top: 50px;
 	display: inline-block; important!
 }
 
@@ -88,7 +104,6 @@
 	margin-top: 20px;
 	float:left;
 }
-
 
 
 #details_home li {
@@ -156,6 +171,16 @@ button{
 		display:none;
 	}
 
+	.full-width-line {
+	  
+	   display:none;
+	}
+
+	.full-width-line2 {
+	    display:none;
+	}
+
+
 }
 
 
@@ -172,7 +197,8 @@ button{
 
 }
 
-@media only screen and (min-width : 480px) and (max-width : 768px) {
+/*768*/
+@media only screen and (min-width : 480px) and (max-width : 847px) {
    
 
 	#destination_home{
@@ -192,7 +218,89 @@ button{
 		  margin-bottom: 8px;
 	}
 
+	.full-width-line {
+	  
+	    margin-top: 295px;
+	}
 
+	.full-width-line2 {
+	    margin-top: 350px;
+	}
+
+
+}
+
+
+/*************** Trip_board.php ***************/
+
+
+#trip-boards{
+	margin-top: 50px;
+	display: inline-block; important!
+}
+
+#tripper_card{
+	/*border-radius: 6px;
+	border: 2px solid #E4DFDF;*/
+	outline: 2px solid #E4DFDF;
+	 -moz-outline-radius: 6px;
+	height:180px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+
+#trip_home{
+	margin-top: 20px;
+  	margin-left: 75px;
+    margin-right: 100px;
+	float:left;
+}
+
+#basic_info_home_trips{
+	float:left;
+}
+
+#destination_home_trips {
+  	margin-top: 10px;
+  	margin-left: 30px;
+  	margin-right: 90px;
+  	float: left;
+}
+
+#details_home_trips{
+	margin-top: 10px;
+	float:left;
+}
+
+#details_home_trips li {
+  	width: 40px;
+  	height: 40px;
+  	border-radius: 50%;
+  	background-color: gray;
+  	display: inline-block;
+  	margin-top: 10px;
+}
+
+/*Media queries trip-boad*/
+
+@media only screen and (min-width : 480px) and (max-width : 870px) {
+   
+
+	#destination_home_trips{
+	  	margin-right: 30px;
+	  	margin-left: 16px;
+	}
+
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    
+	#destination_home_trips{
+	  	margin-right: 40px;
+	  	margin-left: 20px;
+	}
 
 }
 

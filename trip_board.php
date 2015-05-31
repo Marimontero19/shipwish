@@ -13,8 +13,8 @@ include('includes/header.php');
 	<div id="header_wishboard" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200 ">
 
 		<div id="wish_trips">
-			<a href="#" alt="Wish Board">Wish Board</a> |
-			<a href="trip_board.php" alt="Trips Board">Trips Board</a>
+			<a href="wish_board.php" alt="Wish Board">Wish Board</a> |
+			<a href="#" alt="Trips Board">Trips Board</a>
 		</div>
 
 		<div id="user-search">
@@ -68,29 +68,26 @@ include('includes/header.php');
 		</div>
 	</div>
 
-	<div id="wish-boards">
+	<div id="trip-boards">
 
 	<!--Primer wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						<!--<li><p>*3</p></li>-->
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -107,27 +104,26 @@ include('includes/header.php');
 
 		</div>
 
+
 	<!--Segundo wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_2_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -145,25 +141,23 @@ include('includes/header.php');
 		</div>
 
 		<!--Tercer wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_3_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -182,25 +176,23 @@ include('includes/header.php');
 
 	<!--Cuarto wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_4_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -219,25 +211,23 @@ include('includes/header.php');
 
 
 		<!--Quinto wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_5_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -256,25 +246,23 @@ include('includes/header.php');
 
 	<!--Sexto wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+	<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_6_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -292,25 +280,23 @@ include('includes/header.php');
 		</div>
 
 		<!--Setimo wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_7_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -329,25 +315,23 @@ include('includes/header.php');
 
 	<!--Octavo wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_8_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -365,25 +349,23 @@ include('includes/header.php');
 		</div>
 
 			<!--Noveno wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_9_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -399,28 +381,28 @@ include('includes/header.php');
 			</div>
 
 		</div>
+			
+	
 
 	<!--Decimo wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
-				<div id="basic_info_home">
-					<ul>
-						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-						<li><h3 class="">Pecorino Romano Cheese</h3></li>
-					</ul>					
-				</div>
 
 				<div class="display_inline_block">
 
-					<div id="destination_home">
+					<div id="basic_info_home_trips">
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_10_xs.jpg" alt="user_1"></a>					
+					</div>
+
+					<div id="destination_home_trips">
 						<p>From:</p><h4>Italy</h4>
 						<br>
 						<p>To:</p><h4>Dublin</h4>
 					</div>
 
-					<div id="details_home">
+					<div id="details_home_trips">
 						<p>Delivery:</p><h4>June 7th, 2015</h4>
 						<ul>
 							<li></li>
@@ -440,7 +422,7 @@ include('includes/header.php');
 		<!--FINAL DE WISHES-->
 
 		<div class="center grid_12_1200">
-		 	<button><a href="create_trip.php" alt="Create Trip">See more wishes</a></button>
+		 	<button>See more trips</button>
 		 </div>
 
 	</div>
