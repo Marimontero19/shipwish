@@ -104,6 +104,17 @@ button{
 	height: 40px;
 }
 
+.button_look{
+	font-size: 15px;
+	border-radius: 0 0 5px 5px;
+	color:#ffffff;
+	background-color: #E4DFDF;
+	position: absolute; 
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}
 
 .button_look h4{
 	color:#939393;
@@ -112,6 +123,25 @@ button{
 
 .center{
 	text-align: center;
+}
+
+/*Media queries wish-boad*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    .input-trips {
+	  margin-bottom: 8px;
+	  width: 100%;
+	}
+
+	.destination_home{
+		margin-top: 20px;
+	  	margin-left: 10px;
+	    margin-right: 150px;
+		float:left;
+	}
+
+
 }
 
 
