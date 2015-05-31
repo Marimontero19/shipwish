@@ -22,7 +22,7 @@ include('includes/header.php');
 
 		          <input type="submit" name="search" class="button search" value="Search" class="button">
 
-		           <button><a href="create_trip.php" alt="Create Trip">Create Wish</a></button>
+		           <button class="outline"><a href="create_trip.php" alt="Create Trip">Create Wish</a></button>
 	        </form>
 		</div>
 
@@ -70,7 +70,7 @@ include('includes/header.php');
 	<div id="trip-boards">
 
 	<!--Primer wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -108,7 +108,7 @@ include('includes/header.php');
 
 	<!--Segundo wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -144,7 +144,7 @@ include('includes/header.php');
 		</div>
 
 		<!--Tercer wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -181,7 +181,7 @@ include('includes/header.php');
 
 	<!--Cuarto wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -218,7 +218,7 @@ include('includes/header.php');
 
 
 		<!--Quinto wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -255,7 +255,7 @@ include('includes/header.php');
 
 	<!--Sexto wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -291,7 +291,7 @@ include('includes/header.php');
 		</div>
 
 		<!--Setimo wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -328,7 +328,7 @@ include('includes/header.php');
 
 	<!--Octavo wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -364,7 +364,7 @@ include('includes/header.php');
 		</div>
 
 			<!--Noveno wish-->
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
@@ -401,7 +401,7 @@ include('includes/header.php');
 
 	<!--Decimo wish-->
 
-		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_6_320 push_1_1200">
+		<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
 			<div style="padding: 3% 3% 3% 3%">
 				<div id="basic_info_home">
