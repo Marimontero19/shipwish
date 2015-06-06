@@ -155,18 +155,17 @@ button{
 /*Mobile*/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     
+    #destination_home{
+		margin-top: 20px;
+	    margin-right: 100px;
+	    margin-left: 10px;
+
+	}
+
     .input-trips {
 	  margin-bottom: 8px;
 	  width: 94%;
 	}
-
-	#destination_home{
-		margin-top: 20px;
-	  	margin-left: 10px;
-	    margin-right: 100px;
-		float:left;
-	}
-
 
 	#user-search input[type="submit"]{
 		width: 100%;
@@ -189,15 +188,14 @@ button{
 }
 
 /*768 o 847*/
-@media only screen and (min-width : 480px) and (max-width : 768px) {
+@media only screen and (min-width : 480px) and (max-width : 660px) {
    
 
 	#destination_home{
 		margin-top: 20px;
-	  	margin-left: 20px;
-	    margin-right: 60px;
-	    margin-bottom: 20px;
-		float:left;
+	    margin-right: 20px;
+	    margin-left: 20px;
+
 	}
 
 	#wisher_card{
@@ -224,22 +222,39 @@ button{
 	}
 
 	#details_home {
-  		margin-left: 10px;
+  		margin-left: 20px;
 	}
+
+
+}
+
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+   
+	#destination_home{
+		margin-top: 20px;
+	    margin-right: 40px;
+	    margin-left: 20px;
+
+	}
+
+	#basic_info_home li:nth-child(2) {
+		width: 70%;
+		margin-top: 10px;
+	}
+
 
 
 }
 
 
 /*Tablet*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
+@media only screen and (min-width : 870px) and (max-width : 1024px) {
    
 
 	#destination_home{
 		margin-top: 20px;
-	  	margin-left: 40px;
 	    margin-right: 80px;
-		float:left;
+	    margin-left: 40px;
 	}
 
 }
@@ -316,7 +331,17 @@ button{
 
 }
 
-@media only screen and (min-width : 480px) and (max-width : 870px) {
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+   
+
+	#destination_home_trips{
+	  	margin-right: 40px;
+	}
+
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 660px) {
    
 
 	#destination_home_trips{
@@ -330,8 +355,8 @@ button{
 		float:left;
 	}
 
-
 }
+
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     

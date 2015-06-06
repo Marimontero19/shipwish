@@ -115,20 +115,21 @@ include('includes/header.php');
 				<div id="basic_info_home">
 					<ul>
 						<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_2_xs.jpg" alt="user_2"></a></li>
-						<li><h3 class="">Battenberg cake of UK </h3></li>
+						<li><h3 class="">Welsh cake</h3></li>
+						<!--<li><p>*3</p></li>-->
 					</ul>					
 				</div>
 
 				<div class="display_inline_block">
 
 					<div id="destination_home">
-						<p>From:</p><h4>UK</h4>
+						<p>From:</p><h4>Uk</h4>
 						<br>
 						<p>To:</p><h4>Ohio</h4>
 					</div>
 
 					<div id="details_home">
-						<p>Delivery:</p><h4>October 10th, 2015</h4>
+						<p>Delivery:</p><h4>July 7th, 2015</h4>
 						<ul>
 							<li></li>
 							<li></li>
