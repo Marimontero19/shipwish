@@ -65,11 +65,12 @@
 }
 
 #wisher_card{
-	/*border-radius: 6px;
-	border: 2px solid #E4DFDF;*/
-	outline: 2px solid #E4DFDF;
-	 -moz-outline-radius: 6px;
-	height:240px;
+	box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   	border-radius: 6px;
+	border: 2px solid #E4DFDF;
+	height: auto;
 	float: left;
 	margin-bottom: 20px;
 }
@@ -82,12 +83,16 @@
     vertical-align:top;
     margin-top:20px; 
 	margin-left:10px;
+	line-height: 20px;
+
 }
 
 #basic_info_home li:nth-child(3) {
     float:right;
     margin-top:20px;
 }
+
+
 
 .display_inline_block{
 	display:inline-block;
@@ -126,10 +131,10 @@ button{
 
 .button_look{
 	font-size: 15px;
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 4px 4px;
 	color:#ffffff;
 	background-color: #E4DFDF;
-	position: absolute; 
+	position: relative;  
 	bottom: 0;
 	height: 40px;
 	width: 100%;
@@ -138,7 +143,7 @@ button{
 
 .button_look h4{
 	color:#939393;
-	margin-top:15px;
+  	padding-top: 15px;
 }
 
 .center{
@@ -183,27 +188,13 @@ button{
 
 }
 
-
-/*Tablet*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
+/*768 o 847*/
+@media only screen and (min-width : 480px) and (max-width : 768px) {
    
 
 	#destination_home{
 		margin-top: 20px;
-	  	margin-left: 10px;
-	    margin-right: 80px;
-		float:left;
-	}
-
-}
-
-/*768*/
-@media only screen and (min-width : 480px) and (max-width : 847px) {
-   
-
-	#destination_home{
-		margin-top: 20px;
-	  	margin-left: 10px;
+	  	margin-left: 20px;
 	    margin-right: 80px;
 	    margin-bottom: 20px;
 		float:left;
@@ -227,12 +218,39 @@ button{
 	    margin-top: 350px;
 	}
 
+	#basic_info_home li:nth-child(2) {
+		width: 63%;
+		margin-top: 10px;
+	}
+
+	#details_home {
+  		margin-left: 10px;
+	}
+
 
 }
 
 
+/*Tablet*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+   
+
+	#destination_home{
+		margin-top: 20px;
+	  	margin-left: 40px;
+	    margin-right: 80px;
+		float:left;
+	}
+
+}
+
+
+
 /*************** Trip_board.php ***************/
 
+.float-left{
+	float:left;
+}
 
 #trip-boards{
 	margin-top: 50px;
@@ -240,11 +258,14 @@ button{
 }
 
 #tripper_card{
-	/*border-radius: 6px;
-	border: 2px solid #E4DFDF;*/
-	outline: 2px solid #E4DFDF;
-	 -moz-outline-radius: 6px;
-	height:180px;
+
+	/*height:180px;*/
+	box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   	border-radius: 6px;
+	border: 2px solid #E4DFDF;
+	height: auto;
 	float: left;
 	margin-bottom: 20px;
 }
@@ -284,12 +305,29 @@ button{
 
 /*Media queries trip-boad*/
 
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+   
+
+	#destination_home_trips{
+	  	margin-right: 60px;
+	  	margin-left: 16px;
+	}
+
+
+}
+
 @media only screen and (min-width : 480px) and (max-width : 870px) {
    
 
 	#destination_home_trips{
 	  	margin-right: 30px;
 	  	margin-left: 16px;
+	}
+
+	#details_home_trips{
+		margin-top: 10px;
+		margin-left: 16px;
+		float:left;
 	}
 
 
