@@ -8,7 +8,7 @@
     width: 100%;
     left: 0;
     color:black;
-    margin-top: 250px;
+    margin-top: 170px;
 }
 
 .full-width-line2 {
@@ -16,7 +16,7 @@
     width: 100%;
     left: 0;
     color:black;
-    margin-top: 305px;
+    margin-top: 225px;
 }
 
 #wish_trips{
@@ -269,6 +269,7 @@ button{
 
 #trip-boards{
 	margin-top: 50px;
+	margin-bottom: 50px;
 	display: inline-block; important!
 }
 
@@ -488,39 +489,14 @@ button{
 }
 
 	
-
 #gallery{
 	float:left;
 }
 
-/*#slides {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 4px #666;
-  padding: 1%;
+.collaborator-slider {
+  margin: 0 2rem;
 }
 
-#overflow {
-  width: 100%;
-  overflow: hidden;
-}
 
-#slides .inner {
-  width: 500%;
-  line-height: 0;
-}
 
-#slides article {
-  /*width: 20%;*/
-  /*float: left;
-  display: block;
-}*/
-
-/*#similar-wishes{
-	margin-top:20px;
-	margin-bottom: 20px;
-	background-color: #F6F6F6;
-	height: 200px;
-}*/
 

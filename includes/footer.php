@@ -71,7 +71,7 @@
             </div>
 		</footer>
 
-
+    <!-- <script>
 		<?php include('includes/collaborate-form.php'); ?>
 		<?php include('includes/follow-project.php'); ?>
 		<?php include('includes/login-to-use.php'); ?>
@@ -92,13 +92,25 @@
 			});
 		</script>
 
-
-		<script src="js/tizo.js"></script>
+		<script src="js/tizo.js">
+    </script> -->
 
 		<!-- Carousel -->
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-		<script type="text/javascript" src="js/slick/slick.min.js"></script>
-		<script src="js/slick-settings.js"></script>
+		<script type="text/javascript" src="js/librerias/slick/slick.min.js"></script>
+		<script src="js/librerias/slick/slick-settings.js"></script>
+
+            <script type="text/javascript">
+            
+            $('.autoplay').slick({
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 4000,
+            });
+                
+            </script>
+
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

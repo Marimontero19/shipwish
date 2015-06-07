@@ -67,7 +67,11 @@
         <link rel="stylesheet" media="all and (max-width:1199px)" href="css/grid-1024.css" />
         <link rel="stylesheet" media="all and (max-width:1023px)" href="css/grid-768.css" />
 		<link rel="stylesheet" media="all and (max-width:568px)" href="css/grid-320.css" />
+
+		<!-- Carousel -->
+		<link rel="stylesheet" type="text/css" href="js/librerias/slick/slick.css"/>
 		
+
         <!-- 3rd party libraries -->
         <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
