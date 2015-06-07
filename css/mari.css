@@ -65,11 +65,12 @@
 }
 
 #wisher_card{
-	/*border-radius: 6px;
-	border: 2px solid #E4DFDF;*/
-	outline: 2px solid #E4DFDF;
-	 -moz-outline-radius: 6px;
-	height:240px;
+	box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   	border-radius: 6px;
+	border: 2px solid #E4DFDF;
+	height: auto;
 	float: left;
 	margin-bottom: 20px;
 }
@@ -82,12 +83,16 @@
     vertical-align:top;
     margin-top:20px; 
 	margin-left:10px;
+	line-height: 20px;
+
 }
 
 #basic_info_home li:nth-child(3) {
     float:right;
     margin-top:20px;
 }
+
+
 
 .display_inline_block{
 	display:inline-block;
@@ -126,10 +131,10 @@ button{
 
 .button_look{
 	font-size: 15px;
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 4px 4px;
 	color:#ffffff;
 	background-color: #E4DFDF;
-	position: absolute; 
+	position: relative;  
 	bottom: 0;
 	height: 40px;
 	width: 100%;
@@ -138,7 +143,7 @@ button{
 
 .button_look h4{
 	color:#939393;
-	margin-top:15px;
+  	padding-top: 15px;
 }
 
 .center{
@@ -150,18 +155,17 @@ button{
 /*Mobile*/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     
+    #destination_home{
+		margin-top: 20px;
+	    margin-right: 100px;
+	    margin-left: 10px;
+
+	}
+
     .input-trips {
 	  margin-bottom: 8px;
 	  width: 94%;
 	}
-
-	#destination_home{
-		margin-top: 20px;
-	  	margin-left: 10px;
-	    margin-right: 100px;
-		float:left;
-	}
-
 
 	#user-search input[type="submit"]{
 		width: 100%;
@@ -183,30 +187,15 @@ button{
 
 }
 
-
-/*Tablet*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
+/*768 o 847*/
+@media only screen and (min-width : 480px) and (max-width : 660px) {
    
 
 	#destination_home{
 		margin-top: 20px;
-	  	margin-left: 10px;
-	    margin-right: 80px;
-		float:left;
-	}
+	    margin-right: 20px;
+	    margin-left: 20px;
 
-}
-
-/*768*/
-@media only screen and (min-width : 480px) and (max-width : 847px) {
-   
-
-	#destination_home{
-		margin-top: 20px;
-	  	margin-left: 10px;
-	    margin-right: 80px;
-	    margin-bottom: 20px;
-		float:left;
 	}
 
 	#wisher_card{
@@ -227,12 +216,56 @@ button{
 	    margin-top: 350px;
 	}
 
+	#basic_info_home li:nth-child(2) {
+		width: 63%;
+		margin-top: 10px;
+	}
+
+	#details_home {
+  		margin-left: 20px;
+	}
+
+
+}
+
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+   
+	#destination_home{
+		margin-top: 20px;
+	    margin-right: 40px;
+	    margin-left: 20px;
+
+	}
+
+	#basic_info_home li:nth-child(2) {
+		width: 70%;
+		margin-top: 10px;
+	}
+
+
 
 }
 
 
+/*Tablet*/
+@media only screen and (min-width : 870px) and (max-width : 1024px) {
+   
+
+	#destination_home{
+		margin-top: 20px;
+	    margin-right: 80px;
+	    margin-left: 40px;
+	}
+
+}
+
+
+
 /*************** Trip_board.php ***************/
 
+.float-left{
+	float:left;
+}
 
 #trip-boards{
 	margin-top: 50px;
@@ -240,11 +273,14 @@ button{
 }
 
 #tripper_card{
-	/*border-radius: 6px;
-	border: 2px solid #E4DFDF;*/
-	outline: 2px solid #E4DFDF;
-	 -moz-outline-radius: 6px;
-	height:180px;
+
+	/*height:180px;*/
+	box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   	border-radius: 6px;
+	border: 2px solid #E4DFDF;
+	height: auto;
 	float: left;
 	margin-bottom: 20px;
 }
@@ -284,7 +320,28 @@ button{
 
 /*Media queries trip-boad*/
 
-@media only screen and (min-width : 480px) and (max-width : 870px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+   
+
+	#destination_home_trips{
+	  	margin-right: 60px;
+	  	margin-left: 16px;
+	}
+
+
+}
+
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+   
+
+	#destination_home_trips{
+	  	margin-right: 40px;
+	}
+
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 660px) {
    
 
 	#destination_home_trips{
@@ -292,8 +349,14 @@ button{
 	  	margin-left: 16px;
 	}
 
+	#details_home_trips{
+		margin-top: 10px;
+		margin-left: 16px;
+		float:left;
+	}
 
 }
+
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     
@@ -305,5 +368,159 @@ button{
 }
 
 
+/*************** product.php ***************/
 
+#product-main-info{
+	margin-top: 100px ;
+}
+
+#product-main-info .title h2{
+	margin-bottom: 20px ;
+}
+
+#basic-info-product{
+	background-color: #F5F6F6;
+	box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   	border-radius: 10px;
+	border: 2px solid #E4DFDF;
+	padding: 20px;
+	height: auto;
+
+}
+
+#user-profile-info-product{
+	float:left;
+}
+
+#user-profile-info-product h4{
+	color:#00B2BE;
+}
+
+#user-profile-info-product img{
+	margin-bottom: 20px;
+	margin-right: 85px;	
+}
+
+#product-details{
+	float:left;
+}
+
+#destination-product li{
+	display:inline-block;
+	margin-right: 25%;
+}
+
+#destination-product li{
+	display:inline-block;
+	margin-right: 25%;
+}
+
+
+#info-product{
+	margin-top: 30px;
+}
+
+#info-product li{
+	margin-top:8px;
+	margin-bottom:8px ;
+}
+
+#info-product h2{
+	font-size: 20px;
+}
+
+
+#actions{
+	margin-top: 20px;
+	float:right;
+}
+
+#actions button{
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+
+#detail-info-product{
+	margin-top:60px;
+	margin-bottom:60px;
+	float:left;
+}
+
+#product-details{
+	margin-top:20px;
+}
+
+#description-product h3{
+	margin-bottom: 20px;
+}
+
+#description-product p{
+	margin-bottom: 20px;
+}
+
+#description-product li h4{
+	vertical-align: middle;
+	display:inline-block;
+	margin-right:15px;
+	margin-bottom: 15px;
+}
+
+
+.icon-size{
+	width: 20px;
+  	height: 20px;
+  	margin-bottom:15px;
+  	border-radius: 20%;
+  	background-color: gray;
+  	padding:14px;
+  	font-size:25px;
+  	font-weight: 700;
+}
+
+.icon-circle{
+	width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+	
+
+#gallery{
+	float:left;
+}
+
+/*#slides {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #666;
+  padding: 1%;
+}
+
+#overflow {
+  width: 100%;
+  overflow: hidden;
+}
+
+#slides .inner {
+  width: 500%;
+  line-height: 0;
+}
+
+#slides article {
+  /*width: 20%;*/
+  /*float: left;
+  display: block;
+}*/
+
+/*#similar-wishes{
+	margin-top:20px;
+	margin-bottom: 20px;
+	background-color: #F6F6F6;
+	height: 200px;
+}*/
 

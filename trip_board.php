@@ -1,6 +1,6 @@
 <?php
 
-$page = 'home'; //Por ejemplo 'home', 'userprofile', etc
+$page = 'trip_board'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
@@ -24,7 +24,7 @@ include('includes/header.php');
 
 		          <input type="submit" name="search" class="button search" value="Search" class="button">
 
-		           <button class="outline"><a href="create_trip.php" alt="Create Trip">Create Wish</a></button>
+		           <button class="outline"><a href="create_trip.php" alt="Create Trip">Add Trip</a></button>
 	        </form>
 		</div>
 
@@ -81,20 +81,25 @@ include('includes/header.php');
 						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a>					
 					</div>
 
-					<div id="destination_home_trips">
-						<p>From:</p><h4>Italy</h4>
-						<br>
-						<p>To:</p><h4>Dublin</h4>
+					<div class="float-left">
+
+						<div id="destination_home_trips">
+							<p>From:</p><h4>Italy</h4>
+							<br>
+							<p>To:</p><h4>Dublin</h4>
+						</div>
+
+						<div id="details_home_trips">
+							<p>Delivery:</p><h4>June 7th, 2015</h4>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div id="details_home_trips">
-						<p>Delivery:</p><h4>June 7th, 2015</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
 				</div>	
 			</div>	
 
@@ -114,23 +119,28 @@ include('includes/header.php');
 				<div class="display_inline_block">
 
 					<div id="basic_info_home_trips">
-						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_2_xs.jpg" alt="user_1"></a>					
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_2_xs.jpg" alt="user_2"></a>					
 					</div>
 
-					<div id="destination_home_trips">
-						<p>From:</p><h4>Italy</h4>
-						<br>
-						<p>To:</p><h4>Dublin</h4>
+					<div class="float-left">
+
+						<div id="destination_home_trips">
+							<p>From:</p><h4>Italy</h4>
+							<br>
+							<p>To:</p><h4>Dublin</h4>
+						</div>
+
+						<div id="details_home_trips">
+							<p>Delivery:</p><h4>June 7th, 2015</h4>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div id="details_home_trips">
-						<p>Delivery:</p><h4>June 7th, 2015</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
 				</div>	
 			</div>	
 
@@ -140,6 +150,7 @@ include('includes/header.php');
 
 		</div>
 
+
 		<!--Tercer wish-->
 		<div id="tripper_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			
@@ -148,23 +159,28 @@ include('includes/header.php');
 				<div class="display_inline_block">
 
 					<div id="basic_info_home_trips">
-						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_3_xs.jpg" alt="user_1"></a>					
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_3_xs.jpg" alt="user_3"></a>					
 					</div>
 
-					<div id="destination_home_trips">
-						<p>From:</p><h4>Italy</h4>
-						<br>
-						<p>To:</p><h4>Dublin</h4>
+					<div class="float-left">
+
+						<div id="destination_home_trips">
+							<p>From:</p><h4>Italy</h4>
+							<br>
+							<p>To:</p><h4>Dublin</h4>
+						</div>
+
+						<div id="details_home_trips">
+							<p>Delivery:</p><h4>June 7th, 2015</h4>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div id="details_home_trips">
-						<p>Delivery:</p><h4>June 7th, 2015</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
 				</div>	
 			</div>	
 
@@ -183,23 +199,28 @@ include('includes/header.php');
 				<div class="display_inline_block">
 
 					<div id="basic_info_home_trips">
-						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_4_xs.jpg" alt="user_1"></a>					
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_4_xs.jpg" alt="user_4"></a>					
 					</div>
 
-					<div id="destination_home_trips">
-						<p>From:</p><h4>Italy</h4>
-						<br>
-						<p>To:</p><h4>Dublin</h4>
+					<div class="float-left">
+
+						<div id="destination_home_trips">
+							<p>From:</p><h4>Italy</h4>
+							<br>
+							<p>To:</p><h4>Dublin</h4>
+						</div>
+
+						<div id="details_home_trips">
+							<p>Delivery:</p><h4>June 7th, 2015</h4>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div id="details_home_trips">
-						<p>Delivery:</p><h4>June 7th, 2015</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
 				</div>	
 			</div>	
 
@@ -218,23 +239,28 @@ include('includes/header.php');
 				<div class="display_inline_block">
 
 					<div id="basic_info_home_trips">
-						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_5_xs.jpg" alt="user_1"></a>					
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_5_xs.jpg" alt="user_5"></a>					
 					</div>
 
-					<div id="destination_home_trips">
-						<p>From:</p><h4>Italy</h4>
-						<br>
-						<p>To:</p><h4>Dublin</h4>
+					<div class="float-left">
+
+						<div id="destination_home_trips">
+							<p>From:</p><h4>Italy</h4>
+							<br>
+							<p>To:</p><h4>Dublin</h4>
+						</div>
+
+						<div id="details_home_trips">
+							<p>Delivery:</p><h4>June 7th, 2015</h4>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div id="details_home_trips">
-						<p>Delivery:</p><h4>June 7th, 2015</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
 				</div>	
 			</div>	
 
@@ -253,23 +279,28 @@ include('includes/header.php');
 				<div class="display_inline_block">
 
 					<div id="basic_info_home_trips">
-						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_6_xs.jpg" alt="user_1"></a>					
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_6_xs.jpg" alt="user_6"></a>					
 					</div>
 
-					<div id="destination_home_trips">
-						<p>From:</p><h4>Italy</h4>
-						<br>
-						<p>To:</p><h4>Dublin</h4>
+					<div class="float-left">
+
+						<div id="destination_home_trips">
+							<p>From:</p><h4>Italy</h4>
+							<br>
+							<p>To:</p><h4>Dublin</h4>
+						</div>
+
+						<div id="details_home_trips">
+							<p>Delivery:</p><h4>June 7th, 2015</h4>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div id="details_home_trips">
-						<p>Delivery:</p><h4>June 7th, 2015</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
 				</div>	
 			</div>	
 
@@ -287,23 +318,28 @@ include('includes/header.php');
 				<div class="display_inline_block">
 
 					<div id="basic_info_home_trips">
-						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_7_xs.jpg" alt="user_1"></a>					
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_7_xs.jpg" alt="user_7"></a>					
 					</div>
 
-					<div id="destination_home_trips">
-						<p>From:</p><h4>Italy</h4>
-						<br>
-						<p>To:</p><h4>Dublin</h4>
+					<div class="float-left">
+
+						<div id="destination_home_trips">
+							<p>From:</p><h4>Italy</h4>
+							<br>
+							<p>To:</p><h4>Dublin</h4>
+						</div>
+
+						<div id="details_home_trips">
+							<p>Delivery:</p><h4>June 7th, 2015</h4>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div id="details_home_trips">
-						<p>Delivery:</p><h4>June 7th, 2015</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
 				</div>	
 			</div>	
 
@@ -322,23 +358,28 @@ include('includes/header.php');
 				<div class="display_inline_block">
 
 					<div id="basic_info_home_trips">
-						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_8_xs.jpg" alt="user_1"></a>					
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_8_xs.jpg" alt="user_8"></a>					
 					</div>
 
-					<div id="destination_home_trips">
-						<p>From:</p><h4>Italy</h4>
-						<br>
-						<p>To:</p><h4>Dublin</h4>
+					<div class="float-left">
+
+						<div id="destination_home_trips">
+							<p>From:</p><h4>Italy</h4>
+							<br>
+							<p>To:</p><h4>Dublin</h4>
+						</div>
+
+						<div id="details_home_trips">
+							<p>Delivery:</p><h4>June 7th, 2015</h4>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div id="details_home_trips">
-						<p>Delivery:</p><h4>June 7th, 2015</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
 				</div>	
 			</div>	
 
@@ -356,23 +397,28 @@ include('includes/header.php');
 				<div class="display_inline_block">
 
 					<div id="basic_info_home_trips">
-						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_9_xs.jpg" alt="user_1"></a>					
+						<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_9_xs.jpg" alt="user_9"></a>					
 					</div>
 
-					<div id="destination_home_trips">
-						<p>From:</p><h4>Italy</h4>
-						<br>
-						<p>To:</p><h4>Dublin</h4>
+					<div class="float-left">
+
+						<div id="destination_home_trips">
+							<p>From:</p><h4>Italy</h4>
+							<br>
+							<p>To:</p><h4>Dublin</h4>
+						</div>
+
+						<div id="details_home_trips">
+							<p>Delivery:</p><h4>June 7th, 2015</h4>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div id="details_home_trips">
-						<p>Delivery:</p><h4>June 7th, 2015</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
 				</div>	
 			</div>	
 

@@ -49,8 +49,13 @@ ul {
 
 }
 
+<<<<<<< HEAD
 a {
     text-decoration: none;
+=======
+.clear {
+	clear: both;
+>>>>>>> origin/master
 }
 
 
@@ -66,3 +71,55 @@ a {
   background-color: white;
 }
 
+<<<<<<< HEAD
+=======
+
+
+header {
+	width: 100%;
+	height: 80px;
+	background-color: gray;
+	margin:0 !important;
+}
+
+header h1 {
+
+	font-family: 'AndesRounded-ExtraBold';
+	float: left;
+}
+
+
+.user-tools {
+	float: right;
+	display: block;
+}
+
+.user-tools li {
+	display: inline-block;
+}
+
+.user-tools li a {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	display: block;
+}
+
+/* Photos in Circles */
+.user-pic {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px #ffffff solid;
+	display: block;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+>>>>>>> origin/master
