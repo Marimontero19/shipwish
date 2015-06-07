@@ -1,6 +1,6 @@
 <?php
 
-$page = 'home'; //Por ejemplo 'home', 'userprofile', etc
+$page = 'trip_board'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 

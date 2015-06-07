@@ -368,5 +368,79 @@ button{
 }
 
 
+/*************** product.php ***************/
 
+#product-main-info{
+	margin-top: 100px ;
+}
+
+#product-main-info .title h2{
+	margin-bottom: 20px ;
+}
+
+#basic-info-product{
+	background-color: #F5F6F6;
+	box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   	border-radius: 10px;
+	border: 2px solid #E4DFDF;
+	padding: 20px;
+	height: auto;
+
+}
+
+#user-profile-info-product{
+	float:left;
+}
+
+#user-profile-info-product h4{
+	color:#00B2BE;
+}
+
+#user-profile-info-product img{
+	margin-bottom: 20px;
+	margin-right: 85px;	
+}
+
+
+#product-details{
+	float:left;
+}
+
+#destination-product ul{
+	/*margin: 0;
+	padding: 0;*/
+}
+
+#destination-product li{
+	display:inline-block;
+	margin-right: 25%;
+}
+
+
+#info-product{
+	margin-top: 30px;
+}
+
+#info-product li{
+	margin-top:8px;
+	margin-bottom:8px ;
+}
+
+#info-product h2{
+	font-size: 20px;
+}
+
+
+#actions{
+	float:right;
+}
+
+#actions button{
+
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
 
