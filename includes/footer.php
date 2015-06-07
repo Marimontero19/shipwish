@@ -1,104 +1,75 @@
-		<!-- START site-footer -->
-		<footer id="site-footer">
-
-			<!-- START footer-content -->
-			<div id="footer-content" class="row">
-				<div class="medium-4 columns">
-					<div class="footer-logo">
-						<img src="" alt="Shipwish" />
-					</div>
-				</div>
-
-				<div class="medium-4 columns">
-					<nav class="footer-social-menu">
-						<ul>
-							<li><a href="" class="icon"><?php include('icons/icon-fb.svg'); ?></a></li>
-							<li><a href="" class="icon"><?php include('icons/icon-twitter.svg'); ?></a></li>
-							<li><a href="" class="icon"><?php include('icons/icon-linkedin.svg'); ?></a></li>
-							<li><a href="" class="icon"><?php include('icons/icon-googleplus.svg'); ?></a></li>
-						</ul>
-					</nav>
-					<div class="footer-newsletter row collapse">
-						<h5>Suscríbete al newsletter</h5>
-						<form class="signup-newsletter">
-
-
-							<div class="row collapse">
-					            <div class="small-8 medium-6 columns">
-					              <input type="text" placeholder="tucorreo@correo.com">
-					            </div>
-					            <div class="small-4 columns end">
-					              <a href="#" class="button expand postfix purple">¡Suscríbete!</a>
-					            </div>
-					        </div>
 
 
 
-						</form>
-
-					</div>
-				</div>
-
-				<?php if (isset($_SESSION['username'])) { ?>
-
-				<div class="medium-4 columns">
-					<ul class="footer-menu">
-						<li><a href="index.php">Home</a></li>
-						<li><a href="cpanel.php">Mi cuenta</a></li>
-						<li><a href="create.php">Crear proyecto</a></li>
-						<li><a href="profile.php">Perfil público</a></li>
-						<li><a href="logout.php">Salir</a></li>
-					</ul>
-				</div>
-
-				<?php } else { ?>
-
-				<div class="medium-4 columns">
-					<ul class="footer-menu">
-						<li><a href="index.php">Home</a></li>
-						<li><a href="login.php">Ingresa</a></li>
-						<li><a href="register.php">Regístrate</a></li>
-					</ul>
-				</div>
-
-				<?php }?>
-
-
-
-			</div>
-			<!-- END footer-content -->
-
-			<!-- START footer-copyright -->
-			<!--
-<div class="row">
-				<div class="medium-4 columns medium-offset-8">
-					<p id="footer-copyright">&copy; 2014 Tizo Equipo de Educación.
-Todos los derechos reservados.</p>
-				</div>
-			</div>
--->
-			<!-- END footer-copyright -->
-
-			<!-- START site-footer-closinglinks -->
-			<div id="site-footer-closinglinks">
-				<div class="row">
-					<div class="small-12 columns">
-						<span id="footer-copyright">&copy; 2015 Shipwish.
-Todos los derechos reservados.</span>
-						<nav class="bottom-menu">
-							<ul>
-								<li><a href="">Ayuda y soporte</a></li>
-								<li><a href="">Reporta un problema</a></li>
-								<li><a href="">Políticas y condiciones</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-			<!-- END site-footer-closinglinks -->
-
+		<footer class="top">
+		    <div class="main-container">
+                <div class="up container_12 container_10 container_8 container_6">
+                    <div class="questions grid grid_4_1200 grid_3_1024 grid_8_768 grid_6_320">
+                        <p>Any questions?</p>
+                        <h4><a href="">FAQ</a></h4>
+                        <h4><a href="">Help</a></h4>
+                        <div class="clear"></div>
+                    </div>
+                    <ul class="lan-cur grid_4_1200 grid_3_1024 grid_8_768 grid_6_320">
+                        <li>Language</li>
+                        <li>
+                            <select id="select-language">
+                                <option>English</option>
+                                <option>Spanish</option>
+                                <option>French</option>
+                            </select>
+                        </li>
+                        <li style="padding-left: 45px;">Currency</li>
+                        <li>
+                            <select id="select-currency">
+                                <option>EUR</option>
+                                <option>USD</option>
+                                <option>GBP</option>
+                            </select>				     
+                        </li>
+                    </ul>
+                     <ul class="social grid_4_1200 grid_4_1024 grid_8_768 grid_6_320">
+                         <li>
+                             <a href="">Instagram</a>
+                         </li>
+                         <li>
+                             <a href="">Google+</a>
+                         </li>
+                         <li>
+                             <a href="">Twitter</a>
+                        </li>                         
+                         <li>
+                             <a href="">Facebook</a>
+                         </li>                         
+                         <li>
+                             Stay Tunned On
+                         </li>                         
+                     </ul>
+                     <div class="clear"></div>
+                </div>
+            </div>
+        </footer>
+		<footer class="bottom">
+		    <div class="main-container">
+                <div class="down container_12 container_10 container_8 container_6">
+                    <ul class="legal grid_7_1200 grid_5_1024 grid_8_768 grid_6_320">
+                        <li>
+                            <a href="">About Shipwish</a>
+                        </li>
+                        <li>
+                            <a href="">Legals</a>
+                        </li>
+                        <li>
+                            <a href="">Terms & Conditions</a>
+                        </li>                        
+                    </ul>
+                    <span class="grid_5_1200 grid_5_1024 grid_8_768 grid_6_320">
+                        Copyright © Shipwish 2015. All rights & wrongs reserved.
+                    </span>
+                    <div class="clear"></div>
+                </div>
+            </div>
 		</footer>
-		<!-- END site-footer -->
 
 
 		<?php include('includes/collaborate-form.php'); ?>

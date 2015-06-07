@@ -63,10 +63,18 @@
 		<link rel="stylesheet" href="css/normalize.css" />
 
 		<!-- Grids -->
-		<link rel="stylesheet" media="all and (max-width:480px)" href="css/grid-320.css" />
-		<link rel="stylesheet" media="all and (min-width:481px)" href="css/grid-768.css" />
-		<link rel="stylesheet" media="all and (min-width:769px)" href="css/grid-1024.css" />
-		<link rel="stylesheet" media="all and (min-width:1025px)" href="css/grid-1200.css" />
+        <link rel="stylesheet" media="all and (min-width:1200px)" href="css/grid-1200.css" />
+        <link rel="stylesheet" media="all and (max-width:1199px)" href="css/grid-1024.css" />
+        <link rel="stylesheet" media="all and (max-width:1023px)" href="css/grid-768.css" />
+		<link rel="stylesheet" media="all and (max-width:568px)" href="css/grid-320.css" />
+		
+        <!-- 3rd party libraries -->
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        
+        <!-- Our libraries -->
+        <script src="js/shipwish-script.js"></script>
+        <script src="js/librerias/modernizr.js"></script>
 
 		<!-- Fonts -->
 		<link rel="stylesheet" href="css/fonts.css">
@@ -75,42 +83,47 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/mari.css">
 		<link rel="stylesheet" href="css/camilo.css">
-
+		
 		<?php if ($page == 'tour') { ?>
 			<link rel="stylesheet" href="css/c.css">
 		<?php } ?>
-
-		<!-- IE -->
-		<script src="js/librerias/modernizr.js"></script>
+		
+		<!-- TEST SCRIPTS -->
+        <script>
+            
+        </script>
 
 	</head>
 
 	<body>
 
-	<header class="container grid_12_1200 grid_10_1024 grid_8_768 grid_6_320">
-		<h1>
-			Shipwish
-		</h1>
-		<div class="user-tools">
-			<ul>
-				<li>
-					<a href="#" target="">
-						
-					</a>
-				</li>
-				<li>
-					<a href="#" target="">
-						
-					</a>
-				</li>
-				<li>
-					<a href="#" target="">
-						
-					</a>
-				</li>				
-			</ul>
+	<header>
+		<div class="main-container">
+		    <div class="container_12 container_10 container_8 container_6">
+                <h1 class="grid_2_1200 grid_2_1024 grid_2_768 grid_2_320">
+                    <a href="#"> Shipwish </a>
+                </h1>
+                <div class="user-tools grid_2_1200 grid_2_1024 grid_2_768 grid_2_320">
+                    <ul>
+                        <li>
+                            <a href="#" target="">
+                                1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="">
+                                2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="">
+                                3
+                            </a>
+                        </li>				
+                    </ul>
+                </div>		        
+		    </div>
 		</div>
-
 	</header>
 
 
