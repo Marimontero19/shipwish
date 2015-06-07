@@ -1,5 +1,7 @@
 /*CSS CAMILO*/
 
+
+
 /* HEADER 
 ----------------------------------------------------------------------------------------*/
 
@@ -257,7 +259,7 @@ footer {
     display: block;
 }
 
-.user-pic {
+.user-picture {
     width: 160px;
     height: 160px;
     border-radius: 50%;

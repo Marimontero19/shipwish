@@ -11,6 +11,10 @@
 ----------------------------------------------------------------------------------------------------*/
 .main-container {
   width: 1200px;
+    height: auto;
+  margin: 0 auto;
+  box-sizing: content-box;
+  background-color: white;
 }
 
 .container_12 {

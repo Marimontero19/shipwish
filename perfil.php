@@ -19,8 +19,8 @@ include('includes/header.php');
 				</a>
 				<div class="clear"></div>
 				<!-- user picture -->
-				<div class="user-pic">
-					<img src="" alt="" class="user-pic">
+				<div class="user-picture">
+					<a href="user-profile"><img src="img/users_pic/user_1_m.jpg" alt="user-1-m" class="user-pic"></a>
 				</div>
 				<!-- name -->
 				<h2>
