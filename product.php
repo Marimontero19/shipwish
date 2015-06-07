@@ -48,109 +48,65 @@ include('includes/header.php');
 						<li><button><span class="icon"><img src="" alt=""></span>Save to watchlist</button></li>
 					</ul>
 				</div>
-		<div class="clear"></div>
+			<div class="clear"></div>
 			</div>
 
 		</section>
 
 		<section id="detail-info-product">
 
-			<div id="description-product">
+			<div id="description-product" class="grid_6_1200">
 				<h3>Product Description</h3>
 				<p>Pecorino Romano is one of most widely used, sharper alternatives to Parmesan cheeses. In Italy I found it on sundays markets or in the supermarket, where its easier to find it in a vacuum package. The brand that I prefered the most is Locatelli.</p>
-				<ul class="product-dimensions">
-					<li><span class="icon"><img src="" alt=""></span>Medium</li>
-					<li><span class="icon"><img src="" alt=""></span>Food</li>
-					<li><span class="icon"><img src="" alt=""></span>Total amount of money:$20<br>Cost of the product: $7</li>
+				<ul>
+					<li>
+						<h4 class="icon-size">M</h4>
+						<h4>Medium</h4>
+					</li>
+
+					<li>
+						<h4><img class="icon-circle" src="" alt=""></h4>
+						<h4>Food</h4>
+					</li>
+
+					<li>
+						<h4><img class="icon-circle" src="" alt=""></h4>
+						<h4>Total amount of money:$20<br>Cost of the product: $7</h4>
+					</li>
 				</ul>
 			</div>
 
-			<div class="gallery">
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-			</div>
+			<!--<div class="gallery grid_6_1200 grid_6_1024 grid_4_768 grid_4_320">
+				
+				<div id="slides">
+					<div id="overflow">
+
+						<div class="inner">
+							<article><img src="img/product_pic/gallery_1.jpg" alt="Pecorino Cheese 1"></article>
+						</div>
+
+						<div class="inner">
+							<article><img src="img/product_pic/gallery_2.jpg" alt="Pecorino Cheese 2"></article>
+						</div>
+
+						<div class="inner">
+							<article><img src="img/product_pic/gallery_3.jpg" alt="Pecorino Cheese 3"></article>
+						</div>
+
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>-->
+
+		</div>
 
 		</section>
 
 		<section id="similar-wishes">
 
-		<!--Primer wish-->
-			<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320">
-				
-				<div style="padding: 3% 3% 3% 3%">
-					<div id="basic_info_home">
-						<ul>
-							<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-							<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						</ul>					
-					</div>
-
-					<div class="display_inline_block">
-
-						<div id="destination_home">
-							<p>From:</p><h4>Italy</h4>
-							<br>
-							<p>To:</p><h4>Dublin</h4>
-						</div>
-
-						<div id="details_home">
-							<p>Delivery:</p><h4>June 7th, 2015</h4>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</div>	
-				</div>	
-
-				<div class="button_look">
-					<a href="product_profile.php"><h4>Let's take a look</h4></a>
-				</div>
-
-			</div>
-
-		<!--Segundo wish-->
-
-			<div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320">
-				
-				<div style="padding: 3% 3% 3% 3%">
-					<div id="basic_info_home">
-						<ul>
-							<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_10_xs.jpg" alt="user_10"></a></li>
-							<li><h3 class="">Pecorino Romano Cheese</h3></li>
-						</ul>					
-					</div>
-
-					<div class="display_inline_block">
-
-						<div id="destination_home">
-							<p>From:</p><h4>Italy</h4>
-							<br>
-							<p>To:</p><h4>Dublin</h4>
-						</div>
-
-						<div id="details_home">
-							<p>Delivery:</p><h4>June 7th, 2015</h4>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</div>	
-				</div>	
-
-				<div class="button_look">
-					<a href="product_profile.php"><h4>Let's take a look</h4></a>
-				</div>
-
-			</div>
 
 
 		</section>
-</article>
-
+	
+	</article>
 </div>
