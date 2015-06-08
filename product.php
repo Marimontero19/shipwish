@@ -95,19 +95,19 @@ include('includes/header.php');
 						</ul>	
 					
 					</div>
-					<div class="clear"></div>
+					
 				</div>
 				<div class="clear"></div>
 			</div>
 
 			</section>
 
-			<section id="similar-wishes">
+			<section id="similar-wishes" class="">
 
 				<div class="autoplay">
 					
 					<!--Primer wish-->
-			
+
 			            <div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 
 			                <div style="padding: 3% 3% 3% 3%">

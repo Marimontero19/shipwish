@@ -406,16 +406,12 @@ button{
 
 #product-details{
 	float:left;
+	
 }
 
 #destination-product li{
 	display:inline-block;
-	margin-right: 25%;
-}
-
-#destination-product li{
-	display:inline-block;
-	margin-right: 25%;
+	margin-right:100px;
 }
 
 
