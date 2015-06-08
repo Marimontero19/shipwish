@@ -1,0 +1,81 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="js/flickity/flickity.css"/>
+
+
+<script type="text/javascript" src="js/flickity/flickity.pkgd.min.js"></script>
+
+	<style>
+	* {
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+
+	body { font-family: sans-serif; }
+
+	.gallery {
+	  background: #EEE;
+	}
+
+	/*.gallery-cell {
+	  width: 100%;
+	  height: 350px;
+	  margin-right: 10px;
+	 	background: #8C8;
+	  counter-increment: gallery-cell;
+	}*/
+
+
+	.gallery img {
+	  display: block;
+	  height: 200px;
+	}
+
+		@media screen and ( min-width: 768px ) {
+	  .gallery img {
+	    height: 400px;
+	  }
+	}
+
+	/* cell number 
+	.gallery-cell:before {
+	  display: block;
+	  text-align: center;
+	  content: counter(gallery-cell);
+	  line-height: 200px;
+	  font-size: 80px;
+	  color: white;
+	}*/
+
+
+	
+
+	body{
+	margin:0 auto;
+}
+
+	</style>
+</head>
+
+<body>
+
+
+<h1>Flickity - wrapAround</h1>
+
+<div id="content">
+
+
+	<!-- Flickity HTML init -->
+<div class="gallery js-flickity" data-flickity-options='{ "imagesLoaded": true, "percentPosition": false }'>
+  	<img src="img/product_pic/gallery_1.jpg" alt="bkj">
+ 	<img src="img/product_pic/gallery_2.jpg" alt="bkj">
+  	<img src="img/product_pic/gallery_3.jpg" alt="bkj">
+</div>
+
+</div>
+
+</body>
+
+</html>

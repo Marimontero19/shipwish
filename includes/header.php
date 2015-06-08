@@ -68,8 +68,10 @@
         <link rel="stylesheet" media="all and (max-width:1023px)" href="css/grid-768.css" />
 		<link rel="stylesheet" media="all and (max-width:568px)" href="css/grid-320.css" />
 
-		<!-- Carousel -->
-		<link rel="stylesheet" type="text/css" href="js/librerias/slick/slick.css"/>
+		<!-- Carousel 
+		<link rel="stylesheet" type="text/css" href="js/librerias/slick/slick.css"/>-->
+
+		<link rel="stylesheet" type="text/css" href="js/flickity/flickity.css"/>
 		
 
         <!-- 3rd party libraries -->

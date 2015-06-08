@@ -95,24 +95,18 @@
 		<script src="js/tizo.js">
     </script> -->
 
-		<!-- Carousel -->
+        <!-- Carousel Flickity-->
+
+        <script type="text/javascript" src="js/flickity/flickity.pkgd.min.js"></script>
+
+		<!-- Carousel Slick
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="js/librerias/slick/slick.min.js"></script>
-		<script src="js/librerias/slick/slick-settings.js"></script>
-
-            <script type="text/javascript">
-            
-            $('.autoplay').slick({
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 4000,
-            });
-                
-            </script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/slick-settings.js"></script>-->
 
 
-		<script>
+		<!--<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -121,7 +115,7 @@
 		  ga('create', 'UA-59417918-1', 'auto');
 		  ga('send', 'pageview');
 
-		</script>
+		</script>-->
 
 	</body>
 </html>

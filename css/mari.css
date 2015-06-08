@@ -380,12 +380,12 @@ button{
 }
 
 #basic-info-product{
-	background-color: #F5F6F6;
+	background-color: #F3F0F0;
 	box-sizing:border-box;
    -moz-box-sizing:border-box;
    -webkit-box-sizing:border-box;
    	border-radius: 10px;
-	border: 2px solid #E4DFDF;
+	border: 2px;
 	padding: 20px;
 	height: auto;
 
@@ -430,7 +430,7 @@ button{
 
 
 #actions{
-	margin-top: 20px;
+	margin-top: 10px;
 	float:right;
 }
 
@@ -484,14 +484,67 @@ button{
     background-color: gray;
 }
 
-	
+/*Slider de imagenes*/	
+
 #gallery{
 	float:left;
 }
 
-.collaborator-slider {
-  margin: 0 2rem;
+.gallery {
+	  background: #ffffff;
+	  border-radius: 10px;
 }
+
+.gallery img {
+	  display: block;
+	  height: 200px;
+	}
+
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: #00B2BE;
+}
+.flickity-prev-next-button:hover {
+  background: #F90;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+/* position outside */
+.flickity-prev-next-button.previous {
+  left: -40px;
+}
+.flickity-prev-next-button.next {
+  right: -40px;
+}
+
+
+@media screen and ( min-width: 768px ) {
+	  .gallery img {
+	    height: 300px;
+	  }
+	}
+
+.background-gray {
+	background-color: #F3F0F0;
+}
+
+.gallery-cell {
+  width: 50%;
+  height: 350px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+
 
 
 

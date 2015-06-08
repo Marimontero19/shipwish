@@ -7,6 +7,7 @@ include('includes/header.php');
 ?>
 
 <div class="main-container">
+
 	<div class="container_12 container_10 container_8 container_6 ">
 
 		<article class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
@@ -49,14 +50,14 @@ include('includes/header.php');
 							<li><button><span class="icon"><img src="" alt=""></span>Save to watchlist</button></li>
 						</ul>
 					</div>
-				<div class="clear"></div>
+					
+					<div class="clear"></div>
 				</div>
-
 			</section>
 
 			<section id="detail-info-product">
 
-				<div id="description-product" class="grid_6_1200">
+				<div id="description-product" class="grid_6_1200 grid_6_1024 grid_10_768 grid_6_320">
 					<h3>Product Description</h3>
 					<p>Pecorino Romano is one of most widely used, sharper alternatives to Parmesan cheeses. In Italy I found it on sundays markets or in the supermarket, where its easier to find it in a vacuum package. The brand that I prefered the most is Locatelli.</p>
 					<ul>
@@ -77,125 +78,30 @@ include('includes/header.php');
 					</ul>
 				</div>
 
-				<div class="gallery grid_6_1200 grid_6_1024 grid_4_768 grid_4_320">
-					
-					<div id="slides">
-						<ul>
-							<li>
-								<img src="img/product_pic/gallery_1.jpg" alt="Pecorino Cheese 1">
-							</li>
-
-							<!--<li>
-								<img src="img/product_pic/gallery_2.jpg" alt="Pecorino Cheese 2">
-							</li>
-
-							<li>
-								<img src="img/product_pic/gallery_3.jpg" alt="Pecorino Cheese 3">
-							</li>-->
-						</ul>	
-					
+				<div class="gallery grid_5_1200 grid_5_1024 grid_10_768 grid_6_320 push_1_1200">				
+					<div class="gallery js-flickity" data-flickity-options='{ "imagesLoaded": true, "percentPosition": false }'>
+  						<img src="img/product_pic/gallery_1.jpg" alt="Pecorino Cheese 1">
+ 						<img src="img/product_pic/gallery_2.jpg" alt="Pecorino Cheese 2">
+  						<img src="img/product_pic/gallery_3.jpg" alt="Pecorino Cheese 3">
 					</div>
-					
+					<div class="clear"></div>
 				</div>
-				<div class="clear"></div>
-			</div>
-
 			</section>
-
-			<section id="similar-wishes" class="">
-
-				<div class="autoplay">
-					
-					<!--Primer wish-->
-
-			            <div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
-
-			                <div style="padding: 3% 3% 3% 3%">
-			                    <div id="basic_info_home">
-			                        <ul>
-			                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-			                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
-			                        </ul>					
-			                    </div>
-
-			                    <div class="display_inline_block">
-
-			                        <div id="destination_home">
-			                            <p>From:</p><h4>Italy</h4>
-			                            <br>
-			                            <p>To:</p><h4>Dublin</h4>
-			                        </div>
-
-			                        <div id="details_home">
-			                            <p>Delivery:</p><h4>June 7th, 2015</h4>
-			                            <ul>
-			                                <li></li>
-			                                <li></li>
-			                                <li></li>
-			                            </ul>
-			                        </div>
-			                    </div>	
-			                </div>	
-
-			                <div class="button_look">
-			                    <a href="product_profile.php"><h4>Let's take a look</h4></a>
-			                </div>
-			            </div>
-
-			         <!--Segundo wish-->
-
-			         	  <div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
-
-			                <div style="padding: 3% 3% 3% 3%">
-			                    <div id="basic_info_home">
-			                        <ul>
-			                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-			                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
-			                        </ul>					
-			                    </div>
-
-			                    <div class="display_inline_block">
-
-			                        <div id="destination_home">
-			                            <p>From:</p><h4>Italy</h4>
-			                            <br>
-			                            <p>To:</p><h4>Dublin</h4>
-			                        </div>
-
-			                        <div id="details_home">
-			                            <p>Delivery:</p><h4>June 7th, 2015</h4>
-			                            <ul>
-			                                <li></li>
-			                                <li></li>
-			                                <li></li>
-			                            </ul>
-			                        </div>
-			                    </div>	
-			                </div>	
-
-			                <div class="button_look">
-			                    <a href="product_profile.php"><h4>Let's take a look</h4></a>
-			                </div>
-			            </div>
-
-			        <!--Tercer wish-->
-
-
-
-
-				    <div>your content</div>
-	    			<div>your content</div>
-	    			<div>your content</div>
-	    		</div>
-
-
-
-
-
-
-			</section>
-		
 		</article>
+<!--
+		<div class="background-gray container_12 container_10 container_8 container_6 ">
+			<section id="similar-wishes grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200" >
+				<h2>Similar wishes</h2>
+
+				<div class="gallery js-flickity" data-flickity-options='{ "contain": true }'>
+
+  					
+
+				</div>
+
+			</section>
+		</div>-->
+		
 	</div>
 </div>
 

@@ -1,0 +1,1 @@
+Escondi el translatex de javascript flickity.pkgd
