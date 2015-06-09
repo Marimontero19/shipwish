@@ -1,7 +1,14 @@
-$(document).ready(
+$(document).ready (
 
         //Selectable JqueryUI
         function() {
-            $("#select-language, #select-currency").selectmenu();
+            $(".select-jquery").selectmenu();
+        
+        });
+
+$(document).ready (
+    
+        //Datepicker JqueryUI
+          function() {
+            $(".datepicker").datepicker();
           });
-          

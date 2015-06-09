@@ -240,13 +240,14 @@ footer {
 
 .user-info {
     padding: 20px 0;
+    width: 90%;
 }
 
 .edit-profile-button {
     float: right;
     font-size: 0.9em;
     text-align: center;
-    margin: 0 20px 0;
+    margin: 20px 20px 0;
     cursor: pointer;
 }
 
@@ -343,9 +344,8 @@ footer {
 }
 
 .rating ul { 
-	width: 161px;
-	margin: 10px auto
-}
+	width: 164px;
+	margin: 10px auto}
 
 .rating ul li {
     display: inline-block;
@@ -406,10 +406,223 @@ footer {
 
 
 
+/* USER ACTIVITY */
+
+#user-detail-info {
+    padding: 20px 0;
+    margin: 80px 0 0 0;
+}
+
+.upcoming-wishes {
+    width:  100%;
+    
+}
+
+.title {
+    clear: both;
+    margin: 20px 0;
+    display: block;
+}
+
+.title span {
+    width:  40px;
+
+    height: 40px;
+    background-color:  gray;
+    float: left;
+    border-radius:  50%;
+    margin: 0 40px 0 0;
+}
+
+.title h2 {
+    line-height: 1.2;
+    text-align: left;
+}
+
+.title h3 {
+  margin: 0 0 0 80px;
+}
+
+.backward-forward {
+    clear:  both;
+
+    width:  100%;
+    height: 25px;
+    margin:  20px 0;
+}
+
+.backward-forward span {
+    float: right;
+
+    display: inline-flex;
+    width:  20px;
+    height:  20px;
+    margin:  0 0 0 10px;
+    cursor: pointer;
+}
+
+.bw {
+    background-color: gray;
+
+}
+
+.fw {
+    background-color:  gray;
+
+}
+
+/* REVIEW INFORMATION */
+
+.review {
+    width: 46%;
+    float:  left;
+    margin: 20px 2%;
+}
+
+.review h3 {
+    text-align: center;   margin-bottom: 10px;
+}
+
+.review-date {
+    width:  100%;
+    text-align: center;
+    font-size: 0.9em;
+    line-height:  1;
+}
+
+#user-detail-info {
+}
+
+
+/* EDIT PROFILE */
 
 #user-customize-profile {
-     display: none;   
+
 }
+
+.finish-editing-profile {
+    -webkit-appearance: none !important;
+  border: none;
+  height: 60px;
+  width: 100%;
+  background: gray;
+  text-align: left;
+  padding: 0 0 0 50px;    
+}
+
+.personal-info {
+    margin: 40px 0;
+}
+
+.personal-info form {
+  margin: 60px 0;
+}
+
+.user-info-edit {
+    
+}
+
+.small-pic-container {
+    float:left;
+}
+
+.small-pic-container img {
+
+}
+
+.unseen {
+    display: none;
+}
+
+.user-info-edit label {
+
+}
+
+.user-info-edit input[type='text'] {
+    width: auto;
+    appareance: none;
+    border: none;
+    background-color: transparent;
+    line-height: 1.5;
+    width: 82%;
+    padding:0;
+    float: left;
+}
+
+.edit-name {
+    font-size: 2.250em;
+    margin: 0 0 0 20px;
+}
+
+.wide-set {
+    margin: 10px 0 20px 20px;
+    display: inline-block;
+}
+
+.user-info-edit fieldset {
+    border: none;
+    padding: none;
+    margin: 0;
+    width: 100%;
+}
+
+.set {
+    width: 50%;
+    margin: 40px 0;
+    float: left;
+}
+
+.set label {
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: block;
+}
+
+.edit-birthday {
+    font-size: 1.5em;   
+}
+
+.radio {
+    display: inline-block !important;
+    float: left;
+    width: auto !important;
+    margin: 0 20px 0 0 !important;
+    line-height: 1.4;
+}
+
+.user-info-edit input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ie-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 0 10px 0 0;
+    float: left;
+    
+}
+
+.user-info-edit input[type='radio']:checked {
+    background-color: gray;
+    border: 1px solid gray;       
+}
+
+.user-info-edit textarea {
+      border: none;
+      resize: vertical;
+      background-color: transparent;
+      width: 100%;
+        height: 80px;
+      box-sizing: content-box;
+      padding: 10px;
+      margin: 20px 0 80px 0;
+}
+
+
+
 
 
 @media all and (max-width:1023px) {
@@ -424,14 +637,6 @@ footer {
        }
     
 }
-
-
-
-@media all and (max-width:568px) {
-
-}
-
-
 
 
 

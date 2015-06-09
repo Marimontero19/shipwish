@@ -13,7 +13,7 @@
                     <ul class="lan-cur grid_4_1200 grid_3_1024 grid_8_768 grid_6_320">
                         <li>Language</li>
                         <li>
-                            <select id="select-language">
+                            <select class="select-jquery">
                                 <option>English</option>
                                 <option>Spanish</option>
                                 <option>French</option>
@@ -21,7 +21,7 @@
                         </li>
                         <li style="padding-left: 45px;">Currency</li>
                         <li>
-                            <select id="select-currency">
+                            <select class="select-jquery">
                                 <option>EUR</option>
                                 <option>USD</option>
                                 <option>GBP</option>
