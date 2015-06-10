@@ -87,23 +87,22 @@ include('includes/header.php');
 					<div class="clear"></div>
 				</div>
 			</section>
-		</article>
-<!--
-		<div class="background-gray container_12 container_10 container_8 container_6 ">
-			<section id="similar-wishes grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200" >
-				<h2>Similar wishes</h2>
-
-				<div class="gallery js-flickity" data-flickity-options='{ "contain": true }'>
-
-  					
-
-				</div>
-
-			</section>
-		</div>-->
-		
+		</article>		
 	</div>
 </div>
+		<div class="background-gray" style="width:100%;background-color:blue;">
+			<div class="main-container">
+				<div class="container_12 container_10 container_8 container_6 ">		
+					<section id="similar-wishes" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320" >
+						<h2>Similar wishes</h2>
+
+					
+
+
+					</section>
+				</div>
+			</div>
+		</div>
 
 
 <?php

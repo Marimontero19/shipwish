@@ -34,7 +34,7 @@ include('includes/header.php');
 			<div id="filters">
 
 					<select id="filter_date" class="">
-						<!--<p>Date: <input type="text" id="datepicker"></p>-->       
+						<label><input type="text" class="datepicker"></label>     
 			    	</select> 
 
 			
