@@ -372,7 +372,7 @@ button{
 /*************** product.php ***************/
 
 #product-main-info{
-	margin-top: 100px ;
+	margin-top: 80px ;
 }
 
 #product-main-info .title h2{
@@ -386,7 +386,7 @@ button{
    -webkit-box-sizing:border-box;
    	border-radius: 10px;
 	border: 2px;
-	padding: 20px;
+	padding: 40px;
 	height: auto;
 
 }
@@ -395,7 +395,7 @@ button{
 	float:left;
 }
 
-#user-profile-info-product h4{
+#user-profile-info-product h3{
 	color:#00B2BE;
 }
 
@@ -411,7 +411,11 @@ button{
 
 #destination-product li{
 	display:inline-block;
-	margin-right:100px;
+	margin-right:250px;
+}
+
+#destination-product li:nth-child(2){
+	margin-right:0px;
 }
 
 
@@ -437,7 +441,12 @@ button{
 #actions button{
 	margin-bottom: 5px;
 	margin-top: 5px;
+}
 
+.link{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	text-align: center;
 }
 
 #detail-info-product{
@@ -526,23 +535,121 @@ button{
 }
 
 
-@media screen and ( min-width: 768px ) {
+/*@media screen and ( min-width: 768px ) {
 	  .gallery img {
 	    height: 300px;
 	  }
-	}
+	}*/
 
 .background-gray {
-	background-color: #F3F0F0;
+	width:100%;
+	background-color:blue;
 }
 
-.gallery-cell {
-  width: 50%;
-  height: 350px;
-  margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
+#similar-wishes{
+	margin-bottom: 40px;
 }
+
+#similar-wishes h2{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/*Media queries product page*/
+
+/*Mobile*/
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+		    	
+		#product-main-info {
+		  margin-top: 25px;
+		}
+
+
+		#product-main-info .title h2 {
+		  font-size:24px;
+		  text-align: center;
+		}
+
+		#basic-info-product {
+		  background-color: #F3F0F0;
+		  border-radius: 0px;
+		  border: 0px;
+		  width: 100%;
+		  padding: 20px;
+		  height: auto;
+		}
+
+		#user-profile-info-product img{
+			display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+		}
+
+		#user-profile-info-product h3{
+			text-align: center;
+		}
+
+		#product-details{
+			margin-left: 40px;
+		}
+
+		#destination-product li{
+			display:inline-block;
+			margin-right:120px;
+		}
+
+		#actions button{
+	  		width: 100%;
+	  		float:left;
+
+		}
+
+		#user-profile-info-product{
+			float:none;
+		}
+
+
+		.flickity-prev-next-button {
+			 display:none;
+		}
+
+
+}
+
+/*768 o 847*/
+@media only screen and (min-width : 480px) and (max-width : 660px) {
+   
+		#destination-product li{
+		display:inline-block;
+		margin-right:100px;
+	}
+
+}
+
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+   
+	#destination-product li{
+		display:inline-block;
+		margin-right:150px;
+	}
+
+
+}
+
+
+/*Tablet*/
+@media only screen and (min-width : 870px) and (max-width : 1024px) {
+   
+	#destination-product li{
+		display:inline-block;
+		margin-right:200px;
+	}
+
+
+}
+
+
+
 
 
 
