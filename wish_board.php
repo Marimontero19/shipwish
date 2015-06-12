@@ -33,7 +33,7 @@ include('includes/header.php');
             <div id="filters">
 
                     <select id="filter_date" class="">
-                        <!--<p>Date: <input type="text" id="datepicker"></p>-->       
+                        <label><input type="text" class="datepicker"></label>    
                     </select> 
 
 
@@ -447,6 +447,16 @@ include('includes/header.php');
         </div>
     </div>
 </div>
+
+<!--Footer-->
+<?php
+
+$page = 'product'; //Por ejemplo 'home', 'userprofile', etc
+
+include('includes/footer.php');
+
+?>
+
 
 
 

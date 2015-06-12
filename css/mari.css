@@ -703,9 +703,147 @@ button{
 
 }
 
+/*************** Create_wish.php ***************/
+
+.create_wish{
+	
+}
+
+#first_step{
+	margin-top:50px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+
+.titles_create_wish{
+	font-weight: 400;
+	color:#737373;
+	font-family:'AndesRounded-Book';
+}
 
 
+#first_step input{
+	width: 90%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 25px;
+  	padding: 10px;
+  	border-radius: 5px;
+  	border: 1px solid #737373; 
+}
 
+.form_button{
+	float:right;
+	background-color:#00B2BE;
+	border:0;
+	border-radius: 5px;
+	width: 150px;
+	height: 40px;
+}
+
+#second_step{
+	margin-top:50px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+
+#wish-category li{
+    margin:4px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+}
+
+#wish-category input {
+   margin-right:100px;
+}
+
+#wish-category li:hover {
+    background:red;
+}
+#wish-category li {
+    float:left;
+    width:4.0em;
+}
+
+#wish-category li span {
+    text-align:center;
+    padding:3px 0px;
+   display:block;
+}
+
+#wish-category li input {
+    position:absolute;
+    top:-20px;
+}
+
+#wish-category li input:checked + span {
+    background-color:#911;
+    color:#fff;
+}
+
+#third_step{
+	margin-top:50px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+
+/*************** Progress bar ***************/
+
+#progressbar{
+	margin-top:50px;
+	margin-bottom:50px;
+
+}
+
+#progressbar li {
+	list-style-type: none;
+	font-family: 'AndesRounded-Book';
+	color: #737373;
+	font-size: 14px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+	text-align: center;
+	}
+
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 40px;
+	line-height: 40px;
+	display: block;
+	font-size: 20px;
+	color:#ffffff;
+	background: #0E777F;
+	border-radius: 50%;
+	margin: 0 auto 5px auto;
+	}
+
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #0E777F;
+	position: absolute;
+	left: -50%;
+	top: 20px;
+	z-index: -1; /*put it behind the numbers*/
+	}
+
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none;
+	}
+	/*marking active/completed steps green*/
+	/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+	background: #F9A41A;;
+	color: white;
+	}
 
 
 

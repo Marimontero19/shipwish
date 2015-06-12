@@ -168,7 +168,7 @@ include('includes/header.php');
             			</div>
 
 		               <div class="center grid_12_1200">
-		                	<button><a href="create_trip.php" alt="Create Trip">See more wishes</a></button>
+		                	<button><a href="wish_board.php" alt="Wish Board">See more wishes</a></button>
 		             	</div>
 					
 					</section>

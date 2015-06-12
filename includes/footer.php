@@ -71,6 +71,23 @@
             </div>
 		</footer>
 
+        <script
+
+        <!-- Carousel Flickity-->
+
+        <script type="text/javascript" src="js/flickity/flickity.pkgd.min.js"></script>
+
+
+        <!-- Jquery multipage form -->
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+         <script type="text/javascript" src="js/jquery/jquery-1.9.1.min.js"></script>
+         <script type="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
+         <script src="js/multistep_form.js"></script>
+
+
+    </body>
+</html>
+
     <!-- <script>
 		<?php include('includes/collaborate-form.php'); ?>
 		<?php include('includes/follow-project.php'); ?>
@@ -93,13 +110,9 @@
 		</script>
 
 		<script src="js/tizo.js">
-    </script> -->
+    </script>-->
 
-        <!-- Carousel Flickity-->
-
-        <script type="text/javascript" src="js/flickity/flickity.pkgd.min.js"></script>
-
-		<!-- Carousel Slick
+		<!--Carousel Slick
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="js/librerias/slick/slick.min.js"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -116,6 +129,3 @@
 		  ga('send', 'pageview');
 
 		</script>-->
-
-	</body>
-</html>
