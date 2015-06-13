@@ -15,30 +15,30 @@ include('includes/header.php');
 
 			<form id="msform" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
 				<!-- progressbar -->
-				<ul id="progressbar" class="grid_8_1200 grid_8_1024 grid_6_768 grid_6_320 push_2_1200 push_2_1024 push_1_768">
+				<ul id="progressbar" class="grid_8_1200 grid_8_1024 grid_6_768 grid_5_320 push_2_1200 push_1_1024 push_1_768">
 					<li class="active">Wish</li>
 					<li>Details</li>
 					<li>Delivery</li>
 				</ul>
 				<!-- fieldsets -->
-					<fieldset id="first_step" class="grid_4_1200 grid_4_1024 grid_4_768 grid_6_320 push_4_1200">
-						<label style="border:none" for="wish"><h1 class="titles_create_wish">What do you crave for?</h1></label>
+					<fieldset id="first_step" class="grid_4_1200 grid_4_1024 grid_4_768 grid_5_320 push_4_1200 push_3_1024">
+						<label for="wish"><h1 class="titles_create_wish">What do you crave for?</h1></label>
 						<input type="text" name="wish" id="wish" placeholder="Ex:A basket of sweet plantains"/>
 						<input type="button" name="next" class="form_button next action-button" value="Next" />
 					</fieldset>
 
-					<fieldset id="second_step" class="grid_6_1200 grid_6_1024 grid_4_768 grid_6_320 push_2_1200">
+					<fieldset id="second_step" class="grid_6_1200 grid_6_1024 grid_4_768 grid_6_320">
 							
 							<div id="wish-category">
 								<label for="product"><h1 class="titles_create_wish">What’s the product about?</h1></label>
 
 								<ul class="">
-									<li><input type="checkbox" name="product" id="product" value="Food"/><span>Food</span></li>
-									<li><input type="checkbox" name="product" id="product" value="Fashion"/><span>Fashion</span></li>
-									<li><input type="checkbox" name="product" id="product" value="Electronics"/><span>Electronics</span></li>
-									<li><input type="checkbox" name="product" id="product" value="Home"/><span>Home</span></li>
-									<li><input type="checkbox" name="product" id="product" value="Documents&Books"/><span>Documents&Books</span></li>
-									<li><input type="checkbox" name="product" id="product" value="Other"/><span>Other</span></li>
+									<li><input type="checkbox" name="product" id="product" value="Food"/><label>Food</label></li>
+									<li><input type="checkbox" name="product" id="product" value="Fashion"/><label>Fashion</label></li>
+									<li><input type="checkbox" name="product" id="product" value="Electronics"/><label>Electronics</label></li>
+									<li><input type="checkbox" name="product" id="product" value="Home"/><label>Home</label></li>
+									<li><input type="checkbox" name="product" id="product" value="Documents&Books"/><label>Documents&Books</label></li>
+									<li><input type="checkbox" name="product" id="product" value="Other"/><label>Other</label></li>
 								</ul>
 							</div>
 
