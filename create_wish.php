@@ -63,29 +63,29 @@ include('includes/header.php');
 							<div id="wish-size">
 								<label for="size"><h1 class="titles_create_wish">Size</h1></label>
 
-								<ul class="ui-buttonset" id="radio">
+								<ul id="radio_button_size">
 									<li>
-										<input type="radio" name="radio" id="radio1" class="ui-helper-hidden-accessible" value="XS"/>
-										<label for="radio1" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left" role="button">XS</label>
+										<input type="radio" name="radio" id="radio1"  value="XS"/>
+										<label for="radio1"  role="button">XS</label>
 									</li>
 
 									<li>
-										<input type="radio" name="radio" id="radio2" class="ui-helper-hidden-accessible" value="S"/>
+										<input type="radio" name="radio" id="radio2" value="S"/>
 										<label for="radio2" role="button">S</label>
 									</li>
 
 									<li>
-										<input type="radio" name="radio" id="radio3" class="ui-helper-hidden-accessible" value="M"/>
+										<input type="radio" name="radio" id="radio3" value="M"/>
 										<label for="radio3" role="button">M</label>
 									</li>
 
 									<li>
-										<input type="radio" name="radio" id="radio4" class="ui-helper-hidden-accessible" value="L"/>
+										<input type="radio" name="radio" id="radio4"  value="L"/>
 										<label for="radio4" role="button">L</label>
 									</li>
 
 									<li>
-										<input type="radio" name="radio" id="radio5" class="ui-helper-hidden-accessible" value="XL"/>
+										<input type="radio" name="radio" id="radio5" value="XL"/>
 										<label for="radio5" role="button">XL</label>
 									</li>
 								</ul>

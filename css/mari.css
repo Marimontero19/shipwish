@@ -777,44 +777,28 @@ button{
 	text-align: center;
 }
 
-.ui-buttonset {
-  margin-right: 7px;
+#radio_button_size li{
+	display:inline;
 }
 
-.ui-helper-hidden-accessible {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
+#radio_button_size .user-info-edit input[type='radio']:checked {
+  background-color: #00B2BE;
+  border: 1px #00B2BE;
+  color: #ffffff;
 }
 
-.ui-buttonset .ui-button {
-  margin-left: 0;
-  margin-right: -.3em;
-}
-
-.ui-corner-left, .ui-corner-bl {
-  border-bottom-left-radius: 4px;
-}
-
-.ui-corner-left, .ui-corner-tl {
-  border-top-left-radius: 4px;
-}
-
-.ui-state-default {
-  border: 1px solid #d3d3d3;
-  background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
-  font-weight: normal;
-  color: #555555;
-}
-
-.ui-widget {
-  font-family: Verdana,Arial,sans-serif;
-  font-size: 1.1em;
+#radio_button_size .user-info-edit input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ie-appearance: none;
+  /*width: 20px;
+  height: 20px;*/
+  border-radius: 4px;
+  border: 1px solid #00B2BE;
+  background-color: white;
+  margin: 0 10px 0 0;
+  float: left;
 }
 
 
