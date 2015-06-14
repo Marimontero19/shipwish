@@ -1,7 +1,6 @@
 /*CSS CAMILO*/
 
 
-
 /* HEADER 
 ----------------------------------------------------------------------------------------*/
 
@@ -83,6 +82,8 @@ footer {
     color: white;
     background-color: #00B2BE;
     padding: 40px 0;
+    width: 100%;
+    margin: 0;
 }
 
 .down {
@@ -91,6 +92,8 @@ footer {
     color: white;
     background-color: #0E777F;  
     padding: 20px 0;
+    width: 100%;
+    margin: 0;
 }
 
 /* FAQ & HELP */
@@ -236,6 +239,7 @@ footer {
 
 .user-general-info {
     background-color: white;
+    padding-bottom: 100%;
 }
 
 .user-info {
@@ -378,7 +382,7 @@ footer {
 }
 
 .verification ul {
-    width: 80%;
+    width: 85%;
     margin: 20px auto;
 }
 
@@ -397,10 +401,10 @@ footer {
 
 
 .verification ul li a {
-    font-size: 0.95em;
+    font-size: 0.85em;
     text-align: center;
-	margin: 0 auto;
-    display: flex;
+    margin: 0 auto;
+      display: inline-table;
 }
 
 
@@ -410,7 +414,7 @@ footer {
 
 #user-detail-info {
     padding: 20px 0;
-    margin: 80px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 .upcoming-wishes {
@@ -474,18 +478,68 @@ footer {
 /* REVIEW INFORMATION */
 
 .review {
-    width: 46%;
-    float:  left;
-    margin: 20px 2%;
+  width: 48%;
+  float: left;
+  margin: 20px 2% 20px 0;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 250px;
+ 
+}
+
+.user-pic-review {
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
 }
 
 .review h3 {
-    text-align: center;   margin-bottom: 10px;
+    text-align: left;
+    float: left;
+    margin: 20px;
+}
+
+.rating-review {
+  margin: 0px 0 20px 20px;
+  display: inline-block;
+    
+}
+
+.rating-review p {
+    text-transform: uppercase;
+  text-align: left;
+  float: left;
+  line-height: 1.5;
+}
+
+.rating-review ul {
+  display: inline-block;
+  float: left;
+  margin: 0 10px;
+}
+
+.rating-review ul li {
+    display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 2px;
+  border-radius: 50%;
+  background-color: #FEEDD1;
+}
+
+.description-review {
+    font-size: 0.95em;
+  text-align: left;
+  width: 85%;
+  /* margin: 0 auto; */
+  line-height: 1.4;
 }
 
 .review-date {
     width:  100%;
-    text-align: center;
+    text-align: left;
     font-size: 0.9em;
     line-height:  1;
 }
@@ -618,15 +672,52 @@ footer {
         height: 80px;
       box-sizing: content-box;
       padding: 10px;
-      margin: 20px 0 80px 0;
+        margin: 20px 0 20px 0;
 }
 
+.Verification-data ul {
+  display: inline-block;
+}
 
+.Verification-data ul li {
+  float: left;
+  width: 50%;
+  margin: 20px 0 0;
+}
 
+.Verification-data h3 {
+  margin: 20px 0;
+  float: left;
+}
 
+.Verification-data a {
+  width: 20px;
+  height: 20px;
+  float: left;
+  display: inline-block;
+  background-color: gray;
+  margin: 16px;
+  border-radius: 50%;
+}
+
+.Verification-data input {
+  width: 95%;
+  height: 40px;
+  border: none;
+  margin: 20px 0 0;
+  border-radius: 6px;
+
+}
+
+@media all and (min-width:1200px) {
+    
+}
+
+@media all and (max-width:1199px) {
+    
+}
 
 @media all and (max-width:1023px) {
-    
        .lan-cur {
            margin: 0 auto;
        }
@@ -634,9 +725,29 @@ footer {
         .social {
            margin: 0 auto;
                
-       }
+       } 
+
+        .user-info {
+        padding: 20px 0;
+        width: 100%;
+    }
+    
+    .verification ul li a { 
+        display: block;
+    }
+    
+    .user-general-info {
+         padding-bottom:0;   
+    }
     
 }
+
+@media all and (max-width:568px) {
+        
+
+}
+
+
 
 
 

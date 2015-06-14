@@ -19,7 +19,7 @@ include('includes/header.php');
         ?>
 
 		<!-- USER COMPLEMENTARY COLUMN -->
-		<section id="user-detail-info" class="grid_7_1200 grid_7_1024 grid_8_768 grid_6_320">
+		<section id="user-detail-info" class="grid_7_1200 push_1_1200 grid_6_1024 push_1_1024 grid_8_768 grid_6_320">
 			<!-- upcoming wishes -->
 			<div class="upcoming-wishes">
 				<div class="title">
@@ -33,9 +33,125 @@ include('includes/header.php');
 				</div>
 				<!-- cards-->
 				<div id="create_wisher_card"></div>
-				<div id="wisher_card"></div>
-				<div id="wisher_card"></div>
-				<div id="wisher_card"></div>
+
+                
+            <!--Primer wish-->
+            <div id="wisher_card" class="grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
+
+                <div style="padding: 3% 3% 3% 3%">
+                    <div id="basic_info_home">
+                        <ul>
+                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
+                            <!--<li><p>*3</p></li>-->
+                        </ul>					
+                    </div>
+
+                    <div class="display_inline_block">
+
+                        <div id="destination_home">
+                            <p>From:</p><h4>Italy</h4>
+                            <br>
+                            <p>To:</p><h4>Dublin</h4>
+                        </div>
+
+                        <div id="details_home">
+                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>	
+                </div>	
+
+                <div class="button_look">
+                    <a href="product_profile.php"><h4>Let's take a look</h4></a>
+                </div>
+
+            </div>
+               
+               
+            <!--Primer wish-->
+            <div id="wisher_card" class="grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
+
+                <div style="padding: 3% 3% 3% 3%">
+                    <div id="basic_info_home">
+                        <ul>
+                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
+                            <!--<li><p>*3</p></li>-->
+                        </ul>					
+                    </div>
+
+                    <div class="display_inline_block">
+
+                        <div id="destination_home">
+                            <p>From:</p><h4>Italy</h4>
+                            <br>
+                            <p>To:</p><h4>Dublin</h4>
+                        </div>
+
+                        <div id="details_home">
+                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>	
+                </div>	
+
+                <div class="button_look">
+                    <a href="product_profile.php"><h4>Let's take a look</h4></a>
+                </div>
+
+            </div>
+               
+            <!--Primer wish-->
+            <div id="wisher_card" class="grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
+
+                <div style="padding: 3% 3% 3% 3%">
+                    <div id="basic_info_home">
+                        <ul>
+                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
+                            <!--<li><p>*3</p></li>-->
+                        </ul>					
+                    </div>
+
+                    <div class="display_inline_block">
+
+                        <div id="destination_home">
+                            <p>From:</p><h4>Italy</h4>
+                            <br>
+                            <p>To:</p><h4>Dublin</h4>
+                        </div>
+
+                        <div id="details_home">
+                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>	
+                </div>	
+
+                <div class="button_look">
+                    <a href="product_profile.php"><h4>Let's take a look</h4></a>
+                </div>
+
+            </div>
+                
+                
+                
+                
+                
+            <div class="clear"></div>    
 			</div>
 			<!-- upcoming trips -->
 			<div class="upcoming-trips">
@@ -50,14 +166,59 @@ include('includes/header.php');
 				</div>
 				<!-- cards-->
 				<div id="create_trip_card"></div>
-				<div id="wisher_card"></div>
-				<div id="wisher_card"></div>
+				
+				
+				
+				            <!--Primer wish-->
+            <div id="wisher_card" class="grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
+
+                <div style="padding: 3% 3% 3% 3%">
+                    <div id="basic_info_home">
+                        <ul>
+                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
+                            <!--<li><p>*3</p></li>-->
+                        </ul>					
+                    </div>
+
+                    <div class="display_inline_block">
+
+                        <div id="destination_home">
+                            <p>From:</p><h4>Italy</h4>
+                            <br>
+                            <p>To:</p><h4>Dublin</h4>
+                        </div>
+
+                        <div id="details_home">
+                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>	
+                </div>	
+
+                <div class="button_look">
+                    <a href="product_profile.php"><h4>Let's take a look</h4></a>
+                </div>
+
+            </div>
+				
+				
+				
+				
+				
+				
+				
+            <div class="clear"></div>				
 			</div>
 			<!-- reviews -->
 			<div class="upcoming-trips">
 				<div class="title">
 					<span></span>
-					<h2>23|Revies</h2>
+					<h2>23|Reviews</h2>
 				</div>
 				<!-- backward/forward-->
 				<div class="backward-forward">
@@ -68,19 +229,15 @@ include('includes/header.php');
 				<!-- 1 -->
 				<div class="review">
 					<!-- user picture -->
-					<div>
-						<img src="" alt="" class="user-pic">
-					</div>
+                    <div>
+                        <a href="user-profile"><img src="img/users_pic/user_1_xs.jpg" alt="user-1-m" class="user-pic-review"></a>
+                    </div>
 					<!-- name -->
 					<h3>
 						Kimberly Ray
 					</h3>			
-					<!-- date -->
-					<div class="review-date">
-						dd/mm/aaaa
-					</div>
 					<!-- rating -->
-					<div class="rating">
+					<div class="rating-review">
 						<p>Rating</p>
 						<ul>
 							<li></li>
@@ -91,26 +248,27 @@ include('includes/header.php');
 						</ul>
 					</div>
 					<!-- description -->
-					<p class="description">
+					<p class="description-review">
 						In the tumultuous business of cutting-in and attending to a whale, there is much running backwards and forwards among the crew. Now hands are wanted here, and then again hands are wanted there. almost entirely.
-					</p>		
+					</p>
+                    <!-- date -->
+					<div class="review-date">
+						dd/mm/aaaa
+					</div>
+					<div class="clear"></div>		
 				</div>
 				<!-- 2 -->
 				<div class="review">
 					<!-- user picture -->
-					<div>
-						<img src="" alt="" class="user-pic">
-					</div>
+                    <div>
+                        <a href="user-profile"><img src="img/users_pic/user_1_xs.jpg" alt="user-1-m" class="user-pic-review"></a>
+                    </div>
 					<!-- name -->
 					<h3>
 						Bobby Coleman
 					</h3>			
-					<!-- date -->
-					<div class="review-date">
-						dd/mm/aaaa
-					</div>
 					<!-- rating -->
-					<div class="rating">
+					<div class="rating-review">
 						<p>Rating</p>
 						<ul>
 							<li></li>
@@ -121,26 +279,27 @@ include('includes/header.php');
 						</ul>
 					</div>
 					<!-- description -->
-					<p class="description">
-						In the tumultuous business of cutting-in and attending to a whale, there is much running backwards and forwards among the crew. Now hands are wanted here, and then again hands are wanted there. almost entirely.
-					</p>		
+					<p class="description-review">
+						Much running backwards and forwards among the crew. Now hands are wanted here, and then again hands are wanted there. almost entirely.
+					</p>
+					<!-- date -->
+					<div class="review-date">
+						dd/mm/aaaa
+					</div>	
+					<div class="clear"></div>						
 				</div>
 				<!-- 3 -->
 				<div class="review">
 					<!-- user picture -->
-					<div>
-						<img src="" alt="" class="user-pic">
-					</div>
+                    <div>
+                        <a href="user-profile"><img src="img/users_pic/user_1_xs.jpg" alt="user-1-m" class="user-pic-review"></a>
+                    </div>
 					<!-- name -->
 					<h3>
 						Diana Johnston
 					</h3>			
-					<!-- date -->
-					<div class="review-date">
-						dd/mm/aaaa
-					</div>
 					<!-- rating -->
-					<div class="rating">
+					<div class="rating-review">
 						<p>Rating</p>
 						<ul>
 							<li></li>
@@ -151,11 +310,47 @@ include('includes/header.php');
 						</ul>
 					</div>
 					<!-- description -->
-					<p class="description">
-						In the tumultuous business of cutting-in and attending to a whale, there is much running backwards and forwards among the crew. Now hands are wanted here, and then again hands are wanted there. almost entirely.
-					</p>		
-				</div>					
+					<p class="description-review">
+						In the tumultuous business of cutting-in and attending to a whale.
+					</p>
+					<!-- date -->
+					<div class="review-date">
+						dd/mm/aaaa
+					</div>
+					<div class="clear"></div>						
+				</div>
+				<!-- 4 -->
+				<div class="review">
+					<!-- user picture -->
+                    <div>
+                        <a href="user-profile"><img src="img/users_pic/user_1_xs.jpg" alt="user-1-m" class="user-pic-review"></a>
+                    </div>
+					<!-- name -->
+					<h3>
+						Diana Johnston
+					</h3>			
+					<!-- rating -->
+					<div class="rating-review">
+						<p>Rating</p>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<!-- description -->
+					<p class="description-review">
+					</p>
+					<!-- date -->
+					<div class="review-date">
+						dd/mm/aaaa
+					</div>
+					<div class="clear"></div>						
+				</div>									
 			</div>
+			<div class="clear"></div>
 		</section>
 
 	</div>

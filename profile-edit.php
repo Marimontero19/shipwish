@@ -19,10 +19,10 @@ include('includes/header.php');
         ?>
         
         <!-- Finish editing -->
-        <input type="button" class="finish-editing-profile grid_7_1200 grid_7_1024 grid_8_768 grid_6_320" name="finish-editing" value="finish editing profile" onclick="location.href='profile-public.php'">
+        <input type="button" class="finish-editing-profile grid_8_1200 grid_7_1024 grid_8_768 grid_6_320" name="finish-editing" value="finish editing profile" onclick="location.href='profile-public.php'">
 
 		<!-- CUSTOM PROFILE -->
-		<section id="user-customize-profile" class="grid_7_1200 grid_7_1024 grid_8_768 grid_6_320">
+		<section id="user-customize-profile" class="grid_7_1200 push_1_1200 grid_6_1024 push_1_1024 grid_8_768 grid_6_320">
 			<div class="personal-info">
 				<!-- Personal info -->
 				<div class="title">
@@ -72,21 +72,36 @@ include('includes/header.php');
 								<h2>Verification</h2>
 								<h3>Verifying your information will help other trust you</h3>
 							</div>
-					</div>
-					<label for="">E-mail</label>
-					<input type="email" name="user-mail">
-					<label for="">Phone number</label>
-					<label for="" class="unseen">Zone code</label>
-					<input type="number" name="user-zone-code" size="2">
-					<input type="number" name="user-phone" size="9">
-					<label for="">Credit card</label>
-					<input type="number" name="user-card" size="16">
-					<label for="">Facebook</label>
-					<input type="button" name="facebook-connect" value="Connect with facebook">
-					<label for="">Twitter</label>
-					<input type="button" name="twitter-connect" value="Connect with twitter">			
-					<label for="">Google+</label>
-					<input type="button" name="google-connect" value="Connect with google">
+					<ul>
+                        <li>
+                            <h4>E-mail</h4>
+                            <h3> nombre.apellido@gmail.com</h3>
+                            <a class="verified"></a>
+                        </li>
+                        <li>
+                            <h4>Phone number</h4>
+                            <h3>+34 000 000 000</h3>
+                            <a class="ask"></a>
+                        </li>
+                        <li>
+                            <h4>Credit card</h4>
+                            <h3>xxxx xxxx xxxx0034</h3>
+                            <a class="verified"></a>
+                        </li>
+                        <li>
+                            <h4>Facebook</h4>
+                            <input type="button" name="facebook-connect" value="Connect with facebook">
+                        </li>
+                        <li>
+                            <h4>Twitter</h4>
+                            <input type="button" name="twitter-connect" value="Connect with twitter">
+                        </li>
+                        <li>
+                            <h4>Google+</h4>
+                            <input type="button" name="google-connect" value="Connect with google">
+                        </li>
+					</ul>
+                    </div>
 				</form>
 			</div>
 

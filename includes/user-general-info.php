@@ -1,4 +1,4 @@
-		<section class="user-general-info grid_4_1200 grid_4_1024 grid_8_768 grid_6_320">
+		<section class="user-general-info grid_4_1200 grid_3_1024 grid_8_768 grid_6_320">
             <a class="edit-profile-button" href="profile-edit.php" target="_self">
                 <span> </span>
                 Edit Profile
