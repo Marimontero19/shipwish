@@ -71,19 +71,19 @@
             </div>
 		</footer>
 
-        <script
 
-        <!-- Carousel Flickity-->
+        <!-- Carousel Flickity -->
 
         <script type="text/javascript" src="js/flickity/flickity.pkgd.min.js"></script>
 
 
         <!-- Jquery multipage form -->
-         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-         <script type="text/javascript" src="js/jquery/jquery-1.9.1.min.js"></script>
+         <!--<script type="text/javascript" src="js/jquery/jquery-1.9.1.min.js"></script>-->
          <script type="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
-         <script src="js/multistep_form.js"></script>
+         <script type="text/javascript" src="js/multistep_form.js"></script>
 
+        <!-- Jquery  -->
+         <script type="text/javascript" src="js/toggle.button.js"></script>
 
     </body>
 </html>

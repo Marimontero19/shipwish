@@ -33,24 +33,61 @@ include('includes/header.php');
 								<label for="product"><h1 class="titles_create_wish">What’s the product about?</h1></label>
 
 								<ul class="">
-									<li><input type="checkbox" name="product" id="product" value="Food"/><label>Food</label></li>
-									<li><input type="checkbox" name="product" id="product" value="Fashion"/><label>Fashion</label></li>
-									<li><input type="checkbox" name="product" id="product" value="Electronics"/><label>Electronics</label></li>
-									<li><input type="checkbox" name="product" id="product" value="Home"/><label>Home</label></li>
-									<li><input type="checkbox" name="product" id="product" value="Documents&Books"/><label>Documents&Books</label></li>
-									<li><input type="checkbox" name="product" id="product" value="Other"/><label>Other</label></li>
+									<li>
+										<input type="checkbox" class="checkbox" name="food" id="toggle-button" value="Food"/>
+										<label for="toggle-button">Food</label>
+									</li>
+									<li>
+										<input type="checkbox" class="checkbox" name="fashion" id="toggle-button" value="Fashion"/>
+										<label for="toggle-button">Fashion</label>
+									</li>
+									<li>
+										<input type="checkbox" class="checkbox" name="electronics" id="toggle-button" value="Electronics"/>
+										<label for="toggle-button">Electronics</label>
+									</li>
+									<li>
+										<input type="checkbox" class="checkbox" name="home" id="toggle-button" value="Home"/>
+										<label for="toggle-button">Home</label>
+									</li>
+									<li>
+										<input type="checkbox" class="checkbox" name="documents&books" id="toggle-button" value="Documents&Books"/>
+										<label for="toggle-button">Documents&Books</label>
+									</li>
+									<li>
+										<input type="checkbox" class="checkbox" name="other" id="toggle-button" value="Other"/>
+										<label for="toggle-button">Other</label>
+									</li>
 								</ul>
 							</div>
 
 							<div id="wish-size">
 								<label for="size"><h1 class="titles_create_wish">Size</h1></label>
 
-								<ul class="">
-									<li><input type="radio" name="size" id="size" value="XS"/>XS</li>
-									<li><input type="radio" name="size" id="size" value="S"/>S</li>
-									<li><input type="radio" name="size" id="size" value="M"/>M</li>
-									<li><input type="radio" name="size" id="size" value="L"/>L</li>
-									<li><input type="radio" name="size" id="size" value="XL"/>XL</li>
+								<ul class="ui-buttonset" id="radio">
+									<li>
+										<input type="radio" name="radio" id="radio1" class="ui-helper-hidden-accessible" value="XS"/>
+										<label for="radio1" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left" role="button">XS</label>
+									</li>
+
+									<li>
+										<input type="radio" name="radio" id="radio2" class="ui-helper-hidden-accessible" value="S"/>
+										<label for="radio2" role="button">S</label>
+									</li>
+
+									<li>
+										<input type="radio" name="radio" id="radio3" class="ui-helper-hidden-accessible" value="M"/>
+										<label for="radio3" role="button">M</label>
+									</li>
+
+									<li>
+										<input type="radio" name="radio" id="radio4" class="ui-helper-hidden-accessible" value="L"/>
+										<label for="radio4" role="button">L</label>
+									</li>
+
+									<li>
+										<input type="radio" name="radio" id="radio5" class="ui-helper-hidden-accessible" value="XL"/>
+										<label for="radio5" role="button">XL</label>
+									</li>
 								</ul>
 							</div>
 
@@ -74,12 +111,13 @@ include('includes/header.php');
 							<h1 class="titles_create_wish">Where’s the product going to?</h1>
 
 							<div id="wish-destination">
-								<input placeholder="From" type="text" class="datepicker"> 
-								<input placeholder="To" type="text" class="datepicker"> 	
+								<input placeholder="From" type="text"> 
+								<input placeholder="To" type="text"> 	
 							</div>
 
 							<div id="wish-final_date">
 								<label for="date"><h2 class="">Delivery by</h2></label>
+								<input placeholder="Delivery date" type="text" class="datepicker"> 
 								<input type="checkbox" name="product" id="date" value="date"/>I don't have an specific date
 
 							</div>
@@ -107,12 +145,12 @@ include('includes/header.php');
 							<div id="wish-reward">
 								<label for="reward"><h1 class="titles_create_wish">Tell is the reward</h1></label>
 								<ul class="">
-									<li><input type="radio" name="size" id="reward" value="Money"/><button>Money</button></li>
-									<li><input type="radio" name="size" id="reward" value="Help"/><button>Help</button></li>
+									<li><input type="radio" name="size" id="reward" value="Money"/>Money</li>
+									<li><input type="radio" name="size" id="reward" value="Help"/>Help</li>
 								</ul>
 								<h4>IMPORTANT:Shipwish comisionates a 3% of the total cost of the transaction</h4>
 
-								<select class="select-jquery">
+								<select class="">
 	                                <option>10</option>
 	                                <option>20</option>
 	                                <option>30</option>
@@ -121,7 +159,7 @@ include('includes/header.php');
 	                                <option>60</option>
 	                                <option>70 or more</option>
                             	</select>
-								<select class="select-jquery">
+								<select class="">
 	                                <option>$</option>
 	                                <option>€</option>
 	                                <option>£</option>

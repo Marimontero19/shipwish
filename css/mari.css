@@ -777,7 +777,50 @@ button{
 	text-align: center;
 }
 
-#wish-category li{
+.ui-buttonset {
+  margin-right: 7px;
+}
+
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.ui-buttonset .ui-button {
+  margin-left: 0;
+  margin-right: -.3em;
+}
+
+.ui-corner-left, .ui-corner-bl {
+  border-bottom-left-radius: 4px;
+}
+
+.ui-corner-left, .ui-corner-tl {
+  border-top-left-radius: 4px;
+}
+
+.ui-state-default {
+  border: 1px solid #d3d3d3;
+  background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+  font-weight: normal;
+  color: #555555;
+}
+
+.ui-widget {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 1.1em;
+}
+
+
+
+
+/*#wish-category li{
     margin:4px;
     background-color:#EFEFEF;
     border-radius:4px;
@@ -786,7 +829,7 @@ button{
     float:left;
 }
 
-#wish-category input {
+/*#wish-category input {
    margin-right:100px;
 }
 
@@ -814,7 +857,7 @@ button{
 #wish-category li input:checked + span {
     background-color:#911;
     color:#fff;
-}
+}*/
 
 #third_step{
 	margin-top:50px;

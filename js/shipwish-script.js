@@ -12,3 +12,13 @@ $(document).ready (
           function() {
             $(".datepicker").datepicker();
           });
+
+	
+		 //Radio button JqueryUI
+		 $(function() {
+		    $( "#radio" ).buttonset();
+		  });
+
+
+
+
