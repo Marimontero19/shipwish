@@ -82,9 +82,9 @@ include('includes/header.php');
                         </ul>					
                     </div>
 
-                    <div class="display_inline_block">
+                    <div class="display_block">
 
-                        <div id="destination_home">
+                        <div id="destination_home" class="margin-left">
                             <p>From:</p><h4>Italy</h4>
                             <br>
                             <p>To:</p><h4>Dublin</h4>
@@ -98,6 +98,7 @@ include('includes/header.php');
                                 <li></li>
                             </ul>
                         </div>
+                        <div class="clear"></div>
                     </div>	
                 </div>	
 
@@ -107,37 +108,37 @@ include('includes/header.php');
 
             </div>
 
-        <!--Segundo wish-->
-
+         <!--Segundo wish-->
             <div id="wisher_card" class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 
                 <div style="padding: 3% 3% 3% 3%">
                     <div id="basic_info_home">
                         <ul>
-                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_2_xs.jpg" alt="user_2"></a></li>
-                            <li><h3 class="">Welsh cake</h3></li>
+                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
                             <!--<li><p>*3</p></li>-->
-                        </ul>					
+                        </ul>                   
                     </div>
 
-                    <div class="display_inline_block">
+                    <div class="display_block">
 
-                        <div id="destination_home">
-                            <p>From:</p><h4>Uk</h4>
+                        <div id="destination_home" class="margin-left">
+                            <p>From:</p><h4>Italy</h4>
                             <br>
-                            <p>To:</p><h4>Ohio</h4>
+                            <p>To:</p><h4>Dublin</h4>
                         </div>
 
                         <div id="details_home">
-                            <p>Delivery:</p><h4>July 7th, 2015</h4>
+                            <p>Delivery:</p><h4>June 7th, 2015</h4>
                             <ul>
                                 <li></li>
                                 <li></li>
                                 <li></li>
                             </ul>
                         </div>
-                    </div>	
-                </div>	
+                        <div class="clear"></div>
+                    </div>  
+                </div>  
 
                 <div class="button_look">
                     <a href="product_profile.php"><h4>Let's take a look</h4></a>

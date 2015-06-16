@@ -19,7 +19,7 @@ include('includes/header.php');
         ?>
 
 		<!-- USER COMPLEMENTARY COLUMN -->
-		<section id="user-detail-info" class="grid_7_1200 push_1_1200 grid_6_1024 push_1_1024 grid_8_768 grid_6_320">
+		<section id="user-detail-info" class="grid_7_1200 push_1_1200 grid_6_1024 push_1_1024 grid_7_768 grid_6_320">
 			<!-- upcoming wishes -->
 			<div class="upcoming-wishes">
 				<div class="title">
@@ -41,13 +41,13 @@ include('includes/header.php');
                 <div style="padding: 3% 3% 3% 3%">
                     <div id="basic_info_home">
                         <ul>
-                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+                            <!-- <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> -->
                             <li><h3 class="">Pecorino Romano Cheese</h3></li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
                     </div>
 
-                    <div class="display_inline_block">
+                    <div class="display_block">
 
                         <div id="destination_home">
                             <p>From:</p><h4>Italy</h4>
@@ -63,6 +63,7 @@ include('includes/header.php');
                                 <li></li>
                             </ul>
                         </div>
+                        <div class="clear"></div>
                     </div>	
                 </div>	
 
@@ -79,13 +80,13 @@ include('includes/header.php');
                 <div style="padding: 3% 3% 3% 3%">
                     <div id="basic_info_home">
                         <ul>
-                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+                            <!-- <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> -->
                             <li><h3 class="">Pecorino Romano Cheese</h3></li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
                     </div>
 
-                    <div class="display_inline_block">
+                    <div class="display_block">
 
                         <div id="destination_home">
                             <p>From:</p><h4>Italy</h4>
@@ -101,6 +102,7 @@ include('includes/header.php');
                                 <li></li>
                             </ul>
                         </div>
+                        <div class="clear"></div>
                     </div>	
                 </div>	
 
@@ -116,13 +118,13 @@ include('includes/header.php');
                 <div style="padding: 3% 3% 3% 3%">
                     <div id="basic_info_home">
                         <ul>
-                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+                            <!-- <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> -->
                             <li><h3 class="">Pecorino Romano Cheese</h3></li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
                     </div>
 
-                    <div class="display_inline_block">
+                    <div class="display_block">
 
                         <div id="destination_home">
                             <p>From:</p><h4>Italy</h4>
@@ -138,6 +140,7 @@ include('includes/header.php');
                                 <li></li>
                             </ul>
                         </div>
+                        <div class="clear"></div>
                     </div>	
                 </div>	
 
@@ -169,19 +172,19 @@ include('includes/header.php');
 				
 				
 				
-				            <!--Primer wish-->
+            <!--Primer wish-->
             <div id="wisher_card" class="grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
 
                 <div style="padding: 3% 3% 3% 3%">
                     <div id="basic_info_home">
                         <ul>
-                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
+                            <!-- <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> -->
                             <li><h3 class="">Pecorino Romano Cheese</h3></li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
                     </div>
 
-                    <div class="display_inline_block">
+                    <div class="display_block">
 
                         <div id="destination_home">
                             <p>From:</p><h4>Italy</h4>
@@ -197,6 +200,7 @@ include('includes/header.php');
                                 <li></li>
                             </ul>
                         </div>
+                        <div class="clear"></div>
                     </div>	
                 </div>	
 
