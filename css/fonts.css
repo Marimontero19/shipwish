@@ -89,8 +89,7 @@
     font-family: 'AndesRounded-Light';
     src: url('../fonts/light/AndesRoundedLight-webfont.eot');
     src: url('../fonts/light/AndesRoundedLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/light/AndesRoundedLight-webfont.woff') format('woff'),
-         url('../fonts/light/AndesRoundedLight-webfont.woff') format('woff2'),        
+         url('../fonts/light/AndesRoundedLight-webfont.woff') format('woff'),        
          url('../fonts/light/AndesRoundedLight-webfont.ttf') format('truetype'),
          url('../fonts/light/AndesRoundedLight-webfont.svg#andesroundedlight') format('svg');
     font-weight: 300;

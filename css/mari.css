@@ -122,7 +122,7 @@
 
 button{
 	background-color:gray;
-	color:#ffffff;
+	/*color:#ffffff;*/
 	border:0;
 	border-radius: 5px;
 	width: 150px;
@@ -377,10 +377,12 @@ button{
 
 #product-main-info .title h2{
 	margin-bottom: 20px ;
+	color: #0E777F;
+	font-family:'AndesRounded-Regular';
 }
 
 #basic-info-product{
-	background-color: #F3F0F0;
+	background-color: #F5F6F6;
 	box-sizing:border-box;
    -moz-box-sizing:border-box;
    -webkit-box-sizing:border-box;
@@ -396,7 +398,9 @@ button{
 }
 
 #user-profile-info-product h3{
-	color:#00B2BE;
+	color:#6C6C6C;
+	font-family:'AndesRounded-Regular';
+
 }
 
 #user-profile-info-product img{
@@ -418,41 +422,81 @@ button{
 	margin-right:0px;
 }
 
+#destination-product li p{
+	color:#BEC9C9;
+	margin-bottom: 2px;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+#destination-product li h3{
+	color:#6C6C6C;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
 
 #info-product{
 	margin-top: 30px;
 }
 
-#info-product li{
-	margin-top:8px;
-	margin-bottom:8px ;
+#info-product h3{
+	color:#6C6C6C;
 }
 
-#info-product h2{
-	font-size: 20px;
+#info-product h4{
+	font-size: 16px;
+	color:#6C6C6C;
+	margin-top: 15px;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+#info-product p{
+	font-size: 14px;
+	color:#6C6C6C;
+	font-family: 'AndesRounded-Book',Helvetica, Arial, sans-serif;
 }
 
 
 #actions{
 	margin-top: 10px;
 	float:right;
+	text-transform: uppercase;
 }
 
-#actions button{
-	margin-bottom: 5px;
-	margin-top: 5px;
+/*#actions li{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}*/
+
+#actions li:nth-child(1) button {
 	width: 200px;
-}
-
-.link{
+	background-color:#F9A41A;
+	color: #ffffff;
 	margin-bottom: 5px;
 	margin-top: 10px;
-	text-align: center;
+	text-transform: uppercase;
+}
+
+#actions li:nth-child(2) button {
+	width: 200px;
+	background-color:#00B2BE;
+	color: #ffffff;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+#actions li:nth-child(3){
+	margin-top: 15px;
+	width: 200px;
+	background-color:none;
+	color:#0E777F;
+	text-align:center;
 }
 
 #detail-info-product{
-	margin-top:60px;
-	margin-bottom:60px;
+	margin-top:50px;
+	margin-bottom:50px;
 	float:left;
 }
 
@@ -462,10 +506,15 @@ button{
 
 #description-product h3{
 	margin-bottom: 20px;
+	color:#0E777F;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
 }
 
 #description-product p{
 	margin-bottom: 20px;
+	color:#6C6C6C;
+	font-size:16px;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
 }
 
 #description-product li h4{
@@ -473,26 +522,35 @@ button{
 	display:inline-block;
 	margin-right:15px;
 	margin-bottom: 15px;
+	color:#0E777F;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+.reward-description h4{
+	font-size: 20px;
+	color:red;
 }
 
 
 .icon-size{
-	width: 20px;
-  	height: 20px;
-  	margin-bottom:15px;
+  	/*margin-bottom:15px;*/
   	border-radius: 20%;
-  	background-color: gray;
-  	padding:14px;
-  	font-size:25px;
-  	font-weight: 700;
+  	border-style: solid;
+  	border-color:#F9A41A;
+  	border-width: 2px;
+  	padding: 2px 6px 2px 6px;
+  	font-size:20px;
+  	color:#F9A41A; 
 }
 
 .icon-circle{
-	width: 45px;
-    height: 45px;
+	width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: gray;
 }
+
+
 
 /*Slider de imagenes*/	
 
@@ -504,8 +562,10 @@ button{
 .gallery {
 	  background: #ffffff;
 	  border-radius: 10px;
-	  margin-left: 30px;
-  	  margin-right: 30px;
+  	  padding: 5px;
+  	  border-style: solid;
+  	  border-width:thin;
+      border-color: #D3D3D3;
 }
 
 .gallery img {
@@ -513,7 +573,7 @@ button{
 	  height: 250px;
 	}
 
-
+/*
 .flickity-prev-next-button {
   width: 30px;
   height: 30px;
@@ -525,23 +585,23 @@ button{
   background: #F90;
 }
 
-/* arrow color */
-.flickity-prev-next-button .arrow {
+/* arrow color*/
+/*.flickity-prev-next-button .arrow {
   fill: white;
 }
 
 .flickity-prev-next-button.no-svg {
   color: white;
-}
+}*/
 
-/* position outside */
-.flickity-prev-next-button.previous {
+/* position outside*/
+/*.flickity-prev-next-button.previous {
   left: -40px;
 }
 
 .flickity-prev-next-button.next {
   right: -40px;
-}
+}*/
 
 
 @media screen and ( min-width: 768px ) {
@@ -800,9 +860,6 @@ button{
   margin: 0 10px 0 0;
   float: left;
 }
-
-
-
 
 /*#wish-category li{
     margin:4px;

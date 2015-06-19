@@ -8,7 +8,7 @@ include('includes/header.php');
 
 <div class="main-container">
 
-	<div class="container_12 container_10 container_8 container_6 ">
+	<di  class="container_12 container_10 container_8 container_6 ">
 
 		<article class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
 
@@ -28,16 +28,16 @@ include('includes/header.php');
 					<div id="product-details" >
 						<div id="destination-product">
 							<ul>
-								<li><p>From:</p><h4>Italy</h4></li>
-								<li><p>To:</p><h4>Dublin</h4></li>
+								<li><p>From:</p><h3>Italy</h3></li>
+								<li><p>To:</p><h3>Dublin</h3></li>
 							</ul>
 						</div>
 
 						<div id="info-product">
 							<ul>
-								<li><h4>Quantity: 1</h4></li>
-								<li><h2>Delivery:June 7th, 2015</h2></li>
-								<li><h5>Posted 2 days ago</h5></li>
+								<li><h3>Delivery:June 7th, 2015</h3></li>
+								<li><h4>Number of items: 1</h4></li>
+								<li><p>Posted 2 days ago</p></li>
 							</ul>
 						</div>
 
@@ -58,23 +58,37 @@ include('includes/header.php');
 			<section id="detail-info-product">
 
 				<div id="description-product" class="grid_6_1200 grid_5_1024 grid_10_768 grid_6_320">
-					<h3>Product Description</h3>
+					<h3 class="product_des">Product Description</h3>
 					<p>Pecorino Romano is one of most widely used, sharper alternatives to Parmesan cheeses. In Italy I found it on sundays markets or in the supermarket, where its easier to find it in a vacuum package. The brand that I prefered the most is Locatelli.</p>
 					<ul>
 						<li>
-							<h4 class="icon-size">M</h4>
-							<h4>Medium</h4>
+							<img src="" alt="info"> 
+							<h4><img class="icon-circle" src="" alt=""></h4>
+							<h4>Reward &nbsp; $12</h4>
+							<ul class="reward-description">
+								<li><h3>Cost of the product: $8</h3></li>
+								<li><h3>Total inversion in this deal: $20</h3></li>
+							</ul>
 						</li>
 
 						<li>
+							<img src="" alt="info"> 
+							<h4 class="icon-size">M</h4>
+							<h4>Size &nbsp; Medium</h4>
+							<ul class="reward-description">
+								<li><h3>Aproximate size: 30 x 40 cm</h3></li>
+								<li><h3>Aproximate weight: 7.5 ounces</h3></li>
+							</ul>
+
+						</li>
+
+						<li>
+							<img src="" alt="info"> 
 							<h4><img class="icon-circle" src="" alt=""></h4>
 							<h4>Food</h4>
 						</li>
 
-						<li>
-							<h4><img class="icon-circle" src="" alt=""></h4>
-							<h4>Total amount of money:$20<br>Cost of the product: $7</h4>
-						</li>
+
 					</ul>
 				</div>
 
