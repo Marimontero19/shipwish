@@ -58,38 +58,38 @@ include('includes/header.php');
 			<section id="detail-info-product">
 
 				<div id="description-product" class="grid_6_1200 grid_5_1024 grid_10_768 grid_6_320">
-					<h3 class="product_des">Product Description</h3>
+					<h3>Product Description</h3>
 					<p>Pecorino Romano is one of most widely used, sharper alternatives to Parmesan cheeses. In Italy I found it on sundays markets or in the supermarket, where its easier to find it in a vacuum package. The brand that I prefered the most is Locatelli.</p>
-					<ul>
-						<li>
-							<img src="" alt="info"> 
-							<h4><img class="icon-circle" src="" alt=""></h4>
-							<h4>Reward &nbsp; $12</h4>
-							<ul class="reward-description">
-								<li><h3>Cost of the product: $8</h3></li>
-								<li><h3>Total inversion in this deal: $20</h3></li>
-							</ul>
-						</li>
+					<div id="details-product">
+						<ul>
+							<li>
+								<img src="" alt="info"> 
+								<h3><img class="icon-circle" src="" alt=""></h3>
+								<h3>Reward &nbsp; $12</h3>
+								<ul>
+									<li class="reward-description"><h5>Cost of the product: $8</h5></li>
+									<li class="reward-description"><h5>Total inversion in this deal: $20</h5></li>
+								</ul>
+							</li>
 
-						<li>
-							<img src="" alt="info"> 
-							<h4 class="icon-size">M</h4>
-							<h4>Size &nbsp; Medium</h4>
-							<ul class="reward-description">
-								<li><h3>Aproximate size: 30 x 40 cm</h3></li>
-								<li><h3>Aproximate weight: 7.5 ounces</h3></li>
-							</ul>
+							<li>
+								<img src="" alt="info"> 
+								<h3 class="icon-size">M</h3>
+								<h3>Size &nbsp; Medium</h3>
+								<ul>
+									<li class="reward-description"><h5>Aproximate size: 30 x 40 cm</h5></li>
+									<li class="reward-description"><h5>Aproximate weight: 7.5 ounces</h5></li>
+								</ul>
 
-						</li>
+							</li>
 
-						<li>
-							<img src="" alt="info"> 
-							<h4><img class="icon-circle" src="" alt=""></h4>
-							<h4>Food</h4>
-						</li>
-
-
-					</ul>
+							<li>
+								<img src="" alt="info"> 
+								<h3><img class="icon-circle" src="" alt=""></h3>
+								<h3>Food</h3>
+							</li>
+						</ul>
+					</div>
 				</div>
 
 				<div id="gallery-product"class="grid_5_1200 grid_4_1024 grid_4_768 grid_6_320 push_1_1200">				
@@ -104,8 +104,8 @@ include('includes/header.php');
 		</article>		
 	</div>
 </div>
-		<div class="background-gray">
-			<div class="main-container">
+		<div id="recomendations">
+			<div class="main-container" class="full-width-gray">
 				<div class="container_12 container_10 container_8 container_6">		
 					<section id="similar-wishes" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200" >
 						<h2>Similar wishes</h2>
@@ -181,9 +181,9 @@ include('includes/header.php');
 				                </div>
             			</div>
 
-		               <div class="center grid_12_1200">
+		              <!-- <div class="center grid_12_1200">
 		                	<button><a href="wish_board.php" alt="Wish Board">See more wishes</a></button>
-		             	</div>
+		             	</div>-->
 					
 					</section>
 				</div>

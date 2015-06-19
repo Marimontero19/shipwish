@@ -69,7 +69,7 @@
    -moz-box-sizing:border-box;
    -webkit-box-sizing:border-box;
    	border-radius: 6px;
-	border: 2px solid #E4DFDF;
+	border: 1px solid #D7E1E1;/*E4DFDF*/
 	height: auto;
 	float: left;
 	margin-bottom: 20px;
@@ -84,6 +84,8 @@
     margin-top:20px; 
 	margin-left:10px;
 	line-height: 20px;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	color:#0E777F;
 
 }
 
@@ -105,6 +107,15 @@
 	float:left;
 }
 
+#destination_home h4{
+	color:#737373;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+#destination_home p{
+	color:#BEC9C9;
+}
+
 #details_home{
 	margin-top: 20px;
 	float:left;
@@ -120,6 +131,14 @@
   margin-top: 10px;
 }
 
+#details_home p {
+	color:#BEC9C9;
+}
+
+#details_home h4 {
+	color:#737373;
+}
+
 button{
 	background-color:gray;
 	/*color:#ffffff;*/
@@ -133,7 +152,7 @@ button{
 	font-size: 15px;
 	border-radius: 0 0 4px 4px;
 	color:#ffffff;
-	background-color: #E4DFDF;
+	background-color: #00B2BE;
 	position: relative;  
 	bottom: 0;
 	height: 40px;
@@ -142,8 +161,10 @@ button{
 }
 
 .button_look h4{
-	color:#939393;
-  	padding-top: 15px;
+	color:#ffffff;
+  	padding-top: 8px;
+  	font-family:'AndesRounded-Regular',Helvetica, Arial, sans-serif;;
+  	text-transform: uppercase;
 }
 
 .center{
@@ -415,12 +436,15 @@ button{
 
 #destination-product li{
 	display:inline-block;
-	margin-right:250px;
 }
 
-#destination-product li:nth-child(2){
-	margin-right:0px;
+#destination-product li:nth-child(1){
+	margin-right:50%;
 }
+
+/*#destination-product li:nth-child(2){
+	margin-right:0px;
+}*/
 
 #destination-product li p{
 	color:#BEC9C9;
@@ -511,24 +535,26 @@ button{
 }
 
 #description-product p{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	color:#6C6C6C;
 	font-size:16px;
 	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
 }
 
-#description-product li h4{
+#details-product li h3{
 	vertical-align: middle;
 	display:inline-block;
-	margin-right:15px;
+	margin-right:12px;
 	margin-bottom: 15px;
 	color:#0E777F;
 	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
 }
 
-.reward-description h4{
-	font-size: 20px;
-	color:red;
+#details-product li h5{
+	color:#737373;
+	margin-bottom: 15px;
+	margin-left: 80px;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
 }
 
 
@@ -603,16 +629,12 @@ button{
   right: -40px;
 }*/
 
-
-@media screen and ( min-width: 768px ) {
-	  .gallery img {
-	    height: 300px;
-	  }
-	}
-
-.background-gray {
+#recomendations{
 	width:100%;
-	background-color:blue;
+}
+
+.full-width-gray {
+	background-color:#F9F9F9;
 }
 
 #similar-wishes{
@@ -622,9 +644,17 @@ button{
 #similar-wishes h2{
 	margin-top: 40px;
 	margin-bottom: 40px;
+	color:#0E777F;
+
 }
 
 /*Media queries product page*/
+
+@media screen and ( min-width: 768px ) {
+	  .gallery img {
+	    height: 300px;
+	  }
+	}
 
 /*Mobile*/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
@@ -640,7 +670,7 @@ button{
 		}
 
 		#basic-info-product {
-		  border-radius: 0px;
+		  /*border-radius: 0px;*/
 		  border: 0px;
 		  width: 100%;
 		  padding: 20px;
@@ -660,8 +690,8 @@ button{
 			margin-left: 40px;
 		}
 
-		#destination-product li{
-			margin-right:120px;
+		#destination-product li:nth-child(1){
+			margin-right:50%;
 		}
 
 		#user-profile-info-product{
@@ -669,26 +699,31 @@ button{
 		}
 
 
-		.flickity-prev-next-button {
-			 display:none;
-		}
-
 		#gallery-product{
 			margin-top: 30px;
 		}
 
-/*No le sirve boton 100%?*/
 		#actions{
 		   margin:0 auto;
 		}
 
 		#actions button {
-		  margin-bottom: 5px;
-		  margin-top: 5px;
-		  width: 320px;
+		  /*width: 320px;*/
+		  width: 100%;
+		}
+/*No le sirve boton 100%?*/
+		#actions li:nth-child(1) button{
+			
+			margin-top: 20px; 
+			width: 320px;
+		}
+
+		#actions li:nth-child(2) button{
+			width: 100%;
 		}
 
 		#actions li:nth-child(3) {
+			width: 100%;
 		  	margin-top: 20px;
 		}
 
@@ -706,9 +741,10 @@ button{
  	 	margin-right: 40px;
 	}
    
-	#destination-product li{
-		margin-right:120px;
+	#destination-product li:nth-child(1){
+		margin-right:20%;
 	}
+
 
 	#actions{
 		float:left;
@@ -730,6 +766,14 @@ button{
 
 	}
 
+	#user-profile-info-product h3 {
+  		font-size: 1.3em;
+	}
+
+	#info-product h3 {
+  		font-size: 1.3em;
+	}
+
 }
 
 
@@ -740,9 +784,13 @@ button{
 	}
 
 
-   
-   #destination-product li{
-		margin-right:140px;
+	#destination-product li:nth-child(1){
+		margin-right:30%;
+	}
+
+
+	#info-product h3 {
+  		  font-size: 1.2em;
 	}
 
 	#actions button {
@@ -756,8 +804,8 @@ button{
 /*Tablet*/
 @media only screen and (min-width : 870px) and (max-width : 1024px) {
    
-	#destination-product li{
-		margin-right:190px;
+	#destination-product li:nth-child(1){
+		margin-right:40%;
 	}
 
 
