@@ -1009,7 +1009,71 @@ button{
 	color: white;
 	}
 
+/*************** product_details.php ***************/
+
+.chat-general-info {
+    background-color: white;
+    padding-bottom: 100%;
+
+}
+
+#chat-product {
+    padding: 20px 0;
+    margin: 40px 0 0 0;
+}
+
+.deal-info{
+  padding: 50px 0px 0px 0px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.deal-info h3{
+	color:#0E777F;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	margin-top:;
+
+}
+
+
+textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 3px;
+  border-color: #E9E9E9;
+  font-size: 1em;
+  width: 100%;
+}
+textarea {
+  height: 7rem;
+  margin: 0 0 1em 0;
+}
 
 
 
 
+
+@media all and (max-width:1023px) {
+    
+    .chat-general-info {
+         padding-bottom:0;   
+    }
+    
+}
+
+/*************** product-chat.php ***************/
+
+.chat-title{
+	margin:0;
+	color:#0E777F;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+		clear: both;
+		padding: 20px 0;
+}
+
+.chat-icon {
+	display: inline-block;
+	margin-right: 10px;
+  }
