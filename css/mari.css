@@ -140,11 +140,11 @@
 }
 
 button{
-	background-color:gray;
+	/*background-color:gray;*/
 	/*color:#ffffff;*/
 	border:0;
 	border-radius: 5px;
-	width: 150px;
+	/*width: 150px;*/
 	height: 40px;
 }
 
@@ -1009,7 +1009,143 @@ button{
 	color: white;
 	}
 
+/*************** product_details.php ***************/
 
+.chat-general-info {
+    background-color: white;
+    padding-bottom: 100%;
+}
+
+#chat-product {
+    padding: 20px 0;
+    margin: 40px 0 0 0;
+}
+
+.deal-info{
+  padding: 50px 0px 0px 0px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.deal-info h3{
+	color:#0E777F;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	margin-bottom:30px;
+}
+
+.deal-info h4{
+	color:#6C6C6C;
+	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif
+
+}
+
+textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 3px;
+  border-color: #E9E9E9;
+  font-size: 1em;
+  width: 100%;
+}
+textarea {
+  height: 7rem;
+  margin: 0 0 1em 0;
+}
+
+#buttons-process button{
+	width: 100%;
+	color:#ffffff;
+	background-color: #D3D3D3;
+	text-transform: uppercase;;
+	margin-top: 40px;
+}
+
+#cancel-start{
+	text-align: center;
+	margin-top:20px;
+
+}
+
+#cancel-start p{
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+#cancel-start p:nth-child(1){
+	color:#D3D3D3;
+}
+
+#cancel-start p:nth-child(1) a:visited{
+	color:#D3D3D3;
+}
+
+#cancel-start p:nth-child(2){
+	color:#0E777F;
+	margin-left:20px;
+}
+
+#cancel-start p:nth-child(2) a:visited{
+	color:#0E777F;
+}
+
+#upload-links p{
+	display:inline-block;
+}
+
+
+@media all and (max-width:1023px) {
+    
+    .chat-general-info {
+         padding-bottom:0;   
+    }
+    
+}
+
+/*************** product-chat.php ***************/
+
+#icon .title span{
+	float:right; 
+	margin: 0px; 
+}
+
+
+#chat .title h2{
+	color:#0E777F;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+#chat-description p{
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	color:#6C6C6C;
+	margin-bottom: 40px;
+}
+
+#chat-description p span{
+	color:#00B2BE;
+}
+
+#chat-description textarea{
+	padding:10px;
+	color:#D3D3D3;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+
+}
+
+#chat-description button{
+	color:#ffffff;
+	background-color:#00B2BE ;
+	float:right;
+	width: 150px;
+}
+
+
+#chat-description button a:visited{
+	color:#ffffff;
+}
+
+#upload-links{
+
+}
 
 
 
