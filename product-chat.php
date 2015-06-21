@@ -19,15 +19,22 @@ include('includes/header.php');
 
 		<!-- USER COMPLEMENTARY COLUMN -->
 		<section id="chat-product">
-			<div id="" class="grid_6_1200 push_1_1200 grid_5_1024 push_1_1024 grid_7_768 grid_5_320">
-				<div class="chat-title">
-					<img src="" alt="chat-icon" class="icon-medium chat-icon">
+
+			<div id="icon" class="grid_1_1200 grid_1_1024 grid_1_768 grid_1_320">
+				<div class="title">
+						<span></span>
+				</div>
+			</div>
+
+			<div id="chat" class="grid_6_1200 grid_5_1024 grid_7_768 grid_5_320">
+				<div class="title">
+		
 					<h2>Chat with August Sabadini</h2>
 				</div>
-				<div>
-					<p>Ask what you need to the wisher in order to deliver the items. If you want to change the terms of the deal, you can <span class="action-color">start a negociation.</span></p>
+				<div id="chat-description">
+					<p>Ask what you need to the wisher in order to deliver the items. If you want to change the terms of the deal, you can <span>start a negociation.</span></p>
 					<textarea name="textarea"></textarea>
-					<a href="#" class="button" data-reveal-id="loginToUse">SEND</a>
+					<button><a href="#">SEND</a></button>
 
 			</div>
 			

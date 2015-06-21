@@ -1065,15 +1065,40 @@ textarea {
 
 /*************** product-chat.php ***************/
 
-.chat-title{
-	margin:0;
-	color:#0E777F;
-	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
-		clear: both;
-		padding: 20px 0;
+#icon .title span{
+	float:right; 
+	margin: 0px; 
 }
 
-.chat-icon {
-	display: inline-block;
-	margin-right: 10px;
-  }
+
+#chat .title h2{
+	color:#0E777F;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+#chat-description p{
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	color:#6C6C6C;
+	margin-bottom: 40px;
+}
+
+#chat-description p span{
+	color:#00B2BE;
+}
+
+#chat-description button{
+	color:#ffffff;
+	background-color:#00B2BE ;
+	float:right;
+}
+
+#chat-description button a{
+	color:#ffffff;
+}
+
+#chat-description button a:visited{
+	color:#ffffff;
+}
+
+
+
