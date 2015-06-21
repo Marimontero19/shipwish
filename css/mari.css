@@ -1014,7 +1014,6 @@ button{
 .chat-general-info {
     background-color: white;
     padding-bottom: 100%;
-
 }
 
 #chat-product {
@@ -1058,6 +1057,7 @@ textarea {
 	color:#ffffff;
 	background-color: #D3D3D3;
 	text-transform: uppercase;;
+	margin-top: 40px;
 }
 
 #cancel-start{
@@ -1069,7 +1069,6 @@ textarea {
 #cancel-start p{
 	display: inline-block;
 	text-transform: uppercase;
-	margin-left:20px;
 }
 
 #cancel-start p:nth-child(1){
@@ -1082,10 +1081,15 @@ textarea {
 
 #cancel-start p:nth-child(2){
 	color:#0E777F;
+	margin-left:20px;
 }
 
 #cancel-start p:nth-child(2) a:visited{
 	color:#0E777F;
+}
+
+#upload-links p{
+	display:inline-block;
 }
 
 
@@ -1137,6 +1141,10 @@ textarea {
 
 #chat-description button a:visited{
 	color:#ffffff;
+}
+
+#upload-links{
+
 }
 
 

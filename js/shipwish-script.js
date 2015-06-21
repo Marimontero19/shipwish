@@ -15,9 +15,10 @@ $(document).ready (
 
 	
 		 //Radio button JqueryUI
-		 $(function() {
-		    $( "#radio" ).buttonset();
-		  });
+		    $(function() {
+		      $( "#radio" ).buttonset();
+		    });
+
 
   
 
