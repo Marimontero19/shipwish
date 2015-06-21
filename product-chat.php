@@ -46,8 +46,29 @@ include('includes/header.php');
 			</div>
 
 			<div id="newDivs">
-    	
-    		Comentarios nuevos
+
+				<ul class="comment-list">
+					<li class="comment-1">
+	    				<div class="comment-user-photo">
+	    					<a href=""><img src="img/users_pic/user_9_xs.jpg" class="user-pic" alt="user-9"></a>
+	    				</div>
+	    				<div class="bubble-left">
+	    					<p>hla</p>
+	    					<p>jsdn</p>
+	    				</div>
+	    			</li>
+
+	    			<li class="comment-2">
+	    				<div class="comment-user-photo">
+	    					<a href=""><img src="img/users_pic/user_9_xs.jpg" class="user-pic" alt="user-9"></a>
+	    				</div>
+	    				<div class="bubble-right">
+	    					<p>hla</p>
+	    					<p>jsdn</p>
+	    				</div>
+	    			</li>
+	    		</ul>
+    		
 			</div>
 			
 			<div class="clear"></div>
