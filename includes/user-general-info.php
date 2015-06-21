@@ -8,19 +8,22 @@
 				<!-- editing profile button -->
 				<div class="clear"></div>
 				<!-- user picture -->
-				<div class="user-picture">
-					<a href="user-profile"><img src="img/users_pic/user_1_m.jpg" alt="user-1-m" class="user-pic"></a>
-				</div>
-				<!-- name -->
-				<h2>
-					Sameed Khan
-				</h2>
-				<!-- location -->
-				<div class="location">
-                    <span class="location-icon"></span>
-                    <h4>
-                        United Kingdom
-                    </h4>
+				<div class="ficha-user">
+                    <div class="user-picture">
+                        <img src="img/users_pic/user_1_m.jpg" alt="user-1-m" class="user-pic">
+                    </div>
+                    <!-- name -->
+                    <h2>
+                        Sameed Khan
+                    </h2>
+                    <!-- location -->
+                    <div class="location">
+                        <span class="location-icon"></span>
+                        <h4>
+                            United Kingdom
+                        </h4>
+                        <div class="clear"></div>
+                    </div>
                     <div class="clear"></div>
                 </div>
 				<!-- actions resume -->
@@ -28,15 +31,16 @@
 					<!-- total wishes -->
 					<div class="total-wishes">
 						<div class="wishes-icon circle"></div>
-						<h4> 00 | Wishes </h4>
+						<h4> 20 | Wishes </h4>
 						<div class="clear"></div>
 					</div>
 					<!-- total trips -->
 					<div class="total-trips">
 						<div class="trips-icon circle"></div>
-						<h4> 00 | Trips </h4>
+						<h4> 07 | Trips </h4>
 						<div class="clear"></div>
 					</div>
+					<div class="clear"></div>
 				</div>
 				<!-- rating -->
 				<div class="clear"></div>

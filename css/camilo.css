@@ -1,19 +1,94 @@
 /*CSS CAMILO*/
 
+.card {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #D7E1E1;
+  height: auto;
+  float: left;
+  margin-bottom: 30px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.wisher_card_container {
+    padding: 5% 6% 10% 6%;
+}
+
+#basic_info_home {
+
+}
+
+#basic_info_home ul {
+
+}
+
+#basic_info_home ul li {
+  float: left;
+}
+
+#basic_info_home h3 {
+    color: #0E777F;
+  font-size: 1.500em;
+  font-family: 'AndesRounded-Regular';
+  display: inline-block;
+  white-space: normal;
+  text-overflow: ellipsis;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+    line-height:1.25;
+    margin-bottom: 10px;
+}
+
 #destination_home {
-  margin-top: 20px;
   margin-left: 0;
+    margin-top:0;
   margin-right: 0 !important;
   float: left;
-  width: 50%;
+  width: 40%;
   display: block;
 }
 
+#destination_home p, #details_home p {
+    color: #D3D3D3;
+    font-size: 0.875em;
+    font-family: 'AndesRounded-Regular';
+    line-height: 1.5;
+    
+}
+
+#destination_home h4, #details_home h4 {
+    font-size: 1.250em;
+    color: #737373;
+    font-family: 'AndesRounded-Regular';
+    line-height:1.5;
+}
+
 #details_home {
-  margin-top: 20px;
+    margin-top: 0;
   float: right;
-  width: 50%;
+  width: 60%;
   display: block;
+}
+
+#details_home ul {
+
+}
+
+#details_home ul li:first-child {
+    margin: 8px 0 0 0 !important;
+}
+
+#details_home li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #EDEDED;
+    display: inline-block;
+    margin: 8px 0 0 6%;
 }
 
 .display_block {
@@ -23,8 +98,30 @@
 
 .margin-left {
     margin-left: 17% !important;
-    width: 33% !important;
+    width: 23% !important;
 }
+
+.button_look {
+  font-size: 15px;
+  border-radius: 0 0 6px 6px;
+  color: #ffffff;
+  background-color: #00B2BE;
+  position: relative;
+  bottom: 0;
+  height: 6px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.button_look h4 {
+  color: #ffffff;
+  padding-top: 8px;
+  font-family: 'AndesRounded-Regular';
+  text-transform: uppercase;
+    display: none;
+}
+
 
 
 /* HEADER 
@@ -265,7 +362,7 @@ footer {
 
 .user-general-info {
     background-color: white;
-    padding-bottom: 100%;
+    padding-bottom: 70%;
 }
 
 .user-info {
@@ -273,28 +370,37 @@ footer {
     width: 90%;
 }
 
+.ficha-user {
+  clear: both;
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
 .edit-profile-button {
-    float: right;
-    font-size: 0.9em;
+    float: right;    
     text-align: center;
     margin: 20px 20px 0;
     cursor: pointer;
+    font-size: 0.875em;
+    color: #7D7D7D;
 }
 
 .edit-profile-button span {
-    width: 40px;
-    height: 40px;
-    background-color: gray;
-    margin: 0 auto 10px auto;
+    width: 27px;
+    height: 27px;
+    background-color: #7D7D7D;
+    margin: 0 auto 4px auto;
     border-radius: 50%;
     display: block;
 }
 
 .user-picture {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    margin: 20px auto 20px;
+    margin: 25px auto 25px;
     background-color: gray;
 }
 
@@ -304,14 +410,15 @@ footer {
 }
 
 .user-info h2 {
-    text-align: center;
-      margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #585858;
 }
 
 .location {
-    width: 50%;
+    width: auto;
     margin: 0 auto;
-    display: block;
+    display: table;
 }
 
 .location-icon {
@@ -324,13 +431,21 @@ footer {
 }
 
 .user-info h4 {
-    text-align: center;
+    text-align: left;
     float: left;
     line-height: 1.5;
+    color: #585858;
+    font-family: 'AndesRounded-Regular';
+    font-size: 1em;
+    display:inline-block;
+    width:auto;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
 }
 
 .total-actions {
-    margin: 40px auto 40px auto;
+    margin: 30px auto 30px auto;
     width: 70%;
     
 }
@@ -341,11 +456,20 @@ footer {
     
 }
 
+.total-actions h4 {
+    color: #0E777F;
+    font-family: 'AndesRoundedLight';
+    font-size: 1.250em;
+    text-align: center;
+    line-height. 1.5;
+    font-weight: 100;
+}
+
 .circle {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #00B2BE;
+    background-color: #99E0E5;
     margin: 0 auto
 
 }
@@ -365,17 +489,21 @@ footer {
 }
 
 .rating {
-	margin: 30px 0 20px 0;
+	margin: 30px 0 35px 0;
 }
 
 .rating p {
     text-transform: uppercase;
     text-align: center;
+    color: #585858;
+    font-size: 1em;
+    font-family: 'AndesRounded-Regular';
 }
 
 .rating ul { 
 	width: 164px;
-	margin: 10px auto}
+	margin: 10px auto;
+}
 
 .rating ul li {
     display: inline-block;
@@ -391,20 +519,25 @@ footer {
 }
 
 .description {
-	font-size: 0.95em;
+	font-size: 0.875em;
 	text-align: center;
 	width: 85%;
 	margin: 0 auto;
 	line-height: 1.4;
+    color: #7D7D7D;
+    font-family: 'AndesRoundedLight';
 }
 
 .verification {
-    margin: 40px auto 40px;
+    margin: 30px auto 30px;
 }
 
 .verification p {
     text-transform: uppercase;
     text-align: center;
+    color: #585858;
+    font-size: 1em;
+    font-family: 'AndesRounded-Regular';
 }
 
 .verification ul {
@@ -414,13 +547,13 @@ footer {
 
 .verification ul li {
     display: inline-block;
-    width: 24%;
+    width: 23%;
 }
 
 .verificable {
-    width: 30px;
-    height: 30px;
-    margin: 0 auto 8px;
+    width: 27px;
+    height: 27px;
+    margin: 0 auto 10px;
     border-radius: 50%;
     background-color: #00B2BE;
 }
@@ -430,16 +563,18 @@ footer {
     font-size: 0.85em;
     text-align: center;
     margin: 0 auto;
-      display: inline-table;
+    display: inline-table;
+    font-size: 0.875em;
+    color: #7D7D7D;
+    font-family: 'AndesRoundedLight';
+    width: 100%;
 }
-
-
 
 
 /* USER ACTIVITY */
 
 #user-detail-info {
-    padding: 20px 0;
+    padding: 30px 0;
     margin: 40px 0 0 0;
 }
 
@@ -450,23 +585,24 @@ footer {
 
 .title {
     clear: both;
-    margin: 20px 0;
+    margin: 20px 0 50px;
     display: block;
 }
 
 .title span {
-    width:  40px;
-
-    height: 40px;
-    background-color:  gray;
+    width:  60px;
+    height: 60px;
+    background-color: #99E0E5;
     float: left;
     border-radius:  50%;
     margin: 0 40px 0 0;
 }
 
 .title h2 {
-    line-height: 1.2;
+    line-height: 1.75;
     text-align: left;
+    font-size: 2.250em;
+    color: #0E777F;
 }
 
 .title h3 {
@@ -475,10 +611,9 @@ footer {
 
 .backward-forward {
     clear:  both;
-
     width:  100%;
     height: 25px;
-    margin:  20px 0;
+    margin:  25px 0;
 }
 
 .backward-forward span {
@@ -501,6 +636,58 @@ footer {
 
 }
 
+/* CREATE NEW */
+
+.create_card {
+    background-color: #ffffff;
+    border: 3px dashed #C8C8C8;
+    /*outline: #c8c8c8 dashed 2px;*/
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.absolute-center {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.add-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #C8C8C8;
+    margin: 0 auto;
+    position: relative;
+}
+
+.create_card h3 {
+    font-sze: 1.500em;
+    color: #C8C8C8;
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+    font-family: 'AndesRounded-Regular';
+    margin-top: 15px;
+
+}
+
+.create_trip_card {
+    height: 165px;
+}
+
+.create_wish_card {
+    height: 236px;
+}
+
+
+
 /* REVIEW INFORMATION */
 
 .review {
@@ -510,7 +697,7 @@ footer {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  height: 250px;
+  height: 290px;
  
 }
 
@@ -519,16 +706,22 @@ footer {
     display: inline-block;
     float: left;
     overflow: hidden;
+    width: 80px;
+    height: 80px;
 }
 
 .review h3 {
     text-align: left;
     float: left;
     margin: 20px;
+    font-family: 'AndesRounded-Regular';
+    font-size: 1.5em;
+    color: #6C6C6C;
+    
 }
 
 .rating-review {
-  margin: 0px 0 20px 20px;
+  margin: 0px 0 40px 20px;
   display: inline-block;
     
 }
@@ -537,7 +730,8 @@ footer {
     text-transform: uppercase;
   text-align: left;
   float: left;
-  line-height: 1.5;
+  line-height: 1.25;
+    color: #585858;
 }
 
 .rating-review ul {
@@ -548,26 +742,32 @@ footer {
 
 .rating-review ul li {
     display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin: 0 2px;
+  width: 16px;
+  height: 16px;
+  margin: 0 1px;
   border-radius: 50%;
   background-color: #FEEDD1;
 }
 
 .description-review {
-    font-size: 0.95em;
+    font-size: 1em;
   text-align: left;
+    color: #7D7D7D;
   width: 85%;
   /* margin: 0 auto; */
   line-height: 1.4;
+    font-family: 'AndesRoundedLight';
+    font-weight: 200;
 }
 
 .review-date {
-    width:  100%;
+    width: 100%;
     text-align: left;
-    font-size: 0.9em;
-    line-height:  1;
+    font-size: 0.875em;
+    line-height:  1.5;
+    color:#C8C8C8;
+    font-family: 'AndesRoundedLight';
+    font-weight: 100;
 }
 
 #user-detail-info {
@@ -699,6 +899,7 @@ footer {
       box-sizing: content-box;
       padding: 10px;
         margin: 20px 0 20px 0;
+      line-height: 1.5;
 }
 
 .Verification-data ul {
@@ -766,11 +967,81 @@ footer {
          padding-bottom:0;   
     }
     
+    .ficha-user {
+        margin: 20px auto;
+        display: block;
+        width: 80%;    
+    }
+    
+    .user-picture {
+      width: 130px;
+      height: 130px;
+      margin: 0 0 10px 0;
+      float: left;
+    }
+    
+    .user-info h2 {
+        font-size: 2.225em;
+        text-align: left;
+        margin: 0 0 0 20px;
+        display: inline-block;
+        width: 65%;
+    }
+    
+    .location {
+        margin: 0 0 0 20px;
+        display: inline-block;
+        width: 65%;
+    }
 }
 
 @media all and (max-width:568px) {
         
+        .user-picture {
+      width: 30%;
+      height: 30%;
+      margin: 0 0 10px 0;
+      float: left;
+    }
+    
+    .user-info h2 {
+        font-size: 1.500em;
+        text-align: left;
+        margin: 0 0 0 7%;
+        display: inline-block;
+        width: 63%;
+    }
+    
+    .location {
+        margin: 0 0 0 7%;
+        display: inline-block;
+        width: 63%;
+    }
 
+    .user-info h4 {
+         width: 80%;
+    }
+    
+    .title h2 {
+         font-size: 1.500em;  
+        line-height: 1.6;
+    }
+    
+    .title span {
+        width: 40px;
+        height: 40px;
+        margin: 0 30px 0 0;
+    }
+    
+    .review {
+        width: 100%;
+        margin: 20px 3% 40px 3%;
+        height: auto;
+    }
+    
+    .description-review {
+        width: 100%;
+    }
 }
 
 
