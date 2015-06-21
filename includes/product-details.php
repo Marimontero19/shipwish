@@ -41,10 +41,13 @@
 			<div class="clear"></div>
 			<!-- END PRODUCT NEGOCIATE DETAILS  -->
 
-			<div class="buttons-process">
-				<input type="button" name="aproval" class="button" value="Waiting for approval"/>
-				<input type="button" name="aproval" value="Cancel Deal"/>
-				<input type="button" name="aproval" value="Start Negociation"/>
+			<div id="buttons-process">
+				<button>Waiting for approval</button>
+
+				<div id="cancel-start">
+					<p><a href="#">Cancel Deal</a></p>
+					<p><a href="#">Start Negociation</a></p>
+				</div>
 
 			</div>
 

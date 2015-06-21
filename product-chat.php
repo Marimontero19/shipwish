@@ -33,8 +33,13 @@ include('includes/header.php');
 				</div>
 				<div id="chat-description">
 					<p>Ask what you need to the wisher in order to deliver the items. If you want to change the terms of the deal, you can <span>start a negociation.</span></p>
-					<textarea name="textarea"></textarea>
+					<textarea name="textarea" placeholder="ex. I can go to the airport and meet you to pick up the cheese."></textarea>
 					<button><a href="#">SEND</a></button>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
 
 			</div>
 			

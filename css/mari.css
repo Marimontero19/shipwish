@@ -140,11 +140,11 @@
 }
 
 button{
-	background-color:gray;
+	/*background-color:gray;*/
 	/*color:#ffffff;*/
 	border:0;
 	border-radius: 5px;
-	width: 150px;
+	/*width: 150px;*/
 	height: 40px;
 }
 
@@ -1028,15 +1028,17 @@ button{
   margin: 0 auto;
 }
 
-
-
 .deal-info h3{
 	color:#0E777F;
 	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
-	margin-top:;
-
+	margin-bottom:30px;
 }
 
+.deal-info h4{
+	color:#6C6C6C;
+	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif
+
+}
 
 textarea {
   -webkit-border-radius: 5px;
@@ -1051,8 +1053,40 @@ textarea {
   margin: 0 0 1em 0;
 }
 
+#buttons-process button{
+	width: 100%;
+	color:#ffffff;
+	background-color: #D3D3D3;
+	text-transform: uppercase;;
+}
 
+#cancel-start{
+	text-align: center;
+	margin-top:20px;
 
+}
+
+#cancel-start p{
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left:20px;
+}
+
+#cancel-start p:nth-child(1){
+	color:#D3D3D3;
+}
+
+#cancel-start p:nth-child(1) a:visited{
+	color:#D3D3D3;
+}
+
+#cancel-start p:nth-child(2){
+	color:#0E777F;
+}
+
+#cancel-start p:nth-child(2) a:visited{
+	color:#0E777F;
+}
 
 
 @media all and (max-width:1023px) {
@@ -1086,15 +1120,20 @@ textarea {
 	color:#00B2BE;
 }
 
+#chat-description textarea{
+	padding:10px;
+	color:#D3D3D3;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+
+}
+
 #chat-description button{
 	color:#ffffff;
 	background-color:#00B2BE ;
 	float:right;
+	width: 150px;
 }
 
-#chat-description button a{
-	color:#ffffff;
-}
 
 #chat-description button a:visited{
 	color:#ffffff;
