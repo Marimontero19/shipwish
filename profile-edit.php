@@ -19,7 +19,7 @@ include('includes/header.php');
         ?>
         
         <!-- Finish editing -->
-        <input type="button" class="finish-editing-profile" name="finish-editing" value="finish editing profile" onclick="location.href='profile-public.php'">
+        <input type="button" class="finish-editing-profile grid_7_1024 grid_8_768 push_0_768 grid_6_320 push_0_320" name="finish-editing" value="finish editing profile" onclick="location.href='profile-public.php'">
 
 		<!-- CUSTOM PROFILE -->
 				<section id="user-customize-profile" class="grid_7_1200 push_1_1200 grid_6_1024 push_1_1024 grid_8_768 push_0_768 grid_6_320 push_0_320">
@@ -32,9 +32,10 @@ include('includes/header.php');
 				</div>
 				<form action="" class="user-info-edit" method="_POST">
 					<!-- user picture -->
-					<div class="small-pic-container">
-						<img src="img/users_pic/user_1_xs.jpg" alt="user-1-m" class="user-pic">
-					</div>
+                    <input name="avatar" type="file" class="avatar">
+                        <div class="fakefile small-pic-container">
+                            <img src="img/users_pic/user_1_m.jpg" alt="user-1-m" class="user-pic">
+                        </div>
 					<!-- name -->
 					<label for="" class="unseen">Name</label>
 					<input type="text" class="edit-name" name="user-name" value="Sameed Khan">
@@ -64,38 +65,38 @@ include('includes/header.php');
                         </div>
 					</fieldset>
 					<!-- Description -->
-					<label for="">Description</label>
+					<label class="label" for="">Description</label>
 					<textarea maxlength="140" name="description" placeholder="Tell everyone something about you">Electronics engineer. I am pasionate about new outcomes in technology. I work a lot, so I have developed a new passion about food. I like to discover new flavors and I have decided to start investigating new flavors of diferent culture in my free time.</textarea>		
 					<!-- verification data -->
-					<div class="Verification-data">
+					<div class="verification-data">
 							<div class="title">
 								<span></span>
 								<h2>Verification</h2>
 								<h3>Verifying your information will help other trust you</h3>
 							</div>
-					<ul>
+					<ul class="verify-list">
                         <li>
                             <h4>E-mail</h4>
-                            <h3> nombre.apellido@gmail.com</h3>
-                            <a class="verified"></a>
-                        </li>
-                        <li>
-                            <h4>Phone number</h4>
-                            <h3>+34 000 000 000</h3>
-                            <a class="ask"></a>
-                        </li>
-                        <li>
-                            <h4>Credit card</h4>
-                            <h3>xxxx xxxx xxxx0034</h3>
+                            <h5> nombre.apellido@gmail.com</h5>
                             <a class="verified"></a>
                         </li>
                         <li>
                             <h4>Facebook</h4>
                             <input type="button" name="facebook-connect" value="Connect with facebook">
+                        </li>                             
+                        <li>
+                            <h4>Phone number</h4>
+                            <h5>+34 000 000 000</h5>
+                            <a class="ask"></a>
                         </li>
                         <li>
                             <h4>Twitter</h4>
                             <input type="button" name="twitter-connect" value="Connect with twitter">
+                        </li>                        
+                        <li>
+                            <h4>Credit card</h4>
+                            <h5>xxxx xxxx xxxx0034</h5>
+                            <a class="verified"></a>
                         </li>
                         <li>
                             <h4>Google+</h4>

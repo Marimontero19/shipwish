@@ -19,10 +19,19 @@
     margin-top: 225px;
 }
 
-#wish_trips{
-	text-align: center;
-	margin-top: 45px;
-	margin-bottom: 45px;
+#header_wishboard {
+    background-color: #fff;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+}
+
+#wish_trips {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 45px 0;
 }
 
 #user-search{
@@ -243,7 +252,7 @@ button{
 	}
 
 	#details_home {
-  		margin-left: 20px;
+  		/*margin-left: 20px;*/
 	}
 
 

@@ -1,5 +1,8 @@
 /*CSS CAMILO*/
 
+/* CARDS 
+----------------------------------------------------------------------------------------*/
+
 .card {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -43,6 +46,11 @@
 
 #basic_info_home ul li {
   float: left;
+}
+
+#basic_info_home li:nth-child(2) {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 #basic_info_home h3 {
@@ -113,8 +121,12 @@
 
 
 .margin-left {
-    margin-left: 17% !important;
-    width: 23% !important;
+    margin-left: 20% !important;
+    width: 40% !important;
+}
+
+.short-delivery-date {
+    width: 40% !important;
 }
 
 .button_look {
@@ -208,18 +220,18 @@ footer {
 }
 
 .top {
-    background-color: #00B2BE;
+    background-color: #2C353A;
 }
 
 .bottom {
-     background-color: #0E777F;   
+     background-color: #222B2F;   
 }
 
 .up {
     display: block;
     height: auto /*140px*/;
     color: white;
-    background-color: #00B2BE;
+    background-color: #2C353A ;
     padding: 40px 0;
     width: 100%;
     margin: 0;
@@ -229,7 +241,7 @@ footer {
     display: block;
     height: auto /*60px*/;
     color: white;
-    background-color: #0E777F;  
+    background-color: #222B2F;  
     padding: 20px 0;
     width: 100%;
     margin: 0;
@@ -825,6 +837,7 @@ footer {
 
 .personal-info form {
   margin: 50px 0;
+    position: relative;
 }
 
 .user-info-edit {
@@ -841,6 +854,42 @@ footer {
     width: 100%;
 }
 
+input[type='file'] {
+	-webkit-appearance: none !important;
+	position: absolute;
+	text-align: center;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+  top: 0px;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  	border-radius: 50%;
+  	cursor:pointer;
+}
+
+input[type='submit'] {
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	/*position: absolute;*/
+	left: 0;
+	top: 0;
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	}
+
+.fakefile {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	cursor: pointer;
+}
+
 .unseen {
     display: none;
 }
@@ -851,6 +900,7 @@ footer {
 
 .user-info-edit input:focus {
   outline: none;
+    border-bottom: 1px solid gray;
 }
 
 .user-info-edit textarea:focus {
@@ -863,7 +913,7 @@ footer {
     border: none;
     background-color: transparent;
     line-height: 1.5;
-    width: 75%;
+    width: 70%;
     padding:0;
     float: left;
     
@@ -911,7 +961,7 @@ footer {
       line-height: 0.8;
 }
 
-.set label:first-child, .user-info-edit label {
+.set label:first-child, .label {
     color: #BEC9C9;
     font-family: 'AndesRoundedLight';
     font-weight: 100;
@@ -923,6 +973,16 @@ footer {
     color: #6C6C6C;
     font-family: 'AndesRounded-Regular';
 }
+
+div#ui-datepicker-div {
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+
+
+
 
 .radio {
     display: inline-block !important;
@@ -966,34 +1026,52 @@ footer {
     font-family: 'AndesRounded-Regular';
 }
 
-.Verification-data ul {
+.verification-data ul {
   display: inline-block;
 }
 
-.Verification-data ul li {
+.verification-data ul li {
   float: left;
   width: 50%;
-  margin: 20px 0 0;
+  margin: 40px 0 0 0;
+    height: 100px;
 }
 
+.verification-data h4 {
+    font-size: 1.1em;
+    color: #BEC9C9;
+    font-family: 'AndesRounded-Regular';
+    font-weight:100;
+    line-height: 0.8;
+}
 
-.Verification-data a {
+.verification-data h5 {
+    color: #6C6C6C;
+    font-size: 1.3em;
+    font-family: 'AndesRounded-Regular';
+      line-height: 4;
+    float: left;
+    font-weight:200;
+}
+
+.verification-data a {
   width: 20px;
   height: 20px;
   float: left;
   display: inline-block;
   background-color: gray;
-  margin: 16px;
+    margin: 32px 0 0 12px;
   border-radius: 50%;
 }
 
-.Verification-data input {
+.verification-data input {
   width: 95%;
   height: 40px;
   border: none;
   margin: 20px 0 0;
   border-radius: 6px;
-
+    background-color: #00B2BE;
+    color: #ffffff;
 }
 
 @media all and (min-width:1200px) {
@@ -1001,7 +1079,22 @@ footer {
 }
 
 @media all and (max-width:1199px) {
-    
+    .finish-editing-profile {
+    appearance: none !important;
+  border: none;
+  height: 60px;
+  width: 66.5%;
+  background: #C8C8C8;
+  text-align: left;
+  padding: 0 0 0 50px;
+  font-family: 'AndesRounded-Regular';
+  font-size: 1.250em;
+  color: #fff;
+  float: left;
+  position: relative;
+  top: inherit;
+  left: inherit;
+}
 }
 
 @media all and (max-width:1023px) {
@@ -1053,6 +1146,66 @@ footer {
         display: inline-block;
         width: 65%;
     }
+    
+    .finish-editing-profile {
+        appearance: none !important;
+        border: none;
+        height: 60px;
+        width: 100%;
+        background: #C8C8C8;
+        text-align: center;
+        padding: 0;
+        font-family: 'AndesRounded-Regular';
+        font-size: 1.250em;
+        color: #fff;
+        float: none;
+        position: relative;
+        margin: 40px auto;
+        display: inline-block;
+          left: inherit;
+  top: inherit;
+}
+
+    .verification-data h5 {
+        font-size: 1em;
+        line-height: 5;
+   
+    }
+    
+        .margin-left {
+        margin-left: 15% !important;
+        width: 42% !important;
+    }
+    
+    .short-delivery-date {
+        width: 42% !important;
+    }
+    
+    
+    #details_home li {
+      width: 30px;
+      height: 30px;
+      margin: 8px 0 0 3%;
+    }
+    
+}
+
+@media all and (max-width:767px) {
+    
+    .margin-left {
+        margin-left: 0 !important;
+        width: 50% !important;
+    }
+    
+    .short-delivery-date {
+        width: 50% !important;
+    }
+    
+    #details_home li {
+      width: 30px;
+      height: 30px;
+      margin: 8px 0 0 3%;
+    }
 }
 
 @media all and (max-width:568px) {
@@ -1102,6 +1255,27 @@ footer {
     .description-review {
         width: 100%;
     }
+    
+    .verification-data ul {
+        width: 100%;
+    }
+    
+    .verification-data ul li {
+      float: none;
+      width: 100%;
+        margin: 40px 0;
+        height: 80px;
+    }
+    
+    .verification-data input {
+          width: 100%;
+    }
+    
+    .user-info-edit textarea {
+        line-height: 1.5;
+        font-size: 1em;
+    }
+    
 }
 
 
