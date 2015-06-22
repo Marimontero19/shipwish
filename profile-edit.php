@@ -19,7 +19,7 @@ include('includes/header.php');
         ?>
         
         <!-- Finish editing -->
-        <input type="button" class="finish-editing-profile grid_7_1200 push_1_1200 grid_6_1024 push_1_1024 grid_8_768 push_0_768 grid_6_320 push_0_320" name="finish-editing" value="finish editing profile" onclick="location.href='profile-public.php'">
+        <input type="button" class="finish-editing-profile" name="finish-editing" value="finish editing profile" onclick="location.href='profile-public.php'">
 
 		<!-- CUSTOM PROFILE -->
 				<section id="user-customize-profile" class="grid_7_1200 push_1_1200 grid_6_1024 push_1_1024 grid_8_768 push_0_768 grid_6_320 push_0_320">
@@ -52,7 +52,7 @@ include('includes/header.php');
                     <fieldset>
                         <div class="set">
                             <label for="">Birthday</label>
-                            <input class="edit-birthday datepicker" type="text" name="birthday-user" value="25 May 1982">
+                            <input class="edit-birthday datepicker" type="text" name="birthday-user" value="05/25/1985">
                         </div>
                         <div class="set">       
                             <!-- Gender -->
@@ -64,8 +64,8 @@ include('includes/header.php');
                         </div>
 					</fieldset>
 					<!-- Description -->
-					<textarea maxlength="140" name="description" placeholder="Tell everyone something about you">Electronics engineer. I am pasionate about new outcomes in technology. I work a lot, so I have developed a new passion about food. I like to discover new flavors and I have decided to start investigating new flavors of diferent culture in my free time.
-					</textarea>		
+					<label for="">Description</label>
+					<textarea maxlength="140" name="description" placeholder="Tell everyone something about you">Electronics engineer. I am pasionate about new outcomes in technology. I work a lot, so I have developed a new passion about food. I like to discover new flavors and I have decided to start investigating new flavors of diferent culture in my free time.</textarea>		
 					<!-- verification data -->
 					<div class="Verification-data">
 							<div class="title">

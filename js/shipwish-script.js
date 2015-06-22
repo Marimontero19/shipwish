@@ -14,7 +14,7 @@ $(document).ready (
           });
 
 		 //Radio button JqueryUI
-<<<<<<< HEAD
+
 		 $(function() {
 		    $( "#radio" ).buttonset();
 		  });
@@ -29,12 +29,6 @@ $(document).ready(function(){
     });
 });
 */
-=======
-		    $(function() {
-		      $( "#radio" ).buttonset();
-		    });
->>>>>>> origin/master
-
 
   
 

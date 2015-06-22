@@ -46,6 +46,10 @@ include('includes/header.php');
             <!--Primer wish-->
             <a href="#" class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
 
+                <div class="number">
+                    3
+                </div>
+                
                 <div class="wisher_card_container">
                     <div id="basic_info_home">
                         <ul>
@@ -197,7 +201,7 @@ include('includes/header.php');
             </a>
                
             <!--Quinto wish-->
-            <a class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
+            <a href="#" class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
 
                 <div class="wisher_card_container">
                     <div id="basic_info_home">
