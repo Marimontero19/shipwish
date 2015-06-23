@@ -1021,9 +1021,13 @@ button{
 /*************** product_details.php ***************/
 
 .chat-general-info {
-    background-color: white;
-    padding-bottom: 100%;
+  background-color: white;
+  padding-bottom:50% ;
+  /*100%*/
+  margin: 0 auto;
+  width: 40%;
 }
+
 
 #chat-product {
    
@@ -1101,13 +1105,53 @@ textarea {
 }
 
 
-@media all and (max-width:1023px) {
-    
-    .chat-general-info {
-         padding-bottom:0;   
+/*Tablet*/
+@media only screen and (min-width : 870px) and (max-width : 1077px) {
+   
+	 .chat-general-info {
+         padding-bottom:64%;   
     }
-    
 }
+
+
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+
+	  .chat-general-info {
+         padding-bottom:80%;   
+    }
+
+    .chat-general-info {
+  		width: 60%;
+}
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 660px) {
+	  .chat-general-info {
+         padding-bottom:110%;   
+    }
+
+        .chat-general-info {
+  		width: 70%;
+	}
+
+}
+
+
+/*Mobile*/
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+	  
+    .chat-general-info {
+         padding-bottom:160%;   
+    }
+
+           .chat-general-info {
+  		width: 100%;
+	}
+
+}
+
 
 /*************** product-chat.php ***************/
 
@@ -1354,11 +1398,37 @@ textarea {
 			  		margin-bottom: 50px;
 
 			}
+
+				#icon .title span {
+					display:none;
+			}
+
+				#chat .title h2 {
+				margin-top: 0px;
+
+			}
+
+				#icon .title {
+  				margin-top: 0px !important; 
+			}
 }
 
 
 /*Mobile*/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
+
+				#icon .title span {
+					display:none;
+			}
+
+				#chat .title h2 {
+				margin-top: 0px;
+
+			}
+
+				#icon .title {
+  				margin-top: 0px !important; 
+			}
 
 				.wrote-comment {
 			
