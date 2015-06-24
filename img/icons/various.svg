@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>various</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="various" sketch:type="MSArtboardGroup">
+            <g id="Icon-/-Category-/-Various" sketch:type="MSLayerGroup">
+                <rect id="Rectangle-139" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="40"></rect>
+                <g id="Various" transform="translate(7.000000, 7.000000)" fill="#00B2BE" sketch:type="MSShapeGroup">
+                    <path d="M6.3916,14.2178 C3.4186,14.2178 0.9996,16.6358 0.9996,19.6088 C0.9996,22.5818 3.4186,24.9998 6.3916,24.9998 C9.3646,24.9998 11.7836,22.5818 11.7836,19.6088 C11.7836,16.6358 9.3646,14.2178 6.3916,14.2178" id="Fill-1"></path>
+                    <path d="M7.4775,11.1411 L20.2495,11.1411 C20.2575,11.1411 20.2645,11.1421 20.2695,11.1411 C20.5455,11.1411 20.7695,10.9171 20.7695,10.6411 C20.7695,10.4911 20.7045,10.3571 20.5995,10.2661 L14.2785,0.8521 C14.0925,0.5761 13.6335,0.5761 13.4485,0.8521 L7.0625,10.3621 C6.9595,10.5161 6.9495,10.7131 7.0365,10.8761 C7.1235,11.0391 7.2925,11.1411 7.4775,11.1411" id="Fill-4"></path>
+                    <path d="M26.5,14.2178 L16.717,14.2178 C16.44,14.2178 16.217,14.4418 16.217,14.7178 L16.217,24.4998 C16.217,24.7768 16.44,24.9998 16.717,24.9998 L26.5,24.9998 C26.776,24.9998 27,24.7768 27,24.4998 L27,14.7178 C27,14.4418 26.776,14.2178 26.5,14.2178" id="Fill-6"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

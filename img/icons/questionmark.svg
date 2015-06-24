@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>questionmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="questionmark" sketch:type="MSArtboardGroup">
+            <g id="Icon-/-verified-Copy-2" sketch:type="MSLayerGroup" transform="translate(7.000000, 7.000000)">
+                <g id="Oval-1-+-3">
+                    <circle id="Oval-1" fill="#CECECE" sketch:type="MSShapeGroup" cx="13.5" cy="13.5" r="13.5"></circle>
+                    <text id="3-copy" sketch:type="MSTextLayer" font-family="Andes Rounded" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="10" y="19">?</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -562,7 +562,7 @@ button{
 #details-product li h5{
 	color:#737373;
 	margin-bottom: 15px;
-	margin-left: 80px;
+	margin-left: 52px;
 	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
 }
 
@@ -579,10 +579,10 @@ button{
 }
 
 .icon-circle{
-	width: 30px;
-    height: 30px;
+	width: 40px;
+    height: 40px;
     border-radius: 50%;
-    background-color: gray;
+    /*background-color: gray;*/
 }
 
 

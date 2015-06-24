@@ -25,7 +25,7 @@ include('includes/header.php');
 
 			<div id="icon" class="grid_1_1200 grid_1_1024 grid_1_768 grid_1_320">
 				<div class="title">
-						<span></span>
+						<span><img src="img/icons/chat.svg" alt="chat"></span>
 				</div>
 			</div>
 

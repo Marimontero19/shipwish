@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>xl</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="xl" sketch:type="MSArtboardGroup">
+            <g id="Icon-/-Size-/-XL" sketch:type="MSLayerGroup">
+                <rect id="Rectangle-11" stroke="#F9A41A" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="5" y="5" width="30.2777042" height="30" rx="5"></rect>
+                <rect id="Rectangle-11-Copy-4" sketch:type="MSShapeGroup" x="0" y="0" width="39.526209" height="39.1636784"></rect>
+                <text id="S" sketch:type="MSTextLayer" font-family="Andes Rounded" font-size="20" font-weight="normal" fill="#F9A41A">
+                    <tspan x="8.75309208" y="26.5617855">XL</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -14,7 +14,7 @@
 					<div id="details-product">
 						<ul>
 							<li>
-								<h3><img class="icon-circle" src="" alt=""></h3>
+								<h3><img src="img/icons/money.svg" class="icon-circle" alt="money"></h3>
 								<h3>Reward &nbsp; $12</h3>
 								<ul>
 									<li class="reward-description"><h5>Cost of the product: $8</h5></li>
@@ -23,7 +23,7 @@
 							</li>
 
 							<li>
-								<h3 class="icon-size">M</h3>
+								<h3><img src="img/icons/m.svg" class="icon-circle" alt="medium"></h3>
 								<h3>Size &nbsp; Medium</h3>
 								<ul>
 									<li class="reward-description"><h5>Aproximate size: 30 x 40 cm</h5></li>
@@ -33,7 +33,7 @@
 							</li>
 
 							<li>
-								<h3><img class="icon-circle" src="" alt=""></h3>
+								<h3><img src="img/icons/food.svg" alt="food"></h3>
 								<h3>Food</h3>
 							</li>
 						</ul>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>food</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="food" sketch:type="MSArtboardGroup">
+            <g id="Icon-/-Category-/-Food" sketch:type="MSLayerGroup">
+                <rect id="Rectangle-139" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="40"></rect>
+                <g id="Food" transform="translate(10.000000, 5.000000)" fill="#00B2BE" sketch:type="MSShapeGroup">
+                    <path d="M6.9219,13.5347 L6.9219,27.1357 C6.9219,29.6207 3.3499,29.6207 3.3459,27.1357 L3.3459,13.5347 C2.0909,13.5347 0.9969,12.6177 0.9999,11.2517 L0.9999,1.6337 C0.9969,0.7987 2.2759,0.7677 2.2829,1.6667 L2.2829,7.8187 L3.3459,7.8187 L3.3459,1.6007 C3.3459,0.8347 4.5739,0.7857 4.5779,1.6337 L4.5779,7.8187 L5.6709,7.8187 L5.6709,1.6177 C5.6809,0.8097 6.8749,0.7767 6.8709,1.6507 L6.8709,7.8187 L7.9659,7.8187 L7.9659,1.6177 C7.9639,0.8167 9.2109,0.7847 9.2169,1.6507 L9.2169,11.3967 C9.2089,12.4267 8.2129,13.5347 6.9219,13.5347" id="Fill-1"></path>
+                    <path d="M18.7305,3.8691 L18.7305,27.1351 C18.7355,29.5581 15.1585,29.5221 15.1535,27.1351 L15.1535,17.2031 L13.2545,17.2031 L13.2545,3.8691 C13.2515,0.0611 18.7355,0.0611 18.7305,3.8691" id="Fill-4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>message</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="message" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+            <g id="Icon-/-message" sketch:type="MSLayerGroup">
+                <g id="Message-Copy-11" transform="translate(6.666667, 6.666667)" sketch:type="MSShapeGroup">
+                    <path d="M26.3888889,5.55555556 L23.6111111,5.55555556 L23.6111111,18.0555556 L5.55555556,18.0555556 L5.55555556,20.8333333 C5.55555556,21.6666667 6.11111111,22.2222222 6.94444444,22.2222222 L22.2222222,22.2222222 L27.7777778,27.7777778 L27.7777778,6.94444444 C27.7777778,6.11111111 27.2222222,5.55555556 26.3888889,5.55555556 L26.3888889,5.55555556 Z M20.8333333,13.8888889 L20.8333333,1.38888889 C20.8333333,0.555555556 20.2777778,0 19.4444444,0 L1.38888889,0 C0.555555556,0 0,0.555555556 0,1.38888889 L0,20.8333333 L5.55555556,15.2777778 L19.4444444,15.2777778 C20.2777778,15.2777778 20.8333333,14.7222222 20.8333333,13.8888889 L20.8333333,13.8888889 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
