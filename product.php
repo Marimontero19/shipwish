@@ -45,8 +45,22 @@ include('includes/header.php');
 
 					<div id="actions" class="">
 						<ul>
-							<li><button><span class="icon"><img src="" alt=""></span>Let's do it</button></li>
-							<li><button><span class="icon"><img src="" alt=""></span>Negociate</button></li>
+							<li>
+								<button class="">
+									<span class="icon">
+										<img src="img/icons/ok.svg" alt="negociate">
+									</span>
+									Let's do it
+								</button>
+							</li>
+							<li>
+								<button>
+									<span class="icon">
+										<img src="img/icons/negociate.svg" alt="negociate">
+									</span>
+									Negociate
+								</button>
+							</li>
 							<li class="link"><span class="icon"><img src="" alt=""></span>Save to watchlist</li>
 						</ul>
 					</div>
@@ -63,8 +77,8 @@ include('includes/header.php');
 					<div id="details-product">
 						<ul>
 							<li>
-								<img src="" alt="info"> 
-								<h3><img class="icon-circle" src="" alt=""></h3>
+								<img src="img/icons/info.svg" alt="info">  
+								<h3><img src="img/icons/money.svg" class="icon-circle" alt="money"></h3>
 								<h3>Reward &nbsp; $12</h3>
 								<ul>
 									<li class="reward-description"><h5>Cost of the product: $8</h5></li>
@@ -73,8 +87,8 @@ include('includes/header.php');
 							</li>
 
 							<li>
-								<img src="" alt="info"> 
-								<h3 class="icon-size">M</h3>
+								<img src="img/icons/info.svg" alt="info"> 
+								<h3><img src="img/icons/m.svg" class="icon-circle" alt="medium"></h3>
 								<h3>Size &nbsp; Medium</h3>
 								<ul>
 									<li class="reward-description"><h5>Aproximate size: 30 x 40 cm</h5></li>
@@ -84,8 +98,8 @@ include('includes/header.php');
 							</li>
 
 							<li>
-								<img src="" alt="info"> 
-								<h3><img class="icon-circle" src="" alt=""></h3>
+								<img src="img/icons/info.svg" alt="info"> 
+								<h3><img src="img/icons/food.svg" class="icon-circle" alt="food"></h3>
 								<h3>Food</h3>
 							</li>
 						</ul>
@@ -109,77 +123,88 @@ include('includes/header.php');
 				<div class="container_12 container_10 container_8 container_6">		
 					<section id="similar-wishes" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200" >
 						<h2>Similar wishes</h2>
-						<!--Primer wish-->
-				            <div id="wisher_card" class="grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
+						<!--1-->
+			            <div class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
+			                <div class="wisher_card_container">
+			                    <div id="basic_info_home">
+			                        <ul>
+			                            <li>
+			                                <a href="user_profile.php">
+			                                    <img class="user-pic" src="img/users_pic/user_2_xs.jpg" alt="user_2">
+			                                </a>
+			                            </li>
+			                            <li>
+			                                <h3 class="">Pecorino Romano Cheese</h3>
+			                            </li>
+			                            <!--<li><p>*3</p></li>-->
+			                        </ul>					
+			                    </div>
 
-				                <div style="padding: 3% 3% 3% 3%">
-				                    <div id="basic_info_home">
-				                        <ul>
-				                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>
-				                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
-				                        </ul>					
-				                    </div>
+			                    <div class="display_block">
 
-				                    <div class="display_inline_block">
+			                        <div id="destination_home" class="margin-left">
+			                            <p>From:</p><h4>Italy</h4>
+			                            <br>
+			                            <p>To:</p><h4>Dublin</h4>
+			                        </div>
 
-				                        <div id="destination_home">
-				                            <p>From:</p><h4>Italy</h4>
-				                            <br>
-				                            <p>To:</p><h4>Dublin</h4>
-				                        </div>
+			                        <div id="details_home" class="short-delivery-date">
+			                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+			                            <ul>
+			                                <li></li>
+			                                <li></li>
+			                                <li></li>
+			                            </ul>
+			                        </div>
+			                        <div class="clear"></div>
+			                    </div>	
+			                </div>	
 
-				                        <div id="details_home">
-				                            <p>Delivery:</p><h4>June 7th, 2015</h4>
-				                            <ul>
-				                                <li></li>
-				                                <li></li>
-				                                <li></li>
-				                            </ul>
-				                        </div>
-				                    </div>	
-				                </div>	
+			                <div class="button_look">
+			                    <h4>Let's take a look</h4>
+			                </div>
+			            </div>
+			            <!--2-->
+			            <div class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
+			                <div class="wisher_card_container">
+			                    <div id="basic_info_home">
+			                        <ul>
+			                            <li>
+			                                <a href="user_profile.php">
+			                                    <img class="user-pic" src="img/users_pic/user_3_xs.jpg" alt="user_3">
+			                                </a>
+			                            </li>
+			                            <li>
+			                                <h3 class="">Pecorino Romano Cheese</h3>
+			                            </li>
+			                            <!--<li><p>*3</p></li>-->
+			                        </ul>					
+			                    </div>
 
-				                <div class="button_look">
-				                    <a href="product_profile.php"><h4>Let's take a look</h4></a>
-				                </div>
+			                    <div class="display_block">
 
-				            </div>
+			                        <div id="destination_home" class="margin-left">
+			                            <p>From:</p><h4>Italy</h4>
+			                            <br>
+			                            <p>To:</p><h4>Dublin</h4>
+			                        </div>
 
-				        <!--Segundo wish-->
+			                        <div id="details_home" class="short-delivery-date">
+			                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+			                            <ul>
+			                                <li></li>
+			                                <li></li>
+			                                <li></li>
+			                            </ul>
+			                        </div>
+			                        <div class="clear"></div>
+			                    </div>	
+			                </div>	
 
-				            <div id="wisher_card" class="grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
-
-				                <div style="padding: 3% 3% 3% 3%">
-				                    <div id="basic_info_home">
-				                        <ul>
-				                            <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_2_xs.jpg" alt="user_2"></a></li>
-				                            <li><h3 class="">Welsh cake</h3></li>
-				                        </ul>					
-				                    </div>
-
-				                    <div class="display_inline_block">
-
-				                        <div id="destination_home">
-				                            <p>From:</p><h4>Uk</h4>
-				                            <br>
-				                            <p>To:</p><h4>Ohio</h4>
-				                        </div>
-
-				                        <div id="details_home">
-				                            <p>Delivery:</p><h4>July 7th, 2015</h4>
-				                            <ul>
-				                                <li></li>
-				                                <li></li>
-				                                <li></li>
-				                            </ul>
-				                        </div>
-				                    </div>	
-				                </div>	
-
-				                <div class="button_look">
-				                    <a href="product_profile.php"><h4>Let's take a look</h4></a>
-				                </div>
-            			</div>
+			                <div class="button_look">
+			                    <h4>Let's take a look</h4>
+			                </div>
+			            </div>
 
 		              <!-- <div class="center grid_12_1200">
 		                	<button><a href="wish_board.php" alt="Wish Board">See more wishes</a></button>

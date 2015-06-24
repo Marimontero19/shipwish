@@ -117,11 +117,11 @@ include('includes/header.php');
                         <ul>
                             <li>
                                 <a href="user_profile.php">
-                                    <img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1">
+                                    <img class="user-pic" src="img/users_pic/user_2_xs.jpg" alt="user_2">
                                 </a>
                             </li>
                             <li>
-                                <h3 class="">Pecorino Romano Cheese</h3>
+                                <h3 class="">Lemon Drizzle</h3>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
@@ -130,13 +130,13 @@ include('includes/header.php');
                     <div class="display_block">
 
                         <div id="destination_home" class="margin-left">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>England</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Madrid</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>July 20th, 2015</h4>
                             <ul>
                                 <li></li>
                                 <li></li>
@@ -158,11 +158,11 @@ include('includes/header.php');
                         <ul>
                             <li>
                                 <a href="user_profile.php">
-                                    <img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1">
+                                    <img class="user-pic" src="img/users_pic/user_3_xs.jpg" alt="user_3">
                                 </a>
                             </li>
                             <li>
-                                <h3 class="">Pecorino Romano Cheese</h3>
+                                <h3 class="">Shoes from Harajuku store</h3>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
@@ -171,13 +171,13 @@ include('includes/header.php');
                     <div class="display_block">
 
                         <div id="destination_home" class="margin-left">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>Tokio</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Milano</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>August 9th, 2015</h4>
                             <ul>
                                 <li></li>
                                 <li></li>
@@ -199,11 +199,11 @@ include('includes/header.php');
                         <ul>
                             <li>
                                 <a href="user_profile.php">
-                                    <img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1">
+                                    <img class="user-pic" src="img/users_pic/user_4_xs.jpg" alt="user_4">
                                 </a>
                             </li>
                             <li>
-                                <h3 class="">Pecorino Romano Cheese</h3>
+                                <h3 class="">Head Medicine pills</h3>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
@@ -212,13 +212,13 @@ include('includes/header.php');
                     <div class="display_block">
 
                         <div id="destination_home" class="margin-left">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>Madrid</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Miami</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>June 30th, 2015</h4>
                             <ul>
                                 <li></li>
                                 <li></li>
@@ -240,11 +240,11 @@ include('includes/header.php');
                         <ul>
                             <li>
                                 <a href="user_profile.php">
-                                    <img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1">
+                                    <img class="user-pic" src="img/users_pic/user_5_xs.jpg" alt="user_5">
                                 </a>
                             </li>
                             <li>
-                                <h3 class="">Pecorino Romano Cheese</h3>
+                                <h3 class="">Lakeland's Chef's Knife </h3>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
@@ -253,13 +253,13 @@ include('includes/header.php');
                     <div class="display_block">
 
                         <div id="destination_home" class="margin-left">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>India</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Italy</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>October 2th, 2015</h4>
                             <ul>
                                 <li></li>
                                 <li></li>
@@ -281,11 +281,11 @@ include('includes/header.php');
                         <ul>
                             <li>
                                 <a href="user_profile.php">
-                                    <img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1">
+                                    <img class="user-pic" src="img/users_pic/user_6_xs.jpg" alt="user_6">
                                 </a>
                             </li>
                             <li>
-                                <h3 class="">Pecorino Romano Cheese</h3>
+                                <h3 class="">Leather jacket</h3>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
@@ -294,13 +294,13 @@ include('includes/header.php');
                     <div class="display_block">
 
                         <div id="destination_home" class="margin-left">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>Argentina</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Bilbao</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>June 9th, 2015</h4>
                             <ul>
                                 <li></li>
                                 <li></li>
@@ -322,11 +322,11 @@ include('includes/header.php');
                         <ul>
                             <li>
                                 <a href="user_profile.php">
-                                    <img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1">
+                                    <img class="user-pic" src="img/users_pic/user_7_xs.jpg" alt="user_7">
                                 </a>
                             </li>
                             <li>
-                                <h3 class="">Pecorino Romano Cheese</h3>
+                                <h3 class="">Beans of Costa Rica</h3>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
@@ -335,13 +335,13 @@ include('includes/header.php');
                     <div class="display_block">
 
                         <div id="destination_home" class="margin-left">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>Liberia</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Roma</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>May 1th, 2016</h4>
                             <ul>
                                 <li></li>
                                 <li></li>
@@ -363,7 +363,7 @@ include('includes/header.php');
                         <ul>
                             <li>
                                 <a href="user_profile.php">
-                                    <img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1">
+                                    <img class="user-pic" src="img/users_pic/user_8_xs.jpg" alt="user_8">
                                 </a>
                             </li>
                             <li>
@@ -382,7 +382,7 @@ include('includes/header.php');
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>July 20th, 2015</h4>
                             <ul>
                                 <li></li>
                                 <li></li>

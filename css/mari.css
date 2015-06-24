@@ -501,6 +501,10 @@ button{
 	margin-top: 10px;
 }*/
 
+#actions span img{
+	vertical-align: middle;
+}
+
 #actions li:nth-child(1) button {
 	width: 200px;
 	background-color:#F9A41A;
