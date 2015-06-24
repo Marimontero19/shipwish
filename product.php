@@ -118,7 +118,8 @@ include('includes/header.php');
 		</article>		
 	</div>
 </div>
-		<div id="recomendations">
+		<div id="recomendations" style="background-color:red;">
+			<div class="clear"></div>
 			<div class="main-container" class="full-width-gray">
 				<div class="container_12 container_10 container_8 container_6">		
 					<section id="similar-wishes" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200" >

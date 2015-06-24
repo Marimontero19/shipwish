@@ -701,19 +701,19 @@ button{
 
 #recomendations{
 	width:100%;
+	background-color:#ffffff !important;
 }
 
-.full-width-gray {
-	background-color:#F9F9F9;
-}
+/*background-color:#F9F9F9;*/
+
 
 #similar-wishes{
 	margin-bottom: 40px;
 }
 
 #similar-wishes h2{
-	margin-top: 40px;
 	margin-bottom: 40px;
+	margin-top: 40px;
 	color:#0E777F;
 
 }
