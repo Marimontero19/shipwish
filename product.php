@@ -134,7 +134,7 @@ include('includes/header.php');
 			                                </a>
 			                            </li>
 			                            <li>
-			                                <h3 class="">Pecorino Romano Cheese</h3>
+			                                <h3 class="">Levis t-shirt, coat and dress</h3>
 			                            </li>
 			                            <!--<li><p>*3</p></li>-->
 			                        </ul>					
@@ -149,11 +149,11 @@ include('includes/header.php');
 			                        </div>
 
 			                        <div id="details_home" class="short-delivery-date">
-			                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+			                            <p>Delivery:</p><h4>June 10th, 2015</h4>
 			                            <ul>
-			                                <li></li>
-			                                <li></li>
-			                                <li></li>
+			                                <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"></li>
+			                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
+			                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
 			                            </ul>
 			                        </div>
 			                        <div class="clear"></div>
@@ -175,7 +175,7 @@ include('includes/header.php');
 			                                </a>
 			                            </li>
 			                            <li>
-			                                <h3 class="">Pecorino Romano Cheese</h3>
+			                                <h3 class="">Armchair, lamp and 2 pillows </h3>
 			                            </li>
 			                            <!--<li><p>*3</p></li>-->
 			                        </ul>					
@@ -190,11 +190,11 @@ include('includes/header.php');
 			                        </div>
 
 			                        <div id="details_home" class="short-delivery-date">
-			                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+			                            <p>Delivery:</p><h4>June 20th, 2015</h4>
 			                            <ul>
-			                                <li></li>
-			                                <li></li>
-			                                <li></li>
+			                                <li><img src="img/icons/various.svg" class="icon-circle" alt="various"></li>
+			                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="various"></li>
+			                                <li><img src="img/icons/xl.svg" class="icon-circle" alt="xl"></li>
 			                            </ul>
 			                        </div>
 			                        <div class="clear"></div>

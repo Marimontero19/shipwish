@@ -68,6 +68,17 @@
 	margin-top: 40px
 }
 
+#wish-description{
+	display:inline-block;
+	margin-top: 20px;
+}
+
+#wish-description img{
+	float:left;
+	margin-right: 30px;
+}
+
+
 #wish-boards{
 	margin-top: 50px;
 	display: inline-block; important!
@@ -172,7 +183,7 @@ button{
 .button_look h4{
 	color:#ffffff;
   	padding-top: 8px;
-  	font-family:'AndesRounded-Regular',Helvetica, Arial, sans-serif;;
+  	font-family:'AndesRounded-Regular',Helvetica, Arial, sans-serif;
   	text-transform: uppercase;
 }
 
@@ -303,9 +314,7 @@ button{
 	display: inline-block; important!
 }
 
-#tripper_card{
-
-	/*height:180px;*/
+/*#tripper_card{
 	box-sizing:border-box;
    -moz-box-sizing:border-box;
    -webkit-box-sizing:border-box;
@@ -314,6 +323,31 @@ button{
 	height: auto;
 	float: left;
 	margin-bottom: 20px;
+}*/
+
+#trip-description{
+	display:inline-block;
+	margin-top: 20px;
+}
+
+#trip-description img{
+	float:left;
+	margin-right: 30px;
+}
+
+.text-description{
+	margin-top:10px;
+}
+
+.text-description h4{
+	color:#909090;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+
+.text-description h3{
+	color:#909090;
+	font-family:'AndesRounded-Regular',Helvetica, Arial, sans-serif;
 }
 
 
@@ -335,6 +369,17 @@ button{
   	float: left;
 }
 
+#destination_home_trips p {
+  	  color: #BEC9C9;
+  	  font-size: 0.875em;
+}
+
+#destination_home_trips h4 {
+  	 color: #737373;
+  	 font-family: 'AndesRounded-Regular';
+}
+
+
 #details_home_trips{
 	margin-top: 10px;
 	float:left;
@@ -344,9 +389,21 @@ button{
   	width: 40px;
   	height: 40px;
   	border-radius: 50%;
-  	background-color: gray;
   	display: inline-block;
   	margin-top: 10px;
+  	margin-right:10px;
+}
+
+
+#details_home_trips p{
+	 color: #BEC9C9;
+  	  font-size: 0.875em;
+}
+
+#details_home_trips h4{
+	color: #737373;
+  	 font-family: 'AndesRounded-Regular';
+
 }
 
 /*Media queries trip-boad*/

@@ -68,6 +68,16 @@ include('includes/header.php');
 <div class="main-container">
     <div class="container_12 container_10 container_8 container_6">
 
+        <div id="wish-description" class="grid_8_1200 grid_8_1024 grid_6_768 grid_6_320 push_2_1200 push_1_1024">
+                <img src="img/icons/wish_board.svg" alt="wishes">
+                <div class="text-description">
+                    <h4>Here are the cards with the items that will make people happy. 
+They are looking for a traveler to make their wish to come true.</h4>
+                    <h3>Are you going to be the one delivering the wish?</h3>
+                </div>
+
+        </div>
+
         <div id="wish-boards">
             <!--1-->
             <div class="card grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
@@ -97,9 +107,9 @@ include('includes/header.php');
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>June 7th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -138,9 +148,9 @@ include('includes/header.php');
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>July 20th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
+                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer"></li>
+                                <li><img src="img/icons/s.svg" class="icon-circle" alt="s"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -179,9 +189,9 @@ include('includes/header.php');
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>August 9th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -220,9 +230,9 @@ include('includes/header.php');
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>June 30th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li><img src="img/icons/other.svg" class="icon-circle" alt="other"></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
+                                <li><img src="img/icons/xs.svg" class="icon-circle" alt="Xs"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -261,9 +271,9 @@ include('includes/header.php');
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>October 2th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li><img src="img/icons/other.svg" class="icon-circle" alt="other"></li>
+                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -302,9 +312,9 @@ include('includes/header.php');
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>June 9th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -343,9 +353,9 @@ include('includes/header.php');
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>May 1th, 2016</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -367,7 +377,7 @@ include('includes/header.php');
                                 </a>
                             </li>
                             <li>
-                                <h3 class="">Pecorino Romano Cheese</h3>
+                                <h3 class="">Crack seeds</h3>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
@@ -376,17 +386,17 @@ include('includes/header.php');
                     <div class="display_block">
 
                         <div id="destination_home" class="margin-left">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>Hawai</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Beijing</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>July 20th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
+                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer"></li>
+                                <li><img src="img/icons/s.svg" class="icon-circle" alt="small"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -402,7 +412,7 @@ include('includes/header.php');
             <!--FINAL DE WISHES-->
 
             <div class="center grid_12_1200">
-                <button><a href="create_trip.php" alt="Create Trip">See more wishes</a></button>
+                <a href=""><img src="img/icons/more.svg" alt="view more"></a>
              </div>
 
         </div>
