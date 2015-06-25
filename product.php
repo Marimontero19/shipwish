@@ -46,12 +46,12 @@ include('includes/header.php');
 					<div id="actions" class="">
 						<ul>
 							<li>
-								<button class="">
+								<a href="product-chat.php"><button class="">
 									<span class="icon">
 										<img src="img/icons/ok.svg" alt="negociate">
 									</span>
 									Let's do it
-								</button>
+								</button></a>
 							</li>
 							<li>
 								<button>

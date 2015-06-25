@@ -43,7 +43,7 @@
 			<!-- END PRODUCT NEGOCIATE DETAILS  -->
 
 			<div id="buttons-process">
-				<button>Waiting for approval</button>
+				<button style="background-color:#F9A41A">Accept and seal deal</button>
 
 				<div id="cancel-start">
 					<p><a href="#">Cancel Deal</a></p>
