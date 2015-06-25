@@ -72,7 +72,7 @@ include('includes/header.php');
                 <img src="img/icons/wish_board.svg" alt="wishes">
                 <div class="text-description">
                     <h4>Here are the cards with the items that will make people happy. 
-They are looking for a traveler to make their wish to come true.</h4>
+They are looking for a traveler to make their wish come true.</h4>
                     <h3>Are you going to be the one delivering the wish?</h3>
                 </div>
 
@@ -187,7 +187,7 @@ They are looking for a traveler to make their wish to come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>August 9th, 2015</h4>
+                            <p>Delivery:</p><h4>July 30th, 2015</h4>
                             <ul>
                                 <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
@@ -228,7 +228,7 @@ They are looking for a traveler to make their wish to come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 30th, 2015</h4>
+                            <p>Delivery:</p><h4>Nov. 30th, 2015</h4>
                             <ul>
                                 <li><img src="img/icons/other.svg" class="icon-circle" alt="other"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
@@ -269,7 +269,7 @@ They are looking for a traveler to make their wish to come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>October 2th, 2015</h4>
+                            <p>Delivery:</p><h4>Oct. 2th, 2015</h4>
                             <ul>
                                 <li><img src="img/icons/other.svg" class="icon-circle" alt="other"></li>
                                 <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer"></li>

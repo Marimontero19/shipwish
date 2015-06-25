@@ -139,7 +139,7 @@ include('includes/header.php');
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>December 2th, 2015</h4>
+								<p>Delivery:</p><h4>Dec. 2th, 2015</h4>
 								<ul>
 									<li><img src="img/icons/bus.svg" alt="bus"></li>
 									<li><img src="img/icons/xl.svg"  alt="extra large"></li>
@@ -172,7 +172,7 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Ohio</h4>
+								<p>From:</p><h4>Orlando</h4>
 								<br>
 								<p>To:</p><h4>Rome</h4>
 							</div>
@@ -217,7 +217,7 @@ include('includes/header.php');
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>August 1st, 2015</h4>
+								<p>Delivery:</p><h4>Aug. 1st, 2015</h4>
 								<ul>
 									<li><img src="img/icons/moto.svg" alt="moto"></li>
 									<li><img src="img/icons/s.svg"  alt="s"></li>
@@ -295,7 +295,7 @@ include('includes/header.php');
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>Setember 3th, 2015</h4>
+								<p>Delivery:</p><h4>Sept. 3th, 2015</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane"></li>
 									<li><img src="img/icons/l.svg"  alt="large"></li>
@@ -333,7 +333,7 @@ include('includes/header.php');
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>October 8th, 2015</h4>
+								<p>Delivery:</p><h4>Oct. 8th, 2015</h4>
 								<ul>
 									<li><img src="img/icons/car.svg" alt="car"></li>
 									<li><img src="img/icons/l.svg"  alt="large"></li>
@@ -353,7 +353,7 @@ include('includes/header.php');
 
 		<!--Octavo wish-->
 
-			<div class="card grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+				<div class="card grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 				
 				<div style="padding: 3% 3% 3% 3%">
 
@@ -366,16 +366,16 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Venecia</h4>
+								<p>From:</p><h4>Verona</h4>
 								<br>
-								<p>To:</p><h4>Florencia</h4>
+								<p>To:</p><h4>Venecia</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>June 28th, 2015</h4>
+								<p>Delivery:</p><h4>July 20th, 2015</h4>
 								<ul>
 									<li><img src="img/icons/helicopter.svg" alt="helicopter"></li>
-									<li><img src="img/icons/s.svg"  alt="small"></li>
+									<li><img src="img/icons/l.svg"  alt="large"></li>
 								</ul>
 							</div>
 
@@ -432,7 +432,7 @@ include('includes/header.php');
 
 		<!--Decimo wish-->
 
-			<div id="" class="card grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
+			<div class="card grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 				
 				<div style="padding: 3% 3% 3% 3%">
 
@@ -442,19 +442,24 @@ include('includes/header.php');
 							<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_18_xs.jpg" alt="user_18"></a>					
 						</div>
 
-						<div id="destination_home_trips">
-							<p>From:</p><h4>Caracas</h4>
-							<br>
-							<p>To:</p><h4>Oslo</h4>
+						<div class="float-left">
+
+							<div id="destination_home_trips">
+								<p>From:</p><h4>Caracas</h4>
+								<br>
+								<p>To:</p><h4>Oslo</h4>
+							</div>
+
+							<div id="details_home_trips">
+								<p>Delivery:</p><h4>June 20th, 2015</h4>
+								<ul>
+									<li><img src="img/icons/plane.svg" alt="plane"></li>
+									<li><img src="img/icons/m.svg"  alt="medium"></li>
+								</ul>
+							</div>
+
 						</div>
 
-						<div id="details_home_trips">
-							<p>Delivery:</p><h4>August 3th, 2015</h4>
-							<ul>
-								<li><img src="img/icons/plane.svg" alt="plane"></li>
-								<li><img src="img/icons/s.svg"  alt="small"></li>
-							</ul>
-						</div>
 					</div>	
 				</div>	
 
@@ -463,6 +468,9 @@ include('includes/header.php');
 				</div>
 
 			</div>
+				
+		
+
 
 			<!--FINAL DE WISHES-->
 
