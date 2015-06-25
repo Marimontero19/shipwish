@@ -42,8 +42,12 @@ include('includes/header.php');
 					</form>
 
 					<div id="upload-links">
-						<p><input type="file" name="pic" accept="image/*"></p>
-						<p><a href="#">icon</a></p>
+						<!--<input type="file" name="pic" accept="image/*">
+  						<input type="submit">-->
+						<img src="img/icons/upload_chat1.svg" alt=upload>
+						<img src="img/icons/upload_chat2.svg" alt=upload>
+						<img src="img/icons/location2.svg" alt=upload>
+
 					</div>
 			</div>
 

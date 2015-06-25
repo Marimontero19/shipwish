@@ -162,9 +162,9 @@
 button{
 	/*background-color:gray;*/
 	/*color:#ffffff;*/
+	/*width: 150px;*/
 	border:0;
 	border-radius: 5px;
-	/*width: 150px;*/
 	height: 40px;
 }
 
@@ -343,6 +343,7 @@ button{
 	color:#909090;
 	font-weight: 300;
 	margin-bottom: 15px;
+	font-family:'AndesRoundedLight',Helvetica, Arial, sans-serif;
 }
 
 .text-description h3{
@@ -1404,6 +1405,9 @@ textarea {
 	color:#C8C8C8 !important;
 }
 
+#newDivs{
+	margin-top: 40px;
+}
 
 /*Tablet*/
 @media only screen and (min-width : 870px) and (max-width : 1024px) {
@@ -1511,8 +1515,101 @@ textarea {
 
 }
 
+/*************** product-negociation.php ***************/
 
 
+
+#negociation-form label h4{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color:#585858;
+	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif;
+}
+
+#negociation-description h3{
+	color:#0E777F;
+	font-weight: 300;
+	font-family:'AndesRoundedLight',Helvetica, Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+#negociation-description h4{
+	color:#585858;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+#negociation-form p{
+	color:#585858;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+.conditions li{
+	display:inline-block;
+}
+
+.date{
+	color:#6C6C6C;
+	padding-left:30px;
+	height: 40px;
+	border:1px solid #E9E9E9;
+	border-radius: 5px;
+}
+
+#date-icon{
+	background: white url(img/icons/calendar.svg) left no-repeat;
+	padding-left: 17px;
+}
+
+#negociation-form button input[type='submit']{
+	float:right;
+	background-color:#00B2BE;
+	color:#ffffff;
+
+}
+
+#choose-reward {
+    margin:4px; 
+    float:left;
+}
+
+#choose-reward label {
+    float:left;
+    width:170px;
+    margin:4px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    display:inline-block;
+       
+}
+
+#choose-reward label span {
+    text-align:center;
+    font-size: 20px;
+    padding:13px 0px;
+    display:block;
+}
+
+#choose-reward label span img{
+
+}
+
+#choose-reward label input {
+    position:absolute;
+    top:-200px;
+}
+
+#choose-reward input:checked + span {
+    background-color:#404040;
+    border-color:#0E777F;
+    color:#F7F7F7;
+}
+
+#choose-reward .white {
+    background-color:#ffffff;
+    color:#0E777F;
+}
 
 
 
