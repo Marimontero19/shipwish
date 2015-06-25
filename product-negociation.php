@@ -49,10 +49,12 @@ include('includes/header.php');
                             <label class="white"><input type="radio" name="toogle" value="volunteer" name="toogle"><span><img src="img/icons/volunteer.svg" alt="volunteer">Volunteer</span></label>
                         </div>
 
-                       <label for="">Cost of product</label>
+                        <div class="clear"></div>
+
+                      
                             <ul class="conditions">
+                                <li><label for="money-product">Cost of product</label></li>
                                 <li>
-                                    <label for="money-product"></label>
                                     <select class="select-jquery">
                                         <option>5</option>
                                         <option>10</option>
@@ -71,10 +73,10 @@ include('includes/header.php');
                                     </select> 
                                 </li>  
                             </ul>
-                        
-                    
-                              <li>
-                                    <label for="reward-money">Reward</label>
+
+                            <ul class="conditions">
+                                <li><label for="money-product">Rewards</label></li>
+                                <li>
                                     <select class="select-jquery">
                                         <option>5</option>
                                         <option>10</option>
@@ -85,7 +87,7 @@ include('includes/header.php');
                                     </select> 
                                 </li>  
                                  <li>
-                                    <label for="reward-currency"></label>
+                                    <label for="currency-product"></label>
                                     <select class="select-jquery">
                                         <option>EUR</option>
                                         <option>USD</option>
