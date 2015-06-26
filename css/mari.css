@@ -592,7 +592,7 @@ button{
 #detail-info-product{
 	margin-top:50px;
 	margin-bottom:50px;
-	float:left;
+	/*float:left;*/
 }
 
 #product-details{
@@ -1153,12 +1153,21 @@ textarea {
 	color:#D3D3D3 !important;
 }
 
+#cancel-start p:nth-child(1) a:active {
+	color:#D3D3D3 !important;
+}
+
+
 #cancel-start p:nth-child(2){
 	color:#0E777F !important;
 	margin-left:20px;
 }
 
 #cancel-start p:nth-child(2) a:visited{
+	color:#0E777F !important;
+}
+
+#cancel-start p:nth-child(2) a:active{
 	color:#0E777F !important;
 }
 
@@ -1497,7 +1506,7 @@ textarea {
 
 				.wrote-comment {
 			
-			  		width: 62%;
+			  		width: 60%;
 			  		margin-right:0px;
 
 			}
@@ -1508,7 +1517,7 @@ textarea {
 
 				.wrote-comment-2 {
 			
-			  		width: 62%;
+			  		width: 60%;
 			  		margin-bottom: 50px;
 
 			}
@@ -1549,19 +1558,16 @@ textarea {
 	margin-bottom: 20px;
 }
 
-.conditions li .ui-selectmenu-button, .ui-menu-item{
+
+/*
+.select-jquery-color li .ui-selectmenu-button, .ui-menu-item{
 	margin-left:30px;
 	margin-right:30px;
 	border:1px solid #D0D0D0;
 	border-radius: 5px;
 	padding: 4px 12px 4px 12px;
 	background-color: #ffffff;
-}
-
-/*.ui-state-default .ui-icon*/ {
-  background-image: url("img/icons/calendar.svg");
-}
-
+}*/
 
 
 .date{
@@ -1570,11 +1576,13 @@ textarea {
 	height: 40px;
 	border:1px solid #E9E9E9;
 	border-radius: 5px;
+	text-align: center;
 }
 
-#date-icon{
-	background: white url(img/icons/calendar.svg) left no-repeat;
-	padding-left: 17px;
+img.ui-datepicker-trigger {
+      position: relative;
+      left: -190px;
+  	  top: 15px;
 }
 
 #negociation-form button input[type='submit']{
@@ -1589,6 +1597,11 @@ textarea {
     float:left;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#choose-reward input[type='radio'] {
+    background-image: url(img/icons/money.svg)
+
 }
 
 #choose-reward label {

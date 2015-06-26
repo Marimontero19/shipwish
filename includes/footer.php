@@ -73,7 +73,6 @@
 
 
         <!-- Carousel Flickity -->
-
         <script type="text/javascript" src="js/flickity/flickity.pkgd.min.js"></script>
 
 
@@ -81,9 +80,6 @@
          <!--<script type="text/javascript" src="js/jquery/jquery-1.9.1.min.js"></script>-->
          <script type="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
          <script type="text/javascript" src="js/multistep_form.js"></script>
-
-        <!-- Jquery  -->
-         <script type="text/javascript" src="js/toggle.button.js"></script>
 
     </body>
 </html>

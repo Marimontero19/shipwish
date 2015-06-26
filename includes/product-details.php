@@ -1,5 +1,5 @@
-		<!--<section class="chat-general-info grid_5_1200 grid_4_1024 grid_8_768 grid_6_320">-->
-		<section class="chat-general-info grid_5_1200 grid_12_1024 grid_12_768 grid_12_320">
+		<section class="chat-general-info grid_4_1200 grid_4_1024 grid_8_768 grid_6_320">
+		<!--<section class="chat-general-info grid_5_1200 grid_12_1024 grid_12_768 grid_12_320">-->
         			
 			<!-- PRODUCT INFO STARTS -->
 			<div class="deal-info"><!--<div class="user-info">-->
@@ -47,7 +47,7 @@
 
 				<div id="cancel-start">
 					<p><a href="#">Cancel Deal</a></p>
-					<p><a href="product-chat-1.php">Start Negociation</a></p>
+					<p><a href="product-negociation.php">Start Negociation</a></p>
 				</div>
 
 			</div>

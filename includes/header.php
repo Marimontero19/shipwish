@@ -57,7 +57,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Shipwish<?php //echo $page; ?></title>
+		<title>Shipwish <?php echo $page; ?></title>
 
 		<!-- Reset -->
 		<link rel="stylesheet" href="css/normalize.css" />
@@ -70,7 +70,6 @@
 
 		<!-- Carousel 
 		<link rel="stylesheet" type="text/css" href="js/librerias/slick/slick.css"/>-->
-
 		<link rel="stylesheet" type="text/css" href="js/flickity/flickity.css"/>
 		
 
@@ -80,6 +79,7 @@
         
         <!-- Our libraries -->
         <script src="js/shipwish-script.js"></script>
+        <script src="js/shipwish-script2.js"></script>
         <script src="js/librerias/modernizr.js"></script>
 
 		<!-- Fonts -->

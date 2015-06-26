@@ -1,6 +1,6 @@
 <?php
 
-$page = 'user-profile'; //Por ejemplo 'home', 'userprofile', etc
+$page = '| Negociation'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
@@ -39,7 +39,7 @@ include('includes/header.php');
                     <form id="negociation-form">
                         
                         <label for=""><h4>Delivery date</h4></label>
-                        <input class="datepicker date" id="date-icon" placeholder="DD/MM/YY" type="text">
+                        <input class="date_picker date" id="date-icon" placeholder="DD/MM/YY" type="text">
 
                         <label for=""><h4>Reward</h4></label>
                         <p>There are different ways to reward your business. Be sure to make it clear for your future co-partner.</p>
@@ -55,7 +55,7 @@ include('includes/header.php');
                             <ul class="conditions">
                                 <li><label for="money-product">Cost of product</label></li>
                                 <li>
-                                    <select class="select-jquery">
+                                    <select class="select-jquery-color">
                                         <option>5</option>
                                         <option>10</option>
                                         <option>20</option>
@@ -66,7 +66,7 @@ include('includes/header.php');
                                 </li>  
                                  <li>
                                     <label for="currency-product"></label>
-                                    <select class="select-jquery">
+                                    <select class="select-jquery-color">
                                         <option>EUR</option>
                                         <option>USD</option>
                                         <option>GBP</option>
@@ -75,9 +75,9 @@ include('includes/header.php');
                             </ul>
 
                             <ul class="conditions">
-                                <li><label for="money-product">Rewards</label></li>
+                                <li><label for="money-reward">Rewards</label></li>
                                 <li>
-                                    <select class="select-jquery">
+                                    <select class="select-jquery-color">
                                         <option>5</option>
                                         <option>10</option>
                                         <option>20</option>
@@ -88,7 +88,8 @@ include('includes/header.php');
                                 </li>  
                                  <li>
                                     <label for="currency-product"></label>
-                                    <select class="select-jquery">
+                                    <select class="select-jquery-color">
+                                        <option>Currency<img src="img/icons/dropdown.svg"></option>
                                         <option>EUR</option>
                                         <option>USD</option>
                                         <option>GBP</option>

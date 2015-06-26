@@ -46,8 +46,8 @@
 				<button style="background-color:#F9A41A">Accept and seal deal</button>
 
 				<div id="cancel-start">
-					<p><a href="#">Cancel Deal</a></p>
-					<p><a href="product-chat-1.php">Start Negociation</a></p>
+					<p><a href="wish_board.php">Cancel Deal</a></p>
+					<p><a href="product-negociation.php">Start Negociation</a></p>
 				</div>
 
 			</div>
