@@ -30,8 +30,8 @@ include('includes/header.php');
 			</div>
 
 			<div id="chat" class="grid_6_1200 grid_6_1024 grid_7_768 grid_6_320">
-				<div class="title" >
-					<h2>Chat with August Sabadini</h2>
+				<div class="title">
+					<h2>Chat with María Martinez</h2>
 				</div>
 				<div id="chat-description">
 					<p>Ask what you need to the wisher in order to deliver the items. If you want to change the terms of the deal, you can <span>start a negociation.</span></p>
