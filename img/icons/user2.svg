@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+<title>user</title>
+<desc>Created with Sketch.</desc>
+<g id="Style" sketch:type="MSPage">
+	<g id="user" sketch:type="MSArtboardGroup">
+		<g id="Icon-_x2F_-avatar" sketch:type="MSLayerGroup">
+			<g id="Avatar-Copy-12" transform="translate(3.000000, 3.000000)" sketch:type="MSShapeGroup">
+				<path id="Shape" fill="#0E777F" d="M17.5,0C7.9,0,0,7.9,0,17.5S7.9,35,17.5,35S35,27.1,35,17.5S27.1,0,17.5,0L17.5,0z M17.5,5.2
+					c3,0,5.2,2.3,5.2,5.2s-2.3,5.2-5.2,5.2s-5.2-2.3-5.2-5.2S14.5,5.2,17.5,5.2L17.5,5.2z M17.5,30.1c-4.4,0-8.2-2.3-10.5-5.6
+					c0-3.5,7-5.4,10.5-5.4S28,21,28,24.5C25.7,27.8,21.9,30.1,17.5,30.1L17.5,30.1z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

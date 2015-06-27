@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<title>calendar</title>
+<desc>Created with Sketch.</desc>
+<g id="Style" sketch:type="MSPage">
+	<g id="calendar" sketch:type="MSArtboardGroup">
+		<g id="Icon-_x2F_-calendar-light" sketch:type="MSLayerGroup">
+			<g id="Group" transform="translate(8.000000, 8.000000)" sketch:type="MSShapeGroup">
+				<path id="Fill-133" fill="#0E777F" d="M0,25.6c-1.6,0-3-1.4-3-3V0.9c0-1.6,1.1-3,2.5-3H1v2h-1.5c-0.1,0-0.5,0.3-0.5,1v21.8
+					c0,0.5,0.5,1,1,1h23.5c0.5,0,1-0.5,1-1V0.9c0-0.6-0.4-1-0.5-1h-1.5V-2H24c1.4,0,2.5,1.4,2.5,3v21.8c0,1.6-1.4,3-3,3H0V25.6z"/>
+				<path id="Fill-134" fill="#0E777F" d="M3.9,1.9c-0.5,0-1-0.5-1-1V-3c0-0.5,0.5-1,1-1s1,0.5,1,1v4C4.9,1.5,4.4,1.9,3.9,1.9"/>
+				<path id="Fill-135" fill="#0E777F" d="M19.5,1.9c-0.5,0-1-0.5-1-1V-3c0.1-0.5,0.5-1,1-1s1,0.5,1,1v4C20.5,1.5,20.1,1.9,19.5,1.9
+					"/>
+				<path id="Fill-136" fill="#0E777F" d="M6.8-2h9.8v2H6.8V-2z"/>
+				<path id="Fill-137" fill="#0E777F" d="M-1,3.9h25.5v21.2H-1V3.9z"/>
+				<path id="Fill-138" fill="#FFFFFF" d="M20.5,7.9h2v2h-2V7.9z"/>
+				<path id="Fill-139" fill="#FFFFFF" d="M16.6,7.9h2v2h-2V7.9z"/>
+				<path id="Fill-140" fill="#FFFFFF" d="M12.8,7.9h2v2h-2V7.9z"/>
+				<path id="Fill-141" fill="#FFFFFF" d="M8.8,7.9h2v2h-2V7.9z"/>
+				<path id="Fill-142" fill="#FFFFFF" d="M4.9,7.9h2v2h-2V7.9z"/>
+				<path id="Fill-143" fill="#FFFFFF" d="M20.5,11.8h2v2h-2V11.8z"/>
+				<path id="Fill-144" fill="#FFFFFF" d="M16.6,11.8h2v2h-2V11.8z"/>
+				<path id="Fill-145" fill="#FFFFFF" d="M12.8,11.8h2v2h-2V11.8z"/>
+				<path id="Fill-146" fill="#FFFFFF" d="M8.8,11.8h2v2h-2V11.8z"/>
+				<path id="Fill-147" fill="#FFFFFF" d="M4.9,11.8h2v2h-2V11.8z"/>
+				<path id="Fill-148" fill="#FFFFFF" d="M0.9,11.8h2v2h-2V11.8z"/>
+				<path id="Fill-149" fill="#FFFFFF" d="M20.5,15.8h2v2h-2V15.8z"/>
+				<path id="Fill-150" fill="#FFFFFF" d="M16.6,15.8h2v2h-2V15.8z"/>
+				<path id="Fill-151" fill="#FFFFFF" d="M12.8,15.8h2v2h-2V15.8z"/>
+				<path id="Fill-152" fill="#FFFFFF" d="M8.8,15.8h2v2h-2V15.8z"/>
+				<path id="Fill-153" fill="#FFFFFF" d="M4.9,15.8h2v2h-2V15.8z"/>
+				<path id="Fill-154" fill="#FFFFFF" d="M0.9,15.8h2v2h-2V15.8z"/>
+				<path id="Fill-155" fill="#FFFFFF" d="M16.6,19.8h2v2h-2V19.8z"/>
+				<path id="Fill-156" fill="#FFFFFF" d="M12.8,19.8h2v2h-2V19.8z"/>
+				<path id="Fill-157" fill="#FFFFFF" d="M8.8,19.8h2v2h-2V19.8z"/>
+				<path id="Fill-158" fill="#FFFFFF" d="M4.9,19.8h2v2h-2V19.8z"/>
+				<path id="Fill-159" fill="#FFFFFF" d="M0.9,19.8h2v2h-2V19.8z"/>
+			</g>
+			<rect id="Rectangle-450" x="-5" y="-6" sketch:type="MSShapeGroup" fill="none" width="50" height="50">
+			</rect>
+		</g>
+	</g>
+</g>
+</svg>

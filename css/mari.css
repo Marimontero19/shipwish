@@ -1,4 +1,4 @@
-/*Mari*/
+ /*Mari*/
 
 
 /*************** Wish_board.php ***************/
@@ -705,9 +705,6 @@ button{
 	background-color:#ffffff !important;
 }
 
-/*background-color:#F9F9F9;*/
-
-
 #similar-wishes{
 	margin-bottom: 40px;
 }
@@ -881,6 +878,111 @@ button{
 
 
 }
+
+
+/*************** product-user.php ***************/
+
+
+
+#recomendations{
+	width:100%;
+	background-color:#ffffff !important;
+}
+
+
+#negociations{
+	margin-bottom: 40px;
+}
+
+#negociations h2{
+	margin-bottom: 40px;
+	margin-top: 40px;
+	color:#0E777F;
+
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+table tr th {
+  padding: 0.5625rem 0.625rem;
+  color: #0E777F;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/*table tr td {
+  padding: 2rem 2rem;
+  text-align: center;
+  font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}*/
+
+table tr th img{
+	vertical-align: middle;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+
+tr:nth-of-type(even) {
+  background: #f9f9f9;
+}
+
+#table-negociations table{
+	 width: 100%;
+}
+
+#table-negociations .user-pic {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+}
+
+.traveler-name {
+  	text-transform:none;
+	color:#6C6C6C;
+	font-size: 1em;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+.reward-proposal{
+	color:#6C6C6C;
+	font-size: 1em;
+}
+
+.date-arrival{
+	color:#6C6C6C;
+	text-transform: none;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*************** Create_wish.php ***************/
 
@@ -1625,7 +1727,8 @@ img.ui-datepicker-trigger {
 }
 
 #choose-reward label span img{
-
+	vertical-align: middle;
+	margin-right: 10px;
 }
 
 #choose-reward label input {
