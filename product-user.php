@@ -8,9 +8,9 @@ include('includes/header.php');
 
 <div class="main-container">
 
-	<di  class="container_12 container_10 container_8 container_6 ">
+	<div class="container_12 container_10 container_8 container_6 ">
 
-		<article class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
+		<article class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200" style="margin-bottom:60px">
 
 			<section id="product-main-info">
 
@@ -118,16 +118,28 @@ include('includes/header.php');
 		</article>		
 	</div>
 </div>
-		<div id="recomendations">
+
+
+<div id="intro-recomendations">
+	<div class="clear"></div>
+	<div class="main-container">
+		<div class="container_12 container_10 container_8 container_6 ">
+			<section id="title-negociations" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
+				<h2><img src="img/icons/negociate.svg" alt="negociating">3 | Negociations</h2>
+			</section>
+		</div>
+	</div>
+</div>
+
+
+
+		<div id="recomendations-user">
 			<div class="clear"></div>
 			<div class="main-container">
 				<div class="container_12 container_10 container_8 container_6">		
 					<section id="negociations" class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200" >
-						<h2><img src="img/icons/negociate.svg" alt="negociating">3 | Negociations</h2>
-						
-
-
-						<div id="table-negociations">
+			
+					  <div id="table-negociations">
 
 						<div class="choose-traveler">
 							<fieldset>
@@ -242,18 +254,16 @@ include('includes/header.php');
 
 	  										<td>
 		  										<a href="product-chat.php"><!--class="block-link action-accept"-->
-			  										 <span class="icon icon-manage-collab"><img src="img/icons/message2.svg" alt="message"><img</span>
+			  										 <span class="icon icon-manage-collab"><img src="img/icons/message2.svg" alt="message"><img></span>
 			  										
 			  									</a>
 	  										</td>
 	    								</tr>
-
 	  								</tbody>
 								</table>
 							</fieldset>
-	
-					</div>
-					
+						</div>
+						</div>
 					</section>
 				</div>
 			</div>

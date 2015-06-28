@@ -342,7 +342,7 @@ button{
 	color:#909090;
 	font-weight: 300;
 	margin-bottom: 15px;
-	font-family:'AndesRoundedLight',Helvetica, Arial, sans-serif;
+	font-family:'AndesRounded-Light',Helvetica, Arial, sans-serif;
 }
 
 .text-description h3{
@@ -882,10 +882,24 @@ button{
 /*************** product-user.php ***************/
 
 
-
-#recomendations{
+#intro-recomendations{
 	width:100%;
-	background-color:#ffffff !important;
+	background-color: #ffffff;
+
+}
+
+#title-negociations{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+#title-negociations h2{
+	color:#ffffff;
+	font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+}
+
+#title-negociations h2 img{
+	vertical-align: middle;
 }
 
 
@@ -900,8 +914,14 @@ button{
 
 }
 
+#recomendations-user{
+	width:100%;
+	background-color:#00B2BE !important;
+}
+
 #table-negociations table{
 	 width: 100%;
+	 margin-top: 40px;
 }
 
 .choose-traveler fieldset {
