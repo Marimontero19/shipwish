@@ -3,24 +3,8 @@
 
 /*************** Wish_board.php ***************/
 
-.full-width-line {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    color:black;
-    margin-top: 170px;
-}
-
-.full-width-line2 {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    color:black;
-    margin-top: 225px;
-}
-
 #header_wishboard {
-   background-color: #fff;
+  background-color: #00B2BE;
   display: block;
   position: relative;
   margin: 0;
@@ -30,7 +14,106 @@
 #wish_trips {
   text-align: center;
   box-sizing: border-box;
-  padding: 45px 0;
+  padding: 25px 0;
+  background-color: #00B2BE;
+  position: relative;
+}
+
+.triangle-down{
+    width: 2.5%;
+    height: 0;
+    padding-left:2.5%;
+    padding-top: 2.5%;
+    overflow: hidden;
+    position: absolute;
+    left:0;right:0;
+    margin:auto;
+    top: 100px;
+    z-index:1;
+}
+.triangle-down:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left:-50px;
+    margin-top:-50px;
+    
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #00B2BE
+}
+
+#wish_trips li{
+  display: inline-block;
+}
+
+
+#wish_trips li button{
+ 	background-color: #0E777F;
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	padding-right: 14px;
+}
+
+#wish_trips li button a:visited{
+ 	color:#fff;
+}
+
+#wish_trips li img{
+ 	vertical-align: middle;
+}
+
+#wish_trips li:nth-child(2){
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif;
+ 	font-size:1.2em;
+ 	margin-left:15%;
+ 	margin-right:20%;
+}
+
+#wish_trips li:nth-child(2) a:link{
+ 	color:#fff;
+}
+
+#wish_trips li:nth-child(2) a:visited{
+ 	color:#fff;
+}
+
+#wish_trips li:nth-child(2) a:hover{
+ 	color:#08484D;
+}
+
+#wish_trips li:nth-child(3){
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif;
+ 	font-size:1.2em;
+}
+
+#wish_trips li:nth-child(3) a:link{
+ 	color:#0E777F;
+}
+
+#wish_trips li:nth-child(3) a:visited{
+ 	color:#0E777F;
+}
+
+#wish_trips li:nth-child(3) a:hover{
+ 	color:#ffffff;
+}
+
+#header-search{
+	background-color: #fff;
+	padding-top:20px;
+	padding-bottom: 20px;
+	box-shadow: 0px 1px 10px #D8D8D8;
+
+}
+
+#header-searh .main-container{
+		box-shadow: 0px 1px 10px #D8D8D8;
 }
 
 #user-search{
@@ -50,13 +133,14 @@
 /*Botones SUBMIT*/
 #user-search input[type="submit"] {
 
-    cursor: pointer;
+    /*cursor: pointer;
   	background-color:gray;
 	color:#ffffff;
 	border:0;
 	border-radius: 5px;
 	width: 150px;
-	height: 40px;
+	height: 40px;*/
+	background-image:url(img/icons/estela.svg);
 }
 
 .outline{
@@ -80,7 +164,7 @@
 
 #wish-boards{
 	margin-top: 50px;
-	display: inline-block; important!
+	display: inline-block; 
 }
 
 #wisher_card{
