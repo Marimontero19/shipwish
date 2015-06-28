@@ -134,9 +134,9 @@ include('includes/header.php');
 								<table role="grid" id="pending-collaborators" cellspacing=0>
 									<thead>
 										<tr>
-											<th colspan="2"><img src="img/icons/user2.svg" alt="traveler">Traveler</th>
-											<th colspan="1"><img src="img/icons/trophy.svg" alt="trophy">Reward</th>
-											<th colspan="1"><img src="img/icons/calendar2.svg" alt="calendar">Delivery</th>
+											<th colspan="2"><img src="img/icons/user2.svg" alt="traveler"><h4>Traveler</h4></th>
+											<th colspan="1"><img src="img/icons/trophy.svg" alt="trophy"><h4>Reward</h4></th>
+											<th colspan="1"><img src="img/icons/calendar2.svg" alt="calendar"><h4>Delivery</h4></th>
 											<th colspan="1"></th>
 											<th colspan="1"></th>
 	    								</tr>
