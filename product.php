@@ -8,7 +8,7 @@ include('includes/header.php');
 
 <div class="main-container">
 
-	<di  class="container_12 container_10 container_8 container_6 ">
+	<div  class="container_12 container_10 container_8 container_6 ">
 
 		<article class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
 

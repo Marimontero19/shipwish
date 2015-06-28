@@ -27,66 +27,83 @@ include('includes/header.php');
                             <img src="img/icons/trips.svg" alt="trips">
                             <a href="trip_board.php" alt="Trips Board">Trips</a>
                         </li>
+                    </ul>
                 </div>
                 <div class="triangle-down">
                 </div>
             </div>
         </div>
 
+
+           
+
         <div id="header-search">
             <div class="main-container">
+              <div  class="container_12 container_10 container_8 container_6 ">
                 <div class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
+                     
                      <div id="user-search" >
+
                         <h4>What are you willing to bring?</h4>
+
                          <form method="" action="">
-                              <input type="text" name="from" placeholder="From" value="" class="input-trips">
-                              <img src="img/icons/estela.svg" alt="Shipwish">
-                              <input type="text" name="to" placeholder="To" value="" class="input-trips">
 
-                              <input type="submit" name="search" value="Search">
+                            <div class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
+                                  <input id="location" type="text" name="from" placeholder="From" value="" class="input-trips">
+                                  <img src="img/icons/estela.svg" alt="Shipwish">
+                                  <input id="location" type="text" name="to" placeholder="To" value="" class="input-trips">
+                                  <!--<input type="submit" name="search" value="" class="">-->
+                                  <img src="img/icons/search.svg" alt="Shipwish">
+                           
+            <!--inicio filtros -->  
+
+                                <div class="divspoiler">
+                                    <img src="img/icons/filters.svg" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" />
+                                </div><div><div class="spoiler" style="display: none;">
+                             
+                                    <div id="filters">
+
+                                        <input class="datepicker" placeholder="DD/MM/YY">    
+
+                                        <select id="filter_category" class="">
+                                            <option value="*">Category</option>
+                                            <option value=".food/beverage">Food/Beverage</option>
+                                            <option value=".electronics">Electronics</option>
+                                            <option value=".fashion">Fashion</option>
+                                            <option value=".home/garden">Home/Garden</option>        
+                                        </select> 
+
+                                        <select id="filter_size" class="">
+                                            <option value="*">Size</option>
+                                            <option value=".xs">XS</option>
+                                            <option value=".s">S</option>
+                                            <option value=".m">M</option>
+                                            <option value=".l">L</option>  
+                                            <option value=".xl">XL</option> 
+                                        </select> 
+
+                                        <select id="filter_reward" class="">
+                                            <option value="*">Reward</option>
+                                            <option value=".money">Money</option>
+                                            <option value=".airporttransfer">Airport Transfer</option>
+                                            <option value=".touristday">Tourist Day</option>
+                                            <option value=".gift">Gift</option>  
+                                            <option value=".meal">Meal</option>
+                                        </select> 
+
+                                         <input class="" type="submit" name="search" class="button search" value="Clear filters">
+                                    </div>
+                                </div></div>
+                            <!--final filtros -->  
+                                </div>
                         </form>
+
                     </div>
-
-                    <!--<div id="filters">
-
-                            <select id="filter_date" class="">
-                                <label><input type="text" class="datepicker"></label>    
-                            </select> 
-
-
-                            <select id="filter_category" class="">
-                                <option value="*">All</option>
-                                <option value=".food/beverage">Food/Beverage</option>
-                                <option value=".electronics">Electronics</option>
-                                <option value=".fashion">Fashion</option>
-                                <option value=".home/garden">Home/Garden</option>        
-                            </select> 
-
-                            <select id="filter_size" class="">
-                                <option value="*">All</option>
-                                <option value=".xs">XS</option>
-                                <option value=".s">S</option>
-                                <option value=".m">M</option>
-                                <option value=".l">L</option>  
-                                <option value=".xl">XL</option> 
-                            </select> 
-
-                            <select id="filter_reward" class="">
-                                <option value="*">All</option>
-                                <option value=".money">Money</option>
-                                <option value=".airporttransfer">Airport Transfer</option>
-                                <option value=".touristday">Tourist Day</option>
-                                <option value=".gift">Gift</option>  
-                                <option value=".meal">Meal</option>
-                            </select> 
-
-
-                          <input class="" type="submit" name="search" class="button search" value="Clear filters">
-                    </div>-->
                 </div>
                 <div class="clear"></div>
         </div>
     </div>
+</div>
 
 <div class="main-container" style="background-color:#f9f9f9">
     <div class="container_12 container_10 container_8 container_6">

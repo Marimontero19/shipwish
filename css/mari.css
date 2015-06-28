@@ -31,6 +31,7 @@
     top: 100px;
     z-index:1;
 }
+
 .triangle-down:before {
     content: '';
     display: block;
@@ -106,7 +107,7 @@
 
 #header-search{
 	background-color: #fff;
-	padding-top:20px;
+	padding-top:50px;
 	padding-bottom: 20px;
 	box-shadow: 0px 1px 10px #D8D8D8;
 
@@ -116,18 +117,46 @@
 		box-shadow: 0px 1px 10px #D8D8D8;
 }
 
+#header-search h4{
+	color:#00B2BE;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
 #user-search{
-	margin-bottom: 20px
+	margin-bottom: 50px;
+	vertical-align: middle;
+}
+
+#user-search form div{
+	display: inline-block;
 }
 
 
 .input-trips {
-	width: 25%; /*285px*/
-	height: 16px;
+	width: 30%; /*285px*/
+	height: 30px;
 	padding: 10px;
 	border-radius: 5px;
-	border-color:gray;
+	border: 1.5px solid #E9E9E9;
 	margin-right:8px;
+	color: #909090;
+}
+
+
+
+.input-trips:focus {
+	border: 2px solid #00B2BE;
+	outline: none !important;
+	color:#00B2BE;
+	box-shadow: 0px;
+	outline-color: transparent;
+  	outline-style: none;
+}
+
+#user-search form img{
+	vertical-align: middle;
 }
 
 /*Botones SUBMIT*/
@@ -140,7 +169,9 @@
 	border-radius: 5px;
 	width: 150px;
 	height: 40px;*/
-	background-image:url(img/icons/estela.svg);
+	background-color: transparent;
+	border-radius: 0px;
+	background-image: url(img/icons/search.svg);
 }
 
 .outline{
@@ -150,6 +181,26 @@
 #filters{
 	margin-top: 40px
 }
+
+#filters img.ui-datepicker-trigger {
+      position: relative;
+      left: -20px;
+  	  top: 15px;
+}
+
+#filters select{
+	 background: transparent;
+	 border: 0;
+	 width: 180px;
+	 color:#909090;
+	 margin: 10px 10px;
+}
+
+#filters select option{
+	 border-bottom: 1.5px solid #909090;
+}
+
+
 
 #wish-description{
 	display:inline-block;
@@ -1625,7 +1676,7 @@ textarea {
 	text-align: center;
 }
 
-img.ui-datepicker-trigger {
+#negociation-form img.ui-datepicker-trigger {
       position: relative;
       left: -190px;
   	  top: 15px;
