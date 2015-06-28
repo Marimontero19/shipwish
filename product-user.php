@@ -129,124 +129,130 @@ include('includes/header.php');
 
 						<div id="table-negociations">
 
-						<fieldset>
-	
-							<table role="grid" id="traveler-options">
+						<div class="choose-traveler">
+							<fieldset>
+								<table role="grid" id="pending-collaborators" cellspacing=0>
 									<thead>
 										<tr>
-											<th colspan="3"><img src="img/icons/user2.svg" alt="traveler">Traveler</th>
-											<th colspan="2"><img src="img/icons/trophy.svg" alt="trophy">Reward</th>
-											<th colspan="2"><img src="img/icons/calendar2.svg" alt="calendar">Delivery</th>
-											<th colspan="3">Aproval</th>
-											<th colspan="3">Message</th>
+											<th colspan="2"><img src="img/icons/user2.svg" alt="traveler">Traveler</th>
+											<th colspan="1"><img src="img/icons/trophy.svg" alt="trophy">Reward</th>
+											<th colspan="1"><img src="img/icons/calendar2.svg" alt="calendar">Delivery</th>
+											<th colspan="1"></th>
+											<th colspan="1"></th>
 	    								</tr>
 	  								</thead>
 
 	  								<tbody>
+	  								<!--User 1-->
 	  									<tr>
 	  										<td>
-		  										<span class="user-pic">
-		  											<a href="profile-public.php"><img src="img/users_pic/user_9_xs.jpg" alt="user_9"></a>
+		  										<span class="table-image">
+		  											<a href="profile-public.php"><img src="img/users_pic/user_7_xs.jpg" alt="user_7" class="user-pic"></a>
 												</span>
 	  										</td>
-
 	  										<td>
-		  										<span class="traveler-name">María Muñoz</span>
+		  										<span class="edit-collaborator-name">Judith Silva</span>
+		  										
 	  										</td>
 
 	  										<td>
-		  										<span class="reward-proposal">$50</span>
+		  										<span class="reward-proposal">City Tour</span>
+
 	  										</td>
 
 	  										<td>
-		  										<span class="date-arrival">July 7th,2015</span>
-	  										</td>
-
-
-	  										<td>
-		  										<a href="#" class="block-link action-msg">
-			  										 <span class="icon icon-manage-collab"><img src="img/icons/check.svg" alt="check"></span>
-			  									</a>
+		  										<span class="date-proposal">July 1st,2015</span>
 	  										</td>
 
 	  										<td>
 		  										<a href="#" class="block-link action-delete">
-			  										 <span class="icon icon-manage-collab"><img src="img/icons/message2.svg" alt="cross"></span>
+			  										 <span class="icon icon-manage-collab"><img src="img/icons/cross.svg" alt="cross"></span>
+			  										 
+			  									</a>
+	  										</td>
+
+	  										<td>
+		  										<a href="product-chat.php"><!--class="block-link action-accept"-->
+			  										 <span class="icon icon-manage-collab"><img src="img/icons/message2.svg" alt="message"></span>
+			  										
 			  									</a>
 	  										</td>
 	    								</tr>
-
-	  									<tr>
-	  										<td>
-		  										<span class="user-pic">
-		  											<a href="profile-public.php"><img src="img/users_pic/user_9_xs.jpg" alt="user_9"></a>
-												</span>
-	  										</td>
-
-	  										<td>
-		  										<span class="traveler-name">María Muñoz</span>
-	  										</td>
-
-	  										<td>
-		  										<span class="reward-proposal">$50</span>
-	  										</td>
-
-	  										<td>
-		  										<span class="date-arrival">July 7th,2015</span>
-	  										</td>
-
-
-	  										<td>
-		  										<a href="#" class="block-link action-msg">
-			  										 <span class="icon icon-manage-collab"><img src="img/icons/check.svg" alt="check"></span>
-			  									</a>
-	  										</td>
-
-	  										<td>
-		  										<a href="#" class="block-link action-delete">
-			  										 <span class="icon icon-manage-collab"><img src="img/icons/message2.svg" alt="cross"></span>
-			  									</a>
-	  										</td>
-	    								</tr>
-
+										<!--User 2-->
 	    								<tr>
 	  										<td>
-		  										<span class="user-pic">
-		  											<a href="profile-public.php"><img src="img/users_pic/user_9_xs.jpg" alt="user_9"></a>
+		  										<span class="table-image">
+		  											<a href="profile-public.php"><img src="img/users_pic/user_8_xs.jpg" alt="user_8" class="user-pic"></a>
 												</span>
 	  										</td>
-
 	  										<td>
-		  										<span class="traveler-name">María Muñoz</span>
+		  										<span class="edit-collaborator-name">Frank Robinson</span>
+		  										
 	  										</td>
 
 	  										<td>
-		  										<span class="reward-proposal">$50</span>
+		  										<span class="reward-proposal">$10</span>
+
 	  										</td>
 
 	  										<td>
-		  										<span class="date-arrival">July 7th,2015</span>
-	  										</td>
-
-
-	  										<td>
-		  										<a href="#" class="block-link action-msg">
-			  										 <span class="icon icon-manage-collab"><img src="img/icons/check.svg" alt="check"></span>
-			  									</a>
+		  										<span class="date-proposal">June 28th,2015</span>
 	  										</td>
 
 	  										<td>
 		  										<a href="#" class="block-link action-delete">
-			  										 <span class="icon icon-manage-collab"><img src="img/icons/message2.svg" alt="cross"></span>
+			  										<span class="icon icon-manage-collab"><img src="img/icons/cross.svg" alt="cross"></span>
+		 
+			  									</a>
+	  										</td>
+
+	  										<td>
+		  										<a href="product-chat.php"><!--class="block-link action-accept"-->
+			  										 <span class="icon icon-manage-collab"><img src="img/icons/message2.svg" alt="message"></span>
+			  										
+			  									</a>
+	  										</td>
+	    								</tr>
+	    								<tr>
+	  										<td>
+		  										<span class="table-image">
+		  											<a href="profile-public.php"><img src="img/users_pic/user_9_xs.jpg" alt="user_9" class="user-pic"></a>
+												</span>
+	  										</td>
+	  										<td>
+		  										<span class="edit-collaborator-name">María Martinez</span>
+		  										
+	  										</td>
+											<!--User 3-->
+	  										<td>
+		  										<span class="reward-proposal">$12</span>
+
+	  										</td>
+
+	  										<td>
+		  										<span class="date-proposal">June 15th,2015</span>
+	  										</td>
+
+	  										<td>
+		  										<a href="#" class="block-link action-delete">
+			  										 <span class="icon icon-manage-collab"><img src="img/icons/check.svg" alt="check"></span>
+			  										 
+			  									</a>
+	  										</td>
+
+	  										<td>
+		  										<a href="product-chat.php"><!--class="block-link action-accept"-->
+			  										 <span class="icon icon-manage-collab"><img src="img/icons/message2.svg" alt="message"><img</span>
+			  										
 			  									</a>
 	  										</td>
 	    								</tr>
 
 	  								</tbody>
 								</table>
-
 							</fieldset>
-						</div>
+	
+					</div>
 					
 					</section>
 				</div>

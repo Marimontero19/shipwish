@@ -900,74 +900,86 @@ button{
 
 }
 
-thead {
-  display: table-header-group;
-  vertical-align: middle;
-  border-color: inherit;
-}
-
-table tr th {
-  padding: 0.5625rem 0.625rem;
-  color: #0E777F;
-  text-align: left;
-  font-size: 1.2em;
-  font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-
-/*table tr td {
-  padding: 2rem 2rem;
-  text-align: center;
-  font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
-}*/
-
-table tr th img{
-	vertical-align: middle;
-	margin-right: 20px;
-}
-
-tbody {
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;
-}
-
-
-tr:nth-of-type(even) {
-  background: #f9f9f9;
-}
-
 #table-negociations table{
 	 width: 100%;
 }
 
-#table-negociations .user-pic {
-  margin: 0 auto;
-  width: 50px;
-  height: 50px;
+.choose-traveler fieldset {
+	 border: none;
+ }
+
+
+.choose-traveler table {
+	  background: white;
+	  margin-bottom: 1.25rem;
+	  border: solid 1px #dddddd;
+	  table-layout: auto;
 }
 
-.traveler-name {
-  	text-transform:none;
-	color:#6C6C6C;
-	font-size: 1em;
-	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
-}
-
-.reward-proposal{
-	color:#6C6C6C;
-	font-size: 1em;
-}
-
-.date-arrival{
-	color:#6C6C6C;
-	text-transform: none;
-	font-size: 1em;
+.choose-traveler table thead {
+	   border-bottom: blue;
+	   vertical-align: middle;
 }
 
 
+.choose-traveler table {
+	  display: table;
+	  border-collapse: collapse;
+	  border-spacing: 0;
+}
 
+.table-image a img{
+	margin: 0 auto;
+}
+ 
+ .choose-traveler table thead tr th, table thead tr td {
+	  padding: 0.5rem 0.625rem 0.625rem;
+	  font-size: 1.2rem;
+	  text-transform: uppercase;
+	  font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	  font-weight: bold;
+	  color: #0E777F;
+	  vertical-align: middle !important;
+}
+
+
+.choose-traveler table tr th, table tr td {
+	  padding: 0.5625rem 0.1rem;
+	  font-size: 1rem;
+	  color: #6C6C6C;
+	  text-align: center;
+  
+}
+
+.choose-traveler table tr th img{
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.choose-traveler tbody {
+	  display: table-row-group;
+	  vertical-align: middle;
+	  border-color: inherit;
+}
+
+
+.choose-traveler tr {
+	  display: table-row;
+	  vertical-align: inherit;
+	  /*border-color: inherit;*/
+	   border-style: solid;
+    border-color: #F5F6F6;
+}
+
+.choose-traveler table tr:nth-of-type(3) {
+  background: #E7FAF0;
+
+}
+
+.choose-traveler table tr td:nth-of-type(2) {
+	text-align: left;
+
+}
 
 
 
