@@ -144,8 +144,6 @@
 	color: #909090;
 }
 
-
-
 .input-trips:focus {
 	border: 2px solid #00B2BE;
 	outline: none !important;
@@ -168,10 +166,18 @@
 	border:0;
 	border-radius: 5px;
 	width: 150px;
-	height: 40px;*/
+	height: 40px;
 	background-color: transparent;
 	border-radius: 0px;
-	background-image: url(img/icons/search.svg);
+	background-image: url(img/icons/search.svg);*/
+
+	background-color: transparent;
+  	border-radius: 0px;
+  	border: none;
+  	width: 120px;
+  	margin:0px 10px 0px 10px;
+  	text-transform: uppercase;
+  	color:#6C6C6C;
 }
 
 .outline{
@@ -179,7 +185,7 @@
 }
 
 #filters{
-	margin-top: 40px
+	margin-top: 20px
 }
 
 #filters img.ui-datepicker-trigger {
@@ -188,19 +194,57 @@
   	  top: 15px;
 }
 
+#filters .board_date{
+   color:#6C6C6C;
+   margin: 10px;
+   border:0px;
+   border-radius: 0px;
+   background: transparent;
+   width: 150px;
+   padding: 5px 35px 5px 5px;
+   font-size: 16px;
+   font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+   border-bottom: 1.5px solid #6C6C6C;
+}
+
+.board_date ::-webkit-input-placeholder{
+	   font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+	    color:#6C6C6C;
+}
+
 #filters select{
-	 background: transparent;
-	 border: 0;
-	 width: 180px;
-	 color:#909090;
-	 margin: 10px 10px;
+   /*margin: 50px;*/
+   /*border: 1px solid #111;*/
+   color:#6C6C6C;
+   margin: 10px;
+   border:0px;
+   border-radius: 0px;
+   background: transparent;
+   width: 120px;
+   padding: 5px 35px 5px 5px;
+   font-size: 16px;
+   font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+   border-bottom: 1.5px solid #6C6C6C;
+   height: 34px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background-image: url(img/icons/dropdown.svg);
+} 
+
+#filters select:focus {
+	box-shadow: 0px;
+	outline-color: transparent;
+  	outline-style: none;
 }
 
-#filters select option{
-	 border-bottom: 1.5px solid #909090;
+#filter input[type="submit"] {
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  width: 100px;
+  text-transform: uppercase;
 }
-
-
 
 #wish-description{
 	display:inline-block;
@@ -1697,7 +1741,7 @@ textarea {
 }
 
 #choose-reward input[type='radio'] {
-    background-image: url(img/icons/money.svg)
+    background-image: url(img/icons/money.svg);
 
 }
 

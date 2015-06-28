@@ -49,9 +49,9 @@ include('includes/header.php');
                          <form method="" action="">
 
                             <div class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
-                                  <input id="location" type="text" name="from" placeholder="From" value="" class="input-trips">
+                                  <input type="text" name="from" placeholder="From" value="" class="input-trips">
                                   <img src="img/icons/estela.svg" alt="Shipwish">
-                                  <input id="location" type="text" name="to" placeholder="To" value="" class="input-trips">
+                                  <input type="text" name="to" placeholder="To" value="" class="input-trips">
                                   <!--<input type="submit" name="search" value="" class="">-->
                                   <img src="img/icons/search.svg" alt="Shipwish">
                            
@@ -63,18 +63,19 @@ include('includes/header.php');
                              
                                     <div id="filters">
 
-                                        <input class="datepicker" placeholder="DD/MM/YY">    
+                                        <input class="datepicker board_date" placeholder="Date">
 
-                                        <select id="filter_category" class="">
-                                            <option value="*">Category</option>
+
+                                        <select id="filter_category" class="select">
+                                            <option value="*" selected="selected">Category</option>
                                             <option value=".food/beverage">Food/Beverage</option>
                                             <option value=".electronics">Electronics</option>
                                             <option value=".fashion">Fashion</option>
                                             <option value=".home/garden">Home/Garden</option>        
                                         </select> 
 
-                                        <select id="filter_size" class="">
-                                            <option value="*">Size</option>
+                                        <select id="filter_size" class="select">
+                                            <option value="*"  selected="selected">Size</option>
                                             <option value=".xs">XS</option>
                                             <option value=".s">S</option>
                                             <option value=".m">M</option>
@@ -82,16 +83,18 @@ include('includes/header.php');
                                             <option value=".xl">XL</option> 
                                         </select> 
 
-                                        <select id="filter_reward" class="">
-                                            <option value="*">Reward</option>
+                                        <select id="filter_reward" class="select">
+                                            <option value="*" selected="selected">Reward</option>
                                             <option value=".money">Money</option>
                                             <option value=".airporttransfer">Airport Transfer</option>
                                             <option value=".touristday">Tourist Day</option>
                                             <option value=".gift">Gift</option>  
                                             <option value=".meal">Meal</option>
                                         </select> 
-
-                                         <input class="" type="submit" name="search" class="button search" value="Clear filters">
+                                        
+                                        <div id="reset">
+                                            Clear filters
+                                        </div>
                                     </div>
                                 </div></div>
                             <!--final filtros -->  
