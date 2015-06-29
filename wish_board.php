@@ -34,9 +34,6 @@ include('includes/header.php');
             </div>
         </div>
 
-
-           
-
         <div id="header-search">
             <div class="main-container">
               <div  class="container_12 container_10 container_8 container_6 ">
@@ -50,7 +47,7 @@ include('includes/header.php');
 
                             <div class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
                                   <input type="text" name="from" placeholder="From" value="" class="input-trips">
-                                  <img src="img/icons/estela.svg" alt="Shipwish">
+                                  <img src="img/icons/estela.svg" alt="Shipwish" class="stella">
                                   <input type="text" name="to" placeholder="To" value="" class="input-trips">
                                   <!--<input type="submit" name="search" value="" class="">-->
                                   <img src="img/icons/search.svg" alt="Shipwish">

@@ -109,7 +109,7 @@
 	background-color: #fff;
 	padding-top:50px;
 	padding-bottom: 20px;
-	box-shadow: 0px 1px 10px #D8D8D8;
+	/*box-shadow: 0px 1px 10px #D8D8D8;*/
 
 }
 
@@ -394,15 +394,20 @@ button{
 		display:none;
 	}
 
-	.full-width-line {
-	  
-	   display:none;
+
+	#wish_trips li button{
+		display:none;
 	}
 
-	.full-width-line2 {
-	    display:none;
+	#wish_trips  li:nth-child(2){
+		margin-right: 0;
+		margin-left: 0;
+
 	}
 
+	#wish-description img {
+  		margin-right: 0px;
+	}
 
 }
 
@@ -426,14 +431,6 @@ button{
 		  margin-bottom: 8px;
 	}
 
-	.full-width-line {
-	  
-	    margin-top: 295px;
-	}
-
-	.full-width-line2 {
-	    margin-top: 350px;
-	}
 
 	#basic_info_home li:nth-child(2) {
 		width: 63%;
@@ -481,6 +478,114 @@ button{
 
 
 /*************** Trip_board.php ***************/
+
+#header_tripboard{
+  background-color: #0E777F;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#traveler_trips{
+  text-align: center;
+  box-sizing: border-box;
+  padding: 25px 0;
+  background-color: #0E777F;
+  position: relative;
+}
+
+.triangle-down-2{
+    width: 2.5%;
+    height: 0;
+    padding-left:2.5%;
+    padding-top: 2.5%;
+    overflow: hidden;
+    position: absolute;
+    left:0;right:0;
+    margin:auto;
+    top: 100px;
+    z-index:1;
+}
+
+.triangle-down-2:before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left:-50px;
+    margin-top:-50px;
+    
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #0E777F;
+}
+
+#traveler_trips li{
+  display: inline-block;
+}
+
+
+#traveler_trips li button{
+ 	background-color: #00B2BE;
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	padding-right: 14px;
+}
+
+#traveler_trips li button a:visited{
+ 	color:#fff;
+}
+
+#traveler_trips li button a:link{
+ 	color:#fff;
+}
+
+#traveler_trips li img{
+ 	vertical-align: middle;
+}
+
+#traveler_trips li:nth-child(2){
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif;
+ 	font-size:1.2em;
+ 	margin-left:15%;
+ 	margin-right:20%;
+}
+
+#traveler_trips li:nth-child(2) a:link{
+ 	color:#fff;
+}
+
+#traveler_trips li:nth-child(2) a:visited{
+ 	color:#fff;
+}
+
+#traveler_trips li:nth-child(2) a:hover{
+ 	color:#08484D;
+}
+
+#traveler_trips li:nth-child(1){
+ 	color:#00B2BE;
+ 	text-transform: uppercase;
+ 	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif;
+ 	font-size:1.2em;
+}
+
+#traveler_trips li:nth-child(1) a:link{
+ 	color:#00B2BE;
+}
+
+#traveler_trips li:nth-child(1) a:visited{
+ 	color:#00B2BE;
+}
+
+#traveler_trips li:nth-child(1) a:hover{
+ 	color:#08484D;
+}
+
+
 
 .float-left{
 	float:left;
@@ -630,6 +735,30 @@ button{
 	#destination_home_trips{
 	  	margin-right: 40px;
 	  	margin-left: 20px;
+	}
+
+	#traveler_trips li button{
+		display:none;
+	}
+
+	.triangle-down-2{
+		display:none;
+	}
+
+	#traveler_trips li:nth-child(2){
+		margin-right: 0;
+		margin-left: 0;
+
+	}
+
+	.stella  {
+  		margin-left: auto;
+  		margin-right: auto;
+  		display: block;
+  	}
+
+  	#trip-description img {
+  		  margin-right: 10px;
 	}
 
 }
