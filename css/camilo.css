@@ -1074,6 +1074,496 @@ div#ui-datepicker-div {
     color: #ffffff;
 }
 
+/*************** Create_wish.php ***************/
+
+.create_wish{
+  
+}
+
+#first_step{
+  margin: 50px auto 150px;
+  text-align: center;
+  float: none;
+}
+
+.titles_create_wish{
+  font-weight: 400;
+  color:#737373;
+  font-family:'AndesRounded-Book';
+  margin-bottom: 40px;
+}
+
+#msform {
+  
+  text-align: center;
+  position: relative;
+}
+
+#msform fieldset {
+  border: 0 none;
+}
+
+#msform fieldset label h1 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #585858;
+  font-family: 'AndesRounded-Bold';
+  font-weight:800;
+  margin-bottom: 40px;
+}
+
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+#msform input[type=text], #msform textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  color: #737373;
+}
+
+
+#first_step input[type=text] {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#first_step input[type=button] {
+    min-width: 150px;
+  margin-top: 20px;
+
+  color:#ffffff;
+  border:none;
+}
+
+.form_button{
+  float:right;
+  background-color:#00B2BE;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 40px;
+  color:#ffffff; important!
+  border: none;
+}
+
+#second_step{
+  text-align: center;
+  margin: 50px auto 150px;
+  float: none;
+}
+
+#radio_button_size li{
+  display:inline;
+}
+
+#radio_button_size .user-info-edit input[type='radio']:checked {
+  background-color: #00B2BE;
+  border: 1px #00B2BE;
+  color: #ffffff;
+}
+
+#radio_button_size .user-info-edit input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ie-appearance: none;
+  /*width: 20px;
+  height: 20px;*/
+  border-radius: 4px;
+  border: 1px solid #00B2BE;
+  background-color: white;
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+div#wish-category {
+  display: inline-block;
+}
+
+.choose-category {
+  float: left;
+
+}
+
+.choose-category {
+  color: #0E777F;
+}
+
+.choose-category label {
+  float: left;
+  overflow: auto;
+  display: inline-block;
+
+  width: 184px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #00B2BE;
+  margin: 9px;
+  position: relative;
+}
+
+.choose-category label span {
+  font-size: 1.25em;
+  display: block;
+
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin: auto;
+
+  color: white;
+  text-align: left;
+   font-family:'AndesRounded-Book'; 
+  line-height: 3;
+  display: inline-block;
+  width: 98%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 2%;
+}
+
+.choose-category label span img {
+    margin: 8px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  float: left;
+}
+
+
+.choose-category input[type='checkbox'] {
+  position: absolute;
+  top: -800px;
+  position: absolute;
+  /* top: -800px; */
+  width: 100%;
+  height: 100% !Important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ie-appearance: none;
+  -o-appearance: none;
+  border: none;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.choose-category input[type='checkbox']:checked {
+  border: 3px solid #0E777F;
+}
+
+#wish-description {
+  display: inline-block;
+  margin:0 0 40px 0 !important;
+}
+
+#msform textarea {
+    width: 590px;
+    height: 200px;
+    padding: 15px;
+    box-sizing: content-box;
+    resize: vertical;
+  }
+
+#wish-photo input[type='file'] {
+  width: 390px;
+  height: 240px;
+  background-color: #D8D8D8;
+  border-radius: 5px;
+  margin: 0 auto;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ie-appearance: none;
+  -o-appearance: none;
+  display: block;
+  z-index: 99999; 
+  opacity: 0;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin: auto;
+}
+
+.upload-photo-box {
+  width: 390px;
+  height: 140px;
+  background-color: #D8D8D8;
+  border-radius: 5px;
+  margin: 0 auto; 
+  position:relative;
+  display:block;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.upload-photo-box h3{
+  font-family: 'AndesRounded-Regular';
+  color: #585858;
+  font-size:1em;
+  text-align: center;
+  line-height:1;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.upload-photo-box span {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  background: url('../img/icons/uploadphoto.svg') center center no-repeat;
+  display: block;
+
+}
+
+#wish-photo h2 {
+  color: #737373;
+  text-align:center;
+  font-size:1em;
+  font-family: 'AndesRounded-Light';
+  margin-top: 20px;
+}
+
+.controls {
+  width: 75%;
+  margin: 40px auto;
+}
+
+.controls input {
+    margin: 20px;
+}
+
+.action-button {
+  text-align: center;
+  padding: 12px 40px;
+  border-radius: 5px;
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  -ie-appearance: none;
+  -o-appearance: none;
+  border: none;
+  min-width: 150px;
+}
+
+.next {
+  background-color: #00B2BE;
+  color: #ffffff;
+}
+
+.previous {
+  background-color: #D8D8D8;
+  color:#585858;
+}
+
+
+
+/*
+#wish-category ul li {
+
+  float: left;
+  margin: 10px;
+}
+
+#wish-category ul input {
+  width: 184px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #00B2BE;
+  -webkit-appearance: none;
+    cursor: pointer;
+}
+
+#msform ul label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  font-size: 1.25em;
+  color: #ffffff;
+  cursor: pointer;
+} */
+
+/*#wish-category li{
+    margin:4px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+}
+
+/*#wish-category input {
+   margin-right:100px;
+}
+
+#wish-category li:hover {
+    background:red;
+}
+
+#wish-category li {
+    float:left;
+    width:4.0em;
+}
+
+#wish-category li span {
+    text-align:center;
+    padding:3px 0px;
+   display:block;
+}
+
+#wish-category li input {
+    position:absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+#wish-category li input:checked + span {
+    background-color:#911;
+    color:#fff;
+}*/
+
+#wish-size {
+  margin: 80px 0;
+}
+
+
+#radio_button_size label {
+    margin: 0 20px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+#radio_button_size input[type='radio'] {
+  width: 40px;
+  height: 40px;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -ie-appearance: none;
+  -o-appearance: none;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  pointer: cursor;
+  border-radius: 7px;
+  border: 0px solid #f9a41a;
+  
+}
+
+#radio_button_size input[type='radio']:checked {
+  border: 3px solid #f9a41a;
+  border-radius: 8px;
+}
+
+#radio_button_size input[type='radio']:focus {
+  border: 3px solid #f9a41a;
+  border-radius: 8px;
+  outline: none;
+}
+
+#radio_button_size img {
+  width: 125%;
+  height: 125%;
+  margin: auto;
+  top: 0;
+  left: -5px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+
+}
+
+#third_step{
+  margin: 50px auto 150px;
+  text-align: center;
+  float: none;
+}
+
+
+
+
+/*************** Progress bar ***************/
+
+#progressbar{
+  margin-top:50px;
+  margin-bottom:50px;
+
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-family: 'AndesRounded-Book';
+  color: #737373;
+  font-size: 14px;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  text-align: center;
+  }
+
+#progressbar li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 40px;
+  line-height: 40px;
+  display: block;
+  font-size: 20px;
+  color:#ffffff;
+  background: #0E777F;
+  border-radius: 50%;
+  margin: 0 auto 5px auto;
+  }
+
+/*progressbar connectors*/
+#progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #0E777F;
+  position: absolute;
+  left: -50%;
+  top: 20px;
+  z-index: -1; /*put it behind the numbers*/
+  }
+
+#progressbar li:first-child:after {
+  /*connector not needed before the first step*/
+  content: none;
+  }
+  /*marking active/completed steps green*/
+  /*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+  background: #F9A41A;
+  color: white;
+  }
+
+
+
+
+
 @media all and (min-width:1200px) {
     
 }

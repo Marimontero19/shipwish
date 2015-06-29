@@ -21,42 +21,55 @@ include('includes/header.php');
 					<li>Delivery</li>
 				</ul>
 				<!-- fieldsets -->
-					<fieldset id="first_step" class="grid_4_1200 grid_4_1024 grid_4_768 grid_5_320 push_4_1200 push_3_1024">
+					<fieldset id="first_step" class="grid_4_1200 grid_4_1024 grid_4_768 grid_5_320">
 						<label for="wish"><h1 class="titles_create_wish">What do you crave for?</h1></label>
 						<input type="text" name="wish" id="wish" placeholder="Ex:A basket of sweet plantains"/>
 						<input type="button" name="next" class="form_button next action-button" value="Next" />
 					</fieldset>
 
-					<fieldset id="second_step" class="grid_6_1200 grid_6_1024 grid_4_768 grid_6_320">
+					<fieldset id="second_step" class="grid_8_1200 grid_6_1024 grid_4_768 grid_6_320">
 							
 							<div id="wish-category">
 								<label for="product"><h1 class="titles_create_wish">What’s the product about?</h1></label>
-
-								<ul class="">
+								
+								<ul class="choose-category">
 									<li>
+									<label for="toggle-button">
 										<input type="checkbox" class="checkbox" name="food" id="toggle-button" value="Food"/>
-										<label for="toggle-button">Food</label>
+										<span><img src="img/icons/questionmark-white.svg" alt="Food">Food</span>
+									</label>
 									</li>
 									<li>
+									<label for="toggle-button">
 										<input type="checkbox" class="checkbox" name="fashion" id="toggle-button" value="Fashion"/>
-										<label for="toggle-button">Fashion</label>
+										<span><img src="img/icons/questionmark-white.svg" alt="Fashion">Fashion</span>
+									</label>
 									</li>
 									<li>
+									<label for="toggle-button">
 										<input type="checkbox" class="checkbox" name="electronics" id="toggle-button" value="Electronics"/>
-										<label for="toggle-button">Electronics</label>
+										<span><img src="img/icons/questionmark-white.svg" alt="Electronics">Electronics</span>
+									</label>
 									</li>
 									<li>
+									<label for="toggle-button">
 										<input type="checkbox" class="checkbox" name="home" id="toggle-button" value="Home"/>
-										<label for="toggle-button">Home</label>
+										<span><img src="img/icons/questionmark-white.svg" alt="Home">Home</span>
+									</label>
 									</li>
 									<li>
-										<input type="checkbox" class="checkbox" name="documents&books" id="toggle-button" value="Documents&Books"/>
-										<label for="toggle-button">Documents&Books</label>
+									<label for="toggle-button">
+										<input type="checkbox" class="checkbox" name="docs&books" id="toggle-button" value="Docs&Books"/>
+										<span><img src="img/icons/questionmark-white.svg" alt="Docs&Books">Documents</span>
+									</label>
 									</li>
 									<li>
-										<input type="checkbox" class="checkbox" name="other" id="toggle-button" value="Other"/>
-										<label for="toggle-button">Other</label>
-									</li>
+									<label for="toggle-button">
+										<input type="checkbox" class="checkbox" name="Other" id="toggle-button" value="Other"/>
+										<span><img src="img/icons/questionmark-white.svg" alt="Other">Other</span>
+									</label>
+									</li>	
+
 								</ul>
 							</div>
 
@@ -65,47 +78,64 @@ include('includes/header.php');
 
 								<ul id="radio_button_size">
 									<li>
-										<input type="radio" name="radio" id="radio1"  value="XS"/>
-										<label for="radio1"  role="button">XS</label>
+										<label for="radio1"  role="button">
+											<input type="radio" name="radio" id="radio1"  value="XS"/>
+											<img src="img/icons/xs.svg" alt="XS">
+										</label>
 									</li>
 
 									<li>
-										<input type="radio" name="radio" id="radio2" value="S"/>
-										<label for="radio2" role="button">S</label>
+										<label for="radio2" role="button">
+											<input type="radio" name="radio" id="radio2" value="S"/>
+											<img src="img/icons/s.svg" alt="S">
+										</label>
 									</li>
 
 									<li>
-										<input type="radio" name="radio" id="radio3" value="M"/>
-										<label for="radio3" role="button">M</label>
+										<label for="radio3" role="button">
+											<input type="radio" name="radio" id="radio3" value="M"/>
+											<img src="img/icons/m.svg" alt="M">
+										</label>
 									</li>
 
 									<li>
-										<input type="radio" name="radio" id="radio4"  value="L"/>
-										<label for="radio4" role="button">L</label>
+										<label for="radio4" role="button">
+											<input type="radio" name="radio" id="radio4"  value="L"/>
+											<img src="img/icons/l.svg" alt="L">
+										</label>
 									</li>
 
 									<li>
-										<input type="radio" name="radio" id="radio5" value="XL"/>
-										<label for="radio5" role="button">XL</label>
+										<label for="radio5" role="button">
+											<input type="radio" name="radio" id="radio5" value="XL"/>
+											<img src="img/icons/xl.svg" alt="XL">
+										</label>
 									</li>
 								</ul>
 							</div>
 
 							<div id="wish-description">
 								<label for="description"><h1 class="titles_create_wish">Describe it a little bit more</h1></label>
-								<input type="text" name="description" id="description" placeholder="Ex:ej. The brand is Rico and it’s packed in a yellow box."/>
+								<textarea name="description" id="description" placeholder="Ex: The brand is Rico and it’s packed in a yellow box."></textarea>
 							</div>
 
 							<div id="wish-photo">
 								<label for="photo"><h1 class="titles_create_wish">Upload some photos</h1></label>
-								<input type="file" name="photo" id="photo" accept="image/*" placeholder="Upload your best photo"/>
+								<div class="upload-photo-box">
+									<h3>Drag and drop</h3>
+									<span></span>
+									<input type="file" name="photo" id="photo" accept="image/*" placeholder="Upload your best photo"/>
+								</div>
+								<h2>You can upload it later :)</h2>
 							</div>
+						
 
-						<input type="button" name="previous" class="previous action-button" value="Previous" />
-						<input type="button" name="next" class="next action-button" value="Next" />
+							<input type="button" name="previous" class="previous action-button" value="Previous" />
+							<input type="button" name="next" class="next action-button" value="Next" />
+
 					</fieldset>
 
-					<fieldset id="third_step" class="grid_6_1200 grid_6_1024 grid_4_768 grid_6_320 push_2_1200">
+					<fieldset id="third_step" class="grid_6_1200 grid_6_1024 grid_4_768 grid_6_320">
 
 						<div id="wish-course">
 							<h1 class="titles_create_wish">Where’s the product going to?</h1>
