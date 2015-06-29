@@ -763,6 +763,131 @@ button{
 
 }
 
+/*************** traveller.php ***************/
+
+#info-arrival{
+	margin-top: 30px;
+}
+
+#info-arrival h3 {
+  color: #6C6C6C;
+  margin-top: 85px;
+}
+
+#actions-travel{
+	margin-top: 10px;
+	float:right;
+	text-transform: uppercase;
+}
+
+#actions-travel span img{
+	vertical-align: middle;
+}
+
+#actions-travel li{
+	width: 250px;
+}
+
+#actions-travel li:nth-child(1) button {
+	width: 250px;
+	background-color:#F9A41A;
+	color: #ffffff;
+	margin-bottom: 5px;
+	margin-top: 94px;
+	text-transform: uppercase;
+}
+
+#actions-travel li:nth-child(2){
+	width: 250px;
+	margin-top: 15px;
+	background-color:none;
+	color:#0E777F;
+	text-align:center;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+		    	
+	#actions-travel li:nth-child(1) button {
+  		width: 300px;
+  		margin-top: 24px;
+	}
+
+	#info-arrival h3 {
+  		margin-top: 25px;
+	}
+
+	#actions-travel {
+  		float: left; 
+	}
+
+	#actions-travel li:nth-child(2) {
+  		width: 300px;
+  		text-align: center;
+	}
+
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 660px) {
+
+	#actions-travel li:nth-child(1) button {
+  		width: 300px;
+  		margin-top: 24px;
+	}
+
+	#info-arrival h3 {
+  		margin-top: 25px;
+	}
+
+	#actions-travel {
+  		float: left; 
+	}
+
+	#actions-travel li:nth-child(2) {
+  		width: 300px;
+  		text-align: center;
+	}
+
+}
+
+
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+
+	#actions-travel li:nth-child(1) button {
+  		width: 300px;
+  		margin-top: 24px;
+	}
+
+	#info-arrival h3 {
+  		margin-top: 25px;
+	}
+
+	#actions-travel {
+  		float: left; 
+	}
+
+	#actions-travel li:nth-child(2) {
+  		width: 300px;
+  		text-align: center;
+	}
+
+}
+
+
+/*Tablet*/
+@media only screen and (min-width : 870px) and (max-width : 1024px) {
+	  
+	  #info-arrival h3 {
+	  font-size:1.3em;
+		}
+
+
+}
+
+
+
+
 
 /*************** product.php ***************/
 
@@ -1062,7 +1187,7 @@ button{
 		}
 
 		#product-details{
-			margin-left: 40px;
+			/*margin-left: 40px;*/
 		}
 
 		#destination-product li:nth-child(1){
@@ -1090,7 +1215,7 @@ button{
 		#actions li:nth-child(1) button{
 			
 			margin-top: 20px; 
-			width: 320px;
+			width: 300px;
 		}
 
 		#actions li:nth-child(2) button{

@@ -36,12 +36,12 @@ include('includes/header.php');
 
 					</div>
 
-					<div id="actions-2" class="">
+					<div id="actions-travel">
 						<ul>
 							<li>
 								<a href="product-chat.php"><button class="">
 									<span class="icon">
-										<img src="img/icons/ok.svg" alt="negociate">
+										<img src="img/icons/bell.svg" alt="notifications">
 									</span>
 									Notify traveller
 								</button></a>
