@@ -1,6 +1,6 @@
 <?php
 
-$page = 'product'; //Por ejemplo 'home', 'userprofile', etc
+$page = '| Product'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
@@ -106,7 +106,7 @@ include('includes/header.php');
 					</div>
 				</div>
 
-				<div id="gallery-product"class="grid_5_1200 grid_4_1024 grid_4_768 grid_6_320 push_1_1200">				
+				<div id="gallery-product" class="grid_5_1200 grid_4_1024 grid_4_768 grid_6_320 push_1_1200">				
 					<div class="gallery js-flickity" data-flickity-options='{ "imagesLoaded": true, "percentPosition": false }'>
   						<img src="img/product_pic/gallery_1.jpg" alt="Pecorino Cheese 1">
  						<img src="img/product_pic/gallery_2.jpg" alt="Pecorino Cheese 2">
