@@ -7,7 +7,7 @@ include('includes/header.php');
 ?>
 
 
-<div class="main-container">
+<div class="main-container" style="background-color: #ffffff">
 
 	<div class="container_12 container_10 container_8 container_6">
 
@@ -25,6 +25,7 @@ include('includes/header.php');
 						<label for="wish"><h1 class="titles_create_wish">What do you crave for?</h1></label>
 						<input type="text" name="wish" id="wish" placeholder="Ex:A basket of sweet plantains"/>
 						<input type="button" name="next" class="form_button next action-button" value="Next" />
+						<div class="clear"></div>
 					</fieldset>
 
 					<fieldset id="second_step" class="grid_8_1200 grid_6_1024 grid_4_768 grid_6_320">
@@ -132,24 +133,38 @@ include('includes/header.php');
 
 							<input type="button" name="previous" class="previous action-button" value="Previous" />
 							<input type="button" name="next" class="next action-button" value="Next" />
-
+						<div class="clear"></div>
 					</fieldset>
 
-					<fieldset id="third_step" class="grid_6_1200 grid_6_1024 grid_4_768 grid_6_320">
-
+					<fieldset id="third_step" class="grid_6_1200 grid_6_1024 grid_4_768 grid_6_320">					
 						<div id="wish-course">
-							<h1 class="titles_create_wish">Where’s the product going to?</h1>
-
+							<label for="product">
+								<h1 class="titles_create_wish">Where’s the product going to?</h1>
+							</label>
 							<div id="wish-destination">
-								<input placeholder="From" type="text"> 
-								<input placeholder="To" type="text"> 	
+								<div class="mid-input">
+									<label for="from"> <h1>From</h1></label>
+									<input placeholder="From" type="text"> 
+								</div>
+								<div class="mid-input">
+									<label for="to"> <h1>To</h1> </label>
+									<input placeholder="To" type="text"> 
+								</div>
+								<div class="clear"></div>	
 							</div>
-
+							<div class="clear"></div>
 							<div id="wish-final_date">
-								<label for="date"><h2 class="">Delivery by</h2></label>
-								<input placeholder="Delivery date" type="text" class="datepicker"> 
-								<input type="checkbox" name="product" id="date" value="date"/>I don't have an specific date
-
+								<label for="date">
+									<h1 class="">Delivery by</h1>
+								</label>
+								<div class="mid-input">
+									<input placeholder="Delivery date" type="text" class="datepicker">
+								</div>
+								<div class="mid-input">
+									<input type="checkbox" name="product" id="date" value="date"/>
+									<label class="no-date">I don't have an specific date</label>
+								</div>
+								<div class="clear"></div>
 							</div>
 
 							<div id="wish-cost">
@@ -170,14 +185,32 @@ include('includes/header.php');
 	                                <option>£</option>
 	                                <option>Other</option>
                             	</select>
+                            	<div class="clear"></div>
 							</div>
 
 							<div id="wish-reward">
 								<label for="reward"><h1 class="titles_create_wish">Tell is the reward</h1></label>
-								<ul class="">
-									<li><input type="radio" name="size" id="reward" value="Money"/>Money</li>
-									<li><input type="radio" name="size" id="reward" value="Help"/>Help</li>
+								<ul class="choose-reward">
+									<li>
+										<label>
+											<input type="radio" name="size" id="reward" value="Money"/>
+											<span> <img src="img/icons/questionmark-white.svg">
+												Money
+											</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input type="radio" name="size" id="reward" value="Help"/>
+											<span> <img src="img/icons/questionmark-white.svg">
+												Help
+											</span>
+										</label>
+									</li>									
 								</ul>
+								<textarea name="description" id="description" placeholder="What will it be?"></textarea>
+								
+								<!--
 								<h4>IMPORTANT:Shipwish comisionates a 3% of the total cost of the transaction</h4>
 
 								<select class="">
@@ -195,20 +228,25 @@ include('includes/header.php');
 	                                <option>£</option>
 	                                <option>Other</option>
                             	</select>
+                            	<div class="clear"></div>
+                            	-->
 							</div>
+							<div class="clear"></div>
 						</div>
-		
+			
 						<input type="button" name="previous" class="previous action-button" value="Previous" />
-						<input type="submit" name="submit" class="submit action-button" value="Preview & Publish" />
+						<input type="button" name="submit" class="submit next action-button" value="Next" />
+						<div class="clear"></div>
 					</fieldset>
+				<div class="clear"></div>
 		</form>	
-
+		<div class="clear"></div>
 		</section>
 
 
 	</div>
 </div>
-
+<!--
 <?php
 
 $page = 'product'; //Por ejemplo 'home', 'userprofile', etc
@@ -216,3 +254,6 @@ $page = 'product'; //Por ejemplo 'home', 'userprofile', etc
 include('includes/footer.php');
 
 ?>
+
+
+

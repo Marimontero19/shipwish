@@ -23,6 +23,15 @@ $(document).ready (
         	$(".select-jquery-color" ).selectmenu({ icons: { button: "custom-icon" } });
         });
 
+$(document).ready (
+
+        //Reset filter
+        $("#reset").on("click", function () {
+            $('.select option').prop('selected', function() {
+                return this.defaultSelected;
+            });
+        });
+
 
 
 

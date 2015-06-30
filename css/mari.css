@@ -3,61 +3,181 @@
 
 /*************** Wish_board.php ***************/
 
-.full-width-line {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    color:black;
-    margin-top: 170px;
-}
-
-.full-width-line2 {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    color:black;
-    margin-top: 225px;
-}
-
 #header_wishboard {
-    background-color: #fff;
+  background-color: #00B2BE;
   display: block;
   position: relative;
   margin: 0;
   padding: 0;
 }
-}
 
 #wish_trips {
   text-align: center;
   box-sizing: border-box;
-  padding: 45px 0;
+  padding: 25px 0;
+  background-color: #00B2BE;
+  position: relative;
+}
+
+.triangle-down{
+    width: 2.5%;
+    height: 0;
+    padding-left:2.5%;
+    padding-top: 2.5%;
+    overflow: hidden;
+    position: absolute;
+    left:0;right:0;
+    margin:auto;
+    top: 100px;
+    z-index:1;
+}
+
+.triangle-down:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left:-50px;
+    margin-top:-50px;
+    
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #00B2BE
+}
+
+#wish_trips li{
+  display: inline-block;
+}
+
+
+#wish_trips li button{
+ 	background-color: #0E777F;
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	padding-right: 14px;
+}
+
+#wish_trips li button a:visited{
+ 	color:#fff;
+}
+
+#wish_trips li img{
+ 	vertical-align: middle;
+}
+
+#wish_trips li:nth-child(2){
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif;
+ 	font-size:1.2em;
+ 	margin-left:15%;
+ 	margin-right:20%;
+}
+
+#wish_trips li:nth-child(2) a:link{
+ 	color:#fff;
+}
+
+#wish_trips li:nth-child(2) a:visited{
+ 	color:#fff;
+}
+
+#wish_trips li:nth-child(2) a:hover{
+ 	color:#08484D;
+}
+
+#wish_trips li:nth-child(3){
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif;
+ 	font-size:1.2em;
+}
+
+#wish_trips li:nth-child(3) a:link{
+ 	color:#0E777F;
+}
+
+#wish_trips li:nth-child(3) a:visited{
+ 	color:#0E777F;
+}
+
+#wish_trips li:nth-child(3) a:hover{
+ 	color:#ffffff;
+}
+
+#header-search{
+	background-color: #fff;
+	padding-top:50px;
+	padding-bottom: 20px;
+	/*box-shadow: 0px 1px 10px #D8D8D8;*/
+
+}
+
+#header-searh .main-container{
+		box-shadow: 0px 1px 10px #D8D8D8;
+}
+
+#header-search h4{
+	color:#00B2BE;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 #user-search{
-	margin-bottom: 20px
+	margin-bottom: 50px;
+	vertical-align: middle;
+}
+
+#user-search form div{
+	display: inline-block;
 }
 
 
 .input-trips {
-	width: 25%; /*285px*/
-	height: 16px;
+	width: 30%; /*285px*/
+	height: 30px;
 	padding: 10px;
 	border-radius: 5px;
-	border-color:gray;
+	border: 1.5px solid #E9E9E9;
 	margin-right:8px;
+	color: #909090;
+}
+
+.input-trips:focus {
+	border: 2px solid #00B2BE;
+	outline: none !important;
+	color:#00B2BE;
+	box-shadow: 0px;
+	outline-color: transparent;
+  	outline-style: none;
+}
+
+#user-search form img{
+	vertical-align: middle;
 }
 
 /*Botones SUBMIT*/
 #user-search input[type="submit"] {
 
-    cursor: pointer;
+    /*cursor: pointer;
   	background-color:gray;
 	color:#ffffff;
 	border:0;
 	border-radius: 5px;
 	width: 150px;
 	height: 40px;
+	background-color: transparent;
+	border-radius: 0px;
+	background-image: url(img/icons/search.svg);*/
+
+	background-color: transparent;
+  	border-radius: 0px;
+  	border: none;
+  	width: 120px;
+  	margin:0px 10px 0px 10px;
+  	text-transform: uppercase;
+  	color:#6C6C6C;
 }
 
 .outline{
@@ -65,7 +185,65 @@
 }
 
 #filters{
-	margin-top: 40px
+	margin-top: 20px
+}
+
+#filters img.ui-datepicker-trigger {
+      position: relative;
+      left: -20px;
+  	  top: 15px;
+}
+
+#filters .board_date{
+   color:#6C6C6C;
+   margin: 10px;
+   border:0px;
+   border-radius: 0px;
+   background: transparent;
+   width: 150px;
+   padding: 5px 35px 5px 5px;
+   font-size: 16px;
+   font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+   border-bottom: 1.5px solid #6C6C6C;
+}
+
+.board_date ::-webkit-input-placeholder{
+	   font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+	    color:#6C6C6C;
+}
+
+#filters select{
+   /*margin: 50px;*/
+   /*border: 1px solid #111;*/
+   color:#6C6C6C;
+   margin: 10px;
+   border:0px;
+   border-radius: 0px;
+   background: transparent;
+   width: 120px;
+   padding: 5px 35px 5px 5px;
+   font-size: 16px;
+   font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+   border-bottom: 1.5px solid #6C6C6C;
+   height: 34px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background-image: url(img/icons/dropdown.svg);
+} 
+
+#filters select:focus {
+	box-shadow: 0px;
+	outline-color: transparent;
+  	outline-style: none;
+}
+
+#filter input[type="submit"] {
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  width: 100px;
+  text-transform: uppercase;
 }
 
 #wish-description{
@@ -81,7 +259,7 @@
 
 #wish-boards{
 	margin-top: 50px;
-	display: inline-block; important!
+	display: inline-block; 
 }
 
 #wisher_card{
@@ -216,15 +394,20 @@ button{
 		display:none;
 	}
 
-	.full-width-line {
-	  
-	   display:none;
+
+	#wish_trips li button{
+		display:none;
 	}
 
-	.full-width-line2 {
-	    display:none;
+	#wish_trips  li:nth-child(2){
+		margin-right: 0;
+		margin-left: 0;
+
 	}
 
+	#wish-description img {
+  		margin-right: 0px;
+	}
 
 }
 
@@ -248,14 +431,6 @@ button{
 		  margin-bottom: 8px;
 	}
 
-	.full-width-line {
-	  
-	    margin-top: 295px;
-	}
-
-	.full-width-line2 {
-	    margin-top: 350px;
-	}
 
 	#basic_info_home li:nth-child(2) {
 		width: 63%;
@@ -304,6 +479,114 @@ button{
 
 /*************** Trip_board.php ***************/
 
+#header_tripboard{
+  background-color: #0E777F;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#traveler_trips{
+  text-align: center;
+  box-sizing: border-box;
+  padding: 25px 0;
+  background-color: #0E777F;
+  position: relative;
+}
+
+.triangle-down-2{
+    width: 2.5%;
+    height: 0;
+    padding-left:2.5%;
+    padding-top: 2.5%;
+    overflow: hidden;
+    position: absolute;
+    left:0;right:0;
+    margin:auto;
+    top: 100px;
+    z-index:1;
+}
+
+.triangle-down-2:before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left:-50px;
+    margin-top:-50px;
+    
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #0E777F;
+}
+
+#traveler_trips li{
+  display: inline-block;
+}
+
+
+#traveler_trips li button{
+ 	background-color: #00B2BE;
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	padding-right: 14px;
+}
+
+#traveler_trips li button a:visited{
+ 	color:#fff;
+}
+
+#traveler_trips li button a:link{
+ 	color:#fff;
+}
+
+#traveler_trips li img{
+ 	vertical-align: middle;
+}
+
+#traveler_trips li:nth-child(2){
+ 	color:#fff;
+ 	text-transform: uppercase;
+ 	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif;
+ 	font-size:1.2em;
+ 	margin-left:15%;
+ 	margin-right:20%;
+}
+
+#traveler_trips li:nth-child(2) a:link{
+ 	color:#fff;
+}
+
+#traveler_trips li:nth-child(2) a:visited{
+ 	color:#fff;
+}
+
+#traveler_trips li:nth-child(2) a:hover{
+ 	color:#08484D;
+}
+
+#traveler_trips li:nth-child(1){
+ 	color:#00B2BE;
+ 	text-transform: uppercase;
+ 	font-family: 'AndesRounded-Bold',Helvetica, Arial, sans-serif;
+ 	font-size:1.2em;
+}
+
+#traveler_trips li:nth-child(1) a:link{
+ 	color:#00B2BE;
+}
+
+#traveler_trips li:nth-child(1) a:visited{
+ 	color:#00B2BE;
+}
+
+#traveler_trips li:nth-child(1) a:hover{
+ 	color:#08484D;
+}
+
+
+
 .float-left{
 	float:left;
 }
@@ -343,7 +626,7 @@ button{
 	color:#909090;
 	font-weight: 300;
 	margin-bottom: 15px;
-	font-family:'AndesRoundedLight',Helvetica, Arial, sans-serif;
+	font-family:'AndesRounded-Light',Helvetica, Arial, sans-serif;
 }
 
 .text-description h3{
@@ -452,6 +735,30 @@ button{
 	#destination_home_trips{
 	  	margin-right: 40px;
 	  	margin-left: 20px;
+	}
+
+	#traveler_trips li button{
+		display:none;
+	}
+
+	.triangle-down-2{
+		display:none;
+	}
+
+	#traveler_trips li:nth-child(2){
+		margin-right: 0;
+		margin-left: 0;
+
+	}
+
+	.stella  {
+  		margin-left: auto;
+  		margin-right: auto;
+  		display: block;
+  	}
+
+  	#trip-description img {
+  		  margin-right: 10px;
 	}
 
 }
@@ -883,10 +1190,24 @@ button{
 /*************** product-user.php ***************/
 
 
-
-#recomendations{
+#intro-recomendations{
 	width:100%;
-	background-color:#ffffff !important;
+	background-color: #ffffff;
+
+}
+
+#title-negociations{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+#title-negociations h2{
+	color:#ffffff;
+	font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+}
+
+#title-negociations h2 img{
+	vertical-align: middle;
 }
 
 
@@ -901,72 +1222,137 @@ button{
 
 }
 
-thead {
-  display: table-header-group;
-  vertical-align: middle;
-  border-color: inherit;
-}
-
-table tr th {
-  padding: 0.5625rem 0.625rem;
-  color: #0E777F;
-  text-align: left;
-  font-size: 1.2em;
-  font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-
-/*table tr td {
-  padding: 2rem 2rem;
-  text-align: center;
-  font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
-}*/
-
-table tr th img{
-	vertical-align: middle;
-}
-
-tbody {
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;
-}
-
-
-tr:nth-of-type(even) {
-  background: #f9f9f9;
+#recomendations-user{
+	width:100%;
+	background-color:#00B2BE !important;
 }
 
 #table-negociations table{
 	 width: 100%;
+	 margin-top: 40px;
 }
 
-#table-negociations .user-pic {
-  margin: 0 auto;
-  width: 50px;
-  height: 50px;
+.choose-traveler fieldset {
+	 border: none;
+ }
+
+
+.choose-traveler table {
+	  background: white;
+	  margin-bottom: 1.25rem;
+	  border: solid 1px #dddddd;
+	  table-layout: auto;
 }
 
-.traveler-name {
-  	text-transform:none;
-	color:#6C6C6C;
-	font-size: 1em;
-	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
-}
-
-.reward-proposal{
-	color:#6C6C6C;
-	font-size: 1em;
-}
-
-.date-arrival{
-	color:#6C6C6C;
-	text-transform: none;
-	font-size: 1em;
+.choose-traveler table thead {
+	   border-bottom: blue;
+	   vertical-align: middle;
 }
 
 
+.choose-traveler table {
+	  display: table;
+	  border-collapse: collapse;
+	  border-spacing: 0;
+}
+
+.table-image a img{
+	margin: 0 auto;
+}
+ 
+ .choose-traveler table thead tr th {
+	  padding: 0.5rem 0.625rem 0.625rem;
+	 
+}
+
+ .choose-traveler table thead tr th h4 {
+ 	 text-transform: uppercase;
+ 	  font-size: 1.2rem;
+ 	  text-transform: uppercase;
+	  font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	  color: #0E777F;
+	  vertical-align: middle !important;
+}
+
+
+<<<<<<< HEAD
+=======
+.choose-traveler table tr td {
+	  padding: 0.5625rem 0.4rem;
+	  font-size: 1rem;
+	  color: #6C6C6C;
+	  text-align: center;
+  
+}
+
+/*.choose-traveler table tr th img{
+	vertical-align: middle;
+	margin-right: 20px;
+}*/
+
+.choose-traveler tbody {
+	  display: table-row-group;
+	  vertical-align: middle;
+	  border-color: inherit;
+}
+
+
+.choose-traveler tr {
+	  display: table-row;
+	  vertical-align: inherit;
+	  /*border-color: inherit;*/
+	   border-style: solid;
+    border-color: #F5F6F6;
+}
+
+.choose-traveler table tr:nth-of-type(3) {
+  background: #E7FAF0;
+
+}
+
+.choose-traveler table tr td:nth-of-type(2) {
+	text-align: left;
+
+}
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+
+		.choose-traveler table tr td:nth-of-type(2) {
+			display:none;
+		}
+
+		.choose-traveler table thead tr th{
+  			padding: 0.5rem 0.26rem 0.625rem;
+		}
+
+		.choose-traveler table tr td {
+	  		padding: 0.5625rem 0.1rem;
+
+	  	}
+
+	  	.choose-traveler table thead tr th h4 {
+	  		display:none;
+	  	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> origin/master
 /*************** product_details.php ***************/
 
 .chat-general-info {
@@ -1466,7 +1852,7 @@ textarea {
 	text-align: center;
 }
 
-img.ui-datepicker-trigger {
+#negociation-form img.ui-datepicker-trigger {
       position: relative;
       left: -190px;
   	  top: 15px;
@@ -1487,7 +1873,7 @@ img.ui-datepicker-trigger {
 }
 
 #choose-reward input[type='radio'] {
-    background-image: url(img/icons/money.svg)
+    background-image: url(img/icons/money.svg);
 
 }
 
