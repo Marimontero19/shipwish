@@ -23,7 +23,7 @@ $(document).ready (
            //  .addClass( "overflow" );
            //});
 
-        Reset filter
+        //Reset filter
          $("#reset").on("click", function () {
             $('#filter_details').prop('selected', function() {
                 return this.defaultSelected;
