@@ -89,6 +89,7 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/mari.css">
 		<link rel="stylesheet" href="css/camilo.css">
+		<link rel="stylesheet" href="css/orlando.css">
 		
 		<?php if ($page == 'tour') { ?>
 			<link rel="stylesheet" href="css/c.css">

@@ -6,80 +6,124 @@ include('includes/header.php');
 
 ?>
 
-<section id="my-wishes">
+<section id="global-settings">
 
 	<div class="title">
-		<h1>
-			Settings
-		</h1>
+		<div class="main-container">
+		    <div class="container_12 container_10 container_8 container_6">
+
+				<h1>
+					Settings
+				</h1>
+
+			</div>	
+		</div>
 	</div>
+
 	<!-- Measures -->
+
 	<div class="subtitle">
-		<h2>
-			Change units:
-		</h2>
-		<form action="" class="user-info" class="measure-units" method="_POST">
-			<label for="">Language</label>
-			<select>
-				<option>English</option>
-				<option>English</option>
-				<option>English</option>
-			</select>
-			<label for="">Curency</label>
-			<select>
-				<option>EUR</option>
-				<option>USD</option>
-			</select>
-			<label for="">Measure</label>
-			<select>
-				<option>Cm</option>
-				<option>In</option>
-				<option>M</option>
-			</select>
-			<label for="">Weight</label>
-			<select>
-				<option>Ounces</option>
-				<option>Pounds</option>
-				<option>kg</option>
-			</select>									
-		</form>
+		<div class="main-container">
+		    <div class="container_12 container_10 container_8 container_6">
+				<h2>
+					Global units
+				</h2>
+			</div>
+		</div>
 	</div>
-	<!-- Measures -->
-	<div class="subtitle">
-		<h2>
-			Notifications
-		</h2>
-		<form action="" class="user-info" class="notifications-settings" method="_POST">
-			<label for="">Comments</label>
-			<input type="radio" name="notif-comments" value="notif1"> Notification 1	
-			<input type="radio" name="notif-comments" value="notif2"> Notification 2	
-			<input type="radio" name="notif-comments" value="notif3"> Notification 3	
-			<label for="">Trips</label>
-			<input type="radio" name="notif-trips" value="notif1"> Notification 1	
-			<input type="radio" name="notif-trips" value="notif2"> Notification 2	
-			<input type="radio" name="notif-trips" value="notif3"> Notification 3	
-			<label for="">Wishes</label>
-			<input type="radio" name="notif-wishes" value="notif1"> Notification 1	
-			<input type="radio" name="notif-wishes" value="notif2"> Notification 2	
-			<input type="radio" name="notif-wishes" value="notif3"> Notification 3									
-		</form>
-	</div>	
+
+	<div class="main-container">
+		<div class="container_12 container_10 container_8 container_6">
+
+			<form action="" class="user-info measure-units"  method="_POST">
+				
+				<div class="grid_2_1200 grid_2_1024 grid_2_768 grid_6_320">
+					<label for="">Language</label><br>
+					<select>
+						<option>English</option>
+						<option>English</option>
+						<option>English</option>
+					</select>
+				</div>
+
+				<div class="grid_2_1200 grid_2_1024 grid_2_768 grid_6_320 push_1_1200">
+					<label for="">Curency</label><br>
+					<select>
+						<option>EUR</option>
+						<option>USD</option>
+					</select>
+				</div>
 
 
-	<!-- Notifications -->
-	<div class="subtitle">
-		<h2>
-			Draft (1)	
-		</h2>
+				<div class="grid_2_1200 grid_2_1024 grid_2_768 grid_6_320 push_2_1200">
+					<label for="">Measure</label><br>
+					<select>
+						<option>Cm</option>
+						<option>In</option>
+						<option>M</option>
+					</select>
+				</div>
+
+
+				<div class="grid_2_1200 grid_2_1024 grid_2_768 grid_6_320 push_3_1200">
+					<label for="">Weight</label><br>
+					<select>
+						<option>Ounces</option>
+						<option>Pounds</option>
+						<option>kg</option>
+					</select>
+				</div>
+
+
+
+			</form>
+
+		</div>
 	</div>
-	<div id="wisher_card"></div>
-	<!-- Pasr -->
+	
+	<div class="clear"></div>	
+
+	<!-- Measures -->
 	<div class="subtitle">
-		<h2>
-			Past (1)	
-		</h2>
+		<div class="main-container">
+		    <div class="container_12 container_10 container_8 container_6">
+				<h2>
+					Notifications
+				</h2>
+			</div>
+		</div>
 	</div>
-	<div id="wisher_card"></div>
+
+	<div class="main-container">
+	    <div class="container_12 container_10 container_8 container_6">
+
+			<form action="" class="user-info notifications-settings" method="_POST">
+				
+				<div >
+					<label for="">Comments</label><br>
+					<span><input type="radio" name="notif-comments" value="notif1"><p>Notification 1</p></span><br> 	
+					<span><input type="radio" name="notif-comments" value="notif2"><p>Notification 2</p></span><br> 	
+					<span><input type="radio" name="notif-comments" value="notif3"><p>Notification 3</p></span><br> 
+				</div>
+				
+				<div >				
+					<label for="">Trips</label><br>
+					<span><input type="radio" name="notif-trips" value="notif1"><p>Notification 1</p></span><br> 	
+					<span><input type="radio" name="notif-trips" value="notif2"><p>Notification 2</p></span><br> 	
+					<span><input type="radio" name="notif-trips" value="notif3"><p>Notification 3</p></span><br>
+				</div>
+
+				<div >
+					<label for="">Wishes</label><br>
+					<span><input type="radio" name="notif-wishes" value="notif1"><p>Notification 1</p></span><br> 	
+					<span><input type="radio" name="notif-wishes" value="notif2"><p>Notification 2</p></span> <br>	
+					<span><input type="radio" name="notif-wishes" value="notif3"><p>Notification 3</p></span><br> 
+				</div>									
+			</form>
+
+		</div>
+	</div>
+		
 
 </section>
 

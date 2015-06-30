@@ -10,18 +10,18 @@
 
 $(document).ready (
 
-      $(function() {
-            $( "#cost-product" ).selectmenu();
+      //$(function() {
+           // $( "#cost-product" ).selectmenu();
  
-           $( "#currency-product" ).selectmenu();
+          // $( "#currency-product" ).selectmenu();
 
-           $( "#money-reward" ).selectmenu();
+          // $( "#money-reward" ).selectmenu();
  
-           $( "#currency-reward" )
-             .selectmenu()
-             .selectmenu( "menuWidget" )
-             .addClass( "overflow" );
-           });
+           //$( "#currency-reward" )
+           //  .selectmenu()
+           //  .selectmenu( "menuWidget" )
+           //  .addClass( "overflow" );
+           //});
 
         Reset filter
          $("#reset").on("click", function () {

@@ -1,5 +1,7 @@
-html,
-body {
+/* LANDING CSS
+----------------------------------------------------------------------------------------*/
+
+.landing-bg {
   background: #fff;
 }
 
@@ -165,13 +167,13 @@ a.tab-2:before {
 
 .post-it-btn {
   text-align: center;
-  display: block;
+  display: inline-block;
   padding: 13px 25px;
   width: 220px;
   background-color: #00B2BE;
   color: #fff;
   font-size: 1.250em;
-  margin: 40px auto;
+  margin: 40px 20px;
   border-radius: 5px;
   transition: all .2s;
 }
@@ -203,6 +205,12 @@ a.tab-2:before {
   vertical-align: middle;
   margin-left: 10px;
   cursor: pointer;
+}
+
+.see-btns {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
@@ -716,8 +724,128 @@ footer {
 
 
 
+
+/* SETTINGS PAGE
+----------------------------------------------------------------------------------------*/
+
+.title {
+  background: #00B2BE;
+  margin: 0;
+}
+
+.title h1 {
+  font-size: 3.000em;
+  padding: 30px 0px;
+  font-family: 'AndesRounded-Regular';
+  color: #fff;
+}
+
+#global-settings .title h1 {
+  padding: 35px 0px;
+}
+
+.title h1:before {
+  content: url('../img/icons/settings.svg') no-repeat center;
+  display: inline-block;
+  width: 32px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.subtitle {
+  background: #fff;
+  margin: 0;
+}
+
+.subtitle h2 {
+  padding: 29px 0px;
+  font-size: 2.250em;
+  color: #0E777F;
+  font-family: 'AndesRounded-Regular';
+}
+
+.measure-units {
+  margin-top: 40px;
+  padding: 0;
+}
+
+.measure-units label {
+  color: #BEC9C9;
+  font-size: 1.250em;
+  font-family: 'AndesRounded-Light';
+}
+
+.measure-units select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #909090;
+  border-radius: 0;
+  width: 100%;
+  margin: 20px 0px;
+  color: #6C6C6C;
+  font-size: 1.250em;
+}
+
+.measure-units select:last-of-type {
+  margin-bottom: 50px;
+}
+
+.notifications-settings {
+  margin-bottom: 30px;
+}
+
+.notifications-settings label {
+  color: #6C6C6C;
+  font-size: 1.250em;
+  margin: 30px 0px 0px 0px;
+  display: block;
+}
+
+.notifications-settings span {
+  margin: 20px 0px;
+  display: block;
+}
+
+.notifications-settings input[type=radio]{
+  float: left;
+
+}
+
+.notifications-settings p {
+  float: left;
+  margin-left: 10px;
+}
+
+
+#my-wishes .title h1:before {
+  content: url('../img/icons/wishes.svg') no-repeat center;
+  display: inline-block;
+  width: 32px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+
+#my-wishes #user-detail-info {
+  padding: 0;
+}
+
+#my-trips .title h1:before {
+  content: url('../img/icons/trips.svg') no-repeat center;
+  display: inline-block;
+  width: 32px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+
+#my-trips #user-detail-info {
+  padding: 0;
+}
+
 /* MEDIAQUERIES
 ----------------------------------------------------------------------------------------*/
+
 
 /*Desktop*/
 @media only screen and (min-width : 1023px) {
@@ -758,6 +886,7 @@ footer {
 
   .post-it-btn {
     width: 40%;
+    display: block;
   }
   
 }

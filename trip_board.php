@@ -132,15 +132,15 @@ include('includes/header.php');
 					<div class="display_inline_block">
 
 						<div id="basic_info_home_trips">
-							<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_9_xs.jpg" alt="user_9"></a>					
+							<a href="traveller.php"><img class="user-pic" src="img/users_pic/user_9_xs.jpg" alt="user_9"></a>					
 						</div>
 
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Mumbai</h4>
+								<p>From:</p><h4>Italy</h4>
 								<br>
-								<p>To:</p><h4>Madrid</h4>
+								<p>To:</p><h4>Dublin</h4>
 							</div>
 
 							<div id="details_home_trips">
@@ -172,7 +172,7 @@ include('includes/header.php');
 					<div class="display_inline_block">
 
 						<div id="basic_info_home_trips">
-							<a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_10_xs.jpg" alt="user_10"></a>					
+							<a href="traveller.php"><img class="user-pic" src="img/users_pic/user_10_xs.jpg" alt="user_10"></a>					
 						</div>
 
 						<div class="float-left">

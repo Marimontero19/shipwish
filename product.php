@@ -54,12 +54,14 @@ include('includes/header.php');
 								</button></a>
 							</li>
 							<li>
+								<a href="product-negociation.php">
 								<button>
 									<span class="icon">
 										<img src="img/icons/negociate.svg" alt="negociate">
 									</span>
 									Negociate
 								</button>
+								</a>
 							</li>
 							<li class="link"><span class="icon"><img src="" alt=""></span>Save to watchlist</li>
 						</ul>

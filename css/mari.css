@@ -254,12 +254,12 @@
   color:#6C6C6C;
 }
 
-#wish-description{
+#wish-description-home{
 	display:inline-block;
 	margin-top: 20px;
 }
 
-#wish-description img{
+#wish-description-home img{
 	float:left;
 	margin-right: 30px;
 }

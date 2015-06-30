@@ -106,7 +106,7 @@ include('includes/header.php');
 <div class="main-container" style="background-color:#f9f9f9">
     <div class="container_12 container_10 container_8 container_6">
 
-        <div id="wish-description" class="grid_8_1200 grid_8_1024 grid_6_768 grid_6_320 push_2_1200 push_1_1024">
+        <div id="wish-description-home" class="grid_8_1200 grid_8_1024 grid_6_768 grid_6_320 push_2_1200 push_1_1024">
                 <img src="img/icons/wish_board.svg" alt="wishes">
                 <div class="text-description">
                     <h4>Here are the cards with the items that will make people happy. 
@@ -123,12 +123,12 @@ They are looking for a traveler to make their wish come true.</h4>
                     <div id="basic_info_home">
                         <ul>
                             <li>
-                                <a href="user_profile.php">
+                                <a href="product.php">
                                     <img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1">
                                 </a>
                             </li>
                             <li>
-                                <h3 class="">Pecorino Romano Cheese</h3>
+                                <a href="product.php"><h3 class="">Pecorino Romano Cheese</h3></a>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
