@@ -106,7 +106,9 @@ include('includes/header.php');
                                 </ul>
                             </div>
                         
-                        <button class="send"><!--<input type="submit">-->Send Proposal</button>
+                        <button class="send"><!--<input type="submit">-->
+                            <a href="product-negociation-2.php">Send Proposal</a>
+                        </button>
 
                         </fieldset>
                     </form>

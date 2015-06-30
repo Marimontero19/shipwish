@@ -1932,8 +1932,6 @@ textarea {
 
 /*************** product-negociation.php ***************/
 
-
-
 #negociation-form label h4{
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -2117,6 +2115,90 @@ img.ui-datepicker-trigger {
 
 }
 
+/*************** product-negociation-2.php ***************/
 
+#new-proposal{
+	border: 2px solid #F9A41A ;
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#intro-new-proposal{
+	height: 30px;
+	background-color: #F9A41A;
+	color:#ffffff;
+	text-align: center;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+
+}
+
+#details-reward{
+	padding:10px 20px 10px 20px;
+}
+
+#details-reward li h4{
+	vertical-align: middle;
+	display:inline-block;
+	margin-right:12px;
+	margin-bottom: 10px;
+	color:#0E777F;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+#details-reward li h5{
+	color:#737373;
+	margin-bottom: 8px;
+	margin-left: 52px;
+	font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+}
+
+#details-reward li span{
+	 text-decoration: line-through;
+	 color:#BEC9C9;
+}
+
+#new-actions-button{
+	padding:0px 10px 0px 10px;
+}
+
+#new-actions-button li{
+	vertical-align: middle;
+	display:inline-block;
+	margin: 10px;
+	text-transform: uppercase;
+}
+
+#new-actions-button li:nth-child(1) button{
+	background-color:#00B2BE;
+	color:#ffffff;
+	padding:0px 10px 0px 10px;
+	text-transform: uppercase;
+}
+
+#new-actions-button li:nth-child(2) button{
+	color:#0E777F;
+}
+
+#new-actions-button li:nth-child(3) button{
+	color:#D3D3D3;
+}
+
+#new-actions-button p{
+	padding:10px;
+	font-size: 14px;
+	color:#8D8D8D;
+	font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+}
+
+.accepted{
+	margin:0 auto;
+	text-align: center;
+	background-color:#C9EFF2 ;
+	color:#00B2BE;
+	text-transform: uppercase;
+	padding: 0px 15px 0px 15px;
+}
 
 

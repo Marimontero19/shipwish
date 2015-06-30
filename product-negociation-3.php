@@ -27,6 +27,7 @@ include('includes/header.php');
             </div>
 
             <div id="chat" class="grid_6_1200 grid_6_1024 grid_7_768 grid_6_320">
+
                 <div class="title">
                     <h2>Chat with María Martinez</h2>
                 </div>
@@ -45,9 +46,29 @@ include('includes/header.php');
                         <img src="img/icons/upload_chat1.svg" alt=upload>
                         <img src="img/icons/upload_chat2.svg" alt=upload>
                         <img src="img/icons/location2.svg" alt=upload>
-
                     </div>
-            </div>
+
+                </div>
+
+                <div id="newDivs">
+
+                        <ul id="comment-list">
+
+                            <li class="comment-1">
+                                <div class="comment-user-photo">
+                                    <a href=""><img src="img/users_pic/user_1_xs.jpg" class="user-pic" alt="user-1"></a>
+                                </div>
+                                <div class="wrote-comment" class="grid_5_1200 grid_4_1024 grid_6_768 grid_5_320">
+                                    <p>I accept your new deal, but un exchange can you take me to the city from the airport</p>
+                                    <p class="chat-date">31/July/2015</p>
+                                </div>
+                            </li>
+
+                        </ul>       
+                </div>
+
+                <div class="clear"></div>
+
                 
                 <div id="new-proposal">   
 
@@ -69,18 +90,11 @@ include('includes/header.php');
                     </div>
 
                     <div id="new-actions-button">
-
-                        <ul>
-                            <li><button><a href="product-negociation-3.php">Accept Proposal</a></button></li>
-                            <li><a href="product-negociation.php">Make new proposal</a></li>
-                            <li><a href="wish_board.php">Cancel deal</a></li>
-                        </ul>
-                        <p>If you accept the proposal you’ll start a chat with the traveler to talk about the details of the
-delivery. After agreeing in everything, you’ll be able to seal the deal and recieve your items!</p>
+                        <button class="accepted">Proposal Accepted</button>
                     </div>
-
-
                 </div>
+            </div>
+
         </section>
     </div>
 </div>
