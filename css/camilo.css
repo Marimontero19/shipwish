@@ -805,7 +805,7 @@ input[type='submit'] {
 
 div#ui-datepicker-div {
   background-color: white;
-  padding: 15px;
+  /*padding: 15px;*/
   border-radius: 6px;
 }
 

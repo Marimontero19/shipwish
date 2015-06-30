@@ -246,14 +246,7 @@ include('includes/header.php');
 
 	</div>
 </div>
-<!--
-<?php
 
-$page = 'product'; //Por ejemplo 'home', 'userprofile', etc
-
-include('includes/footer.php');
-
-?>
 
 
 
