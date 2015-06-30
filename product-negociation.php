@@ -36,70 +36,81 @@ include('includes/header.php');
                     Leave blank the ones you agree with.</h4>
                 </div>
                 
-                    <form id="negociation-form">
+                    <form id="negociation-form" action"#">
+
+                        <fieldset>
                         
-                        <label for=""><h4>Delivery date</h4></label>
-                        <input class="date_picker date" id="date-icon" placeholder="DD/MM/YY" type="text">
+                            <label for=""><h4>Delivery date</h4></label>
+                                <input class="datepicker date" placeholder="DD/MM/YY" type="text">
+                                <img class="ui-datepicker-trigger" src="img/icons/calendar.svg" alt="Select date" title="Select date">
 
-                        <label for=""><h4>Reward</h4></label>
-                        <p>There are different ways to reward your business. Be sure to make it clear for your future co-partner.</p>
+                            <label for=""><h4>Reward</h4></label>
+                            <p>There are different ways to reward your business. Be sure to make it clear for your future co-partner.</p>
+                            
+                            <div id="choose-reward">
+                                <label class="white"><input type="radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/money.svg" alt="money">Money</span></label>
+                                <label class="white"><input type="radio" name="toogle" value="volunteer" name="toogle"><span><img src="img/icons/volunteer.svg" alt="volunteer">Volunteer</span></label>
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <div id="costs-currency">
+
+                                <ul class="conditions">
+                                    <li>
+                                        <label for="cost-product">Cost of product</label>
+                                    </li>
+                                    <li>
+                                        <select name="cost-product" id="cost-product">
+                                            <option value="5" selected="selected">5</option>
+                                            <option value="10">10</option>
+                                            <option value="20">20</option>
+                                            <option value="30">30</option>
+                                            <option value="40">40</option>
+                                            <option value="50">50</option>
+                                        </select> 
+                                    </li>
+
+                                    <li>
+                                        <select name="currency-product" id="currency-product">
+                                            <option value="EUR" selected="selected">EUR</option>
+                                            <option value="USD">USD</option>
+                                            <option value="GBP">GBP</option>
+                                        </select> 
+                                    </li>  
+                                </ul>
+
+                            <ul class="conditions-2">
+                                    <li>
+                                        <label for="money-reward">Rewards</label>
+                                    </li>
+
+                                    <li>
+                                        <select name="money-reward" id="money-reward">
+                                            <option selected="selected" value="5">5</option>
+                                            <option value="10">10</option>
+                                            <option value="20">20</option>
+                                            <option value="30">30</option>
+                                            <option value="40">40</option>
+                                            <option value="50">50</option>
+                                        </select> 
+                                    </li>  
+
+                                    <li>
+                                        <select name="currency-reward" id="currency-reward">
+                                            <option selected="selected" value="EUR">EUR</option>
+                                            <option value="USD">USD</option>
+                                            <option value="GBP">GBP</option>
+                                        </select> 
+                                    </li>  
+                                </ul>
+                            </div>
                         
-                        <div id="choose-reward">
-                            <label class="white"><input type="radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/money.svg" alt="money">Money</span></label>
-                            <label class="white"><input type="radio" name="toogle" value="volunteer" name="toogle"><span><img src="img/icons/volunteer.svg" alt="volunteer">Volunteer</span></label>
-                        </div>
+                        <button class="send"><!--<input type="submit">-->Send Proposal</button>
 
-                        <div class="clear"></div>
-
-                      
-                            <ul class="conditions">
-                                <li><label for="money-product">Cost of product</label></li>
-                                <li>
-                                    <select class="select-jquery-color">
-                                        <option>5</option>
-                                        <option>10</option>
-                                        <option>20</option>
-                                        <option>30</option>
-                                        <option>40</option>
-                                        <option>50</option>
-                                    </select> 
-                                </li>  
-                                 <li>
-                                    <label for="currency-product"></label>
-                                    <select class="select-jquery-color">
-                                        <option>EUR</option>
-                                        <option>USD</option>
-                                        <option>GBP</option>
-                                    </select> 
-                                </li>  
-                            </ul>
-
-                            <ul class="conditions">
-                                <li><label for="money-reward">Rewards</label></li>
-                                <li>
-                                    <select class="select-jquery-color">
-                                        <option>5</option>
-                                        <option>10</option>
-                                        <option>20</option>
-                                        <option>30</option>
-                                        <option>40</option>
-                                        <option>50</option>
-                                    </select> 
-                                </li>  
-                                 <li>
-                                    <label for="currency-product"></label>
-                                    <select class="select-jquery-color">
-                                        <option>Currency<img src="img/icons/dropdown.svg"></option>
-                                        <option>EUR</option>
-                                        <option>USD</option>
-                                        <option>GBP</option>
-                                    </select> 
-                                </li>  
-                            </ul>
-
-                        <button><input type="submit">Send Proposal</button>
+                        </fieldset>
                     </form>
-            </div>
+                </div>
         </section>
     </div>
 </div>

@@ -452,7 +452,7 @@ They are looking for a traveler to make their wish come true.</h4>
             <!--FINAL DE WISHES-->
 
             <div class="center grid_12_1200">
-                <a href=""><img src="img/icons/more.svg" alt="view more"></a>
+                <a href=""><img src="img/icons/more.svg" alt="view more" style="margin-bottom:60px"></a>
              </div>
 
         </div>

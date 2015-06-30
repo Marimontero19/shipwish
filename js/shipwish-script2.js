@@ -1,27 +1,26 @@
 
 
- //$(document).ready (
+ $(document).ready (
 	//New chats
-	//$('#submit').click(function() {
-	  // var text = $('#input').val();
-	   //$('#newDivs').append('<div>' + text + '</div>');
-	//});
-
- $(function() {
-            $( ".date_picker" ).datepicker({
-                showOn: "button",
-                buttonImage: "img/icons/calendar.svg",
-                buttonImageOnly: true
-            });
-        });
+	$('#submit').click(function() {
+	  var text = $('#input').val();
+	  $('#newDivs').append('<div>' + text + '</div>');
+	});
 
 $(document).ready (
 
-        //Selectable JqueryUI
-        function() {
-            //$(".select-jquery-color").selectmenu();
-        	$(".select-jquery-color" ).selectmenu({ icons: { button: "custom-icon" } });
-        });
+       $(function() {
+            $( "#cost-product" ).selectmenu();
+ 
+            $( "#currency-product" ).selectmenu();
+
+            $( "#money-reward" ).selectmenu();
+ 
+            $( "#currency-reward" )
+              .selectmenu()
+              .selectmenu( "menuWidget" )
+              .addClass( "overflow" );
+  });
 
 $(document).ready (
 
