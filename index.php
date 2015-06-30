@@ -237,8 +237,8 @@
 	
 	<div class="clear"></div>
 	<div class="see-btns">
-		<a href="#" class="post-it-btn">See wishes</a>
-		<a href="#" class="post-it-btn">See trips</a>
+		<a href="wish_board.php" class="post-it-btn">See wishes</a>
+		<a href="trip_board.php" class="post-it-btn">See trips</a>
 	</div>
 
 	<div class="main-container">

@@ -82,6 +82,7 @@ input[type=submit].search-submit-landing {
   border: none;
   border-radius: 5px;
   height: 40px;
+  margin-left: 10px;
 }
 
 
