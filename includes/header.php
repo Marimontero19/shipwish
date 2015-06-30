@@ -113,17 +113,17 @@
                     <ul>
                         <li>
                             <a href="#" target="">
-                                1
+                                <img src="img/icons/user.svg" alt="user">
                             </a>
                         </li>
                         <li>
                             <a href="#" target="">
-                                2
+                                <img src="img/icons/bell.svg" alt="notifications">
                             </a>
                         </li>
                         <li>
                             <a href="#" target="">
-                                3
+                                <img src="img/icons/message.svg" alt="message">
                             </a>
                         </li>				
                     </ul>

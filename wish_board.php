@@ -63,7 +63,7 @@ include('includes/header.php');
                                         <input class="datepicker board_date" placeholder="Date">
 
 
-                                        <select id="filter_category" class="select">
+                                        <select id="filter_details" >
                                             <option value="*" selected="selected">Category</option>
                                             <option value=".food/beverage">Food/Beverage</option>
                                             <option value=".electronics">Electronics</option>
@@ -71,7 +71,7 @@ include('includes/header.php');
                                             <option value=".home/garden">Home/Garden</option>        
                                         </select> 
 
-                                        <select id="filter_size" class="select">
+                                        <select id="filter_details">
                                             <option value="*"  selected="selected">Size</option>
                                             <option value=".xs">XS</option>
                                             <option value=".s">S</option>
@@ -80,7 +80,7 @@ include('includes/header.php');
                                             <option value=".xl">XL</option> 
                                         </select> 
 
-                                        <select id="filter_reward" class="select">
+                                        <select id="filter_details">
                                             <option value="*" selected="selected">Reward</option>
                                             <option value=".money">Money</option>
                                             <option value=".airporttransfer">Airport Transfer</option>
@@ -89,9 +89,7 @@ include('includes/header.php');
                                             <option value=".meal">Meal</option>
                                         </select> 
                                         
-                                        <div id="reset">
-                                            Clear filters
-                                        </div>
+                                         <input type="reset" value="Clear filters" class="clear_filter" />
                                     </div>
                                 </div></div>
                             <!--final filtros -->  

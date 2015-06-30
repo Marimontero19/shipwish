@@ -238,12 +238,20 @@
   	outline-style: none;
 }
 
-#filter input[type="submit"] {
+/*#filter input[type="submit"] {
   background-color: transparent;
   border-radius: 0px;
   border: none;
   width: 100px;
   text-transform: uppercase;
+}*/
+
+.clear_filter{
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  text-transform: uppercase;
+  color:#6C6C6C;
 }
 
 #wish-description{

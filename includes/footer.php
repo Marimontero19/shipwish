@@ -11,7 +11,7 @@
                         <div class="clear"></div>
                     </div>
                     <ul class="lan-cur grid_4_1200 grid_3_1024 grid_8_768 grid_6_320">
-                        <li>Language</li>
+                        <!--<li>Language</li>-->
                         <li>
                             <select class="select-jquery">
                                 <option>English</option>
@@ -19,7 +19,7 @@
                                 <option>French</option>
                             </select>
                         </li>
-                        <li style="padding-left: 45px;">Currency</li>
+                        <!--<li style="padding-left: 45px;">Currency</li>-->
                         <li>
                             <select class="select-jquery">
                                 <option>EUR</option>
@@ -30,16 +30,16 @@
                     </ul>
                      <ul class="social grid_4_1200 grid_4_1024 grid_8_768 grid_6_320">
                          <li>
-                             <a href="">Instagram</a>
+                             <a href=""><img src="img/icons/inst2.svg" alt="Instagram"></a>
                          </li>
                          <li>
-                             <a href="">Google+</a>
+                             <a href=""><img src="img/icons/googl2.svg" alt="Google+"></a>
                          </li>
                          <li>
-                             <a href="">Twitter</a>
+                             <a href=""><img src="img/icons/tw2.svg" alt="Twitter"></a>
                         </li>                         
                          <li>
-                             <a href="">Facebook</a>
+                             <a href=""><img src="img/icons/fb2.svg" alt="facebook"></a>
                          </li>                         
                          <li>
                              Stay Tunned On

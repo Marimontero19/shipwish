@@ -1,6 +1,6 @@
 <?php
 
-$page = 'product-chat'; //Por ejemplo 'home', 'userprofile', etc
+$page = '| Chat'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
@@ -36,9 +36,9 @@ include('includes/header.php');
 				<div id="chat-description">
 					<p>Ask what you need to the wisher in order to deliver the items. If you want to change the terms of the deal, you can <span>start a negociation.</span></p>
 				
-					<form id="comment-form">
+					<form id="comment-form" class="comment-form">
 						<textarea id="submit" name="textarea" placeholder="ex. I can go to the airport and meet you to pick up the cheese."></textarea>
-						<button id="submit">SEND</button>
+						<button id="submit" class="comment-submit">SEND</button>
 					</form>
 
 					<div id="upload-links">
@@ -55,22 +55,19 @@ include('includes/header.php');
 
 				<div id="newDivs">
 
-				<ul id="comment-list">
+		    		<ul id="comment-list">
 
-	    			<ul id="comment-list">
-					<li class="comment-1">
-	    				<div class="comment-user-photo">
-	    					<a href=""><img src="img/users_pic/user_9_xs.jpg" class="user-pic" alt="user-9"></a>
-	    				</div>
-	    				<div class="wrote-comment" class="grid_5_1200 grid_4_1024 grid_6_768 grid_5_320">
-	    					<p>I will like to bring you the product. Do you think we can meet at the airport?</p>
-	    					<p class="chat-date">31/July/2015</p>
-	    				</div>
-	    			</li>
+						<li class="comment-1">
+		    				<div class="comment-user-photo">
+		    					<a href=""><img src="img/users_pic/user_9_xs.jpg" class="user-pic" alt="user-9"></a>
+		    				</div>
+		    				<div class="wrote-comment" class="grid_5_1200 grid_4_1024 grid_6_768 grid_5_320">
+		    					<p>I will like to bring you the product. Do you think we can meet at the airport?</p>
+		    					<p class="chat-date">31/July/2015</p>
+		    				</div>
+		    			</li>
 
-	    			
-	    		</ul>
-    		
+		    		</ul> 		
 			</div>
 			
 			<div class="clear"></div>
