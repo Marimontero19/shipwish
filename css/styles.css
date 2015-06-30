@@ -77,5 +77,107 @@ button:focus {
 }
 
 
-/* Real start 
-----------------------------------------------------------------------------------------*/
+/* ------------------------------MENU-SELECT------------------------------ */
+
+.ui-selectmenu-button {
+    line-height: 1;
+    border: 1px solid #979797;
+    padding: 20px 50px 8px 20px;
+    border-radius: 7px;  
+    font-size: 1em;
+    background: url('../img/icons/dropdown.svg') right center no-repeat;
+    background-color: #ffffff;
+    width: 100px;
+    margin: 0 10px;
+}
+
+.ui-selectmenu-text {
+    color: #737373;
+    font-family: 'AndesRounded-Book';
+    line-height: 1.5;
+    font-size: 1.625em;
+    text-align: center;
+}
+
+/* OPEN CONTAINER DROPDOWN (ul) */
+  .ui-menu {
+    position: relative;
+    margin: 8px auto 0 auto;
+    cursor: pointer;
+    min-height: 0;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #979797;
+    width: 100px !important;
+    /* support: IE7; */
+    /* support: IE10, see #8844; */
+  }
+
+  .ui-selectmenu-menu {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index:9999;
+}
+
+/* OVERFLOW UL */
+
+.ui-selectmenu-menu .ui-menu {
+  overflow: auto;
+  /* Support: IE7; */
+  overflow-x: hidden;  
+}
+
+  .ui-state-focus {
+  outline: none;
+ }
+
+ .ui-selectmenu-open {
+  display: block;
+}
+
+  .ui-widget {
+
+  }
+
+  .ui-widget-content {
+
+  }
+
+  .ui-corner-bottom {
+
+  }
+
+
+/* ITEMS DROPDOWN (LI) */
+
+ .ui-menu-item {
+    background-color: #ffffff;
+    border-top: 1px solid #979797;
+    padding: 12px;
+ }
+
+  .ui-menu-item:first-child {
+  border-top: none;
+}
+
+/*
+.ui-icon {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+*/
+
+/* --------------- END SELECT -------------*/
+
+
+
+
+
+
+
+
