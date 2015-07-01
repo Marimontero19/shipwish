@@ -36,7 +36,7 @@ include('includes/header.php');
 
 					</div>
 
-					<div id="actions-travel">
+					<div id="actions-user">
 						<ul>
 							<li style="display inline block">
 								<img src="img/icons/edit.svg" alt="edit">
@@ -47,11 +47,11 @@ include('includes/header.php');
 									<span class="icon">
 										<img src="img/icons/bell.svg" alt="notifications">
 									</span>
-									Notify traveller
+									Notifications
 								</button></a>
 							</li>
 							
-							<li class="link"><span class="icon"><img src="" alt=""></span>Save to watchlist</li>
+							<li class="link"><span class="icon"><img src="" alt=""></span></li>
 						</ul>
 					</div>
 					

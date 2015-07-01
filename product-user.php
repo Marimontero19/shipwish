@@ -43,25 +43,21 @@ include('includes/header.php');
 
 					</div>
 
-					<div id="actions" class="">
+					<div id="actions-user" class="">
 						<ul>
 							<li>
-								<a href="product-chat.php"><button class="">
-									<span class="icon">
-										<img src="img/icons/ok.svg" alt="negociate">
-									</span>
-									Let's do it
-								</button></a>
+								<img src="img/icons/edit.svg" alt="edit">
+								<img src="img/icons/delete.svg" alt="trash">
 							</li>
 							<li>
 								<button>
 									<span class="icon">
 										<img src="img/icons/negociate.svg" alt="negociate">
 									</span>
-									Negociate
+									Negociations
 								</button>
 							</li>
-							<li class="link"><span class="icon"><img src="" alt=""></span>Save to watchlist</li>
+							<li class="link"><span class="icon"><img src="" alt=""></span></li>
 						</ul>
 					</div>
 					

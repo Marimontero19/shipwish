@@ -4,6 +4,14 @@
 	cursor:pointer;
 }
 
+.food{ 
+	background:url(img/icons/food.svg) no-repeat 0 0 ; 
+}
+
+
+
+
+
 /*************** Wish_board.php ***************/
 
 #header_wishboard {
@@ -1346,6 +1354,30 @@ button{
 	vertical-align: middle;
 }
 
+#actions-user{
+	margin-top: 10px;
+	float:right;
+	text-transform: uppercase;
+}
+
+#actions-user span img{
+	vertical-align: middle;
+}
+
+#actions-user li:nth-child(1)  {
+	display:inline-block;
+	float:right;
+}
+
+#actions-user li:nth-child(2) button {
+	width: 200px;
+	background-color:#00B2BE;
+	color: #ffffff;
+	margin-bottom: 5px;
+	margin-top: 80px;
+	text-transform: uppercase;
+	float:right;
+}
 
 #negociations{
 	margin-bottom: 40px;
@@ -1394,6 +1426,7 @@ button{
 
 .table-image a img{
 	margin: 0 auto;
+
 }
  
  .choose-traveler table thead tr th {
@@ -1410,15 +1443,11 @@ button{
 	  vertical-align: middle !important;
 }
 
-
-<<<<<<< HEAD
-=======
 .choose-traveler table tr td {
 	  padding: 0.5625rem 0.4rem;
 	  font-size: 1rem;
-	  color: #6C6C6C;
+	  color: #6C6C6C !important;
 	  text-align: center;
-  
 }
 
 /*.choose-traveler table tr th img{
@@ -1473,7 +1502,61 @@ button{
 	  		display:none;
 	  	}
 
+	  	#actions-user{
+		   margin:0 auto;
+		}
 
+		#actions-user button {
+		  
+		  width: 100%;
+		}
+
+		#actions-user li:nth-child(1) button{
+			
+			margin-top: 20px; 
+		
+		}
+
+		#actions-user li:nth-child(2) button{
+			width: 300px;
+			float:left;
+			margin-top: 10px;
+		}
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 660px) {
+
+
+	#actions-user{
+		float:left;
+		margin:0 auto;
+	}
+
+	#actions-user li {
+		  margin:20px 5px 5px 5px;
+		  display:inline-block;
+	}
+
+
+	#actions-user button {
+		width: 120px;
+
+	}
+
+	#actions-user li:nth-child(2) button{
+			margin-top: 10px;
+		}
+
+
+}
+
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+
+
+	#actions-user button {
+		width: 180px;
+	}
 
 }
 
@@ -1518,6 +1601,7 @@ textarea {
   font-size: 1em;
   width: 100%;
 }
+
 textarea {
   height: 7rem;
   margin: 0 0 1em 0;

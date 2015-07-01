@@ -65,10 +65,10 @@ include('includes/header.php');
 
                                         <select id="filter_details" >
                                             <option value="*" selected="selected">Category</option>
-                                            <option value=".food/beverage">Food/Beverage</option>
+                                            <option value=".food" class="food">Food</option>
                                             <option value=".electronics">Electronics</option>
                                             <option value=".fashion">Fashion</option>
-                                            <option value=".home/garden">Home/Garden</option>        
+                                            <option value=".home/garden">Home</option>        
                                         </select> 
 
                                         <select id="filter_details">
@@ -83,10 +83,7 @@ include('includes/header.php');
                                         <select id="filter_details">
                                             <option value="*" selected="selected">Reward</option>
                                             <option value=".money">Money</option>
-                                            <option value=".airporttransfer">Airport Transfer</option>
-                                            <option value=".touristday">Tourist Day</option>
-                                            <option value=".gift">Gift</option>  
-                                            <option value=".meal">Meal</option>
+                                            <option value=".volunteer">Volunteer</option>
                                         </select> 
                                         
                                          <input type="reset" value="Clear filters" class="clear_filter" />
