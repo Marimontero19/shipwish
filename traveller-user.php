@@ -38,6 +38,10 @@ include('includes/header.php');
 
 					<div id="actions-travel">
 						<ul>
+							<li style="display inline block">
+								<img src="img/icons/edit.svg" alt="edit">
+								<img src="img/icons/delete.svg" alt="delete">
+							</li>
 							<li>
 								<a href="product-chat.php"><button class="">
 									<span class="icon">

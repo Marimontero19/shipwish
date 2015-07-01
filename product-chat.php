@@ -37,8 +37,9 @@ include('includes/header.php');
 					<p>Ask what you need to the wisher in order to deliver the items. If you want to change the terms of the deal, you can <span>start a negociation.</span></p>
 				
 					<form id="comment-form" class="comment-form">
-						<textarea id="submit" name="textarea" placeholder="ex. I can go to the airport and meet you to pick up the cheese."></textarea>
-						<button id="submit" class="comment-submit">SEND</button>
+						<textarea id="text" name="textarea" placeholder="ex. I can go to the airport and meet you to pick up the cheese."></textarea>
+						<!--<button id="submit__" class="comment-submit">SEND</button>-->
+						<input type="button" id="submit" class="comment-submit" value="SEND">
 					</form>
 
 					<div id="upload-links">
