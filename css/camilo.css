@@ -192,7 +192,7 @@ header h1 a {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-color: #0E777F;
+	/* background-color: #0E777F; */
 	display: block;
     color: transparent;
 }
@@ -913,7 +913,8 @@ div#ui-datepicker-div {
   margin: 50px auto 150px;
   text-align: center;
   float: none;
-}
+  box-sizing:border-box;
+  }
 
 .titles_create_wish{
   font-weight: 400;
@@ -927,6 +928,7 @@ div#ui-datepicker-div {
   margin: 50px auto;*/
   text-align: center;
   position: relative;
+    display: block;
 }
 
 #msform fieldset {
@@ -934,19 +936,20 @@ div#ui-datepicker-div {
   box-sizing: border-box;
   position: absolute;
   display: block;
-  margin: 200px auto 200px;
+  margin: 160px auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 999;
+  width: 100%;
 }
 
 #msform fieldset label h1 {
   font-size: 1.5em;
   text-align: center;
-  color: #585858;
-  font-family: 'AndesRounded-Bold';
+  color: #0E777F;
+  font-family: 'AndesRounded-Regular';
   font-weight:800;
   margin-bottom: 40px;
 }
@@ -957,13 +960,17 @@ div#ui-datepicker-div {
 
 #msform input[type=text], #msform textarea {
   padding: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #E9E9E9;
   border-radius: 5px;
   margin-bottom: 10px;
   width: 100%;
   height: 40px;
   box-sizing: border-box;
   color: #737373;
+  font-size: 1.125em;
+  line-height: 1.4;
+  font-family: 'AndesRoundedLight';
+  background-color: #ffffff;
 }
 
 
@@ -974,11 +981,12 @@ div#ui-datepicker-div {
 }
 
 #first_step input[type=button] {
-    min-width: 150px;
-  margin-top: 20px;
-
+  min-width: 140px;
+  margin-top: 30px;
   color:#ffffff;
   border:none;
+  text-transform: uppercase;
+  line-height:1.2;
 }
 
 .form_button{
@@ -995,6 +1003,7 @@ div#ui-datepicker-div {
   text-align: center;
   margin: 50px auto 150px;
   float: none;
+  box-sizing:border-box;
 }
 
 #radio_button_size li{
@@ -1025,11 +1034,23 @@ div#wish-category {
   display: block;
 }
 
+fieldset h3 {
+  font-size: 1em;
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin: 0 auto 10px;
+  color: #909090;
+  font-family:'AndesRounded-Book'; 
+  line-height:1.5;
+}
+
 .choose-category {
   float: none;
   display: block !important;
   width: 100%;
   color: #0E777F;
+  margin: 20px 0 0 0;
 }
 
 .choose-category li {
@@ -1044,7 +1065,7 @@ div#wish-category {
   width: 180px;
   height: 60px;
   border-radius: 5px;
-  background-color: #00B2BE;
+  background-color: #ffffff;
   margin: 9px;
   position: relative;
 }
@@ -1059,8 +1080,9 @@ div#wish-category {
   bottom:0;
   left:0;
   margin: auto;
+  border-radius: 5px;
 
-  color: white;
+  color: #6C6C6C;
   text-align: left;
    font-family:'AndesRounded-Book'; 
   line-height: 3;
@@ -1079,6 +1101,7 @@ div#wish-category {
   border: 2px solid white;
   border-radius: 50%;
   float: left;
+
 }
 
 
@@ -1101,15 +1124,20 @@ div#wish-category {
   border: none;
   z-index: 99;
   cursor: pointer;
+  color: #6C6C6C;
+  border-radius: 5px;
 }
 
 .choose-category input[type='checkbox']:checked {
-  border: 3px solid #0E777F;
+  border: 1px solid #0E777F;
+  color: #0E777F;
+  border-radius: 5px;
 }
 
 #wish-description {
   display: inline-block;
   margin: 0 0 80px 0 !important;
+  width: 100%;
 }
 
 .choose-category textarea {
@@ -1117,12 +1145,14 @@ div#wish-category {
 }
 
 #msform textarea {
-    width: 80%;
+    width: 100%;
+    height: 170px;
     margin: 0 auto;
     /*height: 200px;*/
     padding: 15px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     resize: vertical;
+    margin: 20px auto 0;
   }
 
   div#wish-photo {
@@ -1130,8 +1160,8 @@ div#wish-category {
 }
 
 #wish-photo input[type='file'] {
-  width: 390px;
-  height: 240px;
+  width: 100%;
+  height: 100px;
   background-color: #D8D8D8;
   border-radius: 5px;
   margin: 0 auto;
@@ -1152,20 +1182,19 @@ div#wish-category {
 }
 
 .upload-photo-box {
-  width: 390px;
-  height: 140px;
-  background-color: #D8D8D8;
+  width: 100%;
+  border: 2px dashed #D3D3D3;
   border-radius: 5px;
   margin: 0 auto; 
   position:relative;
   display:block;
   box-sizing: border-box;
-  padding: 25px;
+  margin: 30px 0;
 }
 
 .upload-photo-box h3{
-  font-family: 'AndesRounded-Regular';
-  color: #585858;
+  font-family: 'AndesRounded-Light';
+  color: #737373;
   font-size:1em;
   text-align: center;
   line-height:1;
@@ -1176,7 +1205,7 @@ div#wish-category {
 .upload-photo-box span {
   width: 40px;
   height: 40px;
-  margin: 0 auto;
+  margin: 20px auto 15px;
   background: url('../img/icons/uploadphoto.svg') center center no-repeat;
   display: block;
 
@@ -1210,16 +1239,22 @@ div#wish-category {
   border: none;
   min-width: 150px;
     margin: 0 10px 100px;
+      text-transform: uppercase;
 }
 
-.next {
+.next-btn {
   background-color: #00B2BE;
   color: #ffffff;
 }
 
-.previous {
+.previous-btn {
   background-color: #D8D8D8;
   color:#585858;
+}
+
+.end-btn {
+  background-color: #F9A41A;
+  color: #ffffff;
 }
 
 
@@ -1296,18 +1331,22 @@ div#wish-category {
   clear: both;
 }
 
+#radio_button_size {
+  margin: 20px 0 0 0;
+}
+
 
 #radio_button_size label {
-    margin: 0 20px;
+    margin: 0 35px;
     position: relative;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     display: inline-block;
 }
 
 #radio_button_size input[type='radio'] {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
     -webkit-appearance: none;
   -moz-appearance: none;
   -ie-appearance: none;
@@ -1320,28 +1359,27 @@ div#wish-category {
   left: 0;
   margin: auto;
   pointer: cursor;
-  border-radius: 7px;
-  border: 0px solid #f9a41a;
+  border-radius: 5px;
   
 }
 
 #radio_button_size input[type='radio']:checked {
-  border: 3px solid #f9a41a;
-  border-radius: 8px;
+  border: 1px solid #00B2BE;
+  border-radius: 5px;
 }
 
 #radio_button_size input[type='radio']:focus {
-  border: 3px solid #f9a41a;
-  border-radius: 8px;
+  border: 1px solid #00B2BE;
+  border-radius: 5px;
   outline: none;
 }
 
 #radio_button_size img {
-  width: 125%;
-  height: 125%;
+  width: 40px;
+  height: 40px;
   margin: auto;
   top: 0;
-  left: -5px;
+  left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
@@ -1352,10 +1390,11 @@ div#wish-category {
   margin: 50px auto 150px;
   text-align: center;
   float: none;
+  box-sizing:border-box;
 }
 
-#wish-destination input {
-  
+.mid-input input[type="text"] {
+  padding-left: 45px !important;
 }
 
 .mid-input {
@@ -1369,8 +1408,18 @@ div#wish-category {
   text-align: left !important;
   width: 100%;
   position: relative;
+  color: #6C6C6C !important;
   margin-bottom: 15px !important;
 }
+
+.location-icon {
+  background: url('../img/icons/location4.svg') left center no-repeat;
+}
+
+.date-icon {
+  background: url('../img/icons/calendar.svg') left center no-repeat;
+}
+
 
 #wish-final_date input[type="checkbox"] {
   width: 15px;
@@ -1391,11 +1440,16 @@ div#wish-category {
 }
 
 .no-date {
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: left;
   color: #737373;
-  font-family: 'AndesRounded-Light';
-  line-height: 2.2;
+  font-family: 'AndesRoundedLight';
+  line-height: 1;
+  margin-top: 11px;
+  display: flex;
+  margin-left: 12px;
+  float: left;
+  width: 86%;
 }
 
 #wish-destination, #wish-final_date, #wish-cost, #wish-reward {
@@ -1404,6 +1458,79 @@ div#wish-category {
   height: auto;
   margin: 0 0 80px 0;
 }
+
+/* SELECT */
+
+
+#wish-cost .ui-selectmenu-button {
+    line-height: 1;
+    border: 1px solid #E9E9E9;
+    padding: 5px 70px 5px 20px;
+    border-radius: 7px;  
+    font-size: 1em;
+    background: url('../img/icons/dropdown-blue.svg') right center no-repeat;
+    background-color: #ffffff;
+    width: 100px;
+        margin: 20px 10px;
+    display: inline-block;
+}
+
+#wish-cost .ui-selectmenu-text {
+    color: #737373;
+    font-family: 'AndesRounded-Book';
+    line-height: 1.5;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/* OPEN CONTAINER DROPDOWN (ul) */
+#wish-cost .ui-menu {
+    position: relative;
+    margin: 8px auto 0 auto;
+    cursor: pointer;
+    min-height: 0;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #E9E9E9;
+    width: 100px !important;
+    /* support: IE7; */
+    /* support: IE10, see #8844; */
+  }
+
+#wish-cost .ui-selectmenu-menu {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index:9999;
+}
+
+/* OVERFLOW UL */
+
+#wish-cost .ui-selectmenu-menu .ui-menu {
+  overflow: auto;
+  /* Support: IE7; */
+  overflow-x: hidden;  
+}
+
+#wish-cost .ui-state-focus {
+  outline: none;
+ }
+
+#wish-cost .ui-selectmenu-open {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
 
 #wish-reward ul{
 
@@ -1439,7 +1566,6 @@ div#wish-category {
   bottom: 0;
   margin: auto;
   background-color: #fff;
-  border: 1px solid #7D7D7D;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ie-appearance: none;
@@ -1447,13 +1573,15 @@ div#wish-category {
   border: none;
   z-index: 99;
   cursor: pointer;
-  color: #909090;
+  color: #6C6C6C;
+  border-radius: 5px;
 }
 
 .choose-reward input[type='radio']:checked {
   border: 1px solid #00B2BE;
-  background-color: #00B2BE;
+  background-color:#fff;
   color: white;
+  border-radius: 5px;
 }
 
 .choose-reward label span {
@@ -1474,7 +1602,7 @@ div#wish-category {
   overflow: hidden;
   text-overflow: ellipsis;
   padding: 0 2%;
-
+  border-radius: 5px;
     z-index: 99;
 }
 
@@ -1487,9 +1615,80 @@ div#wish-category {
   float: left;
 }
 
-.choose-reward textarea {
-  height: 100px;
+
+/* SELECT */
+
+#wish-reward .select-jquery {
+  margin: 20px auto;
 }
+
+
+#wish-reward .ui-selectmenu-button {
+    line-height: 1;
+    border: 1px solid #E9E9E9;
+    padding: 5px 70px 5px 20px;
+    border-radius: 7px;  
+    font-size: 1em;
+    background: url('../img/icons/dropdown-blue.svg') right center no-repeat;
+    background-color: #ffffff;
+    margin: 20px 10px;
+    display: inline-block;
+}
+
+#wish-reward .ui-selectmenu-text {
+    color: #737373;
+    font-family: 'AndesRounded-Book';
+    line-height: 1.5;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/* OPEN CONTAINER DROPDOWN (ul) */
+#wish-reward .ui-menu {
+    position: relative;
+    margin: 8px auto 0 auto;
+    cursor: pointer;
+    min-height: 0;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #E9E9E9;
+    width: 100px !important;
+    /* support: IE7; */
+    /* support: IE10, see #8844; */
+  }
+
+#wish-reward .ui-selectmenu-menu {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index:9999;
+}
+
+/* OVERFLOW UL */
+
+#wish-reward .ui-selectmenu-menu .ui-menu {
+  overflow: auto;
+  /* Support: IE7; */
+  overflow-x: hidden;  
+}
+
+#wish-reward .ui-state-focus {
+  outline: none;
+ }
+
+#wish-reward .ui-selectmenu-open {
+  display: block;
+}
+
+
+
+
+
+
+
 
 /*************** Progress bar ***************/
 
@@ -1532,11 +1731,11 @@ div#wish-category {
 /*progressbar connectors*/
 #progressbar li:after {
   content: '';
-  width: 93%;
+  width: 82%;
   height: 5px;
   background: #0E777F;
   position: absolute;
-  left: -47%;
+  left: -41%;
   top: 17px;
   z-index: -2;
   margin: 0 auto;
@@ -1759,6 +1958,15 @@ div#wish-category {
         line-height: 1.5;
         font-size: 1em;
     }
+
+    #radio_button_size label {
+        width: 58px;
+        height: 58px;
+    }
+
+    #radio_button_size label {
+  margin: 0px;
+}
     
 }
 

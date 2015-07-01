@@ -30,7 +30,18 @@ $(document).ready(function(){
 });
 */
 
-  
+/*
+//HEIGHT
+$document.ready(function(){
+        $(".create_wish").resize(function(){
+        var altura = $("#msform").height()
+        });
+
+        $(".create_wish").resize(); //on page load
+
+});
+
+*/
 
 
 
