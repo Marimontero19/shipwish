@@ -47,7 +47,7 @@ include('includes/header.php');
 									<span class="icon">
 										<img src="img/icons/bell.svg" alt="notifications">
 									</span>
-									Notifications
+									Negociations
 								</button></a>
 							</li>
 							

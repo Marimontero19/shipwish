@@ -114,17 +114,17 @@
                 <div class="user-tools grid_2_1200 grid_2_1024 grid_3_768 grid_3_320">
                     <ul>
                         <li>
-                            <a href="#" target="">
+                            <a href="profile-private.php" target="">
                                 <img src="img/icons/user.svg" alt="user">
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="">
+                            <a href="" target="">
                                 <img src="img/icons/bell.svg" alt="notifications">
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="">
+                            <a href="product-chat.php" target="">
                                 <img src="img/icons/message.svg" alt="message">
                             </a>
                         </li>				

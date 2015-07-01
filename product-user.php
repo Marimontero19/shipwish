@@ -50,12 +50,14 @@ include('includes/header.php');
 								<img src="img/icons/delete.svg" alt="trash">
 							</li>
 							<li>
-								<button>
-									<span class="icon">
-										<img src="img/icons/negociate.svg" alt="negociate">
-									</span>
-									Negociations
-								</button>
+								<a href="product-chat.php">
+									<button>
+										<span class="icon">
+											<img src="img/icons/negociate.svg" alt="negociate">
+										</span>
+										Negociations
+									</button>
+								</a>
 							</li>
 							<li class="link"><span class="icon"><img src="" alt=""></span></li>
 						</ul>
