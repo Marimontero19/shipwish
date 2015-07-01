@@ -1,5 +1,8 @@
  /*Mari*/
-
+ 
+.divspoiler{
+	cursor:pointer;
+}
 
 /*************** Wish_board.php ***************/
 
@@ -332,7 +335,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: gray;
+  /*background-color: gray;*/
   display: inline-block;
   margin-top: 10px;
 }
