@@ -1,6 +1,6 @@
 		<section class="user-general-info grid_4_1200 grid_3_1024 grid_8_768 grid_6_320">
             <a class="edit-profile-button" href="profile-edit.php" target="_self">
-                <span> </span>
+                <span><img src="img/icons/edit.svg" alt="edit"</span>
                 Edit Profile
             </a>			
 			<!-- USER INFO LIST STARTS -->
@@ -18,7 +18,7 @@
                     </h2>
                     <!-- location -->
                     <div class="location">
-                        <span class="location-icon"></span>
+                        <span class="location-icon"><img src="img/icons/location_profile.svg" alt="location"></span>
                         <h4>
                             United Kingdom
                         </h4>
@@ -30,13 +30,13 @@
 				<div class="total-actions">
 					<!-- total wishes -->
 					<div class="total-wishes">
-						<div class="wishes-icon circle"></div>
+						<div class="wishes-icon circle"><img src="img/icons/wishes.svg" alt="wishes"></div>
 						<h4> 20 | Wishes </h4>
 						<div class="clear"></div>
 					</div>
 					<!-- total trips -->
 					<div class="total-trips">
-						<div class="trips-icon circle"></div>
+						<div class="trips-icon circle"><img src="img/icons/trips.svg" alt="trips"></div>
 						<h4> 07 | Trips </h4>
 						<div class="clear"></div>
 					</div>
@@ -63,25 +63,25 @@
 					<p>VERIFICATIONS</p>
 					<ul>
 						<li>
-							<div class="verificable social-icon"></div>
+							<div class="verificable social-icon"><img src="img/icons/verification2.svg" alt="verification"></div>
 							<a href="" target="_self">
 							    E-mail
 							</a>
 						</li>
 						<li>
-							<div class="verificable social-icon"></div>
+							<div class="verificable social-icon"><img src="img/icons/verification2.svg" alt="verification"></div>
 							<a href="" target="_self">
 							     Phone Number
 							</a>
 						</li>
 						<li>
-							<div class="verificable social-icon"></div>
+							<div class="verificable social-icon"><img src="img/icons/verification2.svg" alt="verification"></div>
 							<a href="" target="_self">
 							    Credit Card
 							</a>
 						</li>
 						<li>
-							<div class="verificable social-icon"></div>
+							<div class="verificable social-icon"><img src="img/icons/verification2.svg" alt="verification"></div>
 							<a href="" target="_self">
 							    Facebook
 							</a>

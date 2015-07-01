@@ -1,6 +1,6 @@
 <?php
 
-$page = '| Profile Public'; //Por ejemplo 'home', 'userprofile', etc
+$page = '| Profile Private'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
@@ -33,13 +33,22 @@ include('includes/header.php');
 				</div>
 				-->
                 <!-- create wish card-->
+                <a class="create_card create_wish_card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320" href="create_wish.php">
+                    <div class="absolute-center">
+                        <div class="add-icon"></div>
+                        <h3>Add wish</h3>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+
                 
             <!--Primer wish-->
             <a href="#" class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
 
-                <!--<div class="number">
+                <div class="number">
                     3
-                </div>-->
+                </div>
                 
                 <div class="wisher_card_container">
                     <div id="basic_info_home">
@@ -154,14 +163,14 @@ include('includes/header.php');
             </a>
 
             <!--Cuarto wish-->
-           <a href="#" class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
+            <!--<a href="#" class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
 
                 <div class="wisher_card_container">
                     <div id="basic_info_home">
                         <ul>
-                            <!--<li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li>-->
+                             <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> 
                             <li><h3 class="">Special cake May Flower Fest</h3></li>
-                             <!--<li><p>*3</p></li>-->
+                            <li><p>*3</p></li>
                         </ul>					
                     </div>
 
@@ -189,7 +198,7 @@ include('includes/header.php');
                     <h4>Let's take a look</h4>
                 </div>
 
-            </a>
+            </a>-->
                
             <!--Quinto wish-->
            <!-- <a href="#" class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
@@ -244,7 +253,17 @@ include('includes/header.php');
 					<span class="bw"></span>
 					<span class="fw"></span>
 				</div>
-				--
+				-->
+            <!-- create trip card-->
+            <a class="create_card create_trip_card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320" href="#">
+                <div class="absolute-center" style="height:75%;">
+                    <div class="add-icon"></div>
+                    <h3>Add trip</h3>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </a>
+				
 				
 				
             <!--Primer trip-->
@@ -272,32 +291,7 @@ include('includes/header.php');
                 <div class="button_look">
                     <h4>Let's take a look</h4>
                 </div>
-            </a>
 
-                <a href="product_profile.php" class="card grid_6_1200 grid_5_1024 grid_4_768 grid_6_320">
-
-                <div class="wisher_card_container">
-                    <div class="display_block">
-                        <div id="destination_home">
-                            <p>From:</p><h4>Dublin</h4>
-                            <br>
-                            <p>To:</p><h4>Oxford</h4>
-                        </div>
-
-                        <div id="details_home">
-                            <p>Delivery:</p><h4>Agost. 10th, 2015</h4>
-                            <ul>
-                                <li><img src="img/icons/plane.svg" alt="plane"></li>
-                                <li><img src="img/icons/s.svg"  alt="small"></li>
-                            </ul>
-                        </div>
-                        <div class="clear"></div>
-                    </div>  
-                </div>  
-
-                <div class="button_look">
-                    <h4>Let's take a look</h4>
-                </div>
             </a>
 					
             <div class="clear"></div>				

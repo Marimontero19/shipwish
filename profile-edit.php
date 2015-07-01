@@ -26,7 +26,7 @@ include('includes/header.php');
 			<div class="personal-info">
 				<!-- Personal info -->
 				<div class="title">
-					<span></span>
+					<span><img src="img/icons/personalinfo.svg" alt="personal-info"></span>
 					<h2>Personal information</h2>
 					<h3>Introduce yourself to the community</h3>
 				</div>
@@ -70,14 +70,14 @@ include('includes/header.php');
 					<!-- verification data -->
 					<div class="verification-data">
 							<div class="title">
-								<span></span>
+								<span><img src="img/icons/verification.svg" alt="Verification"></span>
 								<h2>Verification</h2>
 								<h3>Verifying your information will help other trust you</h3>
 							</div>
 					<ul class="verify-list">
                         <li>
                             <h4>E-mail</h4>
-                            <h5> nombre.apellido@gmail.com</h5>
+                            <h5> sameed.kahn@gmail.com</h5>
                             <a class="verified"></a>
                         </li>
                         <li>
@@ -86,7 +86,7 @@ include('includes/header.php');
                         </li>                             
                         <li>
                             <h4>Phone number</h4>
-                            <h5>+34 000 000 000</h5>
+                            <h5>+31 678 895 765</h5>
                             <a class="ask"></a>
                         </li>
                         <li>
@@ -95,7 +95,7 @@ include('includes/header.php');
                         </li>                        
                         <li>
                             <h4>Credit card</h4>
-                            <h5>xxxx xxxx xxxx0034</h5>
+                            <h5>xxxx xxxx xxxx 0034</h5>
                             <a class="verified"></a>
                         </li>
                         <li>

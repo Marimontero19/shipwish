@@ -1474,18 +1474,6 @@ button{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> origin/master
 /*************** product_details.php ***************/
 
 .chat-general-info {
@@ -1583,6 +1571,7 @@ textarea {
 
 
 /*Tablet*/
+/*
 @media only screen and (min-width : 870px) and (max-width : 1077px) {
    
 	 .chat-general-info {
@@ -1613,9 +1602,9 @@ textarea {
 	}
 
 }
+*/
 
-
-/*Mobile*/
+/*Mobile*//*
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
 	  
@@ -1627,7 +1616,7 @@ textarea {
   		width: 100%;
 	}
 
-}
+}*/
 
 
 /*************** product-chat.php ***************/

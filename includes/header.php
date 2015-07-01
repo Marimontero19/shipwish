@@ -108,7 +108,7 @@
 		<div class="main-container">
 		    <div class="container_12 container_10 container_8 container_6">
                 <h1 class="grid_2_1200 grid_2_1024 grid_2_768 grid_2_320">
-                    <a href="#"> Shipwish </a>
+                    <a href="index.php"> Shipwish </a>
                 </h1>
                 <div class="user-tools grid_2_1200 grid_2_1024 grid_3_768 grid_3_320">
                     <ul>
