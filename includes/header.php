@@ -118,26 +118,18 @@
 
                 <div class="user-tools grid_2_1200 grid_2_1024 grid_3_768 grid_3_320">
                     
-                    <ul>
-
-            	<!--1--><li class='active has-sub'>
+                   <ul>
+                        <li>
                             <a href="profile-private.php" target="">
                                 <img src="img/icons/user.svg" alt="user">
                             </a>
-
-                            <ul>
-				               <li><a href='#'><span>Sub Product</span></a></li>
-				               <li class='last'><a href='#'><span>Sub Product</span></a></li>
-				            </ul>
                         </li>
-
-               <!--2--> <li>
+                        <li>
                             <a href="" target="">
                                 <img src="img/icons/bell.svg" alt="notifications">
                             </a>
                         </li>
-                       
-               <!--3--> <li>
+                        <li>
                             <a href="product-chat.php" target="">
                                 <img src="img/icons/message.svg" alt="message">
                             </a>
