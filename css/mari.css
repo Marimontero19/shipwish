@@ -1747,16 +1747,14 @@ textarea:focus{
 
 }
 
-#chat-description button{
+#chat-description input[type="button"]{
 	color:#ffffff;
 	background-color:#00B2BE ;
 	float:right;
 	width: 150px;
-}
-
-
-#chat-description button a:visited{
-	color:#ffffff;
+	border-radius: 5px;
+	border:0px;
+	height: 40px;
 }
 
 #upload-links{
