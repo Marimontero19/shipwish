@@ -1,6 +1,6 @@
 <?php
 
-$page = 'product-chat'; //Por ejemplo 'home', 'userprofile', etc
+$page = '| Chat'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
