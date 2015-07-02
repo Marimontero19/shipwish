@@ -4,8 +4,10 @@
 	cursor:pointer;
 }
 
-.food{ 
-	background:url(img/icons/food.svg) no-repeat 0 0 ; 
+.fondoblanco{
+	/*background-position: -10%;
+	background-repeat: repeat-y;
+	background-image: url("../img/white.jpg");*/
 }
 
 
@@ -1060,7 +1062,7 @@ button{
 	margin-bottom: 40px;
 	color:#6C6C6C;
 	font-size:16px;
-	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+	font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
 }
 
 #details-product li h3{
@@ -1077,6 +1079,23 @@ button{
 	margin-bottom: 15px;
 	margin-left: 52px;
 	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
+
+.drop1{
+	  margin-left: 52px;
+}
+
+.drop2{
+	  margin-left: 52px;
+}
+
+.drop3{
+	  margin-left: 52px;
+}
+
+.drop3 h4{
+	  color:#6C6C6C;
+	  margin-bottom: 10px;
 }
 
 

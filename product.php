@@ -79,30 +79,78 @@ include('includes/header.php');
 					<div id="details-product">
 						<ul>
 							<li>
-								<img src="img/icons/info.svg" alt="info">  
+								<img src="img/icons/info.svg" alt="info" id="showdrop1">  
 								<h3><img src="img/icons/money.svg" class="icon-circle" alt="money"></h3>
 								<h3>Reward &nbsp; $12</h3>
+										<div class="drop1">
+											<p>The reward it’s aproximate, depending on the cost of the product when you get it, it can change.</p>
+										</div>
 								<ul>
-									<li class="reward-description"><h5>Cost of the product: $8</h5></li>
-									<li class="reward-description"><h5>Total inversion in this deal: $20</h5></li>
+									<li class="reward-description"><h5>Cost of the product: $8</h5>
+										<div class="drop1">
+											<p>The cost of the product is an aproximation made by the wisher, so feel free to check it first.</p>
+										</div>
+									</li>
+									<li class="reward-description"><h5>Total inversion in this deal: $20</h5>
+										<div class="drop1">
+											<p>This is the addition of the reward and the cost of the product.</p>
+										</div>
+									</li>
 								</ul>
 							</li>
 
 							<li>
-								<img src="img/icons/info.svg" alt="info"> 
+								<img src="img/icons/info.svg" alt="info" id="showdrop2"> 
 								<h3><img src="img/icons/m.svg" class="icon-circle" alt="medium"></h3>
 								<h3>Size &nbsp; Medium</h3>
 								<ul>
-									<li class="reward-description"><h5>Aproximate size: 30 x 40 cm</h5></li>
-									<li class="reward-description"><h5>Aproximate weight: 7.5 ounces</h5></li>
+									<li class="reward-description"><h5>Aproximate size: 30 x 40 cm</h5>
+										<div class="drop2">
+											<p>The reward it’s aproximate, depending on the cost of the product when you get it, it can change.</p>
+										</div>
+									</li>
+									<li class="reward-description"><h5>Aproximate weight: 7.5 ounces</h5>
+										<div class="drop2">
+											<p>This weight is an aproximation from the wisher. If you have any restriction for
+the characteristics of your trip, feel free to ask!</p>
+										</div>
+									</li>
 								</ul>
-
 							</li>
 
 							<li>
-								<img src="img/icons/info.svg" alt="info"> 
+								<img src="img/icons/info.svg" alt="info" id="showdrop3"> 
 								<h3><img src="img/icons/food.svg" class="icon-circle" alt="food"></h3>
 								<h3>Food</h3>
+									<div class="drop3">
+											<p>The reward it’s aproximate, depending on the cost of the product when you get it, it can change.</p>
+									</div>
+
+									<div class="drop3">
+											<uL>
+												<li>
+													<h4>Food</h4>
+													<p>There are a lot of boring laws about traveling with food from one country to another, before accepting any deal, make sure it’s legal to bring that product.</p>
+												</li>
+												<li>
+													<h4>Fashion</h4>
+													<p>Keep always that you can the ticket with you, it’ll be the warrany for the wisher.</p>
+												</li>
+												<li>
+													<h4>Home</h4>
+													<p>Be careful with fragile objects, the goal is that they get in one piece ;)</p>
+												</li>
+												<li>
+													<h4>Books</h4>
+													<p>Books are easy to carry, make sure that you know the weight if you are traveling by plane.</p>
+												</li>
+												<li>
+													<h4>Other</h4>
+													<p>This is of everything that doesn’t fits in the other categories.</p>
+												</li>
+											</uL>
+
+									</div>
 							</li>
 						</ul>
 					</div>

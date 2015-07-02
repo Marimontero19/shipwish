@@ -103,27 +103,41 @@
 
 	</head>
 
-	<body>
+	<body<?php 
+		if (strpos($_SERVER['PHP_SELF'],'product-chat.php')>0 or strpos($_SERVER['PHP_SELF'],'product-chat.php')>0) {
+			echo ' class="fondoblanco"';
+		}
+	?>>
 
 	<header>
-		<div class="main-container">
+		<div id="principal-menu" class="main-container">
 		    <div class="container_12 container_10 container_8 container_6">
                 <h1 class="grid_2_1200 grid_2_1024 grid_2_768 grid_2_320">
                     <a href="index.php"> Shipwish </a>
                 </h1>
+
                 <div class="user-tools grid_2_1200 grid_2_1024 grid_3_768 grid_3_320">
+                    
                     <ul>
-                        <li>
+
+            	<!--1--><li class='active has-sub'>
                             <a href="profile-private.php" target="">
                                 <img src="img/icons/user.svg" alt="user">
                             </a>
+
+                            <ul>
+				               <li><a href='#'><span>Sub Product</span></a></li>
+				               <li class='last'><a href='#'><span>Sub Product</span></a></li>
+				            </ul>
                         </li>
-                        <li>
+
+               <!--2--> <li>
                             <a href="" target="">
                                 <img src="img/icons/bell.svg" alt="notifications">
                             </a>
                         </li>
-                        <li>
+                       
+               <!--3--> <li>
                             <a href="product-chat.php" target="">
                                 <img src="img/icons/message.svg" alt="message">
                             </a>

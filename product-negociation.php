@@ -48,13 +48,11 @@ include('includes/header.php');
                             <p>There are different ways to reward your business. Be sure to make it clear for your future co-partner.</p>
                             
                             <div id="choose-reward">
-                                <label class="white"><input type="radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/money.svg" alt="money">Money</span></label>
+                                <label class="white"><input type="radio" id="money-radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/money.svg" alt="money">Money</span></label>
 
-                                <label class="white"><input type="radio" name="toogle" value="volunteer" name="toogle"><span><img src="img/icons/volunteer.svg" alt="money">Volunteer</span></label>
+                                <label class="white"><input type="radio" id="volunteer-radio" name="toogle" value="volunteer" name="toogle"><span><img src="img/icons/volunteer.svg" alt="money">Volunteer</span></label>
 
-                                <label class="divspoiler">
-                                    <img src="img/icons/filters.svg" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" />
-                                </label><div><div id="choose-volunteer" class="spoiler" style="display: none;">
+                                <div><div id="choose-volunteer" class="spoiler">
                                             <p>Here are some ideas of volunteer activities you can offer to the traveler.You can also suggest your own!</p>
                                            
                                            <ul class="volunteer-options">
