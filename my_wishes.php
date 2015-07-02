@@ -1,6 +1,6 @@
 <?php
 
-$page = 'user-profile'; //Por ejemplo 'home', 'userprofile', etc
+$page = 'My Wishes'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
@@ -8,7 +8,7 @@ include('includes/header.php');
 
 <section id="my-wishes">
 	
-	<div class="title">
+	<div class="title-interior">
 		<div class="main-container">
 		    <div class="container_12 container_10 container_8 container_6">
 

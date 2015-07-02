@@ -141,6 +141,14 @@ a.tab-2:before {
   margin-right: 15px;
 }
 
+h4.text-tab {
+  font-size: 1.800em;
+  color: #00B2BE;
+  margin-bottom: 40px;
+  font-family: 'AndesRounded-Light';
+  line-height: 150%;
+}
+
 
 #tabs-1 p,
 #tabs-2 p {
@@ -220,6 +228,7 @@ a.tab-2:before {
 
 .about-section {
   background: #F9F9F9;
+  display: block;
 }
 
 .about-section img {
@@ -729,12 +738,12 @@ footer {
 /* SETTINGS PAGE
 ----------------------------------------------------------------------------------------*/
 
-.title {
+.title-interior {
   background: #00B2BE;
   margin: 0;
 }
 
-.title h1 {
+.title-interior h1 {
   font-size: 3.000em;
   padding: 30px 0px;
   font-family: 'AndesRounded-Regular';
@@ -860,7 +869,6 @@ footer {
 
 
 
-
 /*Tablet and Below*/
 @media only screen and (max-width : 1023px) {
 
@@ -903,7 +911,6 @@ footer {
   }
 
 }
-
 
 
 /*Mobile*/
