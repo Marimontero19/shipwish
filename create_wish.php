@@ -5,8 +5,6 @@ $page = 'product'; //Por ejemplo 'home', 'userprofile', etc
 include('includes/header.php');
 
 ?>
-
-
 <div class="main-container">
 
 	<div class="container_12 container_10 container_8 container_6">
@@ -15,7 +13,7 @@ include('includes/header.php');
 
 			<form id="msform" class="grid_8_1200 grid_8_1024 grid_8_768 grid_6_320 push_2_1200 push_1_1024 push_0_768">
 				<!-- progressbar -->
-				<ul id="progressbar" class="grid_8_1200 grid_8_1024 grid_6_768 grid_5_320 push_2_1200 push_1_1024 push_1_768">
+				<ul id="progressbar" class="grid_10_1200 grid_8_1024 grid_8_768 grid_6_320 push_1_1200 push_1_1024 push_0_768">
 					<li class="active">Wish</li>
 					<li>Details</li>
 					<li>Delivery</li>
@@ -81,35 +79,35 @@ include('includes/header.php');
 
 								<ul id="radio_button_size">
 									<li>
-										<label for="radio1"  role="button">
+										<label for="radio1"  role="button" title="The average of this is the size of a cell phone or keys.">
 											<input type="radio" name="radio" id="radio1"  value="XS"/>
 											<img src="img/icons/xs.svg" alt="XS">
 										</label>
 									</li>
 
 									<li>
-										<label for="radio2" role="button">
+										<label for="radio2" role="button" title="The average of this is the size of a mug or glasses">
 											<input type="radio" name="radio" id="radio2" value="S"/>
 											<img src="img/icons/s.svg" alt="S">
 										</label>
 									</li>
 
 									<li>
-										<label for="radio3" role="button">
+										<label for="radio3" role="button" title="The average of this is the size of a notebook or a tablet">
 											<input type="radio" name="radio" id="radio3" value="M"/>
 											<img src="img/icons/m.svg" alt="M">
 										</label>
 									</li>
 
 									<li>
-										<label for="radio4" role="button">
+										<label for="radio4" role="button" title="The average of this is the size of a backpack.">
 											<input type="radio" name="radio" id="radio4"  value="L"/>
 											<img src="img/icons/l.svg" alt="L">
 										</label>
 									</li>
 
 									<li>
-										<label for="radio5" role="button">
+										<label for="radio5" role="button" title="The average of this is the size of an elephant.">
 											<input type="radio" name="radio" id="radio5" value="XL"/>
 											<img src="img/icons/xl.svg" alt="XL">
 										</label>
@@ -127,7 +125,7 @@ include('includes/header.php');
 							<div id="wish-photo">
 								<label for="photo"><h1 class="titles_create_wish">Upload some photos</h1></label>
 								<h3>Pictures are the best option to make sure the traveller brings exactly what you want.</h3>
-								<div class="upload-photo-box">
+								<div class="upload-photo-box" id="dropzone">
 									<span></span>								
 									<h3>DRAG&DROP the files here</h3>
 									<input type="file" name="photo" id="photo" accept="image/*" placeholder="Upload your best photo"/>
@@ -261,8 +259,28 @@ include('includes/header.php');
 				});
 
 		</script>
+		 <script>
+			$(function() {
+				$( document ).tooltip({
+				  position: {
+				    my: "center bottom",
+				    at: "center bottom+70px",
+				    using: function( position, feedback ) {
+				      $( this ).css( position );
+				      $( "<div>" )
+				        .addClass( "arrow" )
+				        .appendTo( this );
+				    },
+				  track: true
+				  }
+				});
+			});
+		</script>
+
 	</div>
 </div>
+
+
 
 
 
