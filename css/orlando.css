@@ -564,7 +564,7 @@ content: url('../img/landing_pic/gp-icon.svg') no-repeat center;
 
 footer {
     display: block;
-    /*clear: both;*/
+    clear: both;
     width: 100%;
     box-sizing: content-box;
 }
