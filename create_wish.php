@@ -134,8 +134,8 @@ include('includes/header.php');
 							</div>
 						
 
-							<!-- <input type="button" name="previous" id="second_button" class="previous action-button" value="Previous" /> -->
-							<input type="button" name="next" class="next-btn action-button" value="Next" />
+							<!-- <input type="button" name="previous" class="previous action-button" value="Previous" /> -->
+							<input type="button" name="next" id="second_button" class="next-btn action-button" value="Next" />
 						<div class="clear"></div>
 					</fieldset>
 
@@ -244,19 +244,22 @@ include('includes/header.php');
 		<div class="clear"></div>
 		</section>
 		<script>
-			var alturaPasoUno = $("#first_step").outerHeight(true) + $("#progressbar").outerHeight(true);
+			var alturaPasoUno = $("#first_step").outerHeight() + $("#progressbar").outerHeight();
+			/*
 			var alturaPasoDos = $("#second_step").outerHeight(true) + $("#progressbar").outerHeight(true);
 			var alturaPasoTres = $("#third_step").outerHeight(true) + $("#progressbar").outerHeight(true);
+			*/
 
-			$("#msform").outerHeight(alturaPasoUno);
-
+			$("footer.top").css("margin-top",alturaPasoUno+"px");
+			/*
 			$("#first_button").click(function(){
-				$("#msform").css('height', alturaPasoDos);
+				$("footer.top").css('margin-top', alturaPasoDos+"px");
 				});
 
 			$("#second_button").click(function(){				
-				$("#msform").height(alturaPasoTres);
+				$("footer.top").css("margin-top",alturaPasoTres+"px");
 				});
+			*/
 
 		</script>
 		 <script>
@@ -279,6 +282,7 @@ include('includes/header.php');
 
 	</div>
 </div>
+
 
 
 

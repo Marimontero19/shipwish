@@ -6,6 +6,9 @@ $(function() {
 var current_fs, next_fs, previous_fs; //fieldsets
 var left, opacity, scale; //fieldset properties which we will animate
 var animating; //flag to prevent quick multi-click glitches
+var altura=[1600,1200,1200];
+
+var mynow=0;
 
 $(".next-btn").click(function(){
  	if(animating) return false;
@@ -31,11 +34,14 @@ $(".next-btn").click(function(){
 			opacity = 1 - now;
 			current_fs.css({'transform': 'scale('+scale+')'});
 			next_fs.css({'left': left, 'opacity': opacity});
+
 		}, 
 		duration: 800, 
 		complete: function(){
 			current_fs.hide();
 			animating = false;
+			$("footer.top").css('margin-top', altura[mynow]);
+			mynow+=1;
 		}, 
 		//this comes from the custom easing plugin
 		easing: 'easeInOutBack'

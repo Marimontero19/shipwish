@@ -804,10 +804,13 @@ input[type='submit'] {
 }
 
 #ui-datepicker-div {
-  background-color: white;
+  /*background-color: white;*/
   padding: 15px;
   border-radius: 6px;
 }
+
+
+
 
 
 
