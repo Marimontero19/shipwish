@@ -1600,11 +1600,13 @@ textarea {
   border-color: #E9E9E9;
   font-size: 1em;
   width: 100%;
-}
-
-textarea {
   height: 7rem;
   margin: 0 0 1em 0;
+  padding:10px;
+}
+
+textarea:focus{
+      border-color: #E9E9E9;
 }
 
 #buttons-process button{
@@ -2042,10 +2044,12 @@ textarea {
 
 .conditions li{
 	display:inline-block;
+	color:#909090;
 }
 
 .conditions-2 li{
 	display:inline-block;
+	color:#909090;
 }
 
 .conditions-2 label:nth-child(1){
@@ -2086,11 +2090,6 @@ img.ui-datepicker-trigger {
     margin-bottom: 20px;
 }
 
-/*#choose-reward input[type='radio'] {
-    background-image: url(img/icons/money.svg);
-
-}*/
-
 #choose-reward label {
     float:left;
     width:170px;
@@ -2101,6 +2100,14 @@ img.ui-datepicker-trigger {
     overflow:auto;
     display:inline-block;
        
+}
+
+#choose-reward label:nth-child(3) {
+  float: left;
+  margin: 4px;
+  overflow: auto;
+  background-color:transparent;
+   border:transparent;
 }
 
 #choose-reward label span {
@@ -2119,13 +2126,14 @@ img.ui-datepicker-trigger {
 #choose-reward label input {
     position:absolute;
     top:-800px;
+    visibility: hidden;
 }
 
 #choose-reward input:checked + span {
     /*background-color:#404040;
     border-color:#0E777F;*/
     border-radius:4px;
-    border: 2px solid #00B2BE;
+    border: 1px solid #00B2BE;
     color:#0E777F;
 }
 
@@ -2133,6 +2141,77 @@ img.ui-datepicker-trigger {
     background-color:#ffffff;
     color:#0E777F;
 }
+
+/*Choose type of volunteer*/
+
+#choose-volunteer{
+    float:left;
+    margin-top: 20px;
+}
+
+#choose-volunteer ul li{
+	list-style-type:none;
+	display:inline;
+	padding:0; 
+	float:left;
+}
+
+#choose-volunteer ul li h5{
+	display:block;
+	color:#585858;
+	font-family:'AndesRounded-Light',Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin-top: 20px !important;
+
+}
+
+#choose-volunteer label {
+	width: 70px;
+    /*float:left;*/
+    background-color:#EFEFEF;
+    border-radius:50%;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    display:block;  
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#choose-volunteer label span {
+    text-align:center;
+    display:block;
+
+}
+
+#choose-volunteer label span img{
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+#choose-volunteer label input {
+    position:absolute;
+    top:-800px;
+     visibility: hidden;
+}
+
+#choose-volunteer input:checked + span {
+	border-radius: 50%;
+    border: 1px solid #00B2BE;
+    color:#0E777F;
+}
+
+#choose-volunteer .white {
+    background-color:#ffffff;
+    color:#0E777F;
+}
+
+#volunteer-description textarea{
+	padding:20px;
+
+}
+
+/*final*/
+
 
 #costs-currency select{
    color:#6C6C6C;
@@ -2165,7 +2244,7 @@ img.ui-datepicker-trigger {
 
 .negociation-info {
   background-color: white;
-  padding-bottom: 10% ;
+  padding-bottom: 33% ;
   margin: 0 auto;
   width: 40%;
 }
@@ -2253,11 +2332,11 @@ img.ui-datepicker-trigger {
 	text-transform: uppercase;
 }
 
-#new-actions-button li:nth-child(2) button{
+#new-actions-button li:nth-child(2) {
 	color:#0E777F;
 }
 
-#new-actions-button li:nth-child(3) button{
+#new-actions-button li:nth-child(3) {
 	color:#D3D3D3;
 }
 
@@ -2269,12 +2348,14 @@ img.ui-datepicker-trigger {
 }
 
 .accepted{
-	margin:0 auto;
+	display:block;
+    margin: 0 auto;
 	text-align: center;
 	background-color:#C9EFF2 ;
 	color:#00B2BE;
 	text-transform: uppercase;
 	padding: 0px 15px 0px 15px;
+	margin-bottom: 15px;
 }
 
 

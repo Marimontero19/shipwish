@@ -49,11 +49,45 @@ include('includes/header.php');
                             
                             <div id="choose-reward">
                                 <label class="white"><input type="radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/money.svg" alt="money">Money</span></label>
-                                <label class="white"><input type="radio" name="toogle" value="volunteer" name="toogle"><span><img src="img/icons/volunteer.svg" alt="volunteer">Volunteer</span></label>
-                            </div>
 
-                            <div class="clear"></div>
+                                <label class="white"><input type="radio" name="toogle" value="volunteer" name="toogle"><span><img src="img/icons/volunteer.svg" alt="money">Volunteer</span></label>
 
+                                <label class="divspoiler">
+                                    <img src="img/icons/filters.svg" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" />
+                                </label><div><div id="choose-volunteer" class="spoiler" style="display: none;">
+                                            <p>Here are some ideas of volunteer activities you can offer to the traveler.You can also suggest your own!</p>
+                                           
+                                           <ul class="volunteer-options">
+                                                <li>
+                                                    <label class="white"><input type="radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/car2.svg" alt="Ride"></span></label>
+                                                    <h5 class="volunteer-titles">Ride</h5>
+                                                </li>            
+                                                <li>
+                                                    <label class="white"><input type="radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/tour.svg" alt="Tour"></span></label>
+                                                    <h5 class="volunteer-titles">City Tips</h5>
+                                                </li>
+                                                <li>
+                                                    <label class="white"><input type="radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/localproduct.svg" alt="Local product"></span></label>
+                                                    <h5 class="volunteer-titles">Product</h5>
+                                                </li>
+                                                <li>
+                                                    <label class="white"><input type="radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/meal.svg" alt="Meal"></span></label>
+                                                    <h5 class="volunteer-titles">Meal</h5>
+                                                </li>
+                                                <li>
+                                                    <label class="white"><input type="radio" name="toogle" value="money" name="toogle"><span><img src="img/icons/myown.svg" alt="My own"></span></label>
+                                                     <h5 class="volunteer-titles">My own</h5>
+                                                </li>
+                                            </ul>
+
+                                            <textarea style="margin-top:20px;" name="volunteer-description" id="volunteer-description" placeholder="Ex: A guided tour to the nicest places of the city during 3 hours."></textarea>
+                                        </div>
+
+                                      
+                                    </div>
+                                </div>
+
+                            <div class="clear"></div> 
                             <div id="costs-currency">
 
                                 <ul class="conditions">
