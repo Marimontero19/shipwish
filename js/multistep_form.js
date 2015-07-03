@@ -10,6 +10,8 @@ var altura=[1600,1200,1200];
 
 var mynow=0;
 
+$("footer.top").css('margin-top', '400px');
+
 $(".next-btn").click(function(){
  	if(animating) return false;
 	animating = true;  
