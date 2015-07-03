@@ -143,8 +143,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>June 7th, 2015</h4>
 								<ul>
-									<li><img src="img/icons/boat.svg" alt="boat"></li>
-									<li><img src="img/icons/m.svg"  alt="medium"></li>
+									<li><img src="img/icons/boat.svg" alt="boat" title="Boat"></li>
+									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
 								</ul>
 							</div>
 
@@ -183,8 +183,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>Dec. 2th, 2015</h4>
 								<ul>
-									<li><img src="img/icons/bus.svg" alt="bus"></li>
-									<li><img src="img/icons/xl.svg"  alt="extra large"></li>
+									<li><img src="img/icons/bus.svg" alt="bus" title="Bus" title="Bus"></li>
+									<li><img src="img/icons/xl.svg"  alt="extra large" title="Extra large aproximate size: 50 x 60 cm"></li>
 								</ul>
 							</div>
 
@@ -222,8 +222,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>July 4th, 2015</h4>
 								<ul>
-									<li><img src="img/icons/plane.svg" alt="plane"></li>
-									<li><img src="img/icons/m.svg"  alt="medium"></li>
+									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
+									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
 								</ul>
 							</div>
 
@@ -261,8 +261,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>Aug. 1st, 2015</h4>
 								<ul>
-									<li><img src="img/icons/moto.svg" alt="moto"></li>
-									<li><img src="img/icons/s.svg"  alt="s"></li>
+									<li><img src="img/icons/moto.svg" alt="moto" title="Moto"></li>
+									<li><img src="img/icons/s.svg"  alt="s" title="Small aproximate size: 10 x 20 cm"></li>
 								</ul>
 							</div>
 
@@ -300,8 +300,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>July 20th, 2015</h4>
 								<ul>
-									<li><img src="img/icons/plane.svg" alt="plane"></li>
-									<li><img src="img/icons/s.svg"  alt="small"></li>
+									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
+									<li><img src="img/icons/s.svg"  alt="small" title="Small aproximate size: 10 x 20 cm"></li>
 								</ul>
 							</div>
 
@@ -339,8 +339,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>Sept. 3th, 2015</h4>
 								<ul>
-									<li><img src="img/icons/plane.svg" alt="plane"></li>
-									<li><img src="img/icons/l.svg"  alt="large"></li>
+									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
+									<li><img src="img/icons/l.svg"  alt="large" title="Large aproximate size: 40 x 50 cm"></li>
 								</ul>
 							</div>
 
@@ -377,8 +377,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>Oct. 8th, 2015</h4>
 								<ul>
-									<li><img src="img/icons/car.svg" alt="car"></li>
-									<li><img src="img/icons/l.svg"  alt="large"></li>
+									<li><img src="img/icons/car.svg" alt="car" title="Car"></li>
+									<li><img src="img/icons/l.svg"  alt="large" title="Large aproximate size: 40 x 50 cm"></li>
 								</ul>
 							</div>
 
@@ -416,8 +416,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>July 20th, 2015</h4>
 								<ul>
-									<li><img src="img/icons/helicopter.svg" alt="helicopter"></li>
-									<li><img src="img/icons/l.svg"  alt="large"></li>
+									<li><img src="img/icons/helicopter.svg" alt="helicopter" title="Helicopter"></li>
+									<li><img src="img/icons/l.svg"  alt="large" title="Large aproximate size: 40 x 50 cm"></li>
 								</ul>
 							</div>
 
@@ -454,8 +454,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>June 7th, 2015</h4>
 								<ul>
-									<li><img src="img/icons/plane.svg" alt="plane"></li>
-									<li><img src="img/icons/m.svg"  alt="medium"></li>
+									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
+									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
 								</ul>
 							</div>
 
@@ -495,8 +495,8 @@ include('includes/header.php');
 							<div id="details_home_trips">
 								<p>Delivery:</p><h4>June 20th, 2015</h4>
 								<ul>
-									<li><img src="img/icons/plane.svg" alt="plane"></li>
-									<li><img src="img/icons/m.svg"  alt="medium"></li>
+									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
+									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
 								</ul>
 							</div>
 
