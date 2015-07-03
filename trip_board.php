@@ -141,7 +141,7 @@ include('includes/header.php');
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>June 7th, 2015</h4>
+								<p>Delivery:</p><h4>June 7th</h4>
 								<ul>
 									<li><img src="img/icons/boat.svg" alt="boat" title="Boat"></li>
 									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
@@ -175,13 +175,13 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Galway</h4>
+								<p>From:</p><h4>Cork</h4>
 								<br>
 								<p>To:</p><h4>Dublin</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>Dec. 2th, 2015</h4>
+								<p>Delivery:</p><h4>Dec. 2th</h4>
 								<ul>
 									<li><img src="img/icons/bus.svg" alt="bus" title="Bus" title="Bus"></li>
 									<li><img src="img/icons/xl.svg"  alt="extra large" title="Extra large aproximate size: 50 x 60 cm"></li>
@@ -214,13 +214,13 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Orlando</h4>
+								<p>From:</p><h4>Miami</h4>
 								<br>
 								<p>To:</p><h4>Rome</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>July 4th, 2015</h4>
+								<p>Delivery:</p><h4>July 4th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
 									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
@@ -253,13 +253,13 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Barcelona</h4>
+								<p>From:</p><h4>Olot</h4>
 								<br>
 								<p>To:</p><h4>Girona</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>Aug. 1st, 2015</h4>
+								<p>Delivery:</p><h4>Aug. 1st</h4>
 								<ul>
 									<li><img src="img/icons/moto.svg" alt="moto" title="Moto"></li>
 									<li><img src="img/icons/s.svg"  alt="s" title="Small aproximate size: 10 x 20 cm"></li>
@@ -292,13 +292,13 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Panamá</h4>
+								<p>From:</p><h4>Chile</h4>
 								<br>
-								<p>To:</p><h4>Lisboa</h4>
+								<p>To:</p><h4>Beja</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>July 20th, 2015</h4>
+								<p>Delivery:</p><h4>July 20th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
 									<li><img src="img/icons/s.svg"  alt="small" title="Small aproximate size: 10 x 20 cm"></li>
@@ -331,13 +331,13 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Sidney</h4>
+								<p>From:</p><h4>Perth</h4>
 								<br>
-								<p>To:</p><h4>Milano</h4>
+								<p>To:</p><h4>Milan</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>Sept. 3th, 2015</h4>
+								<p>Delivery:</p><h4>Sept. 3th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
 									<li><img src="img/icons/l.svg"  alt="large" title="Large aproximate size: 40 x 50 cm"></li>
@@ -371,11 +371,11 @@ include('includes/header.php');
 							<div id="destination_home_trips">
 								<p>From:</p><h4>Paris</h4>
 								<br>
-								<p>To:</p><h4>Monaco</h4>
+								<p>To:</p><h4>Basel</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>Oct. 8th, 2015</h4>
+								<p>Delivery:</p><h4>Oct. 8th</h4>
 								<ul>
 									<li><img src="img/icons/car.svg" alt="car" title="Car"></li>
 									<li><img src="img/icons/l.svg"  alt="large" title="Large aproximate size: 40 x 50 cm"></li>
@@ -408,13 +408,13 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Verona</h4>
+								<p>From:</p><h4>Pisa</h4>
 								<br>
-								<p>To:</p><h4>Venecia</h4>
+								<p>To:</p><h4>Verona</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>July 20th, 2015</h4>
+								<p>Delivery:</p><h4>July 20th</h4>
 								<ul>
 									<li><img src="img/icons/helicopter.svg" alt="helicopter" title="Helicopter"></li>
 									<li><img src="img/icons/l.svg"  alt="large" title="Large aproximate size: 40 x 50 cm"></li>
@@ -446,13 +446,13 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Atlanta</h4>
+								<p>From:</p><h4>NY</h4>
 								<br>
 								<p>To:</p><h4>Yala</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>June 7th, 2015</h4>
+								<p>Delivery:</p><h4>June 7th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
 									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
@@ -487,13 +487,13 @@ include('includes/header.php');
 						<div class="float-left">
 
 							<div id="destination_home_trips">
-								<p>From:</p><h4>Caracas</h4>
+								<p>From:</p><h4>Cali</h4>
 								<br>
 								<p>To:</p><h4>Oslo</h4>
 							</div>
 
 							<div id="details_home_trips">
-								<p>Delivery:</p><h4>June 20th, 2015</h4>
+								<p>Delivery:</p><h4>June 20th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
 									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>

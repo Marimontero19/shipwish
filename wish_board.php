@@ -140,7 +140,7 @@ They are looking for a traveler to make their wish come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>June 7th</h4>
                             <ul>
                                 <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Food"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
@@ -181,7 +181,7 @@ They are looking for a traveler to make their wish come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>July 20th, 2015</h4>
+                            <p>Delivery:</p><h4>July 20th</h4>
                             <ul>
                                 <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Food"></li>
                                 <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer" title="Volunteer"></li>
@@ -207,7 +207,7 @@ They are looking for a traveler to make their wish come true.</h4>
                                 </a>
                             </li>
                             <li>
-                                <h3 class="">Shoes from Harajuku store</h3>
+                                <h3 class="">COLAB Dry Shampoo</h3>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
@@ -222,7 +222,7 @@ They are looking for a traveler to make their wish come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>July 30th, 2015</h4>
+                            <p>Delivery:</p><h4>July 30th</h4>
                             <ul>
                                 <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"  title="Fashion"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
@@ -263,7 +263,7 @@ They are looking for a traveler to make their wish come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>Nov. 30th, 2015</h4>
+                            <p>Delivery:</p><h4>Nov. 30th</h4>
                             <ul>
                                 <li><img src="img/icons/other.svg" class="icon-circle" alt="other" title="Other"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
@@ -304,7 +304,7 @@ They are looking for a traveler to make their wish come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>Oct. 2th, 2015</h4>
+                            <p>Delivery:</p><h4>Oct. 2th</h4>
                             <ul>
                                 <li><img src="img/icons/other.svg" class="icon-circle" alt="other" title="Other"></li>
                                 <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer" title="Volunteer"></li>
@@ -345,7 +345,7 @@ They are looking for a traveler to make their wish come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>June 9th, 2015</h4>
+                            <p>Delivery:</p><h4>June 9th</h4>
                             <ul>
                                 <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion" title="Fashion"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
@@ -386,7 +386,7 @@ They are looking for a traveler to make their wish come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>May 1th, 2016</h4>
+                            <p>Delivery:</p><h4>May 1th</h4>
                             <ul>
                                 <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Food"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
@@ -427,7 +427,7 @@ They are looking for a traveler to make their wish come true.</h4>
                         </div>
 
                         <div id="details_home" class="short-delivery-date">
-                            <p>Delivery:</p><h4>July 20th, 2015</h4>
+                            <p>Delivery:</p><h4>July 20th</h4>
                             <ul>
                                 <li><img src="img/icons/food.svg" class="icon-circle" alt="food"  title="Food"></li>
                                 <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer" title="Volunteer"></li>
