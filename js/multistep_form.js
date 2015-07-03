@@ -10,7 +10,7 @@ var altura=[1600,1200,1200];
 
 var mynow=0;
 
-$("footer.top").css('margin-top', '400px');
+$("footer.top-two").css('margin-top', '400px');
 
 $(".next-btn").click(function(){
  	if(animating) return false;
@@ -42,7 +42,7 @@ $(".next-btn").click(function(){
 		complete: function(){
 			current_fs.hide();
 			animating = false;
-			$("footer.top").css('margin-top', altura[mynow]);
+			$("footer.top-two").css('margin-top', altura[mynow]);
 			mynow+=1;
 		}, 
 		//this comes from the custom easing plugin
