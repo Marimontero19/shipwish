@@ -41,7 +41,9 @@ include('includes/header.php');
 					<input type="text" class="edit-name" name="user-name" value="Sameed Khan">
 					<!-- location -->
 					<div class="wide-set">
-                        <span class="location-icon"></span>
+                        <span class="location-icon">
+                            <img src="img/icons/location_profile.svg" alt="location">
+                        </span>
                         <label for="" class="unseen">Location</label>
                         <select class="select-jquery">
                             <option>United Kingdom</option>

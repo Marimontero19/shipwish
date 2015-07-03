@@ -46,22 +46,33 @@ $(document).ready (function(){
       //Dropdown 1 de caracteristicas
       $(".drop1").hide();
       $("#showdrop1").click(function(e){
+          $(this).attr( "src", function() {
+            return "img/icons/info-over.svg";
+          });
           $(".drop1").toggle();
       });
 
       //Dropdown 2 de caracteristicas
       $(".drop2").hide();
       $("#showdrop2").click(function(e){
+          $(this).attr( "src", function() {
+            return "img/icons/info-over.svg";
+          });        
           $(".drop2").toggle();
       });
 
        //Dropdown 3 de caracteristicas
       $(".drop3").hide();
       $("#showdrop3").click(function(e){
+          $(this).attr( "src", function() {
+            return "img/icons/info-over.svg";
+          });
           $(".drop3").toggle();
       });
 
 });
+
+
 
 
 

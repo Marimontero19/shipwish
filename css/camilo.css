@@ -110,7 +110,6 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #EDEDED;
     display: inline-block;
     margin: 8px 0 0 6%;
 }
@@ -247,10 +246,11 @@ header h1 a {
 .edit-profile-button span {
     width: 27px;
     height: 27px;
-    background-color: #7D7D7D;
     margin: 0 auto 4px auto;
     border-radius: 50%;
     display: block;
+    text-align: center;
+    display: inline-table;
 }
 
 .user-picture {
@@ -283,7 +283,6 @@ header h1 a {
     height: 25px;
     border-radius: 50%;
     float: left;
-    background-color: gray;
     margin: 0 10px 0 0;
 }
 
@@ -644,13 +643,14 @@ header h1 a {
 }
 
 .finish-editing-profile {
-    appearance: none !important;
+    background: url('../img/icons/goback.svg') 10px center no-repeat;
+  background-color: #C8C8C8;
+  appearance: none !important;
   border: none;
   height: 60px;
-  width: 66.5%;
-  background: #C8C8C8;
+  width: 100%;
   text-align: left;
-  padding: 0 0 0 50px;
+  padding: 0 0 0 60px;
   font-family: 'AndesRounded-Regular';
   font-size: 1.250em;
   color: #fff;
@@ -810,6 +810,72 @@ input[type='submit'] {
 }
 
 
+/* SELECT */
+
+
+.wide-set .ui-selectmenu-button {
+    line-height: 1;
+    border: 1px solid #E9E9E9;
+    padding: 5px 70px 5px 20px;
+    border-radius: 7px;  
+    font-size: 1em;
+    background: url('../img/icons/dropdown-blue.svg') right center no-repeat;
+    background-color: #ffffff;
+    width: 100px;
+      margin: 0 20px;
+    display: inline-block;
+    max-width: 200px !important;
+   min-width: 160px;
+}
+
+.wide-set .ui-selectmenu-text {
+    color: #737373;
+    font-family: 'AndesRounded-Book';
+    line-height: 1.5;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/* OPEN CONTAINER DROPDOWN (ul) */
+.wide-set .ui-menu {
+    position: relative;
+    margin: 8px auto 0 auto;
+    cursor: pointer;
+    min-height: 0;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #E9E9E9;
+    width: 100px !important;
+    /* support: IE7; */
+    /* support: IE10, see #8844; */
+  }
+
+.wide-set .ui-selectmenu-menu {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index:9999;
+}
+
+/* OVERFLOW UL */
+
+.wide-set .ui-selectmenu-menu .ui-menu {
+  overflow: auto;
+  /* Support: IE7; */
+  overflow-x: hidden;  
+}
+
+.wide-set .ui-state-focus {
+  outline: none;
+ }
+
+.wide-set .ui-selectmenu-open {
+  display: block;
+}
+
 
 
 
@@ -891,7 +957,6 @@ input[type='submit'] {
   height: 20px;
   float: left;
   display: inline-block;
-  background-color: gray;
     margin: 32px 0 0 12px;
   border-radius: 50%;
 }
@@ -1416,7 +1481,6 @@ fieldset h3 {
 }
 
 .location-icon {
-  background: url('../img/icons/location4.svg') left center no-repeat;
 }
 
 .date-icon {
@@ -1829,14 +1893,17 @@ fieldset h3 {
 }
 
 @media all and (max-width:1199px) {
-    .finish-editing-profile {
+  
+
+  .finish-editing-profile {
+    background: url('../img/icons/goback.svg') 10px center no-repeat;
+  background-color: #C8C8C8;
     appearance: none !important;
   border: none;
   height: 60px;
   width: 66.5%;
-  background: #C8C8C8;
   text-align: left;
-  padding: 0 0 0 50px;
+  padding: 0 0 0 60px;
   font-family: 'AndesRounded-Regular';
   font-size: 1.250em;
   color: #fff;
