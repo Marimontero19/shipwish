@@ -112,7 +112,7 @@
                 <h1 class="grid_3_1200 grid_2_1024 grid_2_768 grid_6_320">
                     <a href="#"> Shipwish </a>
                 </h1>
-                <div class="sign-in-section grid_3_1200 grid_2_1024 grid_3_768 grid_6_320">
+                <div class="sign-in-section grid_3_1200 grid_2_1024 grid_3_768 grid_6_320 ">
                     <ul>
                         <li>
                             <a href="#small-dialog" target="" class="sign-up-btn popup-with-move-anim ">
@@ -142,11 +142,12 @@
 			    <div class="container_12 container_10 container_8 container_6">
 
 			    	<form action="">
-
-				    	<input type="search" placeholder="What do you crave for?" class="search-input-landing grid_6_1200 grid_6_1024 grid_4_768 grid_6_320 push_2_1200">
-				    	<input type="submit" value="GET IT!" class="search-submit-landing grid_2_1200 grid_2_1024 grid_2_768 grid_6_320 push_2_1200">
+						
+				    	<input type="search" placeholder="What do you crave for?" class="search-input-landing grid_6_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200 push_1_1024 push_0_768">
+				    	<input type="submit" value="GET IT!" class="search-submit-landing grid_2_1200 grid_3_1024 grid_4_768 grid_6_320 push_2_1200 push_1_1024 push_0_768">
 
 					</form>
+				
 			    </div>
 		    </div>
 		</span>
@@ -164,8 +165,8 @@
 
 				<div id="tabs">
 				  <ul>
-				    <li><a href="#tabs-1" class="tab-1 tab-select current grid_4_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200 ">WISHER</a></li>
-				    <li><a href="#tabs-2" class="tab-2 tab-select grid_4_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200 ">TRAVELER</a></li>
+				    <li><a href="#tabs-1" class="tab-1 tab-select current grid_4_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200 push_1_1024 push_0_768">WISHER</a></li>
+				    <li><a href="#tabs-2" class="tab-2 tab-select grid_4_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200 push_1_1024 push_0_768">TRAVELER</a></li>
 				  </ul>
 
 					<!-- Primer Tab -->

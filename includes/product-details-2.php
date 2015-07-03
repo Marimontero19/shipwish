@@ -43,7 +43,7 @@
 			<!-- END PRODUCT NEGOCIATE DETAILS  -->
 
 			<div id="buttons-process">
-				<button style="background-color:#F9A41A">Accept and seal deal</button>
+				<a href="#small-dialog" class="popup-with-move-anim"><button style="background-color:#F9A41A" >Accept and seal deal</button></a>
 
 				<div id="cancel-start">
 					<p><a href="wish_board.php">Cancel Deal</a></p>

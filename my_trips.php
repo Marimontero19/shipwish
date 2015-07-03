@@ -52,9 +52,12 @@ include('includes/header.php');
                         <div id="details_home">
                             <p>Delivery:</p><h4>June 7th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>
+                                    <img src="img/icons/boat.svg" alt="boat">
+                                </li>
+                                <li>
+                                    <img src="img/icons/m.svg" alt="medium">
+                                </li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -73,17 +76,20 @@ include('includes/header.php');
                 <div class="wisher_card_container">
                     <div class="display_block">
                         <div id="destination_home">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>Galway</h4>
                             <br>
                             <p>To:</p><h4>Dublin</h4>
                         </div>
 
                         <div id="details_home">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>Dec. 2nd, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>
+                                    <img src="img/icons/car.svg" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/icons/xl.svg" alt="">
+                                </li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -102,17 +108,20 @@ include('includes/header.php');
                 <div class="wisher_card_container">
                     <div class="display_block">
                         <div id="destination_home">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>Orlando</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Rome</h4>
                         </div>
 
                         <div id="details_home">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>July 10th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>
+                                    <img src="img/icons/plane.svg" alt="Plane">
+                                </li>
+                                <li>
+                                    <img src="img/icons/m.svg" alt="Medium">
+                                </li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -131,17 +140,20 @@ include('includes/header.php');
                 <div class="wisher_card_container">
                     <div class="display_block">
                         <div id="destination_home">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>Barcelona</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Girona</h4>
                         </div>
 
                         <div id="details_home">
-                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+                            <p>Delivery:</p><h4>Aug. 6th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>
+                                    <img src="img/icons/moto.svg" alt="Moto">
+                                </li>
+                                <li>
+                                    <img src="img/icons/s.svg" alt="Small">
+                                </li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -184,17 +196,20 @@ include('includes/header.php');
 	                <div class="wisher_card_container">
 	                    <div class="display_block">
 	                        <div id="destination_home">
-	                            <p>From:</p><h4>Italy</h4>
+	                            <p>From:</p><h4>Verona</h4>
 	                            <br>
-	                            <p>To:</p><h4>Dublin</h4>
+	                            <p>To:</p><h4>Venecia</h4>
 	                        </div>
 
 	                        <div id="details_home">
-	                            <p>Delivery:</p><h4>June 7th, 2015</h4>
+	                            <p>Delivery:</p><h4>July 20th, 2015</h4>
 	                            <ul>
-	                                <li></li>
-	                                <li></li>
-	                                <li></li>
+	                                <li>
+                                     <img src="img/icons/helicopter.svg" alt="helicopter">   
+                                    </li>
+	                                <li>
+                                     <img src="img/icons/l.svg" alt="Large">   
+                                    </li>
 	                            </ul>
 	                        </div>
 	                        <div class="clear"></div>
@@ -238,17 +253,20 @@ include('includes/header.php');
                 <div class="wisher_card_container">
                     <div class="display_block">
                         <div id="destination_home">
-                            <p>From:</p><h4>Italy</h4>
+                            <p>From:</p><h4>Atlanta</h4>
                             <br>
-                            <p>To:</p><h4>Dublin</h4>
+                            <p>To:</p><h4>Yala</h4>
                         </div>
 
                         <div id="details_home">
                             <p>Delivery:</p><h4>June 7th, 2015</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>
+                                    <img src="img/icons/plane.svg" alt="airplane">
+                                </li>
+                                <li>
+                                    <img src="img/icons/m.svg" alt="medium">
+                                </li>
                             </ul>
                         </div>
                         <div class="clear"></div>

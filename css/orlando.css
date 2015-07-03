@@ -85,6 +85,10 @@ input[type=submit].search-submit-landing {
   margin-left: 10px;
 }
 
+.search-bar {
+  
+}
+
 
 
 
@@ -255,7 +259,7 @@ h4.text-tab {
   font-size: 1.125em;
   color: #6C6C6C;
   padding-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .about-section span {
@@ -303,8 +307,6 @@ h4.text-tab {
   height: 400px;
   display: block;
 }
-
-
 
 .wish-cta,
 .trip-cta {
@@ -924,7 +926,7 @@ color:#737373 ;
 
   .post-it-btn {
     width: 40%;
-    display: block;
+    
   }
   
 }

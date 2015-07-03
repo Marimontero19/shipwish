@@ -85,6 +85,30 @@ include('includes/header.php');
 	</div>
 </div>
 
+<!-- POPUP  -->
+    
+<div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+    <h1>Woot! You’re almost there.</h1>
+    <h4>Just make an account and<br> get your wish posted.</h4>
+    <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    
+    <input type="checkbox" name="vehicle" value="Bike">
+    <label>I accept the Terms and Conditions</label>
+
+    <a href="index.php"><input type="submit" value="Sign Up"></a>
+
+    <hr>
+
+    <h5>or Sign up with</h5>
+    <div class="social-sign">
+        <a href="#" class=" fb-btn">Facebook</a>
+        <a href="#" class=" gp-btn">Google +</a>
+    </div>
+
+</div>
+
 <?php
 
 $page = 'product-chat'; //Por ejemplo 'home', 'userprofile', etc
