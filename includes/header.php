@@ -104,7 +104,14 @@
 	</head>
 
 	<body<?php 
-		if (strpos($_SERVER['PHP_SELF'],'product-chat.php')>0 or strpos($_SERVER['PHP_SELF'],'product-chat.php')>0) {
+		if (strpos($_SERVER['PHP_SELF'],'product-chat.php')>0 
+			or strpos($_SERVER['PHP_SELF'],'product-chat-1.php')>0
+			or strpos($_SERVER['PHP_SELF'],'product-negociation.php')>0
+			or strpos($_SERVER['PHP_SELF'],'product-negociation-2.php')>0
+			or strpos($_SERVER['PHP_SELF'],'product-negociation-3.php')>0
+			or strpos($_SERVER['PHP_SELF'],'profile-public.php')>0
+			or strpos($_SERVER['PHP_SELF'],'profile-private.php')>0
+			or strpos($_SERVER['PHP_SELF'],'profile-edit.php')>0) {
 			echo ' class="fondoblanco"';
 		}
 	?>>
@@ -113,7 +120,7 @@
 		<div id="principal-menu" class="main-container">
 		    <div class="container_12 container_10 container_8 container_6">
                 <h1 class="grid_2_1200 grid_2_1024 grid_2_768 grid_2_320">
-                    <a href="index.php"> Shipwish </a>
+                    <a href="wish_board.php"> Shipwish </a>
                 </h1>
 
                 <div class="user-tools grid_2_1200 grid_2_1024 grid_3_768 grid_3_320">

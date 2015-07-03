@@ -12,7 +12,7 @@ $(function() {
             +'<div class="comment-user-photo-2"><a href=""><img src="img/users_pic/user_9_xs.jpg" class="user-pic" alt="user-9"></a></div>'
             +'<div class="wrote-comment-2" class="grid_5_1200 grid_4_1024 grid_6_768 grid_5_320"><p>'
             + text 
-            +'</p><p class="chat-date">31/July/2015</p></div>'
+            +'</p><p class="chat-date">2/June/2015</p></div>'
             +'</li>');
       });
 

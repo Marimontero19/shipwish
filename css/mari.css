@@ -4,14 +4,40 @@
 	cursor:pointer;
 }
 
+
+/*************** General fondo blanco total en laterales ******************/
+
 .fondoblanco{
-	/*background-position: -10%;
+	background-position: -10%;
 	background-repeat: repeat-y;
-	background-image: url("../img/white.jpg");*/
+	background-image: url("../img/white.jpg");
 }
 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	.fondoblanco{
+		background-image: none;
+	}
+}
 
+@media only screen and (min-width : 480px) and (max-width : 660px) {
+   .fondoblanco{
+		background-image: none;
+	}
 
+}
+
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+	.fondoblanco{
+		background-image: none;
+	}   
+
+}
+
+@media only screen and (min-width : 870px) and (max-width : 1024px) {
+   .fondoblanco{
+		background-image: none;
+	}
+}
 
 
 /*************** Wish_board.php ***************/
@@ -1679,11 +1705,11 @@ textarea:focus{
 
 
 /*Tablet*/
-/*
+
 @media only screen and (min-width : 870px) and (max-width : 1077px) {
    
 	 .chat-general-info {
-         padding-bottom:64%;   
+         padding-bottom:3%;   
     }
 }
 
@@ -1691,40 +1717,37 @@ textarea:focus{
 @media only screen and (min-width : 660px) and (max-width : 870px) {
 
 	  .chat-general-info {
-         padding-bottom:80%;   
+         padding-bottom:2%;   
     }
-
-    .chat-general-info {
-  		width: 60%;
-}
 
 }
 
 @media only screen and (min-width : 480px) and (max-width : 660px) {
 	  .chat-general-info {
-         padding-bottom:110%;   
+         padding-bottom:1%;   
     }
 
-        .chat-general-info {
-  		width: 70%;
-	}
-
 }
-*/
 
-/*Mobile*//*
+
+/*Mobile*/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
 	  
     .chat-general-info {
-         padding-bottom:160%;   
+         padding-bottom:0;   
     }
 
-           .chat-general-info {
-  		width: 100%;
+	#cancel-start p:nth-child(1) {
+  		margin-bottom: 20px;
 	}
 
-}*/
+	#chat-product {
+  		margin-top: -25px;
+  		margin-bottom: 40px;
+	}
+
+}
 
 
 /*************** product-chat.php ***************/
@@ -1783,22 +1806,17 @@ textarea:focus{
 
 #comment-list{
  	 position: relative;
+ 	 margin-bottom: 40px;
 }
 
-.comment-1 {
+.comment-2 {
    	/*position: absolute;*/
     bottom: 0;
     left: 0;
 }
 
-.comment-user-photo {
+.comment-user-photo-2 {
     float:left;
-}
-
-.wrote-comment p{
-	color:#585858;
-	line-height: 24px;
-	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
 }
 
 .wrote-comment-2 p{
@@ -1807,12 +1825,18 @@ textarea:focus{
 	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
 }
 
+.wrote-comment p{
+	color:#585858;
+	line-height: 24px;
+	font-family: 'AndesRounded-Regular',Helvetica, Arial, sans-serif;
+}
 
-.wrote-comment {
+
+.wrote-comment-2 {
     float:left;
-    margin-left:25px;
+    /*margin-left:25px;*/
     margin-right:40px;
-    margin-bottom:10px;
+    margin-left:25px;
     position: relative;
 
     width: 63%;
@@ -1825,7 +1849,7 @@ textarea:focus{
 	border: #E9E9E9 solid 1px;
 }
 
-.wrote-comment:after {
+.wrote-comment-2:after {
 	content: '';
 	position: absolute;
 	border-style: solid;
@@ -1838,7 +1862,7 @@ textarea:focus{
 	top: 21px;
 }
 
-.wrote-comment:before {
+.wrote-comment-2:before {
 	content: '';
 	position: absolute;
 	border-style: solid;
@@ -1851,20 +1875,21 @@ textarea:focus{
 	top: 21px;
 }
 
-.comment-2 {
+.comment-1 {
 
     bottom: 0;
     left: 0;
 }
 
-.comment-user-photo-2 {
+.comment-user-photo {
    float:right;
+   margin-top: 20px;
 }
 
 
-.wrote-comment-2 {
+.wrote-comment {
     float:right;
-    margin-right:25px;
+    margin:20px 25px 20px 40px;
     position: relative;
 
     width: 63%;
@@ -1878,7 +1903,7 @@ textarea:focus{
 }
 
 
-.wrote-comment-2:after {
+.wrote-comment:after {
 	content: '';
 	position: absolute;
 	border-style: solid;
@@ -1893,7 +1918,7 @@ textarea:focus{
 
 
 
-.wrote-comment-2:before {
+.wrote-comment:before {
 	content: '';
 	position: absolute;
 	border-style: solid;
@@ -1922,17 +1947,17 @@ textarea:focus{
 /*Tablet*/
 @media only screen and (min-width : 870px) and (max-width : 1024px) {
    
-				.wrote-comment {
+				.wrote-comment-2 {
 			
 			  		width: 74.5%;
+			  		/*margin-bottom: 80px;*/
 
 			}
 
 
-				.wrote-comment-2 {
+				.wrote-comment {
 			
 			  		width: 74.5%;
-			  		margin-bottom: 150px;
 
 			}
 
@@ -1941,18 +1966,19 @@ textarea:focus{
 
 @media only screen and (min-width : 660px) and (max-width : 870px) {
 
-				.wrote-comment {
+				.wrote-comment-2 {
 			
 			  		width: 60%;
-			  		margin-right:90px;
+			  		margin-right:70px;
+
 
 			}
 
 
-				.wrote-comment-2 {
+				.wrote-comment {
 			
 			  		width: 60%;
-			  		margin-bottom: 50px;
+			  		margin-bottom: 20px;
 
 			}
 
@@ -1961,16 +1987,17 @@ textarea:focus{
 
 @media only screen and (min-width : 480px) and (max-width : 660px) {
 
-			.wrote-comment {
+			.wrote-comment-2 {
 			
 			  		margin-right:0px;
-
+			  		/*margin-bottom: 50px;*/
 			}
 
 
-			.wrote-comment-2 {
+			.wrote-comment {
 			
-			  		margin-bottom: 50px;
+			  		margin-bottom: 20px;
+			  		margin-left:10px;
 
 			}
 
@@ -2005,21 +2032,22 @@ textarea:focus{
   				margin-top: 0px !important; 
 			}
 
-				.wrote-comment {
+				.wrote-comment-2 {
 			
-			  		width: 60%;
-			  		margin-right:0px;
+			  		width: 50%;
+			  		margin-right:10px;
+			  		/*margin-bottom: 40px;*/
 
 			}
 
-				.comment-user-photo-2 {
+				.comment-user-photo {
   					margin-top: 3%;
 			}
 
-				.wrote-comment-2 {
+				.wrote-comment {
 			
-			  		width: 60%;
-			  		margin-bottom: 50px;
+			  		width: 50%;
+			  		margin: 20px 20px 40px 20px;
 
 			}
 

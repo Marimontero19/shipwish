@@ -43,7 +43,7 @@
 			<!-- END PRODUCT NEGOCIATE DETAILS  -->
 
 			<div id="buttons-process">
-				<button>Waiting for approval</button>
+				<a href="product-chat-1.php"><button>Waiting for approval</button></a>
 
 				<div id="cancel-start">
 					<p><a href="#">Cancel Deal</a></p>

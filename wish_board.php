@@ -125,7 +125,7 @@ They are looking for a traveler to make their wish come true.</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="product.php"><h3 class="">Pecorino Romano Cheese</h3></a>
+                                <h3 class="">Pecorino Romano Cheese</h3>
                             </li>
                             <!--<li><p>*3</p></li>-->
                         </ul>					
@@ -152,7 +152,7 @@ They are looking for a traveler to make their wish come true.</h4>
                 </div>	
 
                 <div class="button_look">
-                    <h4>Let's take a look</h4>
+                   <a href="product.php"> <h4>Let's take a look</h4></a>
                 </div>
             </div>
             <!--2-->

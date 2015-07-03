@@ -60,7 +60,7 @@ include('includes/header.php');
 	    				</div>
 	    				<div class="wrote-comment" class="grid_5_1200 grid_4_1024 grid_6_768 grid_5_320">
 	    					<p>Perfect! Tell me at what hour you arrive and I will meet you at the flights exit</p>
-	    					<p class="chat-date">1/August/2015</p>
+	    					<p class="chat-date">1/June/2015</p>
 	    				</div>
 	    			</li>
 
@@ -70,7 +70,7 @@ include('includes/header.php');
 	    				</div>
 	    				<div class="wrote-comment-2" class="grid_5_1200 grid_4_1024 grid_6_768 grid_5_320">
 	    					<p>I will like to bring you the product. Do you think we can meet at the airport?</p>
-	    					<p class="chat-date">31/July/2015</p>
+	    					<p class="chat-date">29/May/2015</p>
 	    				</div>
 	    			</li>
 
