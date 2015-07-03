@@ -164,8 +164,8 @@
 
 				<div id="tabs">
 				  <ul>
-				    <li><a href="#tabs-1" class="tab-1 tab-select current grid_4_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200 ">WISHER</a></li>
-				    <li><a href="#tabs-2" class="tab-2 tab-select grid_4_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200 ">TRAVELER</a></li>
+				    <li><a href="#tabs-1" class="tab-1 tab-select current grid_4_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200">WISHER</a></li>
+				    <li><a href="#tabs-2" class="tab-2 tab-select grid_4_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200 push_1_1024">TRAVELER</a></li>
 				  </ul>
 
 					<!-- Primer Tab -->
@@ -186,8 +186,8 @@
 
 				    <div class="grid_3_1200 grid_3_1024 grid_4_768 grid_6_320">
 				    	<img src="img/landing_pic/wish-2.png">
-				    	<h5>2. Receive offers and choose the best</h5>
-				    	<p>Receive notifications from travelers doing the route you’re looking for</p>
+				    	<h5>2. Receive offers</h5>
+				    	<p>Receive notifications from travelers doing the route you’re looking for and choose the best</p>
 				    </div>
 
 				    <div class="grid_3_1200 grid_2_1024 grid_4_768 grid_6_320">
@@ -221,7 +221,7 @@
 				    </div>
 
 				    <div class="grid_3_1200 grid_3_1024 grid_4_768 grid_6_320">
-				    	<img src="img/landing_pic/wish-2.png">
+				    	<img src="img/landing_pic/select-wish.png">
 				    	<h5>2. Choose a wish</h5>
 				    	<p>Select the wish that<br> fits your trip best</p>
 				    </div>
@@ -272,7 +272,8 @@
 			<div class="container_12 container_10 container_8 container_6">
 
 				<h3>About Shipwish</h3>
-				
+
+				<span>
 				<div class="grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 
 					<span><img src="img/landing_pic/verified-icon.png" alt="Verified"></span>
@@ -304,6 +305,7 @@
 					<p>All payments are SSL-encrypted and secure.</p>
 					
 				</div>
+				</span>
 
 			</div>
 

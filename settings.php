@@ -68,7 +68,7 @@ include('includes/header.php');
 				<div class="grid_2_1200 grid_2_1024 grid_2_768 grid_6_320 push_3_1200">
 					<label for="">Weight</label><br>
 					<select>
-						<option>Ounces</option>
+						<option class="ui-menu ui-menu-item">Ounces</option>
 						<option>Pounds</option>
 						<option>kg</option>
 					</select>
@@ -97,7 +97,7 @@ include('includes/header.php');
 	<div class="main-container">
 	    <div class="container_12 container_10 container_8 container_6">
 
-			<form action="" class="user-info notifications-settings" method="_POST">
+			<form action="" class="user-info-edit notifications-settings" method="_POST">
 				
 				<div >
 					<label for="">Comments</label><br>

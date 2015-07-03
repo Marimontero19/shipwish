@@ -155,6 +155,7 @@ h4.text-tab {
   font-size: 1.125em;
   line-height: 130%;
   color: #6C6C6C;
+  margin-bottom: 15px;
 }
 
 .tab-select {
@@ -229,6 +230,7 @@ h4.text-tab {
 .about-section {
   background: #F9F9F9;
   display: block;
+  overflow: hidden;
 }
 
 .about-section img {
@@ -670,7 +672,7 @@ footer {
   position: relative;
   margin: 0;
     padding: 8px 0;
-    color: white;
+  
   cursor: pointer;
   min-height: 0;
     text-align: center;
@@ -785,17 +787,37 @@ footer {
   font-family: 'AndesRounded-Light';
 }
 
+
 .measure-units select {
   background: transparent;
-  border: none;
-  border-bottom: 1px solid #909090;
-  border-radius: 0;
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 1.5px solid #6C6C6C;
   width: 100%;
   margin: 20px 0px;
+  padding: 5px 35px 5px 5px;
   color: #6C6C6C;
   font-size: 1.250em;
+  font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+  appearance:none;
+  -webkit-appearance:none;
 }
 
+/*
+.measure-units select {
+  color: #6C6C6C;
+  margin: 10px;
+  border: 0px;
+  border-radius: 0px;
+  background: transparent;
+  width: 120px;
+  padding: 5px 35px 5px 5px;
+  font-size: 1.250em;
+  font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
+  border-bottom: 1.5px solid #6C6C6C;
+  height: 34px;
+}*/
+  
 .measure-units select:last-of-type {
   margin-bottom: 50px;
 }

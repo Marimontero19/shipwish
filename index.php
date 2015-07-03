@@ -172,6 +172,12 @@
 
 				  <div id="tabs-1" class="grid_12_1200 grid_10_1024 grid_8_768 grid_6_320">
 
+				  	<div class="grid_12_1200 grid_10_1024 grid_8_768 grid_6_320">
+				  			
+					  	<h4 class="text-tab">Do you want a product but don't know how to find it?</h4>
+
+				  	</div>
+
 				    <div class="grid_3_1200 grid_3_1024 grid_4_768 grid_6_320">
 				    	<img src="img/landing_pic/wish-1.png">
 				    	<h5>1. Complete your wish</h5>
@@ -180,8 +186,8 @@
 
 				    <div class="grid_3_1200 grid_3_1024 grid_4_768 grid_6_320">
 				    	<img src="img/landing_pic/wish-2.png">
-				    	<h5>2. Receive offers and choose the best</h5>
-				    	<p>Receive notifications from travelers doing the route you’re looking for</p>
+				    	<h5>2. Receive offers</h5>
+				    	<p>Receive notifications from travelers doing the route you’re looking for and choose the best</p>
 				    </div>
 
 				    <div class="grid_3_1200 grid_2_1024 grid_4_768 grid_6_320">
@@ -201,6 +207,12 @@
 				  <!-- Segundo Tab -->
 
 				  <div id="tabs-2" class="grid_12_1200 grid_10_1024 grid_8_768 grid_6_320">
+
+				  	<div class="grid_12_1200 grid_10_1024 grid_8_768 grid_6_320">
+				  		
+						<h4 class="text-tab ">Are you traveling and have an extra free space?</h4>
+
+				  	</div>
 				    
 				    <div class="grid_3_1200 grid_3_1024 grid_4_768 grid_6_320">
 				    	<img src="img/landing_pic/pin.png">
