@@ -55,6 +55,25 @@ $(this).find('.button_look h4').css("display","block");
 });
 
 
+$(document).ready(function(){
+    $(function() {
+        $( document ).tooltip({
+          position: {
+            my: "center bottom",
+            at: "center bottom+70px",
+            using: function( position, feedback ) {
+              $( this ).css( position );
+              $( "<div>" )
+                .addClass( "arrow" )
+                .appendTo( this );
+            },
+          track: true
+          }
+        });
+    });
+});
+
+
 /*
 //HEIGHT
 $document.ready(function(){

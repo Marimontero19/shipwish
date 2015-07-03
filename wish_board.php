@@ -142,9 +142,9 @@ They are looking for a traveler to make their wish come true.</h4>
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>June 7th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
-                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Hola Anna, cambiame."></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -183,9 +183,9 @@ They are looking for a traveler to make their wish come true.</h4>
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>July 20th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
-                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer"></li>
-                                <li><img src="img/icons/s.svg" class="icon-circle" alt="s"></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/s.svg" class="icon-circle" alt="s"title="Hola Anna, cambiame." ></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -224,9 +224,9 @@ They are looking for a traveler to make their wish come true.</h4>
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>July 30th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"></li>
-                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
+                                <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"  title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Hola Anna, cambiame."></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -265,9 +265,9 @@ They are looking for a traveler to make their wish come true.</h4>
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>Nov. 30th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/other.svg" class="icon-circle" alt="other"></li>
-                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
-                                <li><img src="img/icons/xs.svg" class="icon-circle" alt="Xs"></li>
+                                <li><img src="img/icons/other.svg" class="icon-circle" alt="other" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/xs.svg" class="icon-circle" alt="Xs" title="Hola Anna, cambiame."></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -306,9 +306,9 @@ They are looking for a traveler to make their wish come true.</h4>
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>Oct. 2th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/other.svg" class="icon-circle" alt="other"></li>
-                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
+                                <li><img src="img/icons/other.svg" class="icon-circle" alt="other" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Hola Anna, cambiame."></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -347,9 +347,9 @@ They are looking for a traveler to make their wish come true.</h4>
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>June 9th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"></li>
-                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
+                                <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Hola Anna, cambiame."></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Hola Anna, cambiame."></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -388,9 +388,9 @@ They are looking for a traveler to make their wish come true.</h4>
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>May 1th, 2016</h4>
                             <ul>
-                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
-                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Hola Mari, cambiame."></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Hola Mari, cambiame."></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Hola Mari, cambiame."></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -429,9 +429,9 @@ They are looking for a traveler to make their wish come true.</h4>
                         <div id="details_home" class="short-delivery-date">
                             <p>Delivery:</p><h4>July 20th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
-                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer"></li>
-                                <li><img src="img/icons/s.svg" class="icon-circle" alt="small"></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"  title="Hola Mari, cambiame."></li>
+                                <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer" title="Hola Mari, cambiame."></li>
+                                <li><img src="img/icons/s.svg" class="icon-circle" alt="small" title="Hola Mari, cambiame."></li>
                             </ul>
                         </div>
                         <div class="clear"></div>

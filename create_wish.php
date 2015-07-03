@@ -260,24 +260,6 @@ include('includes/header.php');
 				$("footer.top").css("margin-top",alturaPasoTres+"px");
 				});
 			*/
-
-		</script>
-		 <script>
-			$(function() {
-				$( document ).tooltip({
-				  position: {
-				    my: "center bottom",
-				    at: "center bottom+70px",
-				    using: function( position, feedback ) {
-				      $( this ).css( position );
-				      $( "<div>" )
-				        .addClass( "arrow" )
-				        .appendTo( this );
-				    },
-				  track: true
-				  }
-				});
-			});
 		</script>
 
 	</div>
