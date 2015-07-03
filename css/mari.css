@@ -442,6 +442,11 @@ button{
 	}
 
 
+	.triangle-down{
+		display:none;
+	}
+
+
 	#wish_trips li button{
 		display:none;
 	}
@@ -452,8 +457,12 @@ button{
 
 	}
 
-	#wish-description img {
-  		margin-right: 0px;
+	#wish-description-home{
+		width: 80%;
+	}
+
+	#wish-description-home img{
+		margin-right: 5px;
 	}
 
 }
@@ -804,8 +813,12 @@ button{
   		display: block;
   	}
 
-  	#trip-description img {
-  		  margin-right: 10px;
+  	#trip-description{
+		width: 75%;
+	}
+
+	#trip-description img{
+		margin-right: 5px;
 	}
 
 }
