@@ -60,9 +60,15 @@ include('includes/header.php');
 	                        <div id="details_home">
 	                            <p>Delivery:</p><h4>June 7th, 2015</h4>
 	                            <ul>
-	                                <li></li>
-	                                <li></li>
-	                                <li></li>
+	                                <li>
+	                                	<img src="img/icons/food.svg" class="icon-circle" alt="Food">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/money.svg" class="icon-circle" alt="money">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/m.svg" class="icon-circle" alt="Medium">
+	                                </li>
 	                            </ul>
 	                        </div>
 	                        <div class="clear"></div>
@@ -82,7 +88,7 @@ include('includes/header.php');
 	                    <div id="basic_info_home">
 	                        <ul>
 	                            <!-- <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> -->
-	                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
+	                            <li><h3 class="">Shoes from Harajuku store</h3></li>
 	                            <!--<li><p>*3</p></li>-->
 	                        </ul>					
 	                    </div>
@@ -90,17 +96,23 @@ include('includes/header.php');
 	                    <div class="display_block">
 
 	                        <div id="destination_home">
-	                            <p>From:</p><h4>Italy</h4>
+	                            <p>From:</p><h4>Tokio</h4>
 	                            <br>
-	                            <p>To:</p><h4>Dublin</h4>
+	                            <p>To:</p><h4>Milano</h4>
 	                        </div>
 
 	                        <div id="details_home">
 	                            <p>Delivery:</p><h4>June 7th, 2015</h4>
 	                            <ul>
-	                                <li></li>
-	                                <li></li>
-	                                <li></li>
+	                                <li>
+	                                	<img src="img/icons/other.svg" class="icon-circle" alt="">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/volunteer.svg" class="icon-circle" alt="">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/m.svg" class="icon-circle" alt="">
+	                                </li>
 	                            </ul>
 	                        </div>
 	                        <div class="clear"></div>
@@ -120,7 +132,7 @@ include('includes/header.php');
 	                    <div id="basic_info_home">
 	                        <ul>
 	                            <!-- <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> -->
-	                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
+	                            <li><h3 class="">Lakeland's Chef's Knife</h3></li>
 	                            <!--<li><p>*3</p></li>-->
 	                        </ul>					
 	                    </div>
@@ -128,17 +140,23 @@ include('includes/header.php');
 	                    <div class="display_block">
 
 	                        <div id="destination_home">
-	                            <p>From:</p><h4>Italy</h4>
+	                            <p>From:</p><h4>India</h4>
 	                            <br>
-	                            <p>To:</p><h4>Dublin</h4>
+	                            <p>To:</p><h4>Italy</h4>
 	                        </div>
 
 	                        <div id="details_home">
 	                            <p>Delivery:</p><h4>June 7th, 2015</h4>
 	                            <ul>
-	                                <li></li>
-	                                <li></li>
-	                                <li></li>
+	                                <li>
+	                                	<img src="img/icons/other.svg" class="icon-circle" alt="">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/money.svg" class="icon-circle" alt="">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/m.svg" class="icon-circle" alt="">
+	                                </li>
 	                            </ul>
 	                        </div>
 	                        <div class="clear"></div>
@@ -158,7 +176,7 @@ include('includes/header.php');
 	                    <div id="basic_info_home">
 	                        <ul>
 	                            <!-- <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> -->
-	                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
+	                            <li><h3 class="">Head Medicine pills</h3></li>
 	                            <!--<li><p>*3</p></li>-->
 	                        </ul>					
 	                    </div>
@@ -166,17 +184,23 @@ include('includes/header.php');
 	                    <div class="display_block">
 
 	                        <div id="destination_home">
-	                            <p>From:</p><h4>Italy</h4>
+	                            <p>From:</p><h4>Madrid</h4>
 	                            <br>
-	                            <p>To:</p><h4>Dublin</h4>
+	                            <p>To:</p><h4>Miami</h4>
 	                        </div>
 
 	                        <div id="details_home">
 	                            <p>Delivery:</p><h4>June 7th, 2015</h4>
 	                            <ul>
-	                                <li></li>
-	                                <li></li>
-	                                <li></li>
+	                                <li>
+	                                	<img src="img/icons/other.svg" class="icon-circle" alt="">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/money.svg" class="icon-circle" alt="">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/xs.svg" class="icon-circle" alt="">
+	                                </li>
 	                            </ul>
 	                        </div>
 	                        <div class="clear"></div>
@@ -196,7 +220,7 @@ include('includes/header.php');
 	                    <div id="basic_info_home">
 	                        <ul>
 	                            <!-- <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> -->
-	                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
+	                            <li><h3 class="">Beans of Costa Rica</h3></li>
 	                            <!--<li><p>*3</p></li>-->
 	                        </ul>					
 	                    </div>
@@ -204,17 +228,23 @@ include('includes/header.php');
 	                    <div class="display_block">
 
 	                        <div id="destination_home">
-	                            <p>From:</p><h4>Italy</h4>
+	                            <p>From:</p><h4>Liberia</h4>
 	                            <br>
-	                            <p>To:</p><h4>Dublin</h4>
+	                            <p>To:</p><h4>Rome</h4>
 	                        </div>
 
 	                        <div id="details_home">
 	                            <p>Delivery:</p><h4>June 7th, 2015</h4>
 	                            <ul>
-	                                <li></li>
-	                                <li></li>
-	                                <li></li>
+	                                <li>
+	                                	<img src="img/icons/food.svg" class="icon-circle" alt="Food">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/money.svg" class="icon-circle" alt="Money">
+	                                </li>
+	                                <li>
+	                                	<img src="img/icons/m.svg" class="icon-circle" alt="Medium">
+	                                </li>
 	                            </ul>
 	                        </div>
 	                        <div class="clear"></div>
@@ -256,7 +286,7 @@ include('includes/header.php');
 	                    <div id="basic_info_home">
 	                        <ul>
 	                            <!-- <li><a href="user_profile.php"><img class="user-pic" src="img/users_pic/user_1_xs.jpg" alt="user_1"></a></li> -->
-	                            <li><h3 class="">Pecorino Romano Cheese</h3></li>
+	                            <li><h3 class="">Indigo leather jacket</h3></li>
 	                            <!--<li><p>*3</p></li>-->
 	                        </ul>					
 	                    </div>
@@ -264,17 +294,23 @@ include('includes/header.php');
 	                    <div class="display_block">
 
 	                        <div id="destination_home">
-	                            <p>From:</p><h4>Italy</h4>
+	                            <p>From:</p><h4>Buenos Aires</h4>
 	                            <br>
-	                            <p>To:</p><h4>Dublin</h4>
+	                            <p>To:</p><h4>Bilbao</h4>
 	                        </div>
 
 	                        <div id="details_home">
 	                            <p>Delivery:</p><h4>June 7th, 2015</h4>
 	                            <ul>
-	                                <li></li>
-	                                <li></li>
-	                                <li></li>
+	                                <li>
+	                                	<img src="" alt="">
+	                                </li>
+	                                <li>
+	                                	<img src="" alt="">
+	                                </li>
+	                                <li>
+	                                	<img src="" alt="">
+	                                </li>
 	                            </ul>
 	                        </div>
 	                        <div class="clear"></div>
@@ -335,9 +371,9 @@ include('includes/header.php');
 	                        <div id="details_home">
 	                            <p>Delivery:</p><h4>June 7th, 2015</h4>
 	                            <ul>
-	                                <li></li>
-	                                <li></li>
-	                                <li></li>
+	                                <li class="icon-circle"></li>
+	                                <li class="icon-circle"></li>
+	                                <li class="icon-circle"></li>
 	                            </ul>
 	                        </div>
 	                        <div class="clear"></div>

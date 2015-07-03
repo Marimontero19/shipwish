@@ -669,15 +669,19 @@ footer {
 }
 
 .ui-menu .ui-menu-item {
-  position: relative;
-  margin: 0;
-    padding: 8px 0;
-  
-  cursor: pointer;
-  min-height: 0;
-    text-align: center;
-  /* support: IE7; */
-  /* support: IE10, see #8844; */
+position: relative;
+margin: 0;
+padding: 8px 0;
+cursor: pointer;
+min-height: 0;
+text-align: center;
+/*support: IE7;*/
+/*support: IE10, see #8844;*/
+color:#737373 ;
+}
+
+.ui-state-focus {
+ color:#525252 ;
 }
 
 /* SOCIAL */
@@ -801,6 +805,9 @@ footer {
   font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
   appearance:none;
   -webkit-appearance:none;
+  background-image: url('../img/icons/dropdown.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 /*
