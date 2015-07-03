@@ -87,10 +87,7 @@ include('includes/header.php');
                                         <select id="filter_details" class="select">
                                             <option value="*" selected="selected">Reward</option>
                                             <option value=".money">Money</option>
-                                            <option value=".airporttransfer">Airport Transfer</option>
-                                            <option value=".touristday">Tourist Day</option>
-                                            <option value=".gift">Gift</option>  
-                                            <option value=".meal">Meal</option>
+                                            <option value=".volunteer">Volunteer</option>
                                         </select> 
                                         
                                        <input type="reset" value="Clear filters" class="clear_filter" />

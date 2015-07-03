@@ -93,7 +93,7 @@ include('includes/header.php');
                                         <label for="cost-product">Cost of product</label>
                                     </li>
                                     <li>
-                                        <select name="cost-product" id="cost-product">
+                                        <select name="cost-product"  class="select-jquery">
                                             <option value="5" selected="selected">5</option>
                                             <option value="10">10</option>
                                             <option value="20">20</option>
@@ -104,7 +104,7 @@ include('includes/header.php');
                                     </li>
 
                                     <li>
-                                        <select name="currency-product" id="currency-product">
+                                        <select name="currency-product" class="select-jquery">
                                             <option value="EUR" selected="selected">EUR</option>
                                             <option value="USD">USD</option>
                                             <option value="GBP">GBP</option>
@@ -118,7 +118,7 @@ include('includes/header.php');
                                     </li>
 
                                     <li>
-                                        <select name="money-reward" id="money-reward">
+                                        <select name="money-reward" class="select-jquery">
                                             <option selected="selected" value="5">5</option>
                                             <option value="10">10</option>
                                             <option value="20">20</option>
@@ -129,7 +129,7 @@ include('includes/header.php');
                                     </li>  
 
                                     <li>
-                                        <select name="currency-reward" id="currency-reward">
+                                        <select name="currency-reward" class="select-jquery">
                                             <option selected="selected" value="EUR">EUR</option>
                                             <option value="USD">USD</option>
                                             <option value="GBP">GBP</option>

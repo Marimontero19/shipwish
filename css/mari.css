@@ -244,6 +244,9 @@
    font-size: 16px;
    font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
    border-bottom: 1.5px solid #6C6C6C;
+   background-image: url('../img/icons/dropdown.svg');
+   background-repeat: no-repeat;
+   background-position: right center;
 }
 
 .board_date ::-webkit-input-placeholder{
@@ -268,7 +271,9 @@
    -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none;
-   background-image: url(img/icons/dropdown.svg);
+   background-image: url('../img/icons/dropdown.svg');
+   background-repeat: no-repeat;
+   background-position: right center;
 } 
 
 #filters select:focus {
@@ -2129,10 +2134,7 @@ img.ui-datepicker-trigger {
   	  top: 15px;
 }
 
-/*#date-icon{
-	background: white url(img/icons/calendar.svg) left no-repeat;
-	padding-left: 17px;
-}*/
+
 
 #negociation-form button input[type='submit']{
 	float:right;
@@ -2268,29 +2270,68 @@ img.ui-datepicker-trigger {
 
 }
 
-/*final*/
 
-
-#costs-currency select{
-   color:#6C6C6C;
-   margin: 10px;
-   width: 60px;
-   padding: 5px 20px 5px 5px;
-   font-size: 16px;
-   font-family: 'AndesRounded-Light',Helvetica, Arial, sans-serif;
-   border: 1px solid #D0D0D0;
-   border-radius: 4px;
-   height: 34px;
-   background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat right #fff;
-   -webkit-appearance: none;
-   background-position-x: 38px;
-} 
-
-#costs-currency select:focus {
-	box-shadow: 0px;
-	outline-color: transparent;
-  	outline-style: none;
+#costs-currency .ui-selectmenu-button {
+    line-height: 1;
+    border: 1px solid #D0D0D0;
+    padding: 5px 70px 5px 20px;
+    border-radius: 7px;  
+    font-size: 1em;
+    background: url('../img/icons/dropdown-blue.svg') right center no-repeat;
+    background-color: #ffffff;
+    width: 100px;
+        margin: 20px 10px;
+    display: inline-block;
 }
+
+#costs-currency .ui-selectmenu-text {
+    color: #737373;
+    font-family: 'AndesRounded-Book';
+    line-height: 1.5;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/* OPEN CONTAINER DROPDOWN (ul) */
+#costs-currency .ui-menu {
+    position: relative;
+    margin: 8px auto 0 auto;
+    cursor: pointer;
+    min-height: 0;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #E9E9E9;
+    width: 100px !important;
+    /* support: IE7; */
+    /* support: IE10, see #8844; */
+  }
+
+#costs-currency .ui-selectmenu-menu {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index:9999;
+}
+
+/* OVERFLOW UL */
+
+#costs-currency .ui-selectmenu-menu .ui-menu {
+  overflow: auto;
+  /* Support: IE7; */
+  overflow-x: hidden;  
+}
+
+#costs-currency .ui-state-focus {
+  outline: none;
+ }
+
+#costs-currency .ui-selectmenu-open {
+  display: block;
+}
+/*final*/
 
 .send{
 	background-color: #00B2BE;
