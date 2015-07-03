@@ -459,7 +459,7 @@ button{
 	#wish_trips  li:nth-child(2){
 		margin-right: 0;
 		margin-left: 0;
-
+		font-size: 1em;
 	}
 
 	#wish-description-home{
@@ -809,7 +809,13 @@ button{
 	#traveler_trips li:nth-child(2){
 		margin-right: 0;
 		margin-left: 0;
+		font-size: 1em;
+	}
 
+	#traveler_trips li:nth-child(1){
+		margin-right: 0;
+		margin-left: 0;
+		font-size: 1em;
 	}
 
 	.stella  {
