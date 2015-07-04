@@ -94,14 +94,34 @@ include('includes/header.php');
 	<div class="box-container">
 
 	    <h4>Confirm that you understand and agree with the terms of the deal</h4>
-	    <input type="text" placeholder="Full Name">
-	    <input type="email" placeholder="Email">
-	    <input type="password" placeholder="Password">
-	    
-	    <input type="checkbox" name="vehicle" value="Bike">
-	    <label>I accept the Terms and Conditions</label>
 
-	    <a href="product-chat-2.php"><input type="submit" value="Sign Up"></a>
+	    <p class="box-title">Product</p>
+	    <p class="product-name">Pecorino Romano Cheese</p>
+
+		<p class="box-title">Delivery</p>
+	    <p class="delivery-info-box">June 7th, 2015</p>
+
+	    <p class="box-title">Costs</p>
+	    <p class="delivery-info-box">Reward  $12</p>
+
+	    <p class="extras-info">Cost of the product: $8</p>
+	    <p class="extras-info">Total inversion in this deal: $20</p>
+	    <p class="extras-info">Shipwish comission (3%): $0.60</p>
+
+	    <p class="total-info-box">Total cost of the deal: $20.60</p>
+
+	    <p class="legal-box">Shipwish will charge this money to the account you provided.<br>Shipwish will retain this money until the traveler has completed the delivery.</p>
+
+	    <div id="buttons-process">
+
+			<a href="#small-dialog" class="popup-with-move-anim final-btn-box"><button style="background-color:#F9A41A; max-width:400px;" >Accept and seal deal</button></a>
+
+			<div id="cancel-start">
+				<p><a href="wish_board.php">Cancel Deal</a></p>
+				<p><a href="product-negociation.php">Start Negociation</a></p>
+			</div>
+
+		</div>
 
     </div>
 

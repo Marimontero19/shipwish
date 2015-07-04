@@ -143,8 +143,8 @@
 
 			    	<form action="">
 						
-				    	<input type="search" placeholder="What do you crave for?" class="search-input-landing grid_6_1200 grid_4_1024 grid_4_768 grid_6_320 push_2_1200 push_1_1024 push_0_768">
-				    	<input type="submit" value="GET IT!" class="search-submit-landing grid_2_1200 grid_3_1024 grid_4_768 grid_6_320 push_2_1200 push_1_1024 push_0_768">
+				    	<input type="search" placeholder="What do you crave for?" class="search-input-landing grid_6_1200 grid_4_1024 grid_5_768 grid_6_320 push_2_1200 push_1_1024 push_0_768">
+				    	<input type="submit" value="GET IT!" class="search-submit-landing grid_2_1200 grid_3_1024 grid_2_768 grid_6_320 push_2_1200 push_1_1024 push_0_768">
 
 					</form>
 				
@@ -229,7 +229,7 @@
 
 				    <div class="grid_3_1200 grid_2_1024 grid_4_768 grid_6_320">
 				    	<img src="img/landing_pic/wish-3.png">
-				    	<h5>3. Stay conected</h5>
+				    	<h5>3. Stay connected</h5>
 				    	<p>Talk to the wisher anytime,<br> anywhere</p>
 				    </div>
 
@@ -345,7 +345,7 @@
 	<div class="main-container">
 		<div class="container_12 container_10 container_8 container_6">
 
-			<a href="#small-dialog" class="wish-cta popup-with-move-anim grid_4_1200 grid_5_1024 grid_4_768 grid_6_320 push_2_1200">POST YOUR WISH</a>
+			<a href="create_wish.php" class="wish-cta popup-with-move-anim grid_4_1200 grid_5_1024 grid_4_768 grid_6_320 push_2_1200">POST YOUR WISH</a>
 			<a href="#small-dialog" class="trip-cta popup-with-move-anim grid_4_1200 grid_5_1024 grid_4_768 grid_6_320 push_2_1200">BECOME A TRAVELER</a>
 			
 		</div>

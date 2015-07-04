@@ -328,6 +328,58 @@ h4.text-tab {
 /* POPUP
 ----------------------------------------------------------------------------------------*/
 
+/* Product Chat Box*/
+
+.box-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.box-container h4 {
+  font-size: 1.37em;
+}
+
+.box-container p {
+  text-align: left;
+}
+
+.box-container .product-name {
+  color: #0E777F;
+  font-size: 1.5em;
+}
+
+.box-title {
+  color: #BEC9C9;
+  margin: 15px 0px;
+  font-size: 1.250em;
+}
+
+.delivery-info-box {
+  color: #0E777F;
+  font-size: 1.250em;
+}
+
+.extras-info {
+  color: #737373;
+  margin: 10px 0px;
+}
+
+.extras-info:last-of-type{
+  margin: 15px 0px;
+}
+
+.total-info-box {
+  color: #0E777F;
+  font-size: 1.5em;
+  margin: 20px 0px 15px 0px;
+}
+
+.legal-box {
+  color: #8D8D8D;
+  font-size: 0.875em;
+  line-height: 150%;
+}
+
 /* Styles for dialog window */
 #small-dialog {
   background: white;
@@ -344,11 +396,6 @@ h4.text-tab {
   background: #00B2BE;
   padding: 20px 0px;
   border-radius: 5px 5px 0px 0px;
-}
-
-.box-container {
-  width: 85%;
-  margin: 0 auto;
 }
 
 #small-dialog .large-box {
@@ -927,10 +974,10 @@ color:#737373 ;
   .about-section span {
     padding-right: 0px;
   }
-
+  
   .post-it-btn {
     width: 40%;
-    
+    margin: 40px 5px;
   }
   
 }
@@ -972,9 +1019,13 @@ color:#737373 ;
     margin-right: 0px;
   }
   
+  .post-it-btn {
+    margin: 20px 0px;
+  }
   
   input[type=submit].search-submit-landing {
-    margin-bottom: 20px;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
   }
   
   .post-it-btn {
