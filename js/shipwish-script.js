@@ -73,10 +73,10 @@ $(document).ready(function(){
     });
 });
 
-
-( function( $ ) {
+/*
 $( document ).ready(function() {
     $('.user-tools').on('click', function(){
+
         var menu = $(this).next('ul');
         if (menu.hasClass('open')) {
             menu.removeClass('open');
@@ -86,7 +86,7 @@ $( document ).ready(function() {
         }
     });
 });
-} )( jQuery );
+*/
 
 
 
