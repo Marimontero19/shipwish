@@ -20,12 +20,12 @@ include('includes/header.php');
 
                         <li>
                             <img src="img/icons/wishes.svg" alt="Wishes">
-                            <a href="#" alt="Wish Board">Wishes</a>
+                            <a href="#" alt="Wishes">Wishes</a>
                         </li>
 
                           <li>
                             <img src="img/icons/trips.svg" alt="trips">
-                            <a href="trip_board.php" alt="Trips Board">Trips</a>
+                            <a href="trip_board.php" alt="Trips">Trips</a>
                         </li>
                     </ul>
                 </div>

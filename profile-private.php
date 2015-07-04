@@ -70,9 +70,9 @@ include('includes/header.php');
                         <div id="details_home">
                             <p>Delivery:</p><h4>June 7th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
-                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Food"></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Volunteer"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -109,9 +109,9 @@ include('includes/header.php');
                         <div id="details_home">
                             <p>Delivery:</p><h4>July 30th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"></li>
-                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
-                                <li><img src="img/icons/l.svg" class="icon-circle" alt="large"></li>
+                                <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion" title="Fashion"></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
+                                <li><img src="img/icons/l.svg" class="icon-circle" alt="large" title="Large aproximate size: 40 x 50 cm"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -147,9 +147,9 @@ include('includes/header.php');
                         <div id="details_home">
                             <p>Delivery:</p><h4>Agos. 2th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food"></li>
-                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium"></li>
+                                <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Food"></li>
+                                <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -280,8 +280,8 @@ include('includes/header.php');
                         <div id="details_home">
                             <p>Delivery:</p><h4>July 20th, 2015</h4>
                             <ul>
-                                <li><img src="img/icons/plane.svg" alt="plane"></li>
-                                <li><img src="img/icons/m.svg"  alt="medium"></li>
+                                <li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
+                                <li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>

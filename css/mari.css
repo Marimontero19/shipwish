@@ -174,14 +174,19 @@
 
 
 .input-trips {
-	width: 30%; /*285px*/
+	width: 25%; /*285px*/
 	height: 30px;
-	padding: 10px;
+	padding: 10px 10px 10px 40px;
 	border-radius: 5px;
 	border: 1.5px solid #E9E9E9;
 	margin-right:8px;
 	color: #909090;
+	background-image: url('../img/icons/location4.svg');
+   background-repeat: no-repeat;
+   background-position: left center;
 }
+
+
 
 .input-trips:focus {
 	border: 2px solid #00B2BE;
@@ -456,7 +461,17 @@ button{
 		display:none;
 	}
 
+	#wish_trips li{
+		display:list-item;
+	}
+
 	#wish_trips  li:nth-child(2){
+		margin-right: 0;
+		margin-left: 0;
+		font-size: 1em;
+	}
+
+	#wish_trips li:nth-child(3){
 		margin-right: 0;
 		margin-left: 0;
 		font-size: 1em;
@@ -1073,6 +1088,11 @@ button{
 	margin-bottom: 5px;
 	margin-top: 10px;
 	text-transform: uppercase;
+}
+
+#actions li:nth-child(1) button a:hover  {
+	background-color:#F9A41A;
+
 }
 
 #actions li:nth-child(2) button {
