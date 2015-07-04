@@ -1735,6 +1735,10 @@ textarea:focus{
 	 .chat-general-info {
          padding-bottom:3%;   
     }
+
+    .deal-info{
+    	text-align: center;
+    }
 }
 
 
@@ -1742,6 +1746,10 @@ textarea:focus{
 
 	  .chat-general-info {
          padding-bottom:2%;   
+    }
+
+    .deal-info{
+    	text-align: center;
     }
 
 }
@@ -2081,8 +2089,9 @@ textarea:focus{
 
 #intro-check{
 	width: 100%;
-  	margin: 0 !important;
 	background-color: #00B2BE;
+	margin:0 !important;
+	  overflow: hidden;
 }
 
 #delivery-check{
@@ -2381,7 +2390,7 @@ img.ui-datepicker-trigger {
 .negociation-info {
   background-color: white;
   padding-bottom: 33% ;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   width: 40%;
 }
 
@@ -2403,6 +2412,42 @@ img.ui-datepicker-trigger {
     		position:absolute;
     		top:-1000px;
 		}
+
+		.negociation-info {
+
+  		padding-bottom: 0 ;
+
+		}
+
+}
+
+@media only screen and (min-width : 660px) and (max-width : 870px) {
+
+	.negociation-info {
+
+  		padding-bottom: 0 ;
+
+		}
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 660px) {
+
+	.negociation-info {
+
+  		padding-bottom: 0 ;
+
+		}
+
+}
+
+@media only screen and (min-width : 870px) and (max-width : 1024px) {
+
+		.negociation-info {
+
+  		padding-bottom: 0 ;
+		}
+
 
 }
 
