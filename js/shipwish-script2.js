@@ -70,10 +70,21 @@ $(document).ready (function(){
           $(".drop3").toggle();
       });
 
+      //Drop down chats en mobile tab
+
+      $(".drop-info").hide();
+      $("#drop-info").click(function(e){
+          $(".drop-info").toggle();
+      });
+
 });
 
+$(document).ready (
 
-
+    $(function() {
+        $( "#accordion" ).accordion();
+      });
+  });
 
 
 

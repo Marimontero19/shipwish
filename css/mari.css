@@ -455,26 +455,33 @@ button{
 	.triangle-down{
 		display:none;
 	}
+	
+	#wish_trips{
+	  padding: 10px 0;
+	  height: 100px;
+	}
 
+
+	#wish_trips li{
+		display:inline-block;
+	}
 
 	#wish_trips li button{
 		display:none;
-	}
-
-	#wish_trips li{
-		display:list-item;
 	}
 
 	#wish_trips  li:nth-child(2){
 		margin-right: 0;
 		margin-left: 0;
 		font-size: 1em;
+		float:left;
 	}
 
 	#wish_trips li:nth-child(3){
 		margin-right: 0;
 		margin-left: 0;
 		font-size: 1em;
+		float:left;
 	}
 
 	#wish-description-home{
@@ -895,7 +902,7 @@ button{
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 		    	
 	#actions-travel li:nth-child(1) button {
-  		width: 300px;
+  		width: 275px;
   		margin-top: 24px;
 	}
 
@@ -908,7 +915,7 @@ button{
 	}
 
 	#actions-travel li:nth-child(2) {
-  		width: 300px;
+  		width: 275px;
   		text-align: center;
 	}
 
@@ -1323,7 +1330,7 @@ button{
 		#actions li:nth-child(1) button{
 			
 			margin-top: 20px; 
-			width: 300px;
+			width: 275px;
 		}
 
 		#actions li:nth-child(2) button{
@@ -1607,7 +1614,7 @@ button{
 		}
 
 		#actions-user li:nth-child(2) button{
-			width: 300px;
+			width: 275px;
 			float:left;
 			margin-top: 10px;
 		}
