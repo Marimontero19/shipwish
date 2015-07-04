@@ -151,13 +151,47 @@
                     <a href="wish_board.php"> Shipwish </a>
                 </h1>
 
-                <div class="user-tools grid_2_1200 grid_2_1024 grid_3_768 grid_3_320">
+                <div class="user-tools grid_2_1200 grid_2_1024 grid_3_768 grid_4_320">
                     
                    <ul>
                         <li>
                             <a href="profile-private.php" target="">
                                 <img src="img/icons/user.svg" alt="user">
                             </a>
+                            <!-- DROPDOWN -->
+                            <ul class="dropdown-user">
+                            	<li>
+                            		<a href="" target="_self">
+                            			Profile
+									</a>
+                            	</li>
+                            	<li>
+                            		<a href="" target="_self">
+                            			Settings
+									</a>
+                            	</li>
+                            	<li>
+                            	    <a href="" target="_self">
+                            			My Wishes
+									</a>
+                            	</li>
+                            	<li>
+                            	    <a href="" target="_self">
+                            			My Trips
+									</a>
+                            	</li>
+                            	<li>
+                            	    <a href="" target="_self">
+                            			Watchlists
+									</a>                            	
+                            	</li>
+                            	<li>
+                            		<a href="" target="_self">
+                            			Logout
+									</a>
+
+                            	</li>
+                            </ul>
                         </li>
                         <li>
                             <a href="" target="">

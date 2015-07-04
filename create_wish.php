@@ -236,7 +236,7 @@ include('includes/header.php');
 						</div>
 			
 						<!--<input type="button" name="previous" class="previous action-button" value="Previous" />-->
-						<input type="button" name="submit" id="third_button" class="submit end-btn action-button" value="Preview & Publish" />
+						<input type="button" name="submit" onclick="location.href='product.php';" id="third_button" class="submit end-btn action-button" value="Publish" />
 						<div class="clear"></div>
 					</fieldset>
 				<div class="clear"></div>

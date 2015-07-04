@@ -196,6 +196,23 @@ header h1 a {
     color: transparent;
 }
 
+.dropdown-user {
+  display:none;
+  width: 200px;
+  border-radius: 6px;
+  border: 1px solid #94A4AD;
+  background-color: #ffffff;
+}
+
+.dropdown-user li {
+  width: 100%;
+  height: 40px;
+
+}
+
+
+
+
 /* PICTURES MASK CIRCLE
 ----------------------------------------------------------------------------------------*/
 
@@ -218,7 +235,7 @@ header h1 a {
 
 .user-general-info {
     background-color: white;
-    padding-bottom: 70%;
+    padding-bottom: 100%;
 }
 
 .user-info {
@@ -523,9 +540,10 @@ header h1 a {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 2px solid #C8C8C8;
     margin: 0 auto;
     position: relative;
+    background: url('../img/icons/new.svg') center center no-repeat;
+    
 }
 
 .create_card h3 {
@@ -961,14 +979,25 @@ input[type='submit'] {
   border-radius: 50%;
 }
 
+.ask {
+  background:url('../img/icons/questionmark-white.svg') center center no-repeat;
+  background-color:#CECECE;
+    background-size: 180%;
+}
+
+.verified {
+  background:url('../img/icons/verification2.svg') center center no-repeat;
+  background-color:#00B2BE;
+}
+
 .verification-data input {
   width: 95%;
   height: 40px;
   border: none;
   margin: 20px 0 0;
   border-radius: 6px;
-    background-color: #00B2BE;
-    color: #ffffff;
+  background-color: #00B2BE;
+  color: #ffffff;
 }
 
 /*************** Create_wish.php ***************/
@@ -1825,7 +1854,7 @@ fieldset h3 {
 
 /* ------------ TOOLTIP ------------- */
 
- .ui-tooltip, .arrow:after {
+ .ui-tooltip, .arrow-tooltip:after {
     background-color: #2C353A;
   }
   .ui-tooltip {
@@ -1840,7 +1869,7 @@ fieldset h3 {
     position: absolute;
     z-index: 9999;
   }
-  .arrow {
+  .arrow-tooltip {
     width: 15px;
     height: 15px;
     overflow: hidden;
@@ -1895,10 +1924,10 @@ fieldset h3 {
 @media all and (max-width:1199px) {
   
 
-  .finish-editing-profile {
-    background: url('../img/icons/goback.svg') 10px center no-repeat;
-  background-color: #C8C8C8;
-    appearance: none !important;
+.finish-editing-profile {
+  background: url('../img/icons/goback.svg') 10px center no-repeat;
+  background-color: transparent;
+  appearance: none !important;
   border: none;
   height: 60px;
   width: 66.5%;
@@ -1906,7 +1935,7 @@ fieldset h3 {
   padding: 0 0 0 60px;
   font-family: 'AndesRounded-Regular';
   font-size: 1.250em;
-  color: #fff;
+  color: #00B2BE;
   float: left;
   position: relative;
   top: inherit;

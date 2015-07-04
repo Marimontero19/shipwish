@@ -64,7 +64,7 @@ $(document).ready(function(){
             using: function( position, feedback ) {
               $( this ).css( position );
               $( "<div>" )
-                .addClass( "arrow" )
+                .addClass( "arrow-tooltip" )
                 .appendTo( this );
             },
           track: true
@@ -72,6 +72,22 @@ $(document).ready(function(){
         });
     });
 });
+
+
+( function( $ ) {
+$( document ).ready(function() {
+    $('.user-tools').on('click', function(){
+        var menu = $(this).next('ul');
+        if (menu.hasClass('open')) {
+            menu.removeClass('open');
+        }
+        else {
+            menu.addClass('open');
+        }
+    });
+});
+} )( jQuery );
+
 
 
 /*

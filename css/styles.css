@@ -83,22 +83,21 @@ button:focus {
 
 .ui-selectmenu-button {
     line-height: 1;
-    border: 1px solid #979797;
+    border: none;
     padding: 20px 50px 8px 20px;
     border-radius: 7px;  
-    font-size: 1em;
-    background: url('../img/icons/dropdown.svg') right center no-repeat;
-    background-color: #ffffff;
+    /*background: url('../img/icons/dropdown.svg') right center no-repeat; */
+    background-color: transparent;
     width: 100px;
     margin: 0 10px;
 }
 
 .ui-selectmenu-text {
-    color: #737373;
-    font-family: 'AndesRounded-Book';
+    color: #ffffff;
+    font-family: 'AndesRounded-light';
     line-height: 1.5;
-    font-size: 1.625em;
-    text-align: center;
+    font-size: 1em;
+    text-align: left;
 }
 
 /* OPEN CONTAINER DROPDOWN (ul) */
