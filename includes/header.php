@@ -129,6 +129,7 @@
 	<body<?php 
 		if (strpos($_SERVER['PHP_SELF'],'product-chat.php')>0 
 			or strpos($_SERVER['PHP_SELF'],'product-chat-1.php')>0
+			or strpos($_SERVER['PHP_SELF'],'product-chat-2.php')>0
 			or strpos($_SERVER['PHP_SELF'],'product-negociation.php')>0
 			or strpos($_SERVER['PHP_SELF'],'product-negociation-2.php')>0
 			or strpos($_SERVER['PHP_SELF'],'product-negociation-3.php')>0

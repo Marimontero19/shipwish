@@ -21,7 +21,7 @@ include('includes/header.php');
 		<!-- USER COMPLEMENTARY COLUMN -->
 
 
-		<section id="chat-product" class="grid_10_1024 ">
+		<section id="chat-product">
 
 			<div id="icon" class="grid_1_1200 grid_1_1024 grid_1_768 grid_1_320">
 				<div class="title">
@@ -29,7 +29,7 @@ include('includes/header.php');
 				</div>
 			</div>
 
-			<div id="chat" class="grid_6_1200 grid_6_1024 grid_7_768 grid_6_320">
+			<div id="chat" class="grid_6_1200 grid_5_1024 grid_7_768 push_0_768 grid_6_320 push_0_320">
 				<div class="title" >
 					<h2>Chat with August Sabadini</h2>
 				</div>

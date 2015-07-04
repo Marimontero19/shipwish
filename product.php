@@ -168,7 +168,7 @@ the characteristics of your trip, feel free to ask!</p>
 		</article>		
 	</div>
 </div>
-		<div id="recomendations" style="background-color:red;">
+		<div id="recomendations">
 			<div class="clear"></div>
 			<div class="main-container" class="full-width-gray">
 				<div class="container_12 container_10 container_8 container_6">		

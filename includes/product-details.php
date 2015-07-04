@@ -1,4 +1,4 @@
-		<section class="chat-general-info grid_4_1200 grid_4_1024 grid_8_768 grid_6_320">
+		<section class="chat-general-info grid_4_1200 grid_3_1024 grid_8_768 grid_6_320">
 		<!--<section class="chat-general-info grid_5_1200 grid_12_1024 grid_12_768 grid_12_320">-->
         			
 			<!-- PRODUCT INFO STARTS -->

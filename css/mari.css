@@ -1768,7 +1768,6 @@ textarea:focus{
 
 	#chat-product {
   		margin-top: -25px;
-  		margin-bottom: 40px;
 	}
 
 }
@@ -2076,6 +2075,38 @@ textarea:focus{
 			}
 
 }
+
+
+/*************** product-chat-2.php ***************/
+
+#intro-check{
+	width: 100%;
+  	margin: 0 !important;
+	background-color: #00B2BE;
+}
+
+#delivery-check{
+	background-color: #00B2BE;
+	color:#ffffff;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#delivery-check li{
+	display:inline-block;
+}
+
+#delivery-check li img{
+	vertical-align: middle;
+	width:30px;
+	height:30px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+
 
 /*************** product-negociation.php ***************/
 
