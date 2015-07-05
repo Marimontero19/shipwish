@@ -1662,8 +1662,8 @@ button{
 .chat-general-info {
   background-color: white;
   padding-bottom:50% ;
-  /*100%*/
-  margin: 0 auto;
+  /*100%
+  margin: 0 auto;*/
   width: 40%;
 }
 
@@ -1755,6 +1755,10 @@ textarea:focus{
 	display:inline-block;
 }
 
+.last-chat-margin{
+	margin-bottom: 40px;
+}
+
 
 /*Tablet*/
 
@@ -1803,7 +1807,7 @@ textarea:focus{
 	}
 
 	#chat-product {
-  		margin-top: -25px;
+  		/*margin-top: -25px;*/
 	}
 
 }
@@ -2445,6 +2449,10 @@ img.ui-datepicker-trigger {
 
   		padding-bottom: 0 ;
 
+		}
+
+		#costs-currency .ui-selectmenu-button {	
+        	margin: 20px 0px;
 		}
 
 }

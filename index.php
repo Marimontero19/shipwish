@@ -345,7 +345,7 @@
 	<div class="main-container">
 		<div class="container_12 container_10 container_8 container_6">
 
-			<a href="create_wish.php" class="wish-cta popup-with-move-anim grid_4_1200 grid_5_1024 grid_4_768 grid_6_320 push_2_1200">POST YOUR WISH</a>
+			<a href="create_wish.php" class="wish-cta grid_4_1200 grid_5_1024 grid_4_768 grid_6_320 push_2_1200">POST YOUR WISH</a>
 			<a href="#small-dialog" class="trip-cta popup-with-move-anim grid_4_1200 grid_5_1024 grid_4_768 grid_6_320 push_2_1200">BECOME A TRAVELER</a>
 			
 		</div>

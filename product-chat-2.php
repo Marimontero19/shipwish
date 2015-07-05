@@ -81,7 +81,7 @@ include('includes/header.php');
 	    				</div>
 	    			</li>
 
-	    			<li class="comment-2">
+	    			<li class="comment-2 last-chat-margin">
 	    				<div class="comment-user-photo-2">
 	    					<a href=""><img src="img/users_pic/user_9_xs.jpg" class="user-pic" alt="user-9"></a>
 	    				</div>

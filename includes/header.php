@@ -6,7 +6,7 @@
 
 	$userinfo = array(
 	                'ana'=>'123',
-	                'fulanito'=>'123'
+	                'camilo'=>'123'
 	                );
 
 	if(isset($_GET['logout'])) {
@@ -36,18 +36,16 @@
     	$reveal_follow = 'nowFollowing';
     endif;
 
-
-	//Other starting variables
+    	//Other starting variables
 	$logo_url = 'img/';
 	$topbar_class = '';
 
 	if ($page=='home') {
-		$logo_url = $logo_url.'logo-tizo-blanco-alt.svg';
+		$logo_url = $logo_url.'.svg';
 		$topbar_class = ' class="home"';
 
 	} else {
-		$logo_url = $logo_url.'logo-tizo-verde.svg';
-
+		$logo_url = $logo_url.'.svg';
 
 	}
 

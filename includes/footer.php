@@ -84,44 +84,6 @@
     </body>
 </html>
 
-    <!-- <script>
-		<?php include('includes/collaborate-form.php'); ?>
-		<?php include('includes/follow-project.php'); ?>
-		<?php include('includes/login-to-use.php'); ?>
 
 
 
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/foundation.min.js"></script>
-		<script src="js/foundation/foundation.equalizer.js"></script>
-		<script src="js/foundation/foundation.joyride.js"></script>
-		<script src="js/vendor/jquery.cookie.js"></script>
-		<script>
-			$(document).foundation({
-				equalizer : {
-					// Specify if Equalizer should make elements equal height once they become stacked.
-				    equalize_on_stack: false
-				}
-			});
-		</script>
-
-		<script src="js/tizo.js">
-    </script>-->
-
-		<!--Carousel Slick
-		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-		<script type="text/javascript" src="js/librerias/slick/slick.min.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/slick-settings.js"></script>-->
-
-
-		<!--<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-59417918-1', 'auto');
-		  ga('send', 'pageview');
-
-		</script>-->
