@@ -95,6 +95,7 @@
 		<link rel="stylesheet" href="css/mari.css">
 		<link rel="stylesheet" href="css/camilo.css">
 		<link rel="stylesheet" href="css/orlando.css">
+		<link rel="stylesheet" href="css/animate.css">
 
 		<link rel="stylesheet" href="js/popup/magnific-popup.css"> <!-- Lo he dejado aquí mientras tanto-->
 		
@@ -153,38 +154,38 @@
                     
                    <ul>
                         <li>
-                            <a href="profile-private.php" target="">
+                            <a class="button-dropdown-user" target="">
                                 <img src="img/icons/user.svg" alt="user">
                             </a>
                             <!-- DROPDOWN -->
-                            <ul class="dropdown-user">
+                            <ul class="dropdown-user animated fadeIn">
                             	<li>
-                            		<a href="" target="_self">
+                            		<a href="profile-private.php" target="_self">
                             			Profile
 									</a>
                             	</li>
                             	<li>
-                            		<a href="" target="_self">
+                            		<a href="settings.php" target="_self">
                             			Settings
 									</a>
                             	</li>
                             	<li>
-                            	    <a href="" target="_self">
+                            	    <a href="user-summary.php" target="_self">
                             			My Wishes
 									</a>
                             	</li>
                             	<li>
-                            	    <a href="" target="_self">
+                            	    <a href="user-summary.php" target="_self">
                             			My Trips
 									</a>
                             	</li>
                             	<li>
-                            	    <a href="" target="_self">
+                            	    <a href="user-summary.php" target="_self">
                             			Watchlists
 									</a>                            	
                             	</li>
                             	<li>
-                            		<a href="" target="_self">
+                            		<a href="index.php" target="_self">
                             			Logout
 									</a>
 

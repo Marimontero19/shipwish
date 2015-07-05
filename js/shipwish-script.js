@@ -73,21 +73,17 @@ $(document).ready(function(){
     });
 });
 
-/*
-$( document ).ready(function() {
-    $('.user-tools').on('click', function(){
 
-        var menu = $(this).next('ul');
-        if (menu.hasClass('open')) {
-            menu.removeClass('open');
-        }
-        else {
-            menu.addClass('open');
-        }
+/* ROPDOWN V2 */
+$(document).ready(function(){
+    $( ".button-dropdown-user" ).click(function() {
+      $( ".dropdown-user" ).animate({
+        display: "block",
+        height: [ "toggle", "swing" ],
+        opacity: [ "toggle", "swing" ]
+      });
     });
 });
-*/
-
 
 
 /*
