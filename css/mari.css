@@ -440,7 +440,7 @@ button{
 
     .input-trips {
 	  margin-bottom: 8px;
-	  width: 94%;
+	  width: 85%;
 	}
 
 	#user-search input[type="submit"]{
@@ -1320,6 +1320,7 @@ button{
 
 		#actions{
 		   margin:0 auto;
+		   float:none;
 		}
 
 		#actions button {
@@ -1330,7 +1331,7 @@ button{
 		#actions li:nth-child(1) button{
 			
 			margin-top: 20px; 
-			width: 275px;
+			width: 100%;
 		}
 
 		#actions li:nth-child(2) button{

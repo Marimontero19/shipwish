@@ -114,7 +114,7 @@ include('includes/header.php');
 
 	    <div id="buttons-process">
 
-			<a href="#small-dialog" class="popup-with-move-anim final-btn-box"><button style="background-color:#F9A41A; max-width:400px;" >Accept and seal deal</button></a>
+			<a href="product-chat-2.php" class=" final-btn-box"><button style="background-color:#F9A41A; max-width:400px;">Accept and seal deal</button></a>
 
 			<div id="cancel-start">
 				<p><a href="wish_board.php">Cancel Deal</a></p>

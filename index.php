@@ -193,7 +193,7 @@
 
 				    <div class="grid_3_1200 grid_2_1024 grid_4_768 grid_6_320">
 				    	<img src="img/landing_pic/wish-3.png">
-				    	<h5>3. Stay conected</h5>
+				    	<h5>3. Stay connected</h5>
 				    	<p>Talk with the traveler anytime, anywhere</p>
 				    </div>
 
@@ -278,7 +278,7 @@
 
 					<span><img src="img/landing_pic/verified-icon.png" alt="Verified"></span>
 					<h5>Verified credentials</h5>
-					<p>Validate your credentials with your email to be in the community.</p>
+					<p>Validate your credentials with your email to join the community.</p>
 					
 				</div>
 
@@ -322,7 +322,7 @@
 		<div class="story-1 grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			<div class="story-1-img"></div>
 			<div class="text-section">
-				<p>“We are from Finland but living in Barcelona...since a long time we were looking for these typical finnish buiscuits. Thanks to Maria  now we have them!” </p>
+				<p>“We are from Finland but living in Barcelona...since a long time we were looking for these typical finnish biscuits. Thanks to Maria  now we have them!” </p>
 				<p>- Collin and Tammy</p>
 			</div>
 		</div>
@@ -330,7 +330,7 @@
 		<div class="story-2 grid_5_1200 grid_5_1024 grid_4_768 grid_6_320 push_1_1200">
 			<div class="story-2-img"></div>
 			<div class="text-section">
-				<p>“I’m from Greece but established at Barcelona for two years now. Thanks to a traveler and Shipwish, I can celebrate the summer the way I do at my homeland” .</p>
+				<p>“I’m from Greece but established in Barcelona for two years now. Thanks to a traveler and Shipwish, I can celebrate the summer the way I do at my homeland” .</p>
 				<p>- Myron</p>
 			</div>
 		</div>

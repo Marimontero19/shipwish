@@ -5,6 +5,8 @@
   background: #fff;
 }
 
+
+
 /* HEADER 
 ----------------------------------------------------------------------------------------*/
 
@@ -998,6 +1000,27 @@ color:#737373 ;
 /*Mobile*/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
   
+  /* Prueba gamberra
+  ----------------------------------------------------------------------------------------*/
+
+
+  #wish_trips {
+    overflow: hidden;
+  }
+
+
+  #wish_trips li {
+    display: inline-block;
+    float: left;
+  }
+
+  #wish_trips ul {
+    display: inline-flex;
+  }
+
+
+
+
   /* HERO */
   header h1 a {
     margin: 20px auto 0px auto;
