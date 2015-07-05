@@ -6,7 +6,7 @@ include('includes/header.php');
 
 ?>
 
-
+  <body class="animsition">
 <!-- TESTING 1200 GRID NOW -->
 <div class="main-container">
   <div class="container_12 container_10 container_8 container_6">
@@ -114,6 +114,7 @@ include('includes/header.php');
       <div class="clear">&nbsp;</div>
   </div>
 </div>
+</body>
 
     <!-- END OF TEST -->
 

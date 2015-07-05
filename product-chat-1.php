@@ -5,7 +5,7 @@ $page = '| Chat'; //Por ejemplo 'home', 'userprofile', etc
 include('includes/header.php');
 
 ?>
-
+<body class="animsition">
 <div class="main-container">
 	<div class="container_12 container_10 container_8 container_6">
         

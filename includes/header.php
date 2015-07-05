@@ -79,11 +79,13 @@
         <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="js/multistep_form.js"></script>
         <script src="js/librerias/dropzone.js"></script>
+        <script src="js/librerias/modernizr.js"></script>  
+
+        <script src="js/librerias/jquery.animsition.js"></script>        
         
         <!-- Our libraries -->
         <script src="js/shipwish-script.js"></script>
         <script src="js/shipwish-script2.js"></script>
-        <script src="js/librerias/modernizr.js"></script>
 
         <script src="js/popup/jquery.magnific-popup.js"></script>
 
@@ -96,6 +98,7 @@
 		<link rel="stylesheet" href="css/camilo.css">
 		<link rel="stylesheet" href="css/orlando.css">
 		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/animsition.css">
 
 		<link rel="stylesheet" href="js/popup/magnific-popup.css"> <!-- Lo he dejado aquí mientras tanto-->
 		

@@ -9,6 +9,7 @@ include('includes/header.php');
 <hr class="full-width-line">
 <hr class="full-width-line2">
 -->
+    <body class="animsition">
         <div id="header_wishboard">
             <div class="main-container" >
                 <div id="wish_trips" style="overflow: hidden;">

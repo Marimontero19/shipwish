@@ -5,7 +5,7 @@ $page = 'My Wishes'; //Por ejemplo 'home', 'userprofile', etc
 include('includes/header.php');
 
 ?>
-
+<body class="animsition">
 <section id="my-wishes">
 	
 	<div class="title-interior">

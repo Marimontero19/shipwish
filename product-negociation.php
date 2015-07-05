@@ -5,7 +5,7 @@ $page = '| Negociation'; //Por ejemplo 'home', 'userprofile', etc
 include('includes/header.php');
 
 ?>
-
+<body class="animsition">
 <!-- USER INFO COLUMN -->
 <div class="main-container">
 	<div class="container_12 container_10 container_8 container_6">

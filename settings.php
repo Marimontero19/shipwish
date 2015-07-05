@@ -5,7 +5,7 @@ $page = 'Settings'; //Por ejemplo 'home', 'userprofile', etc
 include('includes/header.php');
 
 ?>
-
+	<body class="animsition">
 <section id="global-settings">
 
 	<div class="title-interior">

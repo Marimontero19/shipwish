@@ -5,7 +5,7 @@ $page = 'My Trips'; //Por ejemplo 'home', 'userprofile', etc
 include('includes/header.php');
 
 ?>
-
+<body class="animsition">
 <section id="my-trips">
 	
 	<div class="title-interior">

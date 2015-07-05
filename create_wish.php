@@ -3,8 +3,12 @@
 $page = '| Create a wish'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
-
+fade-in-up-sm
 ?>
+<body
+class="animsition"
+data-animsition-in="fade-in-down"
+data-animsition-in-duration="300">
 <div class="main-container">
 
 	<div class="container_12 container_10 container_8 container_6">
@@ -266,7 +270,7 @@ include('includes/header.php');
 </div>
 
 <!-- FOOTER V2 -->
-
+</body>
 
 <footer class="top-two" style="background-color: #2C353A;">
     <div class="main-container">

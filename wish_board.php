@@ -9,13 +9,14 @@ include('includes/header.php');
 <hr class="full-width-line">
 <hr class="full-width-line2">
 -->
+    <body class="animsition">
         <div id="header_wishboard">
             <div class="main-container" >
                 <div id="wish_trips">
                     <ul>
                          <li>
                              <button><img src="img/icons/more2.svg" alt="more">
-                            <a href="create_wish.php" alt="Create Trip">New wish</a></button>
+                            <a href="create_wish.php" class="animsition-link" data-animsition-out="fade-out-up" data-animsition-out-duration="300" alt="Create Trip">New wish</a></button>
                         </li>
 
                         <li>

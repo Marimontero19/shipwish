@@ -9,6 +9,7 @@ include('includes/header.php');
 <hr class="full-width-line">
 <hr class="full-width-line2">
 -->
+	<body class="animsition">
 <div id="header_tripboard">
             <div class="main-container" >
                 <div id="traveler_trips">
