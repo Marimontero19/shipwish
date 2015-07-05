@@ -232,6 +232,7 @@
 	margin-top: 20px
 }
 
+
 #filters img.ui-datepicker-trigger {
       position: relative;
       left: -20px;
@@ -1703,7 +1704,7 @@ textarea {
 }
 
 textarea:focus{
-      border-color: #E9E9E9;
+    border-color: #E9E9E9;
 }
 
 #buttons-process button{

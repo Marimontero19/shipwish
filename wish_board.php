@@ -63,7 +63,7 @@ include('includes/header.php');
                                         <input class="datepicker board_date" placeholder="Date">
 
 
-                                        <select id="filter_details" >
+                                        <select id="filter_details">
                                             <option value="*" selected="selected">Category</option>
                                             <option value=".food" class="food">Food</option>
                                             <option value=".electronics">Electronics</option>
@@ -144,7 +144,7 @@ They are looking for a traveler to make their wish come true.</h4>
                             <ul>
                                 <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Food"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="The average of this is the size of a notebook or a tablet"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -185,7 +185,7 @@ They are looking for a traveler to make their wish come true.</h4>
                             <ul>
                                 <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Food"></li>
                                 <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer" title="Volunteer"></li>
-                                <li><img src="img/icons/s.svg" class="icon-circle" alt="s"title="Small aproximate size: 10 x 20 cm" ></li>
+                                <li><img src="img/icons/s.svg" class="icon-circle" alt="s"title="The average of this is the size of a mug or glasses" ></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -226,7 +226,7 @@ They are looking for a traveler to make their wish come true.</h4>
                             <ul>
                                 <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion"  title="Fashion"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="The average of this is the size of a notebook or a tablet"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -267,7 +267,7 @@ They are looking for a traveler to make their wish come true.</h4>
                             <ul>
                                 <li><img src="img/icons/other.svg" class="icon-circle" alt="other" title="Other"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
-                                <li><img src="img/icons/xs.svg" class="icon-circle" alt="Xs" title="Medium aproximate size: 30 x 40 cm"></li>
+                                <li><img src="img/icons/xs.svg" class="icon-circle" alt="xs" title="The average of this is the size of a cell phone or keys."></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -308,7 +308,7 @@ They are looking for a traveler to make their wish come true.</h4>
                             <ul>
                                 <li><img src="img/icons/other.svg" class="icon-circle" alt="other" title="Other"></li>
                                 <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer" title="Volunteer"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="The average of this is the size of a notebook or a tablet"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -349,7 +349,7 @@ They are looking for a traveler to make their wish come true.</h4>
                             <ul>
                                 <li><img src="img/icons/fashion.svg" class="icon-circle" alt="fashion" title="Fashion"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="The average of this is the size of a notebook or a tablet"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -390,7 +390,7 @@ They are looking for a traveler to make their wish come true.</h4>
                             <ul>
                                 <li><img src="img/icons/food.svg" class="icon-circle" alt="food" title="Food"></li>
                                 <li><img src="img/icons/money.svg" class="icon-circle" alt="money" title="Money"></li>
-                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
+                                <li><img src="img/icons/m.svg" class="icon-circle" alt="medium" title="The average of this is the size of a notebook or a tablet"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>
@@ -431,7 +431,7 @@ They are looking for a traveler to make their wish come true.</h4>
                             <ul>
                                 <li><img src="img/icons/food.svg" class="icon-circle" alt="food"  title="Food"></li>
                                 <li><img src="img/icons/volunteer.svg" class="icon-circle" alt="volunteer" title="Volunteer"></li>
-                                <li><img src="img/icons/s.svg" class="icon-circle" alt="small" title="Small aproximate size: 10 x 20 cm"></li>
+                                <li><img src="img/icons/s.svg" class="icon-circle" alt="small" title="The average of this is the size of a mug or glasses"></li>
                             </ul>
                         </div>
                         <div class="clear"></div>

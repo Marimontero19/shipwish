@@ -43,7 +43,7 @@ include('includes/header.php');
               <div  class="container_12 container_10 container_8 container_6 ">
                 <div class="grid_10_1200 grid_10_1024 grid_8_768 grid_6_320 push_1_1200">
                      
-                     <div id="user-search" >
+                     <div id="user-search">
 
                         <h4>Which traveler are you looking for?</h4>
 
@@ -144,7 +144,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>June 7th</h4>
 								<ul>
 									<li><img src="img/icons/boat.svg" alt="boat" title="Boat"></li>
-									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
+									<li><img src="img/icons/m.svg"  alt="medium" title="The average of this is the size of a notebook or a tablet"></li>
 								</ul>
 							</div>
 
@@ -184,7 +184,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>Dec. 2th</h4>
 								<ul>
 									<li><img src="img/icons/bus.svg" alt="bus" title="Bus" title="Bus"></li>
-									<li><img src="img/icons/xl.svg"  alt="extra large" title="Extra large aproximate size: 50 x 60 cm"></li>
+									<li><img src="img/icons/l.svg"  alt="large" title="The average of this is the size of a backpack"></li>
 								</ul>
 							</div>
 
@@ -223,7 +223,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>July 4th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
-									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
+									<li><img src="img/icons/m.svg"  alt="medium" title="The average of this is the size of a notebook or a tablet"></li>
 								</ul>
 							</div>
 
@@ -262,7 +262,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>Aug. 1st</h4>
 								<ul>
 									<li><img src="img/icons/moto.svg" alt="moto" title="Moto"></li>
-									<li><img src="img/icons/s.svg"  alt="s" title="Small aproximate size: 10 x 20 cm"></li>
+									<li><img src="img/icons/s.svg"  alt="s" title="The average of this is the size of a mug or glasses"></li>
 								</ul>
 							</div>
 
@@ -301,7 +301,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>July 20th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
-									<li><img src="img/icons/s.svg"  alt="small" title="Small aproximate size: 10 x 20 cm"></li>
+									<li><img src="img/icons/s.svg"  alt="small" title="The average of this is the size of a mug or glasses"></li>
 								</ul>
 							</div>
 
@@ -340,7 +340,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>Sept. 3th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
-									<li><img src="img/icons/l.svg"  alt="large" title="Large aproximate size: 40 x 50 cm"></li>
+									<li><img src="img/icons/l.svg"  alt="large" title="The average of this is the size of a backpack"></li>
 								</ul>
 							</div>
 
@@ -378,7 +378,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>Oct. 8th</h4>
 								<ul>
 									<li><img src="img/icons/car.svg" alt="car" title="Car"></li>
-									<li><img src="img/icons/l.svg"  alt="large" title="Large aproximate size: 40 x 50 cm"></li>
+									<li><img src="img/icons/l.svg"  alt="large" title="The average of this is the size of a backpack"></li>
 								</ul>
 							</div>
 
@@ -417,7 +417,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>July 20th</h4>
 								<ul>
 									<li><img src="img/icons/helicopter.svg" alt="helicopter" title="Helicopter"></li>
-									<li><img src="img/icons/l.svg"  alt="large" title="Large aproximate size: 40 x 50 cm"></li>
+									<li><img src="img/icons/l.svg"  alt="large" title="The average of this is the size of a backpack"></li>
 								</ul>
 							</div>
 
@@ -455,7 +455,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>June 7th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
-									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
+									<li><img src="img/icons/m.svg"  alt="medium" title="The average of this is the size of a notebook or a tablet"></li>
 								</ul>
 							</div>
 
@@ -496,7 +496,7 @@ include('includes/header.php');
 								<p>Delivery:</p><h4>June 20th</h4>
 								<ul>
 									<li><img src="img/icons/plane.svg" alt="plane" title="Flight"></li>
-									<li><img src="img/icons/m.svg"  alt="medium" title="Medium aproximate size: 30 x 40 cm"></li>
+									<li><img src="img/icons/m.svg"  alt="medium" title="The average of this is the size of a notebook or a tablet"></li>
 								</ul>
 							</div>
 
