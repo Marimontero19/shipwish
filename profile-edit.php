@@ -1,6 +1,6 @@
 <?php
 
-$page = 'user-profile'; //Por ejemplo 'home', 'userprofile', etc
+$page = '| Edit Profile'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 

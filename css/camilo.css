@@ -868,11 +868,104 @@ input[type='submit'] {
     font-family: 'AndesRounded-Regular';
 }
 
+/* DATEPICKER */
+
+/* General styles for the whole box */
 #ui-datepicker-div {
-  /*background-color: white;*/
-  padding: 15px;
+  background-color: rgba(255,255,255,0.9);
+  color: #6C6C6C;
+  font-size: 1.1em;
   border-radius: 6px;
+  margin: -20px 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  padding: 5px 5px 0 5px;
+  box-sizing: content-box;
 }
+
+
+/* The arrows to search by month. Same background, but rotation of 90º and -90ª and floats */
+a.ui-datepicker-prev {
+    -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  float: left;
+}
+
+a.ui-datepicker-next {
+    -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  float: right;
+}
+
+
+a.ui-datepicker-prev, a.ui-datepicker-next {
+  background:url('../img/icons/dropdown.svg') center center no-repeat;
+  content: transparent;
+  color: transparent;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a.ui-datepicker-prev:hover, a.ui-datepicker-next:hover  {
+  background:url('../img/icons/dropdown-blue.svg') center center no-repeat;
+}
+
+/* Month title */
+.ui-datepicker-header {
+  padding: 10px 10px 0 10px;
+  line-height: 1.4;
+  text-align: center;
+  color: #00B2BE;
+  font-size: 1.25em;
+}
+
+.ui-datepicker-title {
+  padding: 0 10px;
+  font-family: 'AndesRounded-Medium';
+}
+
+/* Calendar container */
+table.ui-datepicker-calendar {
+  margin: 10px auto;
+  display: inline-table;
+  text-align: center;
+  line-height: 1.8;
+    width: 270px;
+}
+
+/* Numbers */
+
+.ui-datepicker-calendar tr, .ui-datepicker-calendar td {
+  padding: 3px;
+}
+
+.ui-datepicker-calendar tr {
+  font-family: 'AndesRounded-Bold';
+}
+
+.ui-datepicker-calendar a {
+  color: #909090;
+  font-family: 'AndesRounded-Light';
+
+  transition: color 0.1s ease-in-out;
+}
+
+.ui-datepicker-calendar a:hover {
+  color: #00B2BE;
+  background-color: transparent;
+}
+
+
+
+
+
 
 
 /* SELECT */
@@ -1386,7 +1479,7 @@ fieldset h3 {
       text-transform: uppercase;
 }
 
-.next-btn {
+.next-btn-uno, .next-btn-dos {
   background-color: #00B2BE;
   color: #ffffff;
 }
@@ -1557,6 +1650,7 @@ fieldset h3 {
 }
 
 .location-icon {
+  background: url('../img/icons/location4.svg') left center no-repeat;
 }
 
 .date-icon {

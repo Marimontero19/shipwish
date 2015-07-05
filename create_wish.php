@@ -19,10 +19,10 @@ include('includes/header.php');
 					<li>Delivery</li>
 				</ul>
 				<!-- fieldsets -->
-					<fieldset id="first_step" class="grid_7_1200 grid_5_1024 grid_5_768 grid_6_320">
+					<fieldset id="first_step" class="ui-widget grid_7_1200 grid_5_1024 grid_5_768 grid_6_320">
 						<label for="wish"><h1 class="titles_create_wish">What do you crave for?</h1></label>
 						<input type="text" name="wish" id="wish" placeholder="Ex:A basket of sweet plantains"/>
-						<input type="button" id="first_button" name="next" class="form_button next-btn action-button" value="Next" />
+						<input type="button" id="first_button" name="next" class="form_button next-btn-uno action-button" value="Next" />
 						<div class="clear"></div>
 					</fieldset>
 
@@ -135,7 +135,7 @@ include('includes/header.php');
 						
 
 							<!-- <input type="button" name="previous" class="previous action-button" value="Previous" /> -->
-							<input type="button" name="next" id="second_button" class="next-btn action-button" value="Next" />
+							<input type="button" name="next" id="second_button" class="next-btn-dos action-button" value="Next" />
 						<div class="clear"></div>
 					</fieldset>
 
@@ -179,7 +179,7 @@ include('includes/header.php');
 	                                <option>40</option>
 	                                <option>50</option>
 	                                <option>60</option>
-	                                <option>70 or more</option>
+	                                <option>70+</option>
                             	</select>
 
                             	<select class="select-jquery">
@@ -219,7 +219,7 @@ include('includes/header.php');
 	                                <option>40</option>
 	                                <option>50</option>
 	                                <option>60</option>
-	                                <option>70 or more</option>
+	                                <option>70+</option>
                             	</select>
 								<select class="select-jquery">
 	                                <option>$</option>
