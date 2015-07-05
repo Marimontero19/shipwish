@@ -51,6 +51,7 @@
 #basic_info_home li:nth-child(2) {
   margin-top: 10px;
   margin-left: 20px;
+    width: 70%;
 }
 
 #basic_info_home h3 {
