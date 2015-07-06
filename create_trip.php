@@ -1,6 +1,6 @@
 <?php
 
-$page = '| Create a wish'; //Por ejemplo 'home', 'userprofile', etc
+$page = '| Create a trip'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
