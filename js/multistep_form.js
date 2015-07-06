@@ -7,6 +7,7 @@ var current_fs, next_fs, previous_fs; //fieldsets
 var left, opacity, scale; //fieldset properties which we will animate
 var animating; //flag to prevent quick multi-click glitches
 var altura=[400,1600,1200];
+var alturamovil=[400,2000,1400];
 
 var mynow=0;
 
