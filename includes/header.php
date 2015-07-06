@@ -173,17 +173,17 @@
 									</a>
                             	</li>
                             	<li>
-                            	    <a href="user-summary.php" target="_self">
+                            	    <a href="my_wishes.php" target="_self">
                             			My Wishes
 									</a>
                             	</li>
                             	<li>
-                            	    <a href="user-summary.php" target="_self">
+                            	    <a href="my_trips.php" target="_self">
                             			My Trips
 									</a>
                             	</li>
                             	<li>
-                            	    <a href="user-summary.php" target="_self">
+                            	    <a href="#" target="_self">
                             			Watchlists
 									</a>                            	
                             	</li>

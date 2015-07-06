@@ -153,7 +153,7 @@ data-animsition-in-duration="300">
 							</div>
 
 						<!--<input type="button" name="previous" class="previous action-button" value="Previous" />-->
-						<input type="button" name="submit" onclick="location.href='trip_board.php';" class="submit end-btn action-button" value="Publish" />
+						<input type="button" name="submit" onclick="location.href='traveller.php';" class="submit end-btn action-button" value="Publish" />
 						<div class="clear"></div>
 		</form>	
 		<div class="clear"></div>
