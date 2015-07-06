@@ -1486,8 +1486,9 @@ fieldset h3 {
   -o-appearance: none;
   border: none;
   min-width: 150px;
-    margin: 0 10px 100px;
-      text-transform: uppercase;
+  margin: 0 0 100px 0;
+  text-transform: uppercase;
+  float: right;
 }
 
 .next-btn-uno, .next-btn-dos {
@@ -1936,8 +1937,71 @@ fieldset h3 {
 
 
 
+/*************** Create trip ***************/
 
 
+
+
+#mform {
+  /*width: 400px;
+  margin: 50px auto;*/
+  text-align: center;
+  position: relative;
+    display: block;
+    margin: 100px auto;
+
+}
+
+#mform label h1 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #0E777F;
+  font-family: 'AndesRounded-Regular';
+  font-weight:800;
+  margin-bottom: 40px;
+}
+
+#mform:not(:first-of-type) {
+  display: none;
+}
+
+#mform input[type=text], #mform textarea {
+  padding: 15px;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  color: #737373;
+  font-size: 1.125em;
+  line-height: 1.4;
+  font-family: 'AndesRoundedLight';
+  background-color: #ffffff;
+  padding: 0 0 0 50px;
+}
+
+#mform h3 {
+  font-size: 1em;
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin: 0 auto 10px;
+  color: #909090;
+  font-family:'AndesRounded-Book'; 
+  line-height:1.5;
+}
+
+#mform textarea {
+  width: 100%;
+  height: 170px;
+  margin: 0 auto;
+  /* height: 200px; */
+  padding: 15px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin: 20px auto 0;
+}
 
 /*************** Progress bar ***************/
 

@@ -3,7 +3,7 @@
 $page = '| Create a wish'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
-fade-in-up-sm
+
 ?>
 <body
 class="animsition"

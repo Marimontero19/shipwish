@@ -26,7 +26,7 @@ include('includes/header.php');
 
                          <li>
                              <button><img src="img/icons/more2.svg" alt="more">
-                            <a href="#" alt="Create Trip">New trip</a></button>
+                            <a href="create_trip.php" alt="Create Trip">New trip</a></button>
                         </li>
                      
                     </ul>
