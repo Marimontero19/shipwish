@@ -151,11 +151,11 @@ data-animsition-in-duration="300">
 							<div id="wish-destination">
 								<div class="mid-input">
 									<label for="from"> <h1>From</h1></label>
-									<input class="location-icon" placeholder="Country, city, state…" type="text"> 
+									<input class="place-icon" placeholder="Country, city, state…" type="text"> 
 								</div>
 								<div class="mid-input">
 									<label for="to"> <h1>To</h1> </label>
-									<input class="location-icon" placeholder="City" type="text"> 
+									<input class="place-icon" placeholder="City" type="text"> 
 								</div>
 								<div class="clear"></div>	
 							</div>

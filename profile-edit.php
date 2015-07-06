@@ -14,7 +14,7 @@ include('includes/header.php');
         
         <?php
 
-        include('includes/user-general-info.php');
+        include('includes/user-general-info-2.php');
 
         ?>
         
@@ -80,7 +80,7 @@ include('includes/header.php');
                         <li>
                             <h4>E-mail</h4>
                             <h5> sameed.kahn@gmail.com</h5>
-                            <a class="verified"></a>
+                            <a title="Done. :)" class="verified"></a>
                         </li>
                         <li>
                             <h4>Facebook</h4>
@@ -89,7 +89,7 @@ include('includes/header.php');
                         <li>
                             <h4>Phone number</h4>
                             <h5>+31 678 895 765</h5>
-                            <a class="ask"></a>
+                            <a title="Safety first." class="ask"></a>
                         </li>
                         <li>
                             <h4>Twitter</h4>
@@ -98,7 +98,7 @@ include('includes/header.php');
                         <li>
                             <h4>Credit card</h4>
                             <h5>xxxx xxxx xxxx 0034</h5>
-                            <a class="verified"></a>
+                            <a title="Done. :)" class="verified"></a>
                         </li>
                         <li>
                             <h4>Google+</h4>
