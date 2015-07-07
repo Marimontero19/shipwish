@@ -5,6 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Shipwish<?php //echo $page; ?></title>
 
+	<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
 	<!-- Reset -->
 	<link rel="stylesheet" href="css/normalize.css" />
 
@@ -27,7 +31,6 @@
 
     
     <!-- Our libraries -->
-    <script src="js/shipwish-script.js"></script>
     <script src="js/librerias/modernizr.js"></script>
 
 	<!-- Fonts -->
@@ -100,6 +103,12 @@
     		);
 
     	});
+
+    	//Selectable JqueryUI
+        $(function() {
+            $(".select-jquery").selectmenu();
+        
+        });
 
     });
 
